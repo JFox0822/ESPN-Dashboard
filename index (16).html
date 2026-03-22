@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The League – Fantasy Baseball Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg:#090c14; --bg2:#0f1420; --bg3:#161c2d; --border:#1e2840;
+  --amber:#f5a623; --amber-dim:#c4851a; --amber-glow:rgba(245,166,35,0.15);
+  --red:#e05c3a; --green:#3dd68c; --blue:#4e9af1; --purple:#9b6dff;
+  --text:#d1d9f0; --text-dim:#6b7a99; --text-bright:#f0f4ff;
+  --my-team:rgba(245,166,35,0.08); --my-border:rgba(245,166,35,0.4);
+  --font-display:'Bebas Neue',sans-serif;
+  --font-body:'Barlow Condensed',sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:15px;min-height:100vh;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");opacity:.025;pointer-events:none;z-index:0}
+.site-wrapper{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 16px 80px}
+
+/* Header */
+header{padding:36px 0 24px;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px;justify-content:space-between}
+.league-eyebrow{font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;color:var(--amber);text-transform:uppercase;margin-bottom:6px}
+.league-title{font-family:var(--font-display);font-size:clamp(42px,6vw,72px);color:var(--text-bright);line-height:1;letter-spacing:.02em}
+.league-season{font-family:var(--font-display);font-size:clamp(42px,6vw,72px);color:var(--amber);line-height:1}
+.my-team-badge{display:inline-block;font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);background:var(--amber-glow);border:1px solid var(--my-border);border-radius:4px;padding:4px 10px;margin-bottom:8px}
+.last-updated{font-family:var(--font-mono);font-size:10px;color:var(--text-dim)}
+
+/* Tab nav */
+.tab-nav{display:flex;gap:4px;padding:20px 0 0;flex-wrap:wrap}
+.tab-btn{font-family:var(--font-body);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-dim);background:transparent;border:1px solid var(--border);border-radius:6px;padding:9px 20px;cursor:pointer;transition:all .18s ease;position:relative;overflow:hidden}
+.tab-btn::before{content:'';position:absolute;inset:0;background:var(--amber-glow);opacity:0;transition:opacity .18s}
+.tab-btn:hover{color:var(--amber);border-color:var(--amber-dim)}
+.tab-btn:hover::before{opacity:1}
+.tab-btn.active{color:var(--bg);background:var(--amber);border-color:var(--amber);font-weight:700;box-shadow:0 0 20px var(--amber-glow)}
+
+/* Panels */
+.tab-panel{display:none;padding-top:28px}
+.tab-panel.active{display:block;animation:fadeUp .25s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* Sub-tabs (History) */
+.sub-tab-nav{display:flex;gap:4px;margin-bottom:20px;flex-wrap:wrap}
+.sub-tab-btn{font-family:var(--font-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-dim);background:transparent;border:1px solid var(--border);border-radius:4px;padding:6px 14px;cursor:pointer;transition:all .15s}
+.sub-tab-btn:hover{color:var(--text);border-color:var(--text-dim)}
+.sub-tab-btn.active{color:var(--amber);border-color:var(--amber);background:var(--amber-glow)}
+.sub-panel{display:none}
+.sub-panel.active{display:block;animation:fadeUp .2s ease}
+
+/* Section label */
+.section-label{font-family:var(--font-mono);font-size:10px;letter-spacing:.2em;color:var(--amber);text-transform:uppercase;margin-bottom:14px}
+
+/* Tables */
+.data-table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px}
+table{width:100%;border-collapse:collapse;font-family:var(--font-body);font-size:14px}
+thead th{background:var(--bg2);color:var(--text-dim);font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:10px 14px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--border)}
+thead th.num{text-align:right}
+thead th.ctr{text-align:center}
+tbody tr{border-bottom:1px solid var(--border);transition:background .15s}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:rgba(255,255,255,.02)}
+tbody tr.my-team-row{background:var(--my-team);border-left:2px solid var(--amber)}
+tbody tr.my-team-row:hover{background:rgba(245,166,35,.12)}
+tbody td{padding:11px 14px;color:var(--text);white-space:nowrap}
+tbody td.num{text-align:right;font-family:var(--font-mono);font-size:13px}
+tbody td.ctr{text-align:center;font-family:var(--font-mono);font-size:13px}
+tbody td.team-name{font-weight:600;color:var(--text-bright);font-size:15px}
+tbody td.rank-col{font-family:var(--font-display);font-size:22px;color:var(--text-dim);text-align:center;width:44px}
+tbody tr.my-team-row td.team-name{color:var(--amber)}
+tbody tr.my-team-row td.rank-col{color:var(--amber)}
+.win{color:var(--green)!important}
+.loss{color:var(--red)!important}
+.playoff-divider td{border-top:2px dashed var(--amber-dim)!important}
+
+/* Streak badge */
+.streak-badge{display:inline-block;font-family:var(--font-mono);font-size:10px;padding:2px 7px;border-radius:3px;font-weight:500}
+.streak-w{background:rgba(61,214,140,.12);color:var(--green)}
+.streak-l{background:rgba(224,92,58,.12);color:var(--red)}
+
+/* Matchups */
+.matchups-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(460px,1fr));gap:14px}
+.matchup-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.matchup-card.has-my-team{border-color:var(--amber-dim);box-shadow:0 0 18px var(--amber-glow)}
+.matchup-header{background:var(--bg3);padding:8px 16px;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;color:var(--text-dim);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+.leader-tag{color:var(--amber);font-weight:500}
+.matchup-teams{padding:14px 16px 0;display:flex;flex-direction:column;gap:8px}
+.matchup-team-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.matchup-team-name{font-weight:600;font-size:16px;color:var(--text-bright);flex:1}
+.matchup-team-name.is-mine{color:var(--amber)}
+.matchup-score{font-family:var(--font-display);font-size:28px;color:var(--text-bright);min-width:32px;text-align:right}
+.matchup-score.winning{color:var(--green)}
+.matchup-score.losing{color:var(--red)}
+.vs-divider{text-align:center;padding:2px 0;font-family:var(--font-mono);font-size:10px;color:var(--text-dim);letter-spacing:.2em}
+.cat-breakdown{padding:12px 16px 14px;display:grid;grid-template-columns:repeat(7,1fr);gap:4px;border-top:1px solid var(--border);margin-top:12px}
+.cat-cell{text-align:center}
+.cat-label{font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase}
+.cat-val{font-family:var(--font-mono);font-size:11px;color:var(--text);margin-top:2px}
+.cat-cell.win-cat .cat-val{color:var(--green)}
+.cat-cell.loss-cat .cat-val{color:var(--red)}
+
+/* Power Rankings */
+.pr-list{display:flex;flex-direction:column;gap:8px}
+.pr-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:14px 18px;display:flex;align-items:center;gap:14px;transition:background .15s}
+.pr-card:hover{background:var(--bg3)}
+.pr-card.is-mine{background:var(--my-team);border-color:var(--my-border)}
+.pr-rank-num{font-family:var(--font-display);font-size:38px;color:var(--text-dim);min-width:44px;line-height:1}
+.pr-card.is-mine .pr-rank-num{color:var(--amber)}
+.pr-delta{font-family:var(--font-mono);font-size:11px;min-width:28px;text-align:center}
+.delta-up{color:var(--green)}
+.delta-down{color:var(--red)}
+.delta-same{color:var(--text-dim)}
+.pr-info{flex:1}
+.pr-team-name{font-size:17px;font-weight:600;color:var(--text-bright)}
+.pr-card.is-mine .pr-team-name{color:var(--amber)}
+.pr-sub{font-family:var(--font-mono);font-size:11px;color:var(--text-dim);margin-top:2px}
+.pr-scores{display:flex;gap:20px;align-items:center}
+.pr-score-block{text-align:right}
+.pr-score-val{font-family:var(--font-display);font-size:22px;color:var(--text-bright)}
+.pr-score-label{font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.12em;text-transform:uppercase}
+
+/* Cat rank heatmap row */
+.cat-rank-row{display:flex;gap:3px;margin-top:6px;flex-wrap:wrap}
+.cat-pill{font-family:var(--font-mono);font-size:9px;padding:2px 5px;border-radius:3px;text-align:center}
+.rank-1{background:rgba(61,214,140,.25);color:var(--green)}
+.rank-2{background:rgba(61,214,140,.15);color:var(--green)}
+.rank-3{background:rgba(61,214,140,.08);color:#7de8b5}
+.rank-mid{background:rgba(255,255,255,.04);color:var(--text-dim)}
+.rank-bad{background:rgba(224,92,58,.08);color:#e08060}
+.rank-10{background:rgba(224,92,58,.15);color:var(--red)}
+.rank-11{background:rgba(224,92,58,.22);color:var(--red)}
+.rank-12{background:rgba(224,92,58,.3);color:var(--red)}
+
+/* Rosters */
+.roster-team-select{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.team-btn{font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-dim);background:transparent;border:1px solid var(--border);border-radius:4px;padding:6px 12px;cursor:pointer;transition:all .15s}
+.team-btn:hover{color:var(--text);border-color:var(--text-dim)}
+.team-btn.active{color:var(--amber);border-color:var(--amber);background:var(--amber-glow)}
+.team-btn.is-mine{border-color:var(--amber-dim)}
+.inj-badge{display:inline-block;font-family:var(--font-mono);font-size:9px;padding:1px 5px;border-radius:2px;margin-left:4px}
+.inj-active{background:rgba(61,214,140,.1);color:var(--green)}
+.inj-dtd{background:rgba(245,166,35,.15);color:var(--amber)}
+.inj-out{background:rgba(224,92,58,.15);color:var(--red)}
+.inj-il{background:rgba(155,109,255,.15);color:var(--purple)}
+.slot-section{margin-bottom:6px;font-family:var(--font-mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--text-dim);padding:6px 14px;background:var(--bg3);border-bottom:1px solid var(--border)}
+
+/* History */
+.history-season-select{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.history-season-select label{font-family:var(--font-mono);font-size:10px;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase}
+.history-season-select select{font-family:var(--font-mono);font-size:12px;background:var(--bg2);color:var(--text);border:1px solid var(--border);border-radius:4px;padding:5px 10px;cursor:pointer}
+.h2h-grid{display:grid;gap:2px}
+.h2h-row{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--bg2);border-radius:4px;font-size:13px}
+.h2h-team{flex:1;font-weight:600;color:var(--text-bright)}
+.h2h-record{font-family:var(--font-mono);font-size:12px;min-width:60px;text-align:center}
+.h2h-bar{flex:2;height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.h2h-bar-fill{height:100%;background:var(--amber);border-radius:3px}
+.cat-season-table .cat-val-cell{font-family:var(--font-mono);font-size:11px}
+.cat-wl{font-family:var(--font-mono);font-size:11px}
+.cat-w{color:var(--green)}
+.cat-l{color:var(--red)}
+
+/* State messages */
+.state-msg{text-align:center;padding:60px 20px;font-family:var(--font-mono);font-size:12px;color:var(--text-dim);letter-spacing:.1em}
+.state-msg.error{color:var(--red)}
+
+@media(max-width:600px){
+  .matchups-grid{grid-template-columns:1fr}
+  .cat-breakdown{grid-template-columns:repeat(4,1fr)}
+  .pr-card{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+<div class="site-wrapper">
+
+<header>
+  <div>
+    <div class="league-eyebrow">ESPN Fantasy Baseball · H2H Categories · Since 2013</div>
+    <div>
+      <span class="league-title">THE LEAGUE </span>
+      <span class="league-season" id="hdr-season">2026</span>
+    </div>
+  </div>
+  <div style="text-align:right">
+    <div class="my-team-badge" id="hdr-myteam">⚾ Jacob</div>
+    <div class="last-updated" id="hdr-updated">Loading…</div>
+  </div>
+</header>
+
+<nav class="tab-nav" role="tablist">
+  <button class="tab-btn active" data-tab="standings">Standings</button>
+  <button class="tab-btn" data-tab="matchups">Matchups</button>
+  <button class="tab-btn" data-tab="power-rankings">Power Rankings</button>
+  <button class="tab-btn" data-tab="team-stats">Team Stats</button>
+  <button class="tab-btn" data-tab="rosters">Rosters</button>
+  <button class="tab-btn" data-tab="history">History</button>
+</nav>
+
+<!-- Standings -->
+<div id="tab-standings" class="tab-panel active">
+  <div id="standings-content"><div class="state-msg">Loading standings…</div></div>
+</div>
+
+<!-- Matchups -->
+<div id="tab-matchups" class="tab-panel">
+  <div id="matchups-content"><div class="state-msg">Loading matchups…</div></div>
+</div>
+
+<!-- Power Rankings -->
+<div id="tab-power-rankings" class="tab-panel">
+  <div id="power-rankings-content"><div class="state-msg">Loading power rankings…</div></div>
+</div>
+
+<!-- Team Stats -->
+<div id="tab-team-stats" class="tab-panel">
+  <div id="team-stats-content"><div class="state-msg">Loading team stats…</div></div>
+</div>
+
+<!-- Rosters -->
+<div id="tab-rosters" class="tab-panel">
+  <div id="rosters-content"><div class="state-msg">Loading rosters…</div></div>
+</div>
+
+<!-- History -->
+<div id="tab-history" class="tab-panel">
+  <div class="sub-tab-nav">
+    <button class="sub-tab-btn active" data-sub="hist-standings">Season Standings</button>
+    <button class="sub-tab-btn" data-sub="hist-h2h">All-Time H2H</button>
+    <button class="sub-tab-btn" data-sub="hist-matchups">Weekly Results</button>
+    <button class="sub-tab-btn" data-sub="hist-cats">Category Records</button>
+  </div>
+  <div id="hist-standings" class="sub-panel active"><div class="state-msg">Loading…</div></div>
+  <div id="hist-h2h"       class="sub-panel"><div class="state-msg">Loading…</div></div>
+  <div id="hist-matchups"  class="sub-panel"><div class="state-msg">Loading…</div></div>
+  <div id="hist-cats"      class="sub-panel"><div class="state-msg">Loading…</div></div>
+</div>
+
+</div><!-- /site-wrapper -->
+
+<script>
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(`tab-${btn.dataset.tab}`).classList.add('active');
+  });
+});
+
+document.querySelectorAll('.sub-tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.sub-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.sub).classList.add('active');
+  });
+});
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+async function load(file) {
+  const r = await fetch(`data/${file}?t=${Date.now()}`);
+  if (!r.ok) throw new Error(`HTTP ${r.status} loading ${file}`);
+  return r.json();
+}
+function err(id, msg) {
+  document.getElementById(id).innerHTML =
+    `<div class="state-msg error">⚠ ${msg}<br><small>Run the GitHub Action to generate data files.</small></div>`;
+}
+function fmtDate(iso) {
+  if (!iso) return '—';
+  return new Date(iso).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
+}
+function rankPillClass(r, total=12) {
+  if (r===1) return 'rank-1';
+  if (r===2) return 'rank-2';
+  if (r===3) return 'rank-3';
+  if (r===total)   return 'rank-12';
+  if (r===total-1) return 'rank-11';
+  if (r===total-2) return 'rank-10';
+  if (r > total*0.6) return 'rank-bad';
+  return 'rank-mid';
+}
+
+// ── Standings ─────────────────────────────────────────────────────────────────
+async function renderStandings() {
+  try {
+    const {standings, week, updated} = await load('standings.json');
+    document.getElementById('hdr-updated').textContent = `Updated ${fmtDate(updated)}`;
+    const PLAYOFF_SPOTS = 6;
+    const rows = standings.map((t,i) => {
+      const myRow   = t.isMyTeam ? 'class="my-team-row"' : '';
+      const divider = i===PLAYOFF_SPOTS ? 'class="playoff-divider"' : '';
+      const sc = t.streakType==='WIN'?'streak-w':'streak-l';
+      const sl = t.streakType==='WIN'?'W':'L';
+      const streak = t.streak ? `<span class="streak-badge ${sc}">${sl}${t.streak}</span>` : '—';
+      const total  = t.wins+t.losses;
+      const wpct   = total ? (t.wins/total).toFixed(3).replace(/^0/,'') : '.000';
+      return `<tr ${divider} ${myRow}>
+        <td class="rank-col">${t.rank}</td>
+        <td class="team-name">${t.name}</td>
+        <td class="num"><span class="win">${t.wins}</span>–<span class="loss">${t.losses}</span>${t.ties?`–${t.ties}`:''}</td>
+        <td class="num">${wpct}</td>
+        <td class="num">${t.pointsFor}</td>
+        <td class="num">${t.pointsAgainst}</td>
+        <td class="num">${streak}</td>
+      </tr>`;
+    }).join('');
+    document.getElementById('standings-content').innerHTML = `
+      <div class="section-label">Week ${week} · League Standings</div>
+      <div class="data-table-wrap"><table>
+        <thead><tr>
+          <th style="width:44px">#</th><th>Team</th>
+          <th class="num">W–L</th><th class="num">PCT</th>
+          <th class="num">PF</th><th class="num">PA</th><th class="num">Streak</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>
+      <div style="margin-top:10px;font-family:var(--font-mono);font-size:10px;color:var(--text-dim)">── dashed line = playoff cutoff (top ${PLAYOFF_SPOTS})</div>`;
+  } catch(e) { err('standings-content', e.message); }
+}
+
+// ── Matchups ──────────────────────────────────────────────────────────────────
+async function renderMatchups() {
+  try {
+    const {matchups, week} = await load('matchups.json');
+    const HIT   = ['R','RBI','HR','SB','K','AVG','OPS'];
+    const PITCH = ['IP','H','K','QS','ERA','WHIP','SV'];
+
+    const cards = matchups.map(m => {
+      const {home,away} = m;
+      const hasMe   = home.isMyTeam||away.isMyTeam;
+      const homeWin = home.catWins > away.catWins;
+      const awayWin = away.catWins > home.catWins;
+
+      const catRows = (cats) => cats.map(cat => {
+        const h = home.categories?.[cat]||{};
+        const a = away.categories?.[cat]||{};
+        const hc = h.result==='WIN'?'win-cat':h.result==='LOSS'?'loss-cat':'';
+        return `<div class="cat-cell ${hc}">
+          <div class="cat-label">${cat}</div>
+          <div class="cat-val">${h.value!==undefined?h.value:'—'}</div>
+        </div>`;
+      }).join('');
+
+      const hasCats = Object.keys(home.categories||{}).length>0;
+      return `
+        <div class="matchup-card ${hasMe?'has-my-team':''}">
+          <div class="matchup-header">
+            <span>Week ${week}</span>
+            <span class="leader-tag">${m.winner!=='UNDECIDED'?'✓ Final':`${m.leader} leading`}</span>
+          </div>
+          <div class="matchup-teams">
+            <div class="matchup-team-row">
+              <span class="matchup-team-name ${home.isMyTeam?'is-mine':''}">${home.team}</span>
+              <span class="matchup-score ${homeWin?'winning':awayWin?'losing':''}">${home.catWins}</span>
+            </div>
+            <div class="vs-divider">· · · VS · · ·</div>
+            <div class="matchup-team-row">
+              <span class="matchup-team-name ${away.isMyTeam?'is-mine':''}">${away.team}</span>
+              <span class="matchup-score ${awayWin?'winning':homeWin?'losing':''}">${away.catWins}</span>
+            </div>
+          </div>
+          ${hasCats ? `
+          <div style="padding:10px 16px 0;font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.15em">HITTING</div>
+          <div class="cat-breakdown">${catRows(HIT)}</div>
+          <div style="padding:4px 16px 0;font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.15em">PITCHING</div>
+          <div class="cat-breakdown" style="grid-template-columns:repeat(7,1fr)">${catRows(PITCH)}</div>` : ''}
+        </div>`;
+    }).join('');
+
+    document.getElementById('matchups-content').innerHTML = `
+      <div class="section-label">Week ${week} Matchups</div>
+      <div class="matchups-grid">${cards||'<div class="state-msg">No matchup data for this week.</div>'}</div>`;
+  } catch(e) { err('matchups-content', e.message); }
+}
+
+// ── Power Rankings ─────────────────────────────────────────────────────────────
+async function renderPowerRankings() {
+  try {
+    const {rankings, week, cats, weights} = await load('power_rankings.json');
+    const allCats = cats || [];
+    const w = weights || {};
+
+    function scoreBar(label, value, color, pct) {
+      return `
+        <div style="margin-bottom:5px">
+          <div style="display:flex;justify-content:space-between;margin-bottom:2px">
+            <span style="font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.08em;text-transform:uppercase">${label}</span>
+            <span style="font-family:var(--font-mono);font-size:9px;color:${color}">${value.toFixed(1)}</span>
+          </div>
+          <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden">
+            <div style="width:${Math.max(value,1)}%;height:100%;background:${color};border-radius:2px;transition:width .4s ease"></div>
+          </div>
+        </div>`;
+    }
+
+    const cards = rankings.map(p => {
+      const delta = p.rankDelta;
+      const dHtml = delta>0
+        ? `<span class="pr-delta delta-up">▲${delta}</span>`
+        : delta<0
+        ? `<span class="pr-delta delta-down">▼${Math.abs(delta)}</span>`
+        : `<span class="pr-delta delta-same">—</span>`;
+
+      const pills = allCats.map(cat => {
+        const r = p.catRanks?.[cat];
+        if (!r) return '';
+        const cls = rankPillClass(r, rankings.length);
+        return `<span class="cat-pill ${cls}">${cat}&#8239;#${r}</span>`;
+      }).join('');
+
+      const h2hTotal = (p.h2hWins||0) + (p.h2hLosses||0);
+
+      const depthNote = `${p.hitDepth||0}H / ${p.pitchDepth||0}P rostered`;
+
+      return `
+        <div class="pr-card ${p.isMyTeam?'is-mine':''}">
+          <div class="pr-rank-num">${p.pwRank}</div>
+          ${dHtml}
+          <div style="flex:1;min-width:0">
+            <div style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap">
+              <div class="pr-team-name">${p.name}</div>
+              <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim)">#${p.overallRank} standings · ${p.overallW}–${p.overallL}</div>
+            </div>
+
+            <!-- Component score bars -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin:10px 0 8px">
+              ${scoreBar('Starter Hitting ('+(w.starterHit*100|0)+'%)', p.starterHitScore||0, '#3dd68c')}
+              ${scoreBar('Starter Pitching ('+(w.starterPit*100|0)+'%)', p.starterPitScore||0, '#4e9af1')}
+              ${scoreBar('Bench Hit Depth ('+(w.benchHit*100|0)+'%)', p.benchHitScore||0, 'rgba(61,214,140,.55)')}
+              ${scoreBar('Bench Pitch Depth ('+(w.benchPit*100|0)+'%)', p.benchPitScore||0, 'rgba(78,154,241,.55)')}
+            </div>
+            <!-- Cat rank pills -->
+            <div class="cat-rank-row">${pills}</div>
+          </div>
+
+          <!-- Right side: composite + H2H -->
+          <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:100px">
+            <div style="text-align:right">
+              <div style="font-family:var(--font-display);font-size:32px;color:var(--amber);line-height:1">${(p.composite||0).toFixed(1)}</div>
+              <div style="font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase">Composite</div>
+            </div>
+            <div style="text-align:right">
+              <div style="font-family:var(--font-display);font-size:18px;color:var(--text-bright)">
+                <span class="win">${p.h2hWins}</span>–<span class="loss">${p.h2hLosses}</span>
+              </div>
+              <div style="font-family:var(--font-mono);font-size:9px;color:var(--text-dim);letter-spacing:.08em;text-transform:uppercase">14-Cat H2H</div>
+            </div>
+            <div style="font-family:var(--font-mono);font-size:9px;color:var(--text-dim)">${depthNote}</div>
+          </div>
+        </div>`;
+    }).join('');
+
+    document.getElementById('power-rankings-content').innerHTML = `
+      <div class="section-label">Week ${week} Power Rankings · Composite Score</div>
+      <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim);margin-bottom:16px;line-height:1.8">
+        <b style="color:var(--text)">Composite (0–100)</b> = weighted blend of all five components below. Higher is better.<br>
+        <b style="color:var(--green)">Starter Hitting / Pitching</b> = z-score rank of your starters vs all league players at that position.<br>
+        <b style="color:rgba(61,214,140,.6)">Bench Depth</b> = quality of bench players, accounting for roster construction.<br>
+        <b style="color:var(--text)">14-Cat H2H</b> = simulated record vs every team across all 14 categories (season stats).<br>
+        <b style="color:var(--text)">▲/▼</b> = movement vs actual standings rank.
+      </div>
+      <div class="pr-list">${cards||'<div class="state-msg">No data yet.</div>'}</div>`;
+  } catch(e) { err('power-rankings-content', e.message); }
+}
+
+// ── Team Stats ─────────────────────────────────────────────────────────────────
+async function renderTeamStats() {
+  try {
+    const {teams, season} = await load('team_stats.json');
+    const HIT   = ['R','RBI','HR','SB','K','AVG','OPS'];
+    const PITCH = ['IP','H','K','QS','ERA','WHIP','SV','HLD'];
+
+    function statTable(label, cols) {
+      const hdrs = ['#','Team',...cols].map((c,i)=>`<th ${i>1?'class="num"':''}>${c}</th>`).join('');
+      const rows = teams.map((t,idx) => {
+        const my = t.isMyTeam?'class="my-team-row"':'';
+        const cells = cols.map(c=>`<td class="num">${t.stats[c]!==undefined?t.stats[c]:'—'}</td>`).join('');
+        return `<tr ${my}><td class="rank-col">${idx+1}</td><td class="team-name">${t.name}</td>${cells}</tr>`;
+      }).join('');
+      return `
+        <div class="section-label" style="margin-top:28px">${label}</div>
+        <div class="data-table-wrap"><table>
+          <thead><tr>${hdrs}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>`;
+    }
+
+    document.getElementById('team-stats-content').innerHTML =
+      `<div class="section-label">${season} Season Cumulative Stats</div>` +
+      statTable('Hitting', HIT) + statTable('Pitching', PITCH);
+  } catch(e) { err('team-stats-content', e.message); }
+}
+
+// ── Rosters ────────────────────────────────────────────────────────────────────
+async function renderRosters() {
+  try {
+    const {teams, season} = await load('rosters.json');
+    if (!teams||!teams.length) { err('rosters-content','No roster data.'); return; }
+
+    let activeTeamId = (teams.find(t=>t.isMyTeam)||teams[0]).teamId;
+
+    function injBadge(status) {
+      if (!status||status==='ACTIVE') return '<span class="inj-badge inj-active">Active</span>';
+      if (status==='QUESTIONABLE'||status==='DAY_TO_DAY') return '<span class="inj-badge inj-dtd">DTD</span>';
+      if (status==='OUT') return '<span class="inj-badge inj-out">OUT</span>';
+      if (status==='INJURY_RESERVE'||status==='IL') return '<span class="inj-badge inj-il">IL</span>';
+      return `<span class="inj-badge inj-dtd">${status}</span>`;
+    }
+
+    function renderTeamRoster(team) {
+      const HIT_STATS   = ['AVG','OPS','R','RBI','HR','SB'];
+      const PITCH_STATS = ['ERA','WHIP','IP','K','QS','SV'];
+
+      const active  = team.players.filter(p=>!p.onBench&&!p.onIL);
+      const bench   = team.players.filter(p=>p.onBench);
+      const il      = team.players.filter(p=>p.onIL);
+
+      function playerRow(p, isHitter) {
+        const stats = isHitter ? HIT_STATS : PITCH_STATS;
+        const cells = stats.map(s=>`<td class="num">${p.stats[s]!==undefined?p.stats[s]:'—'}</td>`).join('');
+        return `<tr>
+          <td style="width:28px;font-family:var(--font-mono);font-size:11px;color:var(--text-dim);text-align:center">${p.slot}</td>
+          <td class="team-name" style="font-size:14px">${p.name}${injBadge(p.injStatus)}</td>
+          <td style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim);text-align:center">${p.position}</td>
+          ${cells}
+        </tr>`;
+      }
+
+      function section(label, players, isHitter) {
+        if (!players.length) return '';
+        const stats = isHitter ? HIT_STATS : PITCH_STATS;
+        const hdrCells = ['Slot','Player','Pos',...stats].map((c,i)=>`<th ${i>2?'class="num"':''}>${c}</th>`).join('');
+        // Separate hitters and pitchers within section
+        const hitters  = players.filter(p=>!['SP','RP','P'].includes(p.position));
+        const pitchers = players.filter(p=>['SP','RP','P'].includes(p.position));
+
+        let out = `<div class="section-label" style="margin-top:20px">${label}</div>`;
+        if (hitters.length) {
+          out += `<div class="data-table-wrap"><table>
+            <thead><tr>${['Slot','Player','Pos',...HIT_STATS].map((c,i)=>`<th ${i>2?'class="num"':''} >${c}</th>`).join('')}</tr></thead>
+            <tbody>${hitters.map(p=>playerRow(p,true)).join('')}</tbody>
+          </table></div>`;
+        }
+        if (pitchers.length) {
+          out += `<div class="data-table-wrap" style="margin-top:8px"><table>
+            <thead><tr>${['Slot','Player','Pos',...PITCH_STATS].map((c,i)=>`<th ${i>2?'class="num"':''} >${c}</th>`).join('')}</tr></thead>
+            <tbody>${pitchers.map(p=>playerRow(p,false)).join('')}</tbody>
+          </table></div>`;
+        }
+        return out;
+      }
+
+      return section('Active Roster', active) +
+             section('Bench', bench) +
+             section('Injured List', il);
+    }
+
+    function draw() {
+      const team = teams.find(t=>t.teamId===activeTeamId);
+      const buttons = teams.map(t=>`
+        <button class="team-btn ${t.isMyTeam?'is-mine':''} ${t.teamId===activeTeamId?'active':''}"
+                data-tid="${t.teamId}">${t.abbrev}</button>`).join('');
+
+      document.getElementById('rosters-content').innerHTML = `
+        <div class="section-label">${season} Rosters</div>
+        <div class="roster-team-select">${buttons}</div>
+        <div id="roster-detail">${renderTeamRoster(team)}</div>`;
+
+      document.querySelectorAll('.team-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeTeamId = parseInt(btn.dataset.tid);
+          draw();
+        });
+      });
+    }
+
+    draw();
+  } catch(e) { err('rosters-content', e.message); }
+}
+
+// ── History ────────────────────────────────────────────────────────────────────
+let histData = {};
+
+async function loadHistory() {
+  try {
+    const [standings, h2h, matchups, cats] = await Promise.all([
+      load('history_standings.json'),
+      load('history_h2h.json'),
+      load('history_matchups.json'),
+      load('history_cats.json'),
+    ]);
+    histData = {standings, h2h, matchups, cats};
+    renderHistStandings();
+    renderHistH2H();
+    renderHistMatchups();
+    renderHistCats();
+  } catch(e) {
+    ['hist-standings','hist-h2h','hist-matchups','hist-cats'].forEach(id=>err(id,e.message));
+  }
+}
+
+function renderHistStandings() {
+  try {
+    const {seasons} = histData.standings;
+    if (!seasons||!seasons.length) { err('hist-standings','No data.'); return; }
+
+    const latest = seasons[seasons.length-1].season;
+    let activeSeason = latest;
+
+    function draw() {
+      const s = seasons.find(s=>s.season===activeSeason);
+      const rows = s.teams.map(t => `
+        <tr>
+          <td class="rank-col">${t.rank}</td>
+          <td class="team-name">${t.name}</td>
+          <td class="num"><span class="win">${t.wins}</span>–<span class="loss">${t.losses}</span></td>
+          <td class="num">${t.pointsFor}</td>
+          <td class="num">${t.playoffResult||'—'}</td>
+        </tr>`).join('');
+
+      const opts = seasons.map(s=>`<option value="${s.season}" ${s.season===activeSeason?'selected':''}>${s.season}</option>`).join('');
+
+      document.getElementById('hist-standings').innerHTML = `
+        <div class="history-season-select">
+          <label>Season</label>
+          <select id="hist-season-sel">${opts}</select>
+        </div>
+        <div class="data-table-wrap"><table>
+          <thead><tr>
+            <th style="width:44px">#</th><th>Team</th>
+            <th class="num">W–L</th><th class="num">PF</th><th class="num">Final Seed</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>`;
+
+      document.getElementById('hist-season-sel').addEventListener('change', e=>{
+        activeSeason = parseInt(e.target.value); draw();
+      });
+    }
+    draw();
+  } catch(e) { err('hist-standings', e.message); }
+}
+
+function renderHistH2H() {
+  try {
+    const {records, teams} = histData.h2h;
+    if (!records||!records.length) { err('hist-h2h','No H2H data.'); return; }
+
+    // Sort by total wins descending
+    const teamWins = {};
+    teams.forEach(t => { teamWins[t] = 0; });
+    records.forEach(r => { teamWins[r.teamA] = (teamWins[r.teamA]||0) + r.aWins; });
+
+    const sortedTeams = [...teams].sort((a,b)=>(teamWins[b]||0)-(teamWins[a]||0));
+
+    // Build matrix
+    // For each pair show wins/losses
+    const lookup = {};
+    records.forEach(r => {
+      lookup[`${r.teamA}__${r.teamB}`] = {wins: r.aWins, losses: r.aLosses};
+      lookup[`${r.teamB}__${r.teamA}`] = {wins: r.aLosses, losses: r.aWins};
+    });
+
+    // Summary rows: each team vs all opponents, total W-L
+    const summaryRows = sortedTeams.map(team => {
+      let totalW=0, totalL=0;
+      let opponents = sortedTeams
+        .filter(t=>t!==team)
+        .map(opp => {
+          const rec = lookup[`${team}__${opp}`]||{wins:0,losses:0};
+          totalW += rec.wins; totalL += rec.losses;
+          const total = rec.wins+rec.losses;
+          const pct   = total ? Math.round(rec.wins/total*100) : 0;
+          return `<span style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim);margin-right:6px" title="${opp}">${opp.split(' ').pop()}: <span class="win">${rec.wins}</span>–<span class="loss">${rec.losses}</span></span>`;
+        }).join('');
+
+      const total = totalW+totalL;
+      const pct = total ? (totalW/total*100).toFixed(1) : '0.0';
+      const barW = total ? Math.round(totalW/total*100) : 0;
+
+      return `
+        <div class="h2h-row">
+          <div class="h2h-team">${team}</div>
+          <div class="h2h-record"><span class="win">${totalW}</span>–<span class="loss">${totalL}</span></div>
+          <div class="h2h-bar"><div class="h2h-bar-fill" style="width:${barW}%"></div></div>
+          <div style="font-family:var(--font-mono);font-size:11px;color:var(--text-dim);min-width:36px;text-align:right">${pct}%</div>
+        </div>`;
+    }).join('');
+
+    document.getElementById('hist-h2h').innerHTML = `
+      <div class="section-label">All-Time Head-to-Head Records</div>
+      <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-dim);margin-bottom:14px">Based on available seasons. Sorted by total wins.</div>
+      <div class="h2h-grid">${summaryRows}</div>`;
+  } catch(e) { err('hist-h2h', e.message); }
+}
+
+function renderHistMatchups() {
+  try {
+    const {matchups} = histData.matchups;
+    if (!matchups||!matchups.length) { err('hist-matchups','No matchup data.'); return; }
+
+    const seasons = [...new Set(matchups.map(m=>m.season))].sort((a,b)=>b-a);
+    let activeSeason = seasons[0];
+    let searchTerm   = '';
+
+    function draw() {
+      const filtered = matchups.filter(m =>
+        m.season===activeSeason &&
+        (!searchTerm || m.home.toLowerCase().includes(searchTerm) || m.away.toLowerCase().includes(searchTerm))
+      );
+
+      const rows = filtered.map(m => {
+        const hWin = m.winner===m.home;
+        const aWin = m.winner===m.away;
+        return `<tr>
+          <td class="num" style="color:var(--text-dim)">${m.week}</td>
+          <td class="team-name" style="${hWin?'color:var(--green)':''}">${m.home}</td>
+          <td class="ctr"><span class="${hWin?'win':''}">${m.homeCatW}</span>–<span class="${aWin?'win':''}">${m.awayCatW}</span></td>
+          <td class="team-name" style="${aWin?'color:var(--green)':''}">${m.away}</td>
+        </tr>`;
+      }).join('');
+
+      const opts = seasons.map(s=>`<option value="${s}" ${s===activeSeason?'selected':''}>${s}</option>`).join('');
+
+      document.getElementById('hist-matchups').innerHTML = `
+        <div style="display:flex;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap">
+          <div class="history-season-select">
+            <label>Season</label>
+            <select id="hist-match-sel">${opts}</select>
+          </div>
+          <input id="hist-match-search" type="text" placeholder="Filter by team…"
+            style="font-family:var(--font-mono);font-size:12px;background:var(--bg2);color:var(--text);border:1px solid var(--border);border-radius:4px;padding:5px 10px;min-width:180px"
+            value="${searchTerm}" />
+        </div>
+        <div class="data-table-wrap"><table>
+          <thead><tr>
+            <th class="num">Week</th><th>Home</th><th class="ctr">Score</th><th>Away</th>
+          </tr></thead>
+          <tbody>${rows||'<tr><td colspan="4" style="text-align:center;padding:20px;color:var(--text-dim)">No matchups found</td></tr>'}</tbody>
+        </table></div>`;
+
+      document.getElementById('hist-match-sel').addEventListener('change', e=>{
+        activeSeason=parseInt(e.target.value); draw();
+      });
+      document.getElementById('hist-match-search').addEventListener('input', e=>{
+        searchTerm=e.target.value.toLowerCase(); draw();
+      });
+    }
+    draw();
+  } catch(e) { err('hist-matchups', e.message); }
+}
+
+function renderHistCats() {
+  try {
+    const {seasons, cats} = histData.cats;
+    if (!seasons||!seasons.length) { err('hist-cats','No cat data.'); return; }
+
+    const allSeasons = seasons.map(s=>s.season).sort((a,b)=>b-a);
+    let activeSeason = allSeasons[0];
+
+    function draw() {
+      const seasonData = seasons.find(s=>s.season===activeSeason);
+      if (!seasonData) return;
+
+      const teams = [...seasonData.teams].sort((a,b)=>{
+        const aW = Object.values(a.catRecord||{}).reduce((s,v)=>s+(v.W||0),0);
+        const bW = Object.values(b.catRecord||{}).reduce((s,v)=>s+(v.W||0),0);
+        return bW-aW;
+      });
+
+      const hdrs = ['Team',...cats].map((c,i)=>`<th ${i?'class="ctr"':''}>${c}</th>`).join('');
+      const rows = teams.map(t => {
+        const cells = cats.map(cat => {
+          const r = t.catRecord?.[cat];
+          if (!r) return '<td class="ctr" style="color:var(--text-dim)">—</td>';
+          const total = (r.W||0)+(r.L||0)+(r.T||0);
+          const pct   = total ? Math.round((r.W||0)/total*100) : 0;
+          const color = pct>=55?'var(--green)':pct<=45?'var(--red)':'var(--text)';
+          return `<td class="ctr"><span style="color:${color};font-family:var(--font-mono);font-size:11px">${r.W||0}–${r.L||0}</span></td>`;
+        }).join('');
+        return `<tr><td class="team-name">${t.name}</td>${cells}</tr>`;
+      }).join('');
+
+      const opts = allSeasons.map(s=>`<option value="${s}" ${s===activeSeason?'selected':''}>${s}</option>`).join('');
+
+      document.getElementById('hist-cats').innerHTML = `
+        <div class="history-season-select">
+          <label>Season</label>
+          <select id="hist-cat-sel">${opts}</select>
+        </div>
+        <div style="font-family:var(--font-mono);font-size:10px;color:var(--text-dim);margin-bottom:12px">W–L per category across all regular season matchups. <span style="color:var(--green)">Green</span> = 55%+ win rate, <span style="color:var(--red)">Red</span> = 45% and below.</div>
+        <div class="data-table-wrap"><table>
+          <thead><tr>${hdrs}</tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>`;
+
+      document.getElementById('hist-cat-sel').addEventListener('change', e=>{
+        activeSeason=parseInt(e.target.value); draw();
+      });
+    }
+    draw();
+  } catch(e) { err('hist-cats', e.message); }
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+(async () => {
+  try {
+    const meta = await load('meta.json');
+    document.getElementById('hdr-season').textContent  = meta.season;
+    document.getElementById('hdr-myteam').textContent  = `⚾ ${meta.myTeam}`;
+    document.getElementById('hdr-updated').textContent = `Updated ${fmtDate(meta.updated)}`;
+  } catch(_) {}
+
+  renderStandings();
+  renderMatchups();
+  renderPowerRankings();
+  renderTeamStats();
+  renderRosters();
+  loadHistory();
+})();
+</script>
+</body>
+</html>
