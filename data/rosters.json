@@ -108,7 +108,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": ""
         },
@@ -198,7 +198,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": ""
         },
@@ -476,7 +476,7 @@
         },
         {
           "name": "Spencer Strider",
-          "slot": "SP",
+          "slot": "IL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -616,6 +616,16 @@
         },
         {
           "name": "Reynaldo Lopez",
+          "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": ""
+        },
+        {
+          "name": "JoJo Romero",
           "slot": "BE",
           "position": "?",
           "eligible": "",
@@ -1306,7 +1316,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": ""
         },
@@ -1376,7 +1386,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": ""
         },
@@ -1421,16 +1431,6 @@
           "tier": ""
         },
         {
-          "name": "Jeff McNeil",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": ""
-        },
-        {
           "name": "Tyler Mahle",
           "slot": "BE",
           "position": "?",
@@ -1466,7 +1466,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {},
           "tier": ""
         },
@@ -1523,6 +1523,26 @@
         {
           "name": "Will Vest",
           "slot": "RP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": ""
+        },
+        {
+          "name": "Jordan Westburg",
+          "slot": "IL",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "OUT",
+          "stats": {},
+          "tier": ""
+        },
+        {
+          "name": "Cole Young",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1768,7 +1788,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": ""
         },
@@ -1803,12 +1823,12 @@
           "tier": ""
         },
         {
-          "name": "Dylan Beavers",
+          "name": "Carson Benge",
           "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": ""
         }
@@ -2103,6 +2123,26 @@
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": ""
+        },
+        {
+          "name": "Spencer Horwitz",
+          "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": ""
+        },
+        {
+          "name": "Jason Adam",
+          "slot": "RP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "OUT",
+          "stats": {},
+          "tier": ""
         }
       ]
     },
@@ -2188,7 +2228,7 @@
         },
         {
           "name": "Seiya Suzuki",
-          "slot": "BE",
+          "slot": "IL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2378,6 +2418,16 @@
         },
         {
           "name": "Leo De Vries",
+          "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": ""
+        },
+        {
+          "name": "TJ Friedl",
           "slot": "BE",
           "position": "?",
           "eligible": "",
@@ -3486,16 +3536,6 @@
           "tier": ""
         },
         {
-          "name": "Masyn Winn",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": ""
-        },
-        {
           "name": "Max Meyer",
           "slot": "BE",
           "position": "?",
@@ -3554,6 +3594,16 @@
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": ""
+        },
+        {
+          "name": "Connelly Early",
+          "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": ""
         }
       ]
     }
@@ -3562,5 +3612,5 @@
     "projPct": 0,
     "actualPct": 100
   },
-  "updated": "2026-03-23T15:39:48Z"
+  "updated": "2026-03-24T15:46:01Z"
 }
