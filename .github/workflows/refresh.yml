@@ -2,7 +2,8 @@ name: Daily ESPN Data Refresh
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # 8:00 AM EDT (UTC-4)
+    - cron: '0 11 * * *'   # 6:00 AM EST (UTC-5) / 7:00 AM EDT (UTC-4)
+    - cron: '0 17 * * *'   # 12:00 PM EST (UTC-5) / 1:00 PM EDT (UTC-4)
   workflow_dispatch:
 
 jobs:
