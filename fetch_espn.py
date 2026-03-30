@@ -350,47 +350,39 @@ def main():
         id_to_name = {t.team_id: t.team_name for t in league.teams}
 
         def api_get(views, extra_params=None):
-            """Call ESPN API using espn-api's authenticated session.
-            Uses list-of-tuples params so 'view' can repeat properly."""
+            """Call ESPN API reusing espn-api's cookies and headers."""
+            import requests as _req
             if isinstance(views, str):
                 views = [views]
             params_list = [('view', v) for v in views]
             if extra_params:
-                for k, val in extra_params.items():
-                    params_list.append((k, val))
+                for k, v2 in extra_params.items():
+                    params_list.append((k, v2))
 
-            # Find the underlying requests.Session inside espn-api's request object
-            session_obj = None
-            for attr in ['session', '_session', 'r', 'requests']:
-                s = getattr(req, attr, None)
-                if s and hasattr(s, 'get') and hasattr(s, 'headers'):
-                    session_obj = s
-                    break
+            # Pull cookies + headers directly from the EspnFantasyRequests object
+            cookies = getattr(req, 'cookies', {}) or {}
+            headers = dict(getattr(req, 'headers', {}) or {})
+            print(f"    espn_request cookies keys: {list(cookies.keys())}")
 
-            if session_obj is None:
-                raise RuntimeError("Could not find requests.Session in espn_request")
+            base = (f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb'
+                    f'/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}')
 
-            # Find base URL
-            base = None
-            for attr in ['FANTASY_BASE_ENDPOINT', 'base_url', '_base_url']:
-                b = getattr(req, attr, None)
-                if b and isinstance(b, str) and 'http' in b:
-                    base = b
-                    break
-            if not base:
-                base = (f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb'
-                        f'/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}')
+            resp = _req.get(base, params=params_list,
+                            cookies=cookies, headers=headers, timeout=20)
+            print(f"    lm-api HTTP {resp.status_code}")
+            if resp.status_code == 200:
+                return resp.json()
 
-            print(f"    GET {base.split('leagues')[1] if 'leagues' in base else base[-30:]}"
-                  f" params={[p for p in params_list[:4]]}")
-            resp = session_obj.get(base, params=params_list)
-            print(f"    HTTP {resp.status_code}")
-            if resp.status_code != 200:
-                base2 = (f'https://fantasy.espn.com/apis/v3/games/flb'
-                         f'/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}')
-                resp = session_obj.get(base2, params=params_list)
-                print(f"    Retry HTTP {resp.status_code}")
-            return resp.json()
+            # Fallback: old fantasy.espn.com endpoint
+            base2 = (f'https://fantasy.espn.com/apis/v3/games/flb'
+                     f'/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}')
+            resp2 = _req.get(base2, params=params_list,
+                             cookies=cookies, headers=headers, timeout=20)
+            print(f"    fantasy.espn HTTP {resp2.status_code}")
+            if resp2.status_code == 200:
+                return resp2.json()
+
+            raise RuntimeError(f"Both endpoints failed: {resp.status_code}, {resp2.status_code}")
 
         def fmt_v(v, lbl):
             if v is None: return "—"
