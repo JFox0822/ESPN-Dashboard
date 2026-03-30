@@ -1640,7 +1640,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "BE",
+          "slot": "OF",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1913,7 +1913,7 @@
         },
         {
           "name": "Matt Wallner",
-          "slot": "OF",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2367,19 +2367,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Carson Benge",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Tim Hill",
           "slot": "RP",
           "position": "?",
@@ -2407,6 +2394,19 @@
         },
         {
           "name": "Colt Keith",
+          "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jordan Walker",
           "slot": "BE",
           "position": "?",
           "eligible": "",
@@ -3668,7 +3668,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "2B",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3863,7 +3863,7 @@
         },
         {
           "name": "Brendan Donovan",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3889,7 +3889,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4723,5 +4723,5 @@
       ]
     }
   ],
-  "updated": "2026-03-30T16:56:05Z"
+  "updated": "2026-03-30T19:59:42Z"
 }
