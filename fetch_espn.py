@@ -407,30 +407,22 @@ def main():
                     print(f"  First home cumulativeScore keys: {list(home_cum.keys())}")
                     print(f"  First home wins={home_cum.get('wins')} losses={home_cum.get('losses')}")
 
-                # Try multiple ways to find current-period matchups
-                # 1. Filter by matchupPeriodId == sp
-                period_matches = [m for m in schedule if m.get('matchupPeriodId') == sp]
-                # 2. If nothing, try matchupPeriod field
-                if not period_matches:
-                    period_matches = [m for m in schedule if m.get('matchupPeriod') == sp]
-                # 3. If still nothing, the scoringPeriodId param should have filtered already
-                #    so just take all entries that have both home and away teams
-                if not period_matches:
-                    period_matches = [m for m in schedule
-                                      if m.get('home',{}).get('teamId')
-                                      and m.get('away',{}).get('teamId')]
-                    print(f"  Using all {len(period_matches)} entries with home+away teams")
+                # Filter: winner == "UNDECIDED" = current active matchups
+                period_matches = [m for m in schedule
+                                  if m.get('winner') == 'UNDECIDED'
+                                  and m.get('home',{}).get('teamId')
+                                  and m.get('away',{}).get('teamId')]
+                print(f"  UNDECIDED matchups: {len(period_matches)}")
 
-                # Limit to 6 (one per matchup pair in a 12-team league)
-                if len(period_matches) > 6:
-                    # Sort by id descending to get most recent
-                    period_matches = sorted(period_matches,
-                                            key=lambda x: x.get('id',0), reverse=True)[:6]
-                    print(f"  Trimmed to 6 most recent entries")
+                if not period_matches:
+                    # Fallback: matchupPeriodId filter
+                    period_matches = [m for m in schedule if m.get('matchupPeriodId') == sp]
+                    print(f"  matchupPeriodId={sp} filter: {len(period_matches)}")
 
-                print(f"  sp={sp}: {len(period_matches)} matchups to process")
                 if not period_matches:
                     continue
+
+                print(f"  sp={sp}: {len(period_matches)} matchups to process")
 
                 # Step 2: For each matchup, try to get per-category stats
                 # via mBoxscore view (ESPN fetches this per-matchup via matchupId)
