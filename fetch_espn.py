@@ -407,22 +407,32 @@ def main():
                     print(f"  First home cumulativeScore keys: {list(home_cum.keys())}")
                     print(f"  First home wins={home_cum.get('wins')} losses={home_cum.get('losses')}")
 
-                # Filter: winner == "UNDECIDED" = current active matchups
-                period_matches = [m for m in schedule
-                                  if m.get('winner') == 'UNDECIDED'
-                                  and m.get('home',{}).get('teamId')
-                                  and m.get('away',{}).get('teamId')]
-                print(f"  UNDECIDED matchups: {len(period_matches)}")
+                # Group ALL matchups by matchupPeriodId
+                # Determine current week = lowest period with UNDECIDED matchups
+                by_period = {}
+                for m in schedule:
+                    if not m.get('home',{}).get('teamId') or not m.get('away',{}).get('teamId'):
+                        continue
+                    pid = m.get('matchupPeriodId') or sp
+                    by_period.setdefault(pid, []).append(m)
 
-                if not period_matches:
-                    # Fallback: matchupPeriodId filter
-                    period_matches = [m for m in schedule if m.get('matchupPeriodId') == sp]
-                    print(f"  matchupPeriodId={sp} filter: {len(period_matches)}")
+                print(f"  Periods found: {sorted(by_period.keys())}")
+
+                # Current week = first period with any UNDECIDED
+                current_sp = sp
+                for pid in sorted(by_period.keys()):
+                    if any(m.get('winner') == 'UNDECIDED' for m in by_period[pid]):
+                        current_sp = pid
+                        break
+
+                period_matches = by_period.get(current_sp, [])
+                print(f"  Current week: {current_sp}, matchups: {len(period_matches)}")
 
                 if not period_matches:
                     continue
 
-                print(f"  sp={sp}: {len(period_matches)} matchups to process")
+                # Store all weeks for the week picker
+                all_weeks_data = by_period
 
                 # Step 2: For each matchup, try to get per-category stats
                 # via mBoxscore view (ESPN fetches this per-matchup via matchupId)
@@ -527,10 +537,49 @@ def main():
         import traceback
         print(f"  ⚠️  Matchup block failed: {e}")
         traceback.print_exc()
+    # Build full week-by-week matchup data for the week picker
+    all_weeks_out = {}
+    try:
+        for wk, wk_matches in all_weeks_data.items():
+            wk_list = []
+            for m in wk_matches:
+                home_d = m.get('home', {})
+                away_d = m.get('away', {})
+                if not home_d.get('teamId') or not away_d.get('teamId'):
+                    continue
+                hs2 = parse_side(home_d, m.get('id'))
+                as2 = parse_side(away_d, m.get('id'))
+                hc2, ac2 = {}, {}
+                for lbl in set(list(hs2['stats']) + list(as2['stats'])):
+                    hv2 = hs2['stats'].get(lbl)
+                    av2 = as2['stats'].get(lbl)
+                    if hv2 is None or av2 is None: continue
+                    lower2 = lbl in LOWER_CATS
+                    if abs(hv2-av2) < 0.0001: hr2 = ar2 = 'TIE'
+                    elif (hv2 < av2) == lower2: hr2, ar2 = 'WIN', 'LOSS'
+                    else: hr2, ar2 = 'LOSS', 'WIN'
+                    hc2[lbl] = {'value': fmt_v(hv2,lbl), 'result': hr2}
+                    ac2[lbl] = {'value': fmt_v(av2,lbl), 'result': ar2}
+                hs2['categories'] = hc2; del hs2['stats']
+                as2['categories'] = ac2; del as2['stats']
+                hw2 = hs2['catWins'] > as2['catWins']
+                aw2 = as2['catWins'] > hs2['catWins']
+                wk_list.append({
+                    'home': hs2, 'away': as2,
+                    'leader': hs2['team'] if hw2 else (as2['team'] if aw2 else 'Tied'),
+                    'winner': m.get('winner', 'UNDECIDED'),
+                })
+            if wk_list:
+                all_weeks_out[str(wk)] = wk_list
+    except Exception as e:
+        print(f"  ⚠️  all_weeks build failed: {e}")
+        all_weeks_out = {str(scoring_week): matchups_out}
+
     save("matchups.json", {
-        "week":     scoring_week,
-        "matchups": matchups_out,
-        "updated":  updated,
+        "week":      scoring_week,
+        "matchups":  matchups_out,
+        "allWeeks":  all_weeks_out,
+        "updated":   updated,
     })
 
     # ── Team stats (season totals) ──────────────────────────────────────────────
