@@ -537,43 +537,8 @@ def main():
         import traceback
         print(f"  ⚠️  Matchup block failed: {e}")
         traceback.print_exc()
-    # Build full week-by-week matchup data for the week picker
-    all_weeks_out = {}
-    try:
-        for wk, wk_matches in all_weeks_data.items():
-            wk_list = []
-            for m in wk_matches:
-                home_d = m.get('home', {})
-                away_d = m.get('away', {})
-                if not home_d.get('teamId') or not away_d.get('teamId'):
-                    continue
-                hs2 = parse_side(home_d, m.get('id'))
-                as2 = parse_side(away_d, m.get('id'))
-                hc2, ac2 = {}, {}
-                for lbl in set(list(hs2['stats']) + list(as2['stats'])):
-                    hv2 = hs2['stats'].get(lbl)
-                    av2 = as2['stats'].get(lbl)
-                    if hv2 is None or av2 is None: continue
-                    lower2 = lbl in LOWER_CATS
-                    if abs(hv2-av2) < 0.0001: hr2 = ar2 = 'TIE'
-                    elif (hv2 < av2) == lower2: hr2, ar2 = 'WIN', 'LOSS'
-                    else: hr2, ar2 = 'LOSS', 'WIN'
-                    hc2[lbl] = {'value': fmt_v(hv2,lbl), 'result': hr2}
-                    ac2[lbl] = {'value': fmt_v(av2,lbl), 'result': ar2}
-                hs2['categories'] = hc2; del hs2['stats']
-                as2['categories'] = ac2; del as2['stats']
-                hw2 = hs2['catWins'] > as2['catWins']
-                aw2 = as2['catWins'] > hs2['catWins']
-                wk_list.append({
-                    'home': hs2, 'away': as2,
-                    'leader': hs2['team'] if hw2 else (as2['team'] if aw2 else 'Tied'),
-                    'winner': m.get('winner', 'UNDECIDED'),
-                })
-            if wk_list:
-                all_weeks_out[str(wk)] = wk_list
-    except Exception as e:
-        print(f"  ⚠️  all_weeks build failed: {e}")
-        all_weeks_out = {str(scoring_week): matchups_out}
+    # allWeeks: current week only for now (future weeks populate as season progresses)
+    all_weeks_out = {str(scoring_week): matchups_out}
 
     save("matchups.json", {
         "week":      scoring_week,
