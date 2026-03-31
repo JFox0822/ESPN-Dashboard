@@ -760,11 +760,15 @@ async function renderMatchups() {
           : hasStats ? `${m.leader} leading`
           : 'Upcoming';
 
-        const hTies = home.catTies != null ? home.catTies
-          : Object.values(home.categories||{}).filter(c=>c.result==='TIE').length;
-        const aTies = away.catTies != null ? away.catTies
-          : Object.values(away.categories||{}).filter(c=>c.result==='TIE').length;
-        const ties  = Math.max(hTies, aTies);
+        // Ties = 14 total categories minus wins minus losses
+        const N_TOTAL_CATS = 14;
+        const hTies = (hasStats||isFinal)
+          ? Math.max(0, N_TOTAL_CATS - home.catWins - home.catLoss)
+          : 0;
+        const aTies = (hasStats||isFinal)
+          ? Math.max(0, N_TOTAL_CATS - away.catWins - away.catLoss)
+          : 0;
+        const ties = Math.max(hTies, aTies);
         const hRecord = hasStats||isFinal ? `${home.catWins}–${home.catLoss}${ties?'–'+ties:''}` : '';
         const aRecord = hasStats||isFinal ? `${away.catWins}–${away.catLoss}${ties?'–'+ties:''}` : '';
                 return `<div class="mu-card ${hasMe?'mine':''}">
