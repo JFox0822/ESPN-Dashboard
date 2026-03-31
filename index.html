@@ -760,8 +760,10 @@ async function renderMatchups() {
           : hasStats ? `${m.leader} leading`
           : 'Upcoming';
 
-        const hTies = home.catTies || 0;
-        const aTies = away.catTies || 0;
+        const hTies = home.catTies != null ? home.catTies
+          : Object.values(home.categories||{}).filter(c=>c.result==='TIE').length;
+        const aTies = away.catTies != null ? away.catTies
+          : Object.values(away.categories||{}).filter(c=>c.result==='TIE').length;
         const ties  = Math.max(hTies, aTies);
         const hRecord = hasStats||isFinal ? `${home.catWins}–${home.catLoss}${ties?'–'+ties:''}` : '';
         const aRecord = hasStats||isFinal ? `${away.catWins}–${away.catLoss}${ties?'–'+ties:''}` : '';
