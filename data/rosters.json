@@ -1093,19 +1093,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Spencer Steer",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Yusei Kikuchi",
           "slot": "BE",
           "position": "?",
@@ -1212,6 +1199,19 @@
         {
           "name": "Ian Seymour",
           "slot": "RP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Miguel Vargas",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4723,5 +4723,5 @@
       ]
     }
   ],
-  "updated": "2026-03-31T17:00:02Z"
+  "updated": "2026-03-31T19:02:20Z"
 }
