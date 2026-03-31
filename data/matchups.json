@@ -11,13 +11,13 @@
         "catLoss": 2,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "0",
-            "result": "TIE"
+          "AVG": {
+            "value": "0.254",
+            "result": "WIN"
           },
-          "K": {
-            "value": "50",
-            "result": "LOSS"
+          "ERA": {
+            "value": "2.62",
+            "result": "WIN"
           },
           "QS": {
             "value": "2",
@@ -27,20 +27,8 @@
             "value": "8",
             "result": "TIE"
           },
-          "R": {
-            "value": "33",
-            "result": "WIN"
-          },
-          "AVG": {
-            "value": "0.254",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "2.62",
-            "result": "WIN"
-          },
-          "SB": {
-            "value": "3",
+          "H": {
+            "value": "35",
             "result": "WIN"
           },
           "WHIP": {
@@ -51,6 +39,18 @@
             "value": "48.0",
             "result": "WIN"
           },
+          "SVHD": {
+            "value": "0",
+            "result": "TIE"
+          },
+          "OPS": {
+            "value": "0.812",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "3",
+            "result": "WIN"
+          },
           "RBI": {
             "value": "28",
             "result": "WIN"
@@ -59,12 +59,12 @@
             "value": "47",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.812",
-            "result": "WIN"
+          "K": {
+            "value": "50",
+            "result": "LOSS"
           },
-          "H": {
-            "value": "35",
+          "R": {
+            "value": "33",
             "result": "WIN"
           }
         }
@@ -78,13 +78,13 @@
         "catLoss": 10,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "0",
-            "result": "TIE"
+          "AVG": {
+            "value": "0.226",
+            "result": "LOSS"
           },
-          "K": {
-            "value": "56",
-            "result": "WIN"
+          "ERA": {
+            "value": "5.95",
+            "result": "LOSS"
           },
           "QS": {
             "value": "2",
@@ -94,20 +94,8 @@
             "value": "8",
             "result": "TIE"
           },
-          "R": {
-            "value": "25",
-            "result": "LOSS"
-          },
-          "AVG": {
-            "value": "0.226",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "5.95",
-            "result": "LOSS"
-          },
-          "SB": {
-            "value": "2",
+          "H": {
+            "value": "36",
             "result": "LOSS"
           },
           "WHIP": {
@@ -118,6 +106,18 @@
             "value": "39.1",
             "result": "LOSS"
           },
+          "SVHD": {
+            "value": "0",
+            "result": "TIE"
+          },
+          "OPS": {
+            "value": "0.759",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "2",
+            "result": "LOSS"
+          },
           "RBI": {
             "value": "22",
             "result": "LOSS"
@@ -126,12 +126,12 @@
             "value": "46",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.759",
-            "result": "LOSS"
+          "K": {
+            "value": "56",
+            "result": "WIN"
           },
-          "H": {
-            "value": "36",
+          "R": {
+            "value": "25",
             "result": "LOSS"
           }
         }
@@ -149,12 +149,12 @@
         "catLoss": 10,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "2",
-            "result": "WIN"
+          "AVG": {
+            "value": "0.171",
+            "result": "LOSS"
           },
-          "K": {
-            "value": "45",
+          "ERA": {
+            "value": "3.98",
             "result": "LOSS"
           },
           "QS": {
@@ -165,20 +165,8 @@
             "value": "8",
             "result": "WIN"
           },
-          "R": {
-            "value": "17",
-            "result": "LOSS"
-          },
-          "AVG": {
-            "value": "0.171",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "3.98",
-            "result": "LOSS"
-          },
-          "SB": {
-            "value": "0",
+          "H": {
+            "value": "35",
             "result": "LOSS"
           },
           "WHIP": {
@@ -189,6 +177,18 @@
             "value": "43.0",
             "result": "WIN"
           },
+          "SVHD": {
+            "value": "2",
+            "result": "WIN"
+          },
+          "OPS": {
+            "value": "0.580",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "0",
+            "result": "LOSS"
+          },
           "RBI": {
             "value": "23",
             "result": "WIN"
@@ -197,12 +197,12 @@
             "value": "60",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.580",
+          "K": {
+            "value": "45",
             "result": "LOSS"
           },
-          "H": {
-            "value": "35",
+          "R": {
+            "value": "17",
             "result": "LOSS"
           }
         }
@@ -216,12 +216,12 @@
         "catLoss": 3,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "0",
-            "result": "LOSS"
+          "AVG": {
+            "value": "0.228",
+            "result": "WIN"
           },
-          "K": {
-            "value": "53",
+          "ERA": {
+            "value": "2.61",
             "result": "WIN"
           },
           "QS": {
@@ -232,20 +232,8 @@
             "value": "3",
             "result": "LOSS"
           },
-          "R": {
-            "value": "21",
-            "result": "WIN"
-          },
-          "AVG": {
-            "value": "0.228",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "2.61",
-            "result": "WIN"
-          },
-          "SB": {
-            "value": "3",
+          "H": {
+            "value": "28",
             "result": "WIN"
           },
           "WHIP": {
@@ -256,6 +244,18 @@
             "value": "41.1",
             "result": "LOSS"
           },
+          "SVHD": {
+            "value": "0",
+            "result": "LOSS"
+          },
+          "OPS": {
+            "value": "0.625",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "3",
+            "result": "WIN"
+          },
           "RBI": {
             "value": "22",
             "result": "LOSS"
@@ -264,12 +264,12 @@
             "value": "46",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.625",
+          "K": {
+            "value": "53",
             "result": "WIN"
           },
-          "H": {
-            "value": "28",
+          "R": {
+            "value": "21",
             "result": "WIN"
           }
         }
@@ -287,13 +287,13 @@
         "catLoss": 4,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "1",
+          "AVG": {
+            "value": "0.275",
             "result": "WIN"
           },
-          "K": {
-            "value": "41",
-            "result": "WIN"
+          "ERA": {
+            "value": "5.11",
+            "result": "LOSS"
           },
           "QS": {
             "value": "1",
@@ -303,21 +303,9 @@
             "value": "9",
             "result": "WIN"
           },
-          "R": {
-            "value": "27",
-            "result": "WIN"
-          },
-          "AVG": {
-            "value": "0.275",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "5.11",
+          "H": {
+            "value": "35",
             "result": "LOSS"
-          },
-          "SB": {
-            "value": "3",
-            "result": "TIE"
           },
           "WHIP": {
             "value": "1.32",
@@ -327,6 +315,18 @@
             "value": "37.0",
             "result": "WIN"
           },
+          "SVHD": {
+            "value": "1",
+            "result": "WIN"
+          },
+          "OPS": {
+            "value": "0.851",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "3",
+            "result": "TIE"
+          },
           "RBI": {
             "value": "28",
             "result": "WIN"
@@ -335,13 +335,13 @@
             "value": "31",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.851",
+          "K": {
+            "value": "41",
             "result": "WIN"
           },
-          "H": {
-            "value": "35",
-            "result": "LOSS"
+          "R": {
+            "value": "27",
+            "result": "WIN"
           }
         }
       },
@@ -354,13 +354,13 @@
         "catLoss": 8,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "0",
+          "AVG": {
+            "value": "0.229",
             "result": "LOSS"
           },
-          "K": {
-            "value": "32",
-            "result": "LOSS"
+          "ERA": {
+            "value": "4.55",
+            "result": "WIN"
           },
           "QS": {
             "value": "3",
@@ -370,21 +370,9 @@
             "value": "6",
             "result": "LOSS"
           },
-          "R": {
-            "value": "24",
-            "result": "LOSS"
-          },
-          "AVG": {
-            "value": "0.229",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "4.55",
+          "H": {
+            "value": "30",
             "result": "WIN"
-          },
-          "SB": {
-            "value": "3",
-            "result": "TIE"
           },
           "WHIP": {
             "value": "1.26",
@@ -394,6 +382,18 @@
             "value": "31.2",
             "result": "LOSS"
           },
+          "SVHD": {
+            "value": "0",
+            "result": "LOSS"
+          },
+          "OPS": {
+            "value": "0.661",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "3",
+            "result": "TIE"
+          },
           "RBI": {
             "value": "23",
             "result": "LOSS"
@@ -402,13 +402,13 @@
             "value": "48",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.661",
+          "K": {
+            "value": "32",
             "result": "LOSS"
           },
-          "H": {
-            "value": "30",
-            "result": "WIN"
+          "R": {
+            "value": "24",
+            "result": "LOSS"
           }
         }
       },
@@ -425,13 +425,13 @@
         "catLoss": 5,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "1",
+          "AVG": {
+            "value": "0.230",
             "result": "LOSS"
           },
-          "K": {
-            "value": "39",
-            "result": "LOSS"
+          "ERA": {
+            "value": "1.40",
+            "result": "WIN"
           },
           "QS": {
             "value": "4",
@@ -441,20 +441,8 @@
             "value": "5",
             "result": "LOSS"
           },
-          "R": {
-            "value": "32",
-            "result": "WIN"
-          },
-          "AVG": {
-            "value": "0.230",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "1.40",
-            "result": "WIN"
-          },
-          "SB": {
-            "value": "6",
+          "H": {
+            "value": "28",
             "result": "WIN"
           },
           "WHIP": {
@@ -465,6 +453,18 @@
             "value": "38.2",
             "result": "LOSS"
           },
+          "SVHD": {
+            "value": "1",
+            "result": "LOSS"
+          },
+          "OPS": {
+            "value": "0.711",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "6",
+            "result": "WIN"
+          },
           "RBI": {
             "value": "23",
             "result": "WIN"
@@ -473,12 +473,12 @@
             "value": "42",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.711",
+          "K": {
+            "value": "39",
             "result": "LOSS"
           },
-          "H": {
-            "value": "28",
+          "R": {
+            "value": "32",
             "result": "WIN"
           }
         }
@@ -492,13 +492,13 @@
         "catLoss": 9,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "2",
+          "AVG": {
+            "value": "0.236",
             "result": "WIN"
           },
-          "K": {
-            "value": "44",
-            "result": "WIN"
+          "ERA": {
+            "value": "3.46",
+            "result": "LOSS"
           },
           "QS": {
             "value": "2",
@@ -508,20 +508,8 @@
             "value": "8",
             "result": "WIN"
           },
-          "R": {
-            "value": "26",
-            "result": "LOSS"
-          },
-          "AVG": {
-            "value": "0.236",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "3.46",
-            "result": "LOSS"
-          },
-          "SB": {
-            "value": "5",
+          "H": {
+            "value": "31",
             "result": "LOSS"
           },
           "WHIP": {
@@ -532,6 +520,18 @@
             "value": "41.2",
             "result": "WIN"
           },
+          "SVHD": {
+            "value": "2",
+            "result": "WIN"
+          },
+          "OPS": {
+            "value": "0.713",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "5",
+            "result": "LOSS"
+          },
           "RBI": {
             "value": "20",
             "result": "LOSS"
@@ -540,12 +540,12 @@
             "value": "48",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.713",
+          "K": {
+            "value": "44",
             "result": "WIN"
           },
-          "H": {
-            "value": "31",
+          "R": {
+            "value": "26",
             "result": "LOSS"
           }
         }
@@ -563,13 +563,13 @@
         "catLoss": 10,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "1",
+          "AVG": {
+            "value": "0.229",
             "result": "LOSS"
           },
-          "K": {
-            "value": "42",
-            "result": "LOSS"
+          "ERA": {
+            "value": "3.38",
+            "result": "WIN"
           },
           "QS": {
             "value": "2",
@@ -579,21 +579,9 @@
             "value": "2",
             "result": "LOSS"
           },
-          "R": {
-            "value": "21",
-            "result": "TIE"
-          },
-          "AVG": {
-            "value": "0.229",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "3.38",
+          "H": {
+            "value": "40",
             "result": "WIN"
-          },
-          "SB": {
-            "value": "3",
-            "result": "LOSS"
           },
           "WHIP": {
             "value": "1.22",
@@ -601,6 +589,18 @@
           },
           "IP": {
             "value": "42.2",
+            "result": "LOSS"
+          },
+          "SVHD": {
+            "value": "1",
+            "result": "LOSS"
+          },
+          "OPS": {
+            "value": "0.666",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "3",
             "result": "LOSS"
           },
           "RBI": {
@@ -611,13 +611,13 @@
             "value": "50",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.666",
+          "K": {
+            "value": "42",
             "result": "LOSS"
           },
-          "H": {
-            "value": "40",
-            "result": "WIN"
+          "R": {
+            "value": "21",
+            "result": "TIE"
           }
         }
       },
@@ -630,13 +630,13 @@
         "catLoss": 3,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "3",
+          "AVG": {
+            "value": "0.242",
             "result": "WIN"
           },
-          "K": {
-            "value": "45",
-            "result": "WIN"
+          "ERA": {
+            "value": "5.01",
+            "result": "LOSS"
           },
           "QS": {
             "value": "4",
@@ -646,21 +646,9 @@
             "value": "7",
             "result": "WIN"
           },
-          "R": {
-            "value": "21",
-            "result": "TIE"
-          },
-          "AVG": {
-            "value": "0.242",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "5.01",
+          "H": {
+            "value": "41",
             "result": "LOSS"
-          },
-          "SB": {
-            "value": "5",
-            "result": "WIN"
           },
           "WHIP": {
             "value": "1.17",
@@ -668,6 +656,18 @@
           },
           "IP": {
             "value": "50.1",
+            "result": "WIN"
+          },
+          "SVHD": {
+            "value": "3",
+            "result": "WIN"
+          },
+          "OPS": {
+            "value": "0.754",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "5",
             "result": "WIN"
           },
           "RBI": {
@@ -678,13 +678,13 @@
             "value": "59",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.754",
+          "K": {
+            "value": "45",
             "result": "WIN"
           },
-          "H": {
-            "value": "41",
-            "result": "LOSS"
+          "R": {
+            "value": "21",
+            "result": "TIE"
           }
         }
       },
@@ -701,13 +701,13 @@
         "catLoss": 6,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "3",
+          "AVG": {
+            "value": "0.273",
             "result": "WIN"
           },
-          "K": {
-            "value": "43",
-            "result": "WIN"
+          "ERA": {
+            "value": "5.82",
+            "result": "LOSS"
           },
           "QS": {
             "value": "1",
@@ -717,20 +717,8 @@
             "value": "9",
             "result": "WIN"
           },
-          "R": {
-            "value": "25",
-            "result": "LOSS"
-          },
-          "AVG": {
-            "value": "0.273",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "5.82",
-            "result": "LOSS"
-          },
-          "SB": {
-            "value": "3",
+          "H": {
+            "value": "40",
             "result": "LOSS"
           },
           "WHIP": {
@@ -741,6 +729,18 @@
             "value": "34.0",
             "result": "WIN"
           },
+          "SVHD": {
+            "value": "3",
+            "result": "WIN"
+          },
+          "OPS": {
+            "value": "0.775",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "3",
+            "result": "LOSS"
+          },
           "RBI": {
             "value": "26",
             "result": "WIN"
@@ -749,12 +749,12 @@
             "value": "49",
             "result": "WIN"
           },
-          "OPS": {
-            "value": "0.775",
+          "K": {
+            "value": "43",
             "result": "WIN"
           },
-          "H": {
-            "value": "40",
+          "R": {
+            "value": "25",
             "result": "LOSS"
           }
         }
@@ -768,13 +768,13 @@
         "catLoss": 8,
         "catTies": 0,
         "categories": {
-          "SVHD": {
-            "value": "0",
+          "AVG": {
+            "value": "0.237",
             "result": "LOSS"
           },
-          "K": {
-            "value": "33",
-            "result": "LOSS"
+          "ERA": {
+            "value": "4.31",
+            "result": "WIN"
           },
           "QS": {
             "value": "2",
@@ -784,20 +784,8 @@
             "value": "8",
             "result": "LOSS"
           },
-          "R": {
+          "H": {
             "value": "26",
-            "result": "WIN"
-          },
-          "AVG": {
-            "value": "0.237",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "4.31",
-            "result": "WIN"
-          },
-          "SB": {
-            "value": "6",
             "result": "WIN"
           },
           "WHIP": {
@@ -808,6 +796,18 @@
             "value": "31.1",
             "result": "LOSS"
           },
+          "SVHD": {
+            "value": "0",
+            "result": "LOSS"
+          },
+          "OPS": {
+            "value": "0.724",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "6",
+            "result": "WIN"
+          },
           "RBI": {
             "value": "23",
             "result": "LOSS"
@@ -816,11 +816,11 @@
             "value": "51",
             "result": "LOSS"
           },
-          "OPS": {
-            "value": "0.724",
+          "K": {
+            "value": "33",
             "result": "LOSS"
           },
-          "H": {
+          "R": {
             "value": "26",
             "result": "WIN"
           }
@@ -842,13 +842,13 @@
           "catLoss": 2,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "0",
-              "result": "TIE"
+            "AVG": {
+              "value": "0.254",
+              "result": "WIN"
             },
-            "K": {
-              "value": "50",
-              "result": "LOSS"
+            "ERA": {
+              "value": "2.62",
+              "result": "WIN"
             },
             "QS": {
               "value": "2",
@@ -858,20 +858,8 @@
               "value": "8",
               "result": "TIE"
             },
-            "R": {
-              "value": "33",
-              "result": "WIN"
-            },
-            "AVG": {
-              "value": "0.254",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "2.62",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "3",
+            "H": {
+              "value": "35",
               "result": "WIN"
             },
             "WHIP": {
@@ -882,6 +870,18 @@
               "value": "48.0",
               "result": "WIN"
             },
+            "SVHD": {
+              "value": "0",
+              "result": "TIE"
+            },
+            "OPS": {
+              "value": "0.812",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "3",
+              "result": "WIN"
+            },
             "RBI": {
               "value": "28",
               "result": "WIN"
@@ -890,12 +890,12 @@
               "value": "47",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.812",
-              "result": "WIN"
+            "K": {
+              "value": "50",
+              "result": "LOSS"
             },
-            "H": {
-              "value": "35",
+            "R": {
+              "value": "33",
               "result": "WIN"
             }
           }
@@ -909,13 +909,13 @@
           "catLoss": 10,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "0",
-              "result": "TIE"
+            "AVG": {
+              "value": "0.226",
+              "result": "LOSS"
             },
-            "K": {
-              "value": "56",
-              "result": "WIN"
+            "ERA": {
+              "value": "5.95",
+              "result": "LOSS"
             },
             "QS": {
               "value": "2",
@@ -925,20 +925,8 @@
               "value": "8",
               "result": "TIE"
             },
-            "R": {
-              "value": "25",
-              "result": "LOSS"
-            },
-            "AVG": {
-              "value": "0.226",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "5.95",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "2",
+            "H": {
+              "value": "36",
               "result": "LOSS"
             },
             "WHIP": {
@@ -949,6 +937,18 @@
               "value": "39.1",
               "result": "LOSS"
             },
+            "SVHD": {
+              "value": "0",
+              "result": "TIE"
+            },
+            "OPS": {
+              "value": "0.759",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "2",
+              "result": "LOSS"
+            },
             "RBI": {
               "value": "22",
               "result": "LOSS"
@@ -957,12 +957,12 @@
               "value": "46",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.759",
-              "result": "LOSS"
+            "K": {
+              "value": "56",
+              "result": "WIN"
             },
-            "H": {
-              "value": "36",
+            "R": {
+              "value": "25",
               "result": "LOSS"
             }
           }
@@ -980,12 +980,12 @@
           "catLoss": 10,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "2",
-              "result": "WIN"
+            "AVG": {
+              "value": "0.171",
+              "result": "LOSS"
             },
-            "K": {
-              "value": "45",
+            "ERA": {
+              "value": "3.98",
               "result": "LOSS"
             },
             "QS": {
@@ -996,20 +996,8 @@
               "value": "8",
               "result": "WIN"
             },
-            "R": {
-              "value": "17",
-              "result": "LOSS"
-            },
-            "AVG": {
-              "value": "0.171",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "3.98",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "0",
+            "H": {
+              "value": "35",
               "result": "LOSS"
             },
             "WHIP": {
@@ -1020,6 +1008,18 @@
               "value": "43.0",
               "result": "WIN"
             },
+            "SVHD": {
+              "value": "2",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.580",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "0",
+              "result": "LOSS"
+            },
             "RBI": {
               "value": "23",
               "result": "WIN"
@@ -1028,12 +1028,12 @@
               "value": "60",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.580",
+            "K": {
+              "value": "45",
               "result": "LOSS"
             },
-            "H": {
-              "value": "35",
+            "R": {
+              "value": "17",
               "result": "LOSS"
             }
           }
@@ -1047,12 +1047,12 @@
           "catLoss": 3,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "0",
-              "result": "LOSS"
+            "AVG": {
+              "value": "0.228",
+              "result": "WIN"
             },
-            "K": {
-              "value": "53",
+            "ERA": {
+              "value": "2.61",
               "result": "WIN"
             },
             "QS": {
@@ -1063,20 +1063,8 @@
               "value": "3",
               "result": "LOSS"
             },
-            "R": {
-              "value": "21",
-              "result": "WIN"
-            },
-            "AVG": {
-              "value": "0.228",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "2.61",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "3",
+            "H": {
+              "value": "28",
               "result": "WIN"
             },
             "WHIP": {
@@ -1087,6 +1075,18 @@
               "value": "41.1",
               "result": "LOSS"
             },
+            "SVHD": {
+              "value": "0",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.625",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "3",
+              "result": "WIN"
+            },
             "RBI": {
               "value": "22",
               "result": "LOSS"
@@ -1095,12 +1095,12 @@
               "value": "46",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.625",
+            "K": {
+              "value": "53",
               "result": "WIN"
             },
-            "H": {
-              "value": "28",
+            "R": {
+              "value": "21",
               "result": "WIN"
             }
           }
@@ -1118,13 +1118,13 @@
           "catLoss": 4,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "1",
+            "AVG": {
+              "value": "0.275",
               "result": "WIN"
             },
-            "K": {
-              "value": "41",
-              "result": "WIN"
+            "ERA": {
+              "value": "5.11",
+              "result": "LOSS"
             },
             "QS": {
               "value": "1",
@@ -1134,21 +1134,9 @@
               "value": "9",
               "result": "WIN"
             },
-            "R": {
-              "value": "27",
-              "result": "WIN"
-            },
-            "AVG": {
-              "value": "0.275",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "5.11",
+            "H": {
+              "value": "35",
               "result": "LOSS"
-            },
-            "SB": {
-              "value": "3",
-              "result": "TIE"
             },
             "WHIP": {
               "value": "1.32",
@@ -1158,6 +1146,18 @@
               "value": "37.0",
               "result": "WIN"
             },
+            "SVHD": {
+              "value": "1",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.851",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "3",
+              "result": "TIE"
+            },
             "RBI": {
               "value": "28",
               "result": "WIN"
@@ -1166,13 +1166,13 @@
               "value": "31",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.851",
+            "K": {
+              "value": "41",
               "result": "WIN"
             },
-            "H": {
-              "value": "35",
-              "result": "LOSS"
+            "R": {
+              "value": "27",
+              "result": "WIN"
             }
           }
         },
@@ -1185,13 +1185,13 @@
           "catLoss": 8,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "0",
+            "AVG": {
+              "value": "0.229",
               "result": "LOSS"
             },
-            "K": {
-              "value": "32",
-              "result": "LOSS"
+            "ERA": {
+              "value": "4.55",
+              "result": "WIN"
             },
             "QS": {
               "value": "3",
@@ -1201,21 +1201,9 @@
               "value": "6",
               "result": "LOSS"
             },
-            "R": {
-              "value": "24",
-              "result": "LOSS"
-            },
-            "AVG": {
-              "value": "0.229",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "4.55",
+            "H": {
+              "value": "30",
               "result": "WIN"
-            },
-            "SB": {
-              "value": "3",
-              "result": "TIE"
             },
             "WHIP": {
               "value": "1.26",
@@ -1225,6 +1213,18 @@
               "value": "31.2",
               "result": "LOSS"
             },
+            "SVHD": {
+              "value": "0",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.661",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "3",
+              "result": "TIE"
+            },
             "RBI": {
               "value": "23",
               "result": "LOSS"
@@ -1233,13 +1233,13 @@
               "value": "48",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.661",
+            "K": {
+              "value": "32",
               "result": "LOSS"
             },
-            "H": {
-              "value": "30",
-              "result": "WIN"
+            "R": {
+              "value": "24",
+              "result": "LOSS"
             }
           }
         },
@@ -1256,13 +1256,13 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "1",
+            "AVG": {
+              "value": "0.230",
               "result": "LOSS"
             },
-            "K": {
-              "value": "39",
-              "result": "LOSS"
+            "ERA": {
+              "value": "1.40",
+              "result": "WIN"
             },
             "QS": {
               "value": "4",
@@ -1272,20 +1272,8 @@
               "value": "5",
               "result": "LOSS"
             },
-            "R": {
-              "value": "32",
-              "result": "WIN"
-            },
-            "AVG": {
-              "value": "0.230",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "1.40",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "6",
+            "H": {
+              "value": "28",
               "result": "WIN"
             },
             "WHIP": {
@@ -1296,6 +1284,18 @@
               "value": "38.2",
               "result": "LOSS"
             },
+            "SVHD": {
+              "value": "1",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.711",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "6",
+              "result": "WIN"
+            },
             "RBI": {
               "value": "23",
               "result": "WIN"
@@ -1304,12 +1304,12 @@
               "value": "42",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.711",
+            "K": {
+              "value": "39",
               "result": "LOSS"
             },
-            "H": {
-              "value": "28",
+            "R": {
+              "value": "32",
               "result": "WIN"
             }
           }
@@ -1323,13 +1323,13 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "2",
+            "AVG": {
+              "value": "0.236",
               "result": "WIN"
             },
-            "K": {
-              "value": "44",
-              "result": "WIN"
+            "ERA": {
+              "value": "3.46",
+              "result": "LOSS"
             },
             "QS": {
               "value": "2",
@@ -1339,20 +1339,8 @@
               "value": "8",
               "result": "WIN"
             },
-            "R": {
-              "value": "26",
-              "result": "LOSS"
-            },
-            "AVG": {
-              "value": "0.236",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "3.46",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "5",
+            "H": {
+              "value": "31",
               "result": "LOSS"
             },
             "WHIP": {
@@ -1363,6 +1351,18 @@
               "value": "41.2",
               "result": "WIN"
             },
+            "SVHD": {
+              "value": "2",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.713",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "5",
+              "result": "LOSS"
+            },
             "RBI": {
               "value": "20",
               "result": "LOSS"
@@ -1371,12 +1371,12 @@
               "value": "48",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.713",
+            "K": {
+              "value": "44",
               "result": "WIN"
             },
-            "H": {
-              "value": "31",
+            "R": {
+              "value": "26",
               "result": "LOSS"
             }
           }
@@ -1394,13 +1394,13 @@
           "catLoss": 10,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "1",
+            "AVG": {
+              "value": "0.229",
               "result": "LOSS"
             },
-            "K": {
-              "value": "42",
-              "result": "LOSS"
+            "ERA": {
+              "value": "3.38",
+              "result": "WIN"
             },
             "QS": {
               "value": "2",
@@ -1410,21 +1410,9 @@
               "value": "2",
               "result": "LOSS"
             },
-            "R": {
-              "value": "21",
-              "result": "TIE"
-            },
-            "AVG": {
-              "value": "0.229",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "3.38",
+            "H": {
+              "value": "40",
               "result": "WIN"
-            },
-            "SB": {
-              "value": "3",
-              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.22",
@@ -1432,6 +1420,18 @@
             },
             "IP": {
               "value": "42.2",
+              "result": "LOSS"
+            },
+            "SVHD": {
+              "value": "1",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.666",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "3",
               "result": "LOSS"
             },
             "RBI": {
@@ -1442,13 +1442,13 @@
               "value": "50",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.666",
+            "K": {
+              "value": "42",
               "result": "LOSS"
             },
-            "H": {
-              "value": "40",
-              "result": "WIN"
+            "R": {
+              "value": "21",
+              "result": "TIE"
             }
           }
         },
@@ -1461,13 +1461,13 @@
           "catLoss": 3,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "3",
+            "AVG": {
+              "value": "0.242",
               "result": "WIN"
             },
-            "K": {
-              "value": "45",
-              "result": "WIN"
+            "ERA": {
+              "value": "5.01",
+              "result": "LOSS"
             },
             "QS": {
               "value": "4",
@@ -1477,21 +1477,9 @@
               "value": "7",
               "result": "WIN"
             },
-            "R": {
-              "value": "21",
-              "result": "TIE"
-            },
-            "AVG": {
-              "value": "0.242",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "5.01",
+            "H": {
+              "value": "41",
               "result": "LOSS"
-            },
-            "SB": {
-              "value": "5",
-              "result": "WIN"
             },
             "WHIP": {
               "value": "1.17",
@@ -1499,6 +1487,18 @@
             },
             "IP": {
               "value": "50.1",
+              "result": "WIN"
+            },
+            "SVHD": {
+              "value": "3",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.754",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "5",
               "result": "WIN"
             },
             "RBI": {
@@ -1509,13 +1509,13 @@
               "value": "59",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.754",
+            "K": {
+              "value": "45",
               "result": "WIN"
             },
-            "H": {
-              "value": "41",
-              "result": "LOSS"
+            "R": {
+              "value": "21",
+              "result": "TIE"
             }
           }
         },
@@ -1532,13 +1532,13 @@
           "catLoss": 6,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "3",
+            "AVG": {
+              "value": "0.273",
               "result": "WIN"
             },
-            "K": {
-              "value": "43",
-              "result": "WIN"
+            "ERA": {
+              "value": "5.82",
+              "result": "LOSS"
             },
             "QS": {
               "value": "1",
@@ -1548,20 +1548,8 @@
               "value": "9",
               "result": "WIN"
             },
-            "R": {
-              "value": "25",
-              "result": "LOSS"
-            },
-            "AVG": {
-              "value": "0.273",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "5.82",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "3",
+            "H": {
+              "value": "40",
               "result": "LOSS"
             },
             "WHIP": {
@@ -1572,6 +1560,18 @@
               "value": "34.0",
               "result": "WIN"
             },
+            "SVHD": {
+              "value": "3",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.775",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "3",
+              "result": "LOSS"
+            },
             "RBI": {
               "value": "26",
               "result": "WIN"
@@ -1580,12 +1580,12 @@
               "value": "49",
               "result": "WIN"
             },
-            "OPS": {
-              "value": "0.775",
+            "K": {
+              "value": "43",
               "result": "WIN"
             },
-            "H": {
-              "value": "40",
+            "R": {
+              "value": "25",
               "result": "LOSS"
             }
           }
@@ -1599,13 +1599,13 @@
           "catLoss": 8,
           "catTies": 0,
           "categories": {
-            "SVHD": {
-              "value": "0",
+            "AVG": {
+              "value": "0.237",
               "result": "LOSS"
             },
-            "K": {
-              "value": "33",
-              "result": "LOSS"
+            "ERA": {
+              "value": "4.31",
+              "result": "WIN"
             },
             "QS": {
               "value": "2",
@@ -1615,20 +1615,8 @@
               "value": "8",
               "result": "LOSS"
             },
-            "R": {
+            "H": {
               "value": "26",
-              "result": "WIN"
-            },
-            "AVG": {
-              "value": "0.237",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "4.31",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "6",
               "result": "WIN"
             },
             "WHIP": {
@@ -1639,6 +1627,18 @@
               "value": "31.1",
               "result": "LOSS"
             },
+            "SVHD": {
+              "value": "0",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.724",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "6",
+              "result": "WIN"
+            },
             "RBI": {
               "value": "23",
               "result": "LOSS"
@@ -1647,11 +1647,11 @@
               "value": "51",
               "result": "LOSS"
             },
-            "OPS": {
-              "value": "0.724",
+            "K": {
+              "value": "33",
               "result": "LOSS"
             },
-            "H": {
+            "R": {
               "value": "26",
               "result": "WIN"
             }
@@ -4144,5 +4144,247 @@
       }
     ]
   },
-  "updated": "2026-03-31T20:49:21Z"
+  "projections": {
+    "1": {
+      "name": "Roosevelt Ruff Ryders",
+      "rbName": "Boyce",
+      "stats": {
+        "R": 1.0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 6.0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "2": {
+      "name": "Gettysburg Generals",
+      "rbName": "Mion",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 1.0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 18.0,
+        "H": 9.0,
+        "K": 7.0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "3": {
+      "name": "Buffalo Bison",
+      "rbName": "Bert",
+      "stats": {
+        "R": 1.0,
+        "HR": 0,
+        "RBI": 1.0,
+        "Kbat": 3.0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "4": {
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "rbName": "Eriole",
+      "stats": {
+        "R": 2.0,
+        "HR": 0,
+        "RBI": 1.0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "5": {
+      "name": "Cooperstown Udder Tuggers",
+      "rbName": "Slater",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "6": {
+      "name": "San Juan Coquis",
+      "rbName": "Jacob",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "7": {
+      "name": "Nagasaki Bombers",
+      "rbName": "Sponny",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 19.0,
+        "H": 2.0,
+        "K": 4.0,
+        "QS": 1.0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "8": {
+      "name": "Portland Pickles",
+      "rbName": "Schoon",
+      "stats": {
+        "R": 2.0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 2.0,
+        "SB": 1.0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "9": {
+      "name": "Las Vegas Degenerate",
+      "rbName": "Greene",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "10": {
+      "name": "Amsterdam Mohawks",
+      "rbName": "Tim",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "11": {
+      "name": "Santa Clara Sea-Creatures",
+      "rbName": "Leo",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 2.0,
+        "Kbat": 1.0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    },
+    "12": {
+      "name": "Brevard County Manatees",
+      "rbName": "TC",
+      "stats": {
+        "R": 0,
+        "HR": 0,
+        "RBI": 0,
+        "Kbat": 0,
+        "SB": 0,
+        "AVG": 0,
+        "OPS": 0,
+        "IP": 0,
+        "H": 0,
+        "K": 0,
+        "QS": 0,
+        "ERA": 0,
+        "WHIP": 0,
+        "SVHD": 0
+      }
+    }
+  },
+  "updated": "2026-03-31T21:01:24Z"
 }
