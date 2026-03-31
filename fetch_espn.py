@@ -494,7 +494,7 @@ def main():
                         # Convert IP from total outs → innings.partial
                         if 'IP' in stats:
                             outs = int(round(stats['IP']))
-                            stats['IP'] = round(outs / 3, 1)
+                            stats['IP'] = float(f"{outs // 3}.{outs % 3}")
 
                         return {
                             'teamId': tid, 'team': tname,
