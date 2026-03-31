@@ -491,6 +491,11 @@ def main():
                                         try: stats[lbl] = float(v)
                                         except: pass
 
+                        # Convert IP from total outs → innings.partial
+                        if 'IP' in stats:
+                            outs = int(round(stats['IP']))
+                            stats['IP'] = round(outs / 3, 1)
+
                         return {
                             'teamId': tid, 'team': tname,
                             'abbrev': tm.get('abbrev',''), 'rbName': tm.get('rbName',''),
