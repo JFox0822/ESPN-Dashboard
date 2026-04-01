@@ -484,9 +484,20 @@ def main():
                                         if isinstance(v, dict) and (v.get('score') or 0) != 0}
                             print(f"      [{tname}] statIds: {non_zero}")
                         stats = {}
+                        # Direct SVHD extraction - check stat 60 first, then 57 (SV only)
+                        for svhd_id in ['60', '57']:
+                            svhd_info = sbs.get(svhd_id) or sbs.get(int(svhd_id))
+                            if isinstance(svhd_info, dict):
+                                v = svhd_info.get('score', svhd_info.get('value'))
+                                if v is not None:
+                                    try:
+                                        stats['SVHD'] = float(v)
+                                        break
+                                    except: pass
+
                         for stat_id, info in sbs.items():
                             lbl = STAT_KEYS.get(str(stat_id))
-                            if lbl:
+                            if lbl and lbl not in ('SV', 'HLD', 'SVHD'):  # handled above
                                 v = info.get('score', info.get('value'))
                                 if v is not None:
                                     try: stats[lbl] = float(v)
@@ -508,10 +519,6 @@ def main():
                             outs = int(round(stats['IP']))
                             stats['IP'] = float(f"{outs // 3}.{outs % 3}")
 
-                        # SV fallback → SVHD (must be INSIDE parse_side before return)
-                        if 'SVHD' not in stats:
-                            sv = stats.pop('SV', 0) or 0
-                            if sv: stats['SVHD'] = sv
                         stats.pop('SV', None); stats.pop('HLD', None)
                         return {
                             'teamId': tid, 'team': tname,
@@ -601,9 +608,18 @@ def main():
                         "2":"AVG","18":"OPS","34":"IP","37":"H","48":"K",
                         "63":"QS","47":"ERA","41":"WHIP","60":"SVHD","57":"SV","83":"HLD",
                     }
-                    for sid, info in cum.get('scoreByStat', {}).items():
+                    raw_sbs = cum.get('scoreByStat', {})
+                    # Direct SVHD: stat 60 first, then 57 (SV only)
+                    for svhd_id in ['60', '57']:
+                        si = raw_sbs.get(svhd_id) or raw_sbs.get(int(svhd_id))
+                        if isinstance(si, dict):
+                            v = si.get('score', si.get('value'))
+                            if v is not None:
+                                try: stats['SVHD'] = float(v); break
+                                except: pass
+                    for sid, info in raw_sbs.items():
                         lbl = SKEYS.get(str(sid))
-                        if lbl and isinstance(info, dict):
+                        if lbl and lbl not in ('SV','HLD','SVHD') and isinstance(info, dict):
                             v = info.get('score', info.get('value'))
                             if v is not None:
                                 try:
@@ -613,11 +629,7 @@ def main():
                                         fv = float(f"{outs//3}.{outs%3}")
                                     stats[lbl] = fv
                                 except: pass
-                    # SV fallback → SVHD (stat 83 is not additive)
-                if 'SVHD' not in stats:
-                    sv = stats.pop('SV', 0) or 0
-                    if sv: stats['SVHD'] = sv
-                stats.pop('SV', None); stats.pop('HLD', None)
+                    stats.pop('SV', None); stats.pop('HLD', None)
                 return {
                         'teamId': tid,
                         'team': all_id_to_name.get(tid, f'Team {tid}'),
