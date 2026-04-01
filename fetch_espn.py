@@ -484,19 +484,26 @@ def main():
                                         if isinstance(v, dict) and (v.get('score') or 0) != 0}
                             print(f"      [{tname}] statIds: {non_zero}")
                         stats = {}
-                        # Direct SVHD extraction - check stat 60 first, then 57 (SV only)
+                        # Direct SVHD extraction - try all key formats
+                        # ESPN may return stat IDs as int or str keys
+                        sbs_any = {}
+                        for k, v in sbs.items():
+                            sbs_any[str(k)] = v  # normalize all keys to str
                         for svhd_id in ['60', '57']:
-                            svhd_info = sbs.get(svhd_id) or sbs.get(int(svhd_id))
+                            svhd_info = sbs_any.get(svhd_id)
                             if isinstance(svhd_info, dict):
                                 v = svhd_info.get('score', svhd_info.get('value'))
                                 if v is not None:
                                     try:
                                         stats['SVHD'] = float(v)
+                                        print(f"    SVHD({svhd_id})={v} for {tname}")
                                         break
                                     except: pass
+                        if 'SVHD' not in stats:
+                            print(f"    NO SVHD for {tname} - sbs keys: {sorted(sbs_any.keys())}")
 
-                        for stat_id, info in sbs.items():
-                            lbl = STAT_KEYS.get(str(stat_id))
+                        for stat_id, info in sbs_any.items():
+                            lbl = STAT_KEYS.get(stat_id)  # sbs_any already has str keys
                             if lbl and lbl not in ('SV', 'HLD', 'SVHD'):  # handled above
                                 v = info.get('score', info.get('value'))
                                 if v is not None:
