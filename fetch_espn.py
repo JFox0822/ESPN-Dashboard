@@ -502,17 +502,17 @@ def main():
                                         try: stats[lbl] = float(v)
                                         except: pass
 
-                                             # Combine SV+HLD → SVHD if stat 60 not returned
-                        if 'SVHD' not in stats:
-                            sv = stats.pop('SV', 0) or 0
-                            hld = stats.pop('HLD', 0) or 0
-                            if sv: stats['SVHD'] = sv  # use SV only; 83 is not additive
                         stats.pop('SV', None); stats.pop('HLD', None)
                      # Convert IP from total outs → innings.partial
                         if 'IP' in stats:
                             outs = int(round(stats['IP']))
                             stats['IP'] = float(f"{outs // 3}.{outs % 3}")
 
+                        # SV fallback → SVHD (must be INSIDE parse_side before return)
+                        if 'SVHD' not in stats:
+                            sv = stats.pop('SV', 0) or 0
+                            if sv: stats['SVHD'] = sv
+                        stats.pop('SV', None); stats.pop('HLD', None)
                         return {
                             'teamId': tid, 'team': tname,
                             'abbrev': tm.get('abbrev',''), 'rbName': tm.get('rbName',''),
