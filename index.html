@@ -287,6 +287,28 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
 .dropdown{font-family:var(--fd);font-size:16px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--bg1);color:var(--ink);border:1px solid var(--border2);border-radius:6px;padding:9px 14px;min-width:220px;cursor:pointer}
 .dropdown:focus{outline:none;border-color:var(--green)}
 
+/* ── KOH ── */
+.koh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin-bottom:24px}
+.koh-card{background:var(--bg1);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:all .2s}
+.koh-card.alive{border-color:rgba(16,243,123,.35);background:rgba(16,243,123,.04)}
+.koh-card.dead{opacity:.45;border-color:rgba(255,77,106,.2)}
+.koh-card.champ{border-color:var(--gold);background:rgba(240,180,41,.07)}
+.koh-card.mine{box-shadow:0 0 14px rgba(16,243,123,.18)}
+.koh-cname{font-family:var(--fd);font-size:15px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.koh-status{font-family:var(--fm);font-size:8px;letter-spacing:.1em;text-transform:uppercase}
+.koh-alive{color:var(--green)}.koh-dead{color:var(--red)}.koh-champ-lbl{color:var(--gold)}
+.koh-timeline{display:flex;flex-direction:column;gap:6px}
+.koh-week{background:var(--bg1);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.koh-week-hd{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;background:var(--bg3);border-bottom:1px solid var(--border)}
+.koh-week-lbl{font-family:var(--fm);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2)}
+.koh-elim-row{display:flex;align-items:center;gap:8px;padding:8px 14px;border-bottom:1px solid var(--border)}
+.koh-elim-row:last-child{border-bottom:none}
+.koh-skull{font-size:14px}
+.koh-ename{font-family:var(--fd);font-size:15px;font-weight:800;text-transform:uppercase;color:var(--red);flex:1}
+.koh-cats{font-family:var(--fm);font-size:9px;color:var(--ink3)}
+.koh-surviv{display:flex;flex-wrap:wrap;gap:4px;padding:8px 14px;background:rgba(16,243,123,.03);border-top:1px solid var(--border)}
+.koh-s-tag{font-family:var(--fm);font-size:8px;padding:2px 8px;border-radius:3px;background:rgba(16,243,123,.1);color:var(--green);border:1px solid rgba(16,243,123,.2)}
+
 @media(max-width:768px){
   .mu-grid{grid-template-columns:1fr}
   .pr-right{display:none}
@@ -335,7 +357,7 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
         <option value="resumes">10 / Team Resumes</option>
         <option value="champs">11 / Championships</option>
         <option value="hof">12 / Hall of Fame</option>
-        <option value="koh">13 / King of the Hill</option>
+        <option value="koh">13 / In Season Awards</option>
       </select>
     </div>
     <div class="nav-arrows">
@@ -411,7 +433,14 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
 </div>
 <div id="panel-champs" class="panel"><div id="champ-c"></div></div>
 <div id="panel-hof"    class="panel"><div id="hof-c"></div></div>
-<div id="panel-koh"    class="panel"><div id="koh-c"><div class="state">Loading…</div></div></div>
+<div id="panel-koh" class="panel">
+  <div class="sub-nav">
+    <button class="sub-btn active" data-sub="koh-koh">King of the Hill</button>
+    <button class="sub-btn" data-sub="koh-catking">Category King 2026</button>
+  </div>
+  <div id="koh-koh" class="sub-panel active"><div id="koh-c"><div class="state">Loading…</div></div></div>
+  <div id="koh-catking" class="sub-panel"><div id="koh-ck-c"><div class="state">Loading…</div></div></div>
+</div>
 
 </div><!-- /shell -->
 
@@ -1860,10 +1889,158 @@ async function renderKOH() {
     <div class="koh-timeline">${timeline}</div>` : ''}`;
 }
 
+// ═══ CATEGORY KING 2026 ═══
+async function renderCategoryKing2026() {
+  const el = document.getElementById('koh-ck-c');
+  const EXCLUDED = new Set([1, 15]); // extended/multi-week matchups — don't count
+  const CATS = [
+    {key:'R',    label:'Runs',            lower:false},
+    {key:'HR',   label:'Home Runs',       lower:false},
+    {key:'RBI',  label:'RBI',             lower:false},
+    {key:'SB',   label:'Stolen Bases',    lower:false},
+    {key:'Kbat', label:'K (Batting)',     lower:true},
+    {key:'AVG',  label:'Batting AVG',     lower:false},
+    {key:'OPS',  label:'OPS',             lower:false},
+    {key:'IP',   label:'Inn. Pitched',    lower:false},
+    {key:'H',    label:'Hits Allowed',    lower:true},
+    {key:'K',    label:'Strikeouts (P)',  lower:false},
+    {key:'QS',   label:'Quality Starts',  lower:false},
+    {key:'ERA',  label:'ERA',             lower:true},
+    {key:'WHIP', label:'WHIP',            lower:true},
+    {key:'SVHD', label:'SV + HLD',        lower:false},
+  ];
+
+  try {
+    const data = await load('matchups.json');
+    const allWeeks = data.allWeeks || {};
+
+    // Collect every team-week data point, skip excluded weeks
+    const catEntries = {};
+    CATS.forEach(c => catEntries[c.key] = []);
+
+    Object.entries(allWeeks).forEach(([wkStr, matchups]) => {
+      const wk = parseInt(wkStr);
+      if (EXCLUDED.has(wk)) return;
+      (matchups || []).forEach(m => {
+        [m.home, m.away].forEach(side => {
+          const name = side.rbName || toRB(side.team) || side.team;
+          const cats = side.categories || {};
+          CATS.forEach(({key}) => {
+            const info = cats[key];
+            if (!info || !info.value || info.value === '—') return;
+            const val = parseFloat(info.value);
+            if (isNaN(val)) return;
+            catEntries[key].push({team: name, val, week: wk});
+          });
+        });
+      });
+    });
+
+    const hasData = CATS.some(c => catEntries[c.key].length > 0);
+    if (!hasData) {
+      el.innerHTML = sh('2026 Category King', 'Best single-week score wins the crown · Weeks 1 & 15 excluded') +
+        '<div class="info-box">No weekly stat data yet — will populate once matchup results come in.</div>';
+      return;
+    }
+
+    function fmt(v) {
+      if (v == null) return '—';
+      if (v < 1) return parseFloat(v).toFixed(3);
+      return v % 1 === 0 ? parseFloat(v).toFixed(0) : parseFloat(v).toFixed(1);
+    }
+
+    // Best single-week score per team per category
+    const catBoards = {};
+    CATS.forEach(({key, lower}) => {
+      const teamBest = {};
+      catEntries[key].forEach(e => {
+        const prev = teamBest[e.team];
+        if (!prev || (lower ? e.val < prev.val : e.val > prev.val)) teamBest[e.team] = e;
+      });
+      catBoards[key] = Object.values(teamBest).sort((a, b) => lower ? a.val - b.val : b.val - a.val);
+    });
+
+    // Crown standings: how many categories each team leads
+    const crownCounts = {};
+    CATS.forEach(({key}) => {
+      const king = catBoards[key]?.[0];
+      if (king) crownCounts[king.team] = (crownCounts[king.team] || 0) + 1;
+    });
+    const crownStandings = Object.entries(crownCounts).sort((a, b) => b[1] - a[1]);
+
+    const standRows = crownStandings.map(([team, n], i) => {
+      const mine = isMineExact(team);
+      const col = i === 0 ? 'var(--gold)' : i === 1 ? '#94a3b8' : i === 2 ? '#cd7f32' : 'var(--ink2)';
+      return `<div style="display:flex;align-items:center;gap:10px;padding:8px 14px;background:var(--bg1);border:1px solid var(--border);border-radius:6px">
+        <div style="font-family:var(--fd);font-size:22px;font-weight:900;color:${col};min-width:22px">${i + 1}</div>
+        <div style="font-family:var(--fd);font-size:17px;font-weight:800;text-transform:uppercase;flex:1;color:${mine ? 'var(--green)' : col}">${team}</div>
+        <div style="font-size:14px;letter-spacing:2px">${'👑'.repeat(Math.min(n, 5))}${n > 5 ? '+' : ''}</div>
+        <div style="font-family:var(--fd);font-size:28px;font-weight:900;color:${col};min-width:28px;text-align:right">${n}</div>
+        <div style="font-family:var(--fm);font-size:8px;color:var(--ink3)">cat${n !== 1 ? 's' : ''}</div>
+      </div>`;
+    }).join('');
+
+    // Per-category cards
+    const cards = CATS.map(({key, label, lower}) => {
+      const lb = catBoards[key];
+      if (!lb.length) return '';
+      const king = lb[0];
+      const maxVal = lb[0].val;
+      const mineKing = isMineExact(king.team);
+
+      const lbRows = lb.slice(0, 5).map((e, i) => {
+        const bw = lower
+          ? (lb[lb.length - 1]?.val / Math.max(e.val, 0.001) * 100).toFixed(0)
+          : (e.val / Math.max(maxVal, 0.001) * 100).toFixed(0);
+        const col = i === 0 ? 'var(--gold)' : i === 1 ? '#94a3b8' : i === 2 ? '#cd7f32' : 'var(--ink3)';
+        const mine = isMineExact(e.team);
+        return `<div style="display:grid;grid-template-columns:18px 72px 1fr 56px;align-items:center;gap:6px;padding:3px 0">
+          <div style="font-family:var(--fm);font-size:9px;font-weight:700;color:${col}">${i + 1}</div>
+          <div style="font-family:var(--fd);font-size:13px;font-weight:800;text-transform:uppercase;color:${mine ? 'var(--green)' : col}">${e.team}</div>
+          <div style="height:14px;background:var(--border);border-radius:3px;overflow:hidden;position:relative">
+            <div style="position:absolute;left:0;top:0;height:100%;width:${bw}%;background:${col};border-radius:3px"></div>
+          </div>
+          <div style="font-family:var(--fm);font-size:10px;font-weight:600;text-align:right;color:${col}">
+            ${fmt(e.val)}
+            <div style="font-size:7px;color:var(--ink3);font-weight:400">Wk ${e.week}</div>
+          </div>
+        </div>`;
+      }).join('');
+
+      return `<div style="background:var(--bg1);border:1px solid ${mineKing ? 'rgba(16,243,123,.4)' : 'var(--border)'};border-radius:8px;overflow:hidden${mineKing ? ';box-shadow:0 0 12px rgba(16,243,123,.1)' : ''}">
+        <div style="padding:10px 14px 8px;background:var(--bg3);border-bottom:1px solid var(--border)">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px">
+            <span style="font-family:var(--fm);font-size:8px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)">${label}</span>
+            <span style="font-family:var(--fm);font-size:8px;color:var(--ink3)">Wk ${king.week}</span>
+          </div>
+          <div style="display:flex;align-items:baseline;gap:8px;margin-top:5px">
+            <span style="font-size:15px">👑</span>
+            <span style="font-family:var(--fd);font-size:20px;font-weight:900;color:${mineKing ? 'var(--green)' : 'var(--gold)'}">${king.team}</span>
+            <span style="font-family:var(--fd);font-size:24px;font-weight:900;color:var(--gold);margin-left:auto">${fmt(king.val)}</span>
+          </div>
+        </div>
+        <div style="padding:8px 14px 10px">${lbRows}</div>
+      </div>`;
+    }).filter(Boolean).join('');
+
+    el.innerHTML = `${sh('2026 Category King', 'Best single-week score wins the crown · Weeks 1 & 15 excluded')}
+      <div style="font-family:var(--fm);font-size:9px;color:var(--ink3);margin-bottom:20px;line-height:1.8">
+        Score the best single week in a category and hold the crown until someone tops it.
+        Lower is better for <span style="color:var(--green)">ERA · WHIP · Hits Allowed · K (Batting)</span>.
+        Crown standings update automatically with every data refresh.
+      </div>
+      ${crownStandings.length ? `<div style="margin-bottom:24px">${sh('Crown Standings', 'Who holds the most crowns')}<div style="display:flex;flex-direction:column;gap:4px">${standRows}</div></div>` : ''}
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px">${cards}</div>`;
+
+  } catch(e) {
+    el.innerHTML = `<div class="state err">⚠ ${e.message}</div>`;
+  }
+}
+
 // ═══ BOOT ═══
 (async()=>{
   // Render all RB panels immediately
-  renderAnalytics();renderRecords();renderLegacy();renderResumeSelector();renderChampions();renderHOF();renderKOH();
+  renderAnalytics();renderRecords();renderLegacy();renderResumeSelector();renderChampions();renderHOF();renderKOH();renderCategoryKing2026();
   renderRBStandings();renderRBH2H();
 
   // Load ESPN live data
