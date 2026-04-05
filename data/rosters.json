@@ -353,7 +353,7 @@
         },
         {
           "name": "Luis Severino",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -379,7 +379,7 @@
         },
         {
           "name": "Brandon Pfaadt",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -409,7 +409,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -587,7 +587,7 @@
         },
         {
           "name": "Luis Castillo",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -600,7 +600,7 @@
         },
         {
           "name": "Kris Bubic",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -782,7 +782,7 @@
         },
         {
           "name": "Reynaldo Lopez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -821,7 +821,7 @@
         },
         {
           "name": "Lance McCullers Jr.",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1354,7 +1354,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "BE",
+          "slot": "3B",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1575,7 +1575,7 @@
         },
         {
           "name": "TJ Rumfield",
-          "slot": "3B",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1592,7 +1592,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2238,7 +2238,7 @@
         },
         {
           "name": "Robbie Ray",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2368,7 +2368,7 @@
         },
         {
           "name": "Slade Cecconi",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2420,7 +2420,7 @@
         },
         {
           "name": "Kyle Harrison",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2433,7 +2433,7 @@
         },
         {
           "name": "Parker Messick",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2706,7 +2706,7 @@
         },
         {
           "name": "Marcus Semien",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2732,7 +2732,7 @@
         },
         {
           "name": "Luis Robert Jr.",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2796,19 +2796,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Josh Smith",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Spencer Horwitz",
           "slot": "1B",
           "position": "?",
@@ -2863,6 +2850,19 @@
         {
           "name": "Joe Boyle",
           "slot": "SP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Luis Gil",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3165,7 +3165,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3291,11 +3291,11 @@
         },
         {
           "name": "Mookie Betts",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3524,19 +3524,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Shane Smith",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Cody Ponce",
           "slot": "IL",
           "position": "?",
@@ -3626,6 +3613,19 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Jacob Lopez",
+          "slot": "SP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -3694,7 +3694,7 @@
         },
         {
           "name": "Jackson Merrill",
-          "slot": "BE",
+          "slot": "OF",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3772,7 +3772,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3902,7 +3902,7 @@
         },
         {
           "name": "Brendan Donovan",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3941,7 +3941,7 @@
         },
         {
           "name": "Jack Flaherty",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3954,7 +3954,7 @@
         },
         {
           "name": "Adolis Garcia",
-          "slot": "OF",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3967,7 +3967,7 @@
         },
         {
           "name": "Braxton Ashcraft",
-          "slot": "BE",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4136,7 +4136,7 @@
         },
         {
           "name": "Luis Arraez",
-          "slot": "BE",
+          "slot": "1B",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4344,7 +4344,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "1B",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4479,7 +4479,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4788,5 +4788,5 @@
       ]
     }
   ],
-  "updated": "2026-04-04T17:59:55Z"
+  "updated": "2026-04-05T11:56:50Z"
 }
