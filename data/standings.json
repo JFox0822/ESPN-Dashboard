@@ -1,5 +1,5 @@
 {
-  "week": 1,
+  "week": 2,
   "standings": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       ],
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
       "rbName": "Boyce",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
       "pointsFor": 0,
@@ -28,7 +28,7 @@
       ],
       "logo": "https://i.pinimg.com/236x/ca/e6/1d/cae61d197ea51c02afbd2971e9d498d2.jpg",
       "rbName": "Mion",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0,
       "pointsFor": 0,
@@ -36,6 +36,78 @@
       "streak": 0,
       "streakType": "",
       "rank": 2
+    },
+    {
+      "id": 5,
+      "name": "Cooperstown Udder Tuggers",
+      "abbrev": "AARN",
+      "owners": [
+        "Slater09"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e939d6c0-1e43-11f1-af5c-d9f0f0f4a1ed",
+      "rbName": "Slater",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 0,
+      "streakType": "",
+      "rank": 3
+    },
+    {
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY",
+      "owners": [
+        "nubbz518"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/8916c110-014f-11f1-8cb2-bdc05f3f329b",
+      "rbName": "Sponny",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 0,
+      "streakType": "",
+      "rank": 4
+    },
+    {
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "owners": [
+        "schoonee"
+      ],
+      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
+      "rbName": "Schoon",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 0,
+      "streakType": "",
+      "rank": 5
+    },
+    {
+      "id": 11,
+      "name": "Santa Clara Sea-Creatures",
+      "abbrev": "LEO",
+      "owners": [
+        "Doron1211"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/074aa850-f5be-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Leo",
+      "wins": 1,
+      "losses": 0,
+      "ties": 0,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 0,
+      "streakType": "",
+      "rank": 6
     },
     {
       "id": 3,
@@ -47,13 +119,13 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/34505760-fc02-11f0-840c-11858ed68471",
       "rbName": "Bert",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 0,
       "streakType": "",
-      "rank": 3
+      "rank": 7
     },
     {
       "id": 4,
@@ -65,31 +137,13 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
       "rbName": "Eriole",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 0,
       "streakType": "",
-      "rank": 4
-    },
-    {
-      "id": 5,
-      "name": "Cooperstown Udder Tuggers",
-      "abbrev": "AARN",
-      "owners": [
-        "Slater09"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e939d6c0-1e43-11f1-af5c-d9f0f0f4a1ed",
-      "rbName": "Slater",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 0,
-      "streakType": "",
-      "rank": 5
+      "rank": 8
     },
     {
       "id": 6,
@@ -101,49 +155,13 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/61d38320-02af-11f1-aed1-c9279d318ba0",
       "rbName": "Jacob",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 0,
       "streakType": "",
-      "rank": 6
-    },
-    {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY",
-      "owners": [
-        "nubbz518"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/8916c110-014f-11f1-8cb2-bdc05f3f329b",
-      "rbName": "Sponny",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 0,
-      "streakType": "",
-      "rank": 7
-    },
-    {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
-      "owners": [
-        "schoonee"
-      ],
-      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
-      "rbName": "Schoon",
-      "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 0,
-      "streakType": "",
-      "rank": 8
+      "rank": 9
     },
     {
       "id": 9,
@@ -155,13 +173,13 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
       "rbName": "Greene",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 0,
       "streakType": "",
-      "rank": 9
+      "rank": 10
     },
     {
       "id": 10,
@@ -173,25 +191,7 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/a7a066c0-f602-11f0-8cb2-bdc05f3f329b",
       "rbName": "Tim",
       "wins": 0,
-      "losses": 0,
-      "ties": 0,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 0,
-      "streakType": "",
-      "rank": 10
-    },
-    {
-      "id": 11,
-      "name": "Santa Clara Sea-Creatures",
-      "abbrev": "LEO",
-      "owners": [
-        "Doron1211"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/074aa850-f5be-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Leo",
-      "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
@@ -210,7 +210,7 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/8d143160-f5b2-11f0-8cb2-bdc05f3f329b",
       "rbName": "TC",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
@@ -219,5 +219,5 @@
       "rank": 12
     }
   ],
-  "updated": "2026-04-05T18:00:33Z"
+  "updated": "2026-04-06T12:57:54Z"
 }

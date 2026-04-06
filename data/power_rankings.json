@@ -5,7 +5,7 @@
       "id": 1,
       "name": "Roosevelt Ruff Ryders",
       "abbrev": "BOYC",
-      "overallW": 0,
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 1,
       "catRanks": {},
@@ -16,7 +16,7 @@
       "id": 2,
       "name": "Gettysburg Generals",
       "abbrev": "MION",
-      "overallW": 0,
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 2,
       "catRanks": {},
@@ -24,10 +24,10 @@
       "rankDelta": 0
     },
     {
-      "id": 3,
-      "name": "Buffalo Bison",
-      "abbrev": "BERT",
-      "overallW": 0,
+      "id": 5,
+      "name": "Cooperstown Udder Tuggers",
+      "abbrev": "AARN",
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 3,
       "catRanks": {},
@@ -35,10 +35,10 @@
       "rankDelta": 0
     },
     {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "overallW": 0,
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY",
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 4,
       "catRanks": {},
@@ -46,10 +46,10 @@
       "rankDelta": 0
     },
     {
-      "id": 5,
-      "name": "Cooperstown Udder Tuggers",
-      "abbrev": "AARN",
-      "overallW": 0,
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 5,
       "catRanks": {},
@@ -57,10 +57,10 @@
       "rankDelta": 0
     },
     {
-      "id": 6,
-      "name": "San Juan Coquis",
-      "abbrev": "JACB",
-      "overallW": 0,
+      "id": 11,
+      "name": "Santa Clara Sea-Creatures",
+      "abbrev": "LEO",
+      "overallW": 1,
       "overallL": 0,
       "overallRank": 6,
       "catRanks": {},
@@ -68,25 +68,36 @@
       "rankDelta": 0
     },
     {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY",
+      "id": 3,
+      "name": "Buffalo Bison",
+      "abbrev": "BERT",
       "overallW": 0,
-      "overallL": 0,
+      "overallL": 1,
       "overallRank": 7,
       "catRanks": {},
       "pwRank": 7,
       "rankDelta": 0
     },
     {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
       "overallW": 0,
-      "overallL": 0,
+      "overallL": 1,
       "overallRank": 8,
       "catRanks": {},
       "pwRank": 8,
+      "rankDelta": 0
+    },
+    {
+      "id": 6,
+      "name": "San Juan Coquis",
+      "abbrev": "JACB",
+      "overallW": 0,
+      "overallL": 1,
+      "overallRank": 9,
+      "catRanks": {},
+      "pwRank": 9,
       "rankDelta": 0
     },
     {
@@ -94,10 +105,10 @@
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN",
       "overallW": 0,
-      "overallL": 0,
-      "overallRank": 9,
+      "overallL": 1,
+      "overallRank": 10,
       "catRanks": {},
-      "pwRank": 9,
+      "pwRank": 10,
       "rankDelta": 0
     },
     {
@@ -105,18 +116,7 @@
       "name": "Amsterdam Mohawks",
       "abbrev": "TIM",
       "overallW": 0,
-      "overallL": 0,
-      "overallRank": 10,
-      "catRanks": {},
-      "pwRank": 10,
-      "rankDelta": 0
-    },
-    {
-      "id": 11,
-      "name": "Santa Clara Sea-Creatures",
-      "abbrev": "LEO",
-      "overallW": 0,
-      "overallL": 0,
+      "overallL": 1,
       "overallRank": 11,
       "catRanks": {},
       "pwRank": 11,
@@ -127,12 +127,12 @@
       "name": "Brevard County Manatees",
       "abbrev": "TC",
       "overallW": 0,
-      "overallL": 0,
+      "overallL": 1,
       "overallRank": 12,
       "catRanks": {},
       "pwRank": 12,
       "rankDelta": 0
     }
   ],
-  "updated": "2026-04-05T18:00:33Z"
+  "updated": "2026-04-06T12:57:54Z"
 }
