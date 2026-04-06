@@ -534,52 +534,42 @@ async function renderStandings() {
     const {standings,week,updated} = await load('standings.json');
     document.getElementById('hdr-updated').textContent = `Updated ${fmtDate(updated)}`;
     const ldr = standings[0];
-    const rows = standings.map((t,i) => {
+    // Build allPlay lookup from RB
+  const apLookup = {};
+  (RB.luckAllTime||[]).forEach(x=>apLookup[x.team]=x.allPlayPCT);
+  // Try to match by team name fragment
+  function getAP(name) {
+    // Direct match first
+    if (apLookup[name]) return apLookup[name];
+    // Try via RB name
+    const rb = toRB(name);
+    if (rb && apLookup[rb]) return apLookup[rb];
+    // Fuzzy fallback
+    for(const [k,v] of Object.entries(apLookup)) {
+      if(name.toLowerCase().includes(k.toLowerCase())||k.toLowerCase().includes(name.toLowerCase())) return v;
+    }
+    return null;
+  }
+  const rows = standings.map((t,i) => {
       const tot = t.wins+t.losses;
       const pct = tot?(t.wins/tot).toFixed(3).replace(/^0/,''):'.000';
       const gb = i===0?'—':(((ldr.wins-t.wins)+(t.losses-ldr.losses))/2).toFixed(1);
       const mine = isMine(t.name);
-
-      // Streak from live-computed standings.json
-      const streakType = t.streakType||'';
-      const streakLen  = t.streak||0;
-      const stBadge = streakLen
-        ? `<span style="font-family:var(--fm);font-size:9px;padding:2px 8px;border-radius:3px;background:${streakType==='WIN'?'rgba(16,243,123,.1)':'rgba(255,77,106,.1)'};color:${streakType==='WIN'?'var(--green)':'var(--red)'}">${streakType==='WIN'?'W':streakType==='LOSS'?'L':'T'}${streakLen}</span>`
-        : '—';
-
-      // AP%: use live simulation from standings.json; fall back to historical RB
-      let apCell = '—';
-      if (t.allPlayPct != null) {
-        const ap = t.allPlayPct;
-        apCell = `<span style="color:${ap>=0.5?'var(--green)':'var(--red)'}">${(ap*100).toFixed(1)}%</span>`;
-      } else {
-        const apLookup = {};
-        (RB.luckAllTime||[]).forEach(x=>apLookup[x.team]=x.allPlayPCT);
-        const rb = toRB(t.name)||t.name;
-        const ap = apLookup[rb]||apLookup[t.name];
-        if (ap) apCell = `<span style="color:var(--ink3);font-size:9px" title="Historical avg">${(ap*100).toFixed(1)}%*</span>`;
-      }
-
-      // CW/CL: cumulative category wins/losses from live allWeeks data
-      const cw = t.catWins   != null ? t.catWins   : '—';
-      const cl = t.catLosses != null ? t.catLosses : '—';
-
+      const stBadge = t.streak?`<span style="font-family:var(--fm);font-size:9px;padding:2px 8px;border-radius:3px;background:${t.streakType==='WIN'?'rgba(16,243,123,.1)':'rgba(255,77,106,.1)'};color:${t.streakType==='WIN'?'var(--green)':'var(--red)'}">${t.streakType==='WIN'?'W':'L'}${t.streak}</span>`:'—';
       return `<tr class="${mine?'mine':''} ${i===6?'cut':''}">
         <td class="rk">${t.rank}</td>
         <td><span class="${mine?'wt':''} bt tl" onclick="goToRoster(${t.id})">${t.name}</span></td>
         <td class="r"><span class="wt">${t.wins}</span>–<span class="lt">${t.losses}</span>${t.ties?`–${t.ties}`:''}</td>
         <td class="r dt">${pct}</td><td class="r dt">${gb}</td>
-        <td class="r" style="font-family:var(--fm);font-size:12px;color:var(--green)">${cw}</td>
-        <td class="r" style="font-family:var(--fm);font-size:12px;color:var(--red)">${cl}</td>
-        <td class="r dt" style="font-family:var(--fm);font-size:11px">${apCell}</td>
-        <td class="c">${stBadge}</td></tr>`;
+        <td class="r dt">${t.pointsFor}</td><td class="r dt">${t.pointsAgainst}</td>
+        <td class="r dt" style="font-family:var(--fm);font-size:11px">${(()=>{const ap=getAP(t.name);return ap?`<span style="color:${ap>=0.5?'var(--green)':'var(--red)'}">${(ap*100).toFixed(1)}%</span>`:'—';})()}</td><td class="c">${stBadge}</td></tr>`;
     }).join('');
-    document.getElementById('std-c').innerHTML = `${sh(`Week ${week} Standings`,'2026 Season')}
+    document.getElementById('std-c').innerHTML = `${sh(`Week ${week} Standings`,'2026 Season — Click column headers to sort')}
       <div class="tw"><table>
-        <thead><tr><th class="c">#</th><th>Owner</th><th class="r">W–L</th><th class="r">PCT</th><th class="r">GB</th><th class="r" title="Total category wins this season">CW</th><th class="r" title="Total category losses this season">CL</th><th class="r">AP%</th><th class="c">Streak</th></tr></thead>
+        <thead><tr><th class="c">#</th><th>Owner</th><th class="r">W–L</th><th class="r">PCT</th><th class="r">GB</th><th class="r">PF</th><th class="r">PA</th><th class="r">AP%</th><th class="c">Streak</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>
-      <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">── = playoff cutline (top 6) · CW/CL = cumulative category wins/losses · AP% = simulated all-play win% · * = historical avg</div>`;
+      <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">── = playoff cutline (top 6)</div>`;
   } catch(e) { document.getElementById('std-c').innerHTML=`<div class="state err">⚠ ${e.message}</div>`; }
 }
 
@@ -1870,9 +1860,122 @@ async function renderKOH() {
     <div class="koh-timeline">${timeline}</div>` : ''}`;
 }
 
+// ═══ PATCH 2026 INTO RB ═══
+// Loads completed 2026 matchups and overlays them onto the static RB object
+// so all-time W-L, H2H matrix, and franchise resumes reflect the live season.
+async function patch2026IntoRB() {
+  let matchups = [];
+  try {
+    const data = await load('history_matchups.json');
+    matchups = (data.matchups || []).filter(m => m.season === 2026);
+  } catch(_) {
+    return; // no file yet — silent fail, RB stays as historical baseline
+  }
+  if (!matchups.length) return;
+
+  // ── 1. All-time W-L ──────────────────────────────────────────────────────
+  // Build a mutable map keyed by RB team name
+  const atWL = {};
+  (RB.allTimeWL || []).forEach(x => {
+    atWL[x.team] = { w: x.w, l: x.l, t: x.t };
+  });
+
+  // ── 2. H2H all-time ──────────────────────────────────────────────────────
+  // lu[team1][team2] = {w, l, t}  (always team1 < team2 alphabetically)
+  const h2hMap = {};
+  function h2hKey(a, b) { return a < b ? `${a}__${b}` : `${b}__${a}`; }
+  function h2hGet(a, b) {
+    const k = h2hKey(a, b);
+    if (!h2hMap[k]) h2hMap[k] = { team1: a < b ? a : b, team2: a < b ? b : a, w: 0, l: 0, t: 0 };
+    return h2hMap[k];
+  }
+  // Seed from existing all-time H2H
+  (RB.h2hAllTime || []).forEach(r => {
+    const k = h2hKey(r.team1, r.team2);
+    h2hMap[k] = { team1: r.team1, team2: r.team2, w: r.w, l: r.l, t: r.t || 0 };
+  });
+
+  // ── 3. Apply each 2026 matchup ────────────────────────────────────────────
+  matchups.forEach(m => {
+    // Convert ESPN team names to RB short names
+    const home = m.homeRB || toRB(m.home) || m.home;
+    const away = m.awayRB || toRB(m.away) || m.away;
+    const hw = m.homeCatW || 0;
+    const aw = m.awayCatW || 0;
+
+    if (!home || !away || home === away) return;
+
+    const homeWon = hw > aw;
+    const awayWon = aw > hw;
+    const tied    = hw === aw;
+
+    // All-time W-L
+    if (!atWL[home]) atWL[home] = { w: 0, l: 0, t: 0 };
+    if (!atWL[away]) atWL[away] = { w: 0, l: 0, t: 0 };
+    if (homeWon) { atWL[home].w++; atWL[away].l++; }
+    else if (awayWon) { atWL[away].w++; atWL[home].l++; }
+    else { atWL[home].t++; atWL[away].t++; }
+
+    // H2H
+    const r = h2hGet(home, away);
+    const homeIsTeam1 = (home === r.team1);
+    if (homeWon)  { homeIsTeam1 ? r.w++ : r.l++; }
+    else if (awayWon) { homeIsTeam1 ? r.l++ : r.w++; }
+    else { r.t++; }
+  });
+
+  // ── 4. Recompute PCT and write back to RB ─────────────────────────────────
+  RB.allTimeWL = Object.entries(atWL).map(([team, r]) => {
+    const tot = r.w + r.l + r.t;
+    return { team, w: r.w, l: r.l, t: r.t, pct: tot ? +(( r.w + r.t * 0.5) / tot).toFixed(3) : 0 };
+  });
+
+  RB.h2hAllTime = Object.values(h2hMap);
+
+  // ── 5. Patch franchiseResumes all-time W-L ────────────────────────────────
+  (RB.franchiseResumes || []).forEach(fr => {
+    const r = atWL[fr.team];
+    if (r) {
+      fr.w = r.w; fr.l = r.l; fr.t = r.t;
+      const tot = r.w + r.l + r.t;
+      fr.pct = tot ? +(( r.w + r.t * 0.5) / tot).toFixed(3) : fr.pct;
+    }
+  });
+
+  // ── 6. Add 2026 to standings history (season totals) ─────────────────────
+  // Group 2026 matchups by team to derive season W-L
+  const s2026 = {};
+  matchups.forEach(m => {
+    const home = m.homeRB || toRB(m.home) || m.home;
+    const away = m.awayRB || toRB(m.away) || m.away;
+    if (!home || !away) return;
+    if (!s2026[home]) s2026[home] = { w: 0, l: 0, t: 0 };
+    if (!s2026[away]) s2026[away] = { w: 0, l: 0, t: 0 };
+    const hw = m.homeCatW || 0, aw = m.awayCatW || 0;
+    if (hw > aw)      { s2026[home].w++; s2026[away].l++; }
+    else if (aw > hw) { s2026[away].w++; s2026[home].l++; }
+    else              { s2026[home].t++; s2026[away].t++; }
+  });
+
+  if (Object.keys(s2026).length) {
+    const ranked = Object.entries(s2026)
+      .map(([team, r]) => {
+        const tot = r.w + r.l + r.t;
+        return { rank: 0, team, w: r.w, l: r.l, t: r.t || 0,
+                 pct: tot ? +(( r.w + r.t * 0.5) / tot).toFixed(3) : 0, gb: '—' };
+      })
+      .sort((a, b) => b.w - a.w || a.l - b.l);
+    ranked.forEach((t, i) => t.rank = i + 1);
+    RB.standings['2026'] = ranked;
+  }
+
+  console.log(`✅ RB patched with ${matchups.length} completed 2026 matchups`);
+}
+
 // ═══ BOOT ═══
 (async()=>{
-  // Render all RB panels immediately
+  // Patch RB with live 2026 data first, then render everything
+  await patch2026IntoRB();
   renderAnalytics();renderRecords();renderLegacy();renderResumeSelector();renderChampions();renderHOF();renderKOH();
   renderRBStandings();renderRBH2H();
 
