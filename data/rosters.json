@@ -3178,7 +3178,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4019,7 +4019,7 @@
       "players": [
         {
           "name": "Rafael Devers",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4149,7 +4149,7 @@
         },
         {
           "name": "Luis Arraez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4344,7 +4344,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "1B",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4801,5 +4801,5 @@
       ]
     }
   ],
-  "updated": "2026-04-06T18:55:11Z"
+  "updated": "2026-04-06T19:56:00Z"
 }
