@@ -287,6 +287,28 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
 .dropdown{font-family:var(--fd);font-size:16px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--bg1);color:var(--ink);border:1px solid var(--border2);border-radius:6px;padding:9px 14px;min-width:220px;cursor:pointer}
 .dropdown:focus{outline:none;border-color:var(--green)}
 
+/* ── KOH ── */
+.koh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:24px}
+.koh-card{background:var(--bg1);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:all .2s}
+.koh-card.alive{border-color:rgba(16,243,123,.35);background:rgba(16,243,123,.04)}
+.koh-card.champ{border-color:var(--gold);background:rgba(240,180,41,.06)}
+.koh-card.dead{opacity:.55}
+.koh-card.mine{border-width:2px}
+.koh-cname{font-family:var(--fd);font-size:17px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.koh-status{font-family:var(--fm);font-size:9px;letter-spacing:.1em;text-transform:uppercase}
+.koh-alive{color:var(--green)}.koh-dead{color:var(--red)}.koh-champ-lbl{color:var(--gold)}
+.koh-timeline{display:flex;flex-direction:column;gap:8px}
+.koh-week{background:var(--bg1);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.koh-week-hd{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;background:var(--bg3);border-bottom:1px solid var(--border)}
+.koh-week-lbl{font-family:var(--fm);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink)}
+.koh-elim-row{display:flex;align-items:center;gap:8px;padding:8px 14px;border-bottom:1px solid var(--border)}
+.koh-elim-row:last-of-type{border-bottom:none}
+.koh-skull{font-size:14px}
+.koh-ename{font-family:var(--fd);font-weight:700;font-size:15px;letter-spacing:.03em;text-transform:uppercase;color:var(--red)}
+.koh-cats{font-family:var(--fm);font-size:9px;color:var(--ink3)}
+.koh-surviv{display:flex;flex-wrap:wrap;gap:6px;padding:8px 14px;background:rgba(16,243,123,.03)}
+.koh-s-tag{font-family:var(--fm);font-size:8px;letter-spacing:.08em;text-transform:uppercase;background:rgba(16,243,123,.1);color:var(--green);border:1px solid rgba(16,243,123,.25);border-radius:3px;padding:2px 8px}
+
 @media(max-width:768px){
   .mu-grid{grid-template-columns:1fr}
   .pr-right{display:none}
@@ -335,7 +357,7 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
         <option value="resumes">10 / Team Resumes</option>
         <option value="champs">11 / Championships</option>
         <option value="hof">12 / Hall of Fame</option>
-        <option value="koh">13 / King of the Hill</option>
+        <option value="koh">13 / In Season Awards</option>
       </select>
     </div>
     <div class="nav-arrows">
@@ -411,7 +433,14 @@ tbody tr.cut{border-top:2px dashed var(--border2)!important}
 </div>
 <div id="panel-champs" class="panel"><div id="champ-c"></div></div>
 <div id="panel-hof"    class="panel"><div id="hof-c"></div></div>
-<div id="panel-koh"    class="panel"><div id="koh-c"><div class="state">Loading…</div></div></div>
+<div id="panel-koh" class="panel">
+  <div class="sub-nav">
+    <button class="sub-btn active" data-sub="koh-koh">King of the Hill</button>
+    <button class="sub-btn" data-sub="koh-ck26">Category King 2026</button>
+  </div>
+  <div id="koh-koh" class="sub-panel active"><div id="koh-c"><div class="state">Loading…</div></div></div>
+  <div id="koh-ck26" class="sub-panel"><div id="ck26-c"><div class="state">Loading…</div></div></div>
+</div>
 
 </div><!-- /shell -->
 
@@ -905,53 +934,182 @@ function sortAndRedrawStats(col, tbody, rows, allCols, lb) {
   tbody.innerHTML = ''; sorted.forEach(r=>tbody.appendChild(r));
 }
 async function renderTeamStats() {
+  const el = document.getElementById('ts-c');
   try {
-    const {teams,season} = await load('team_stats.json');
-    _liveTeamStats = {teams, season}; // cache for statcast 2026 view
-    // If a resume is open, re-render it so the 2026 option appears
+    // ── Load matchups (cumulative allWeeks) + team metadata ──────────────────
+    const [mdata, tsdata] = await Promise.all([
+      load('matchups.json'),
+      load('team_stats.json').catch(() => ({teams: [], season: 2026})),
+    ]);
+    const season = mdata.week ? 2026 : (tsdata.season || 2026);
+    const allWeeks = mdata.allWeeks || {};
+
+    // Build team id→metadata map from team_stats (for id/name/rbName lookup)
+    const metaById = {};
+    (tsdata.teams || []).forEach(t => { metaById[t.id] = t; });
+
+    // ── Accumulate stats week by week from allWeeks ──────────────────────────
+    // Counting stats: just sum each week's value
+    // IP: track as thirds (1.0 = 3 thirds, 1.1 = 4 thirds, 1.2 = 5 thirds)
+    // ERA/WHIP: weighted by IP (sum of val*ip_dec, divide by total ip_dec)
+    // AVG/OPS: simple weekly average (sum / n)
+    const COUNTING = new Set(['R','HR','RBI','SB','Kbat','H','K','QS','SVHD']);
+
+    const accum = {}; // rbName → accumulator object
+
+    const sortedWeeks = Object.keys(allWeeks).map(Number).sort((a,b)=>a-b);
+    let weeksIncluded = 0;
+
+    for (const wk of sortedWeeks) {
+      const matchupList = allWeeks[String(wk)] || [];
+      // Skip weeks that aren't fully decided yet
+      if (matchupList.some(m => m.winner === 'UNDECIDED')) continue;
+      weeksIncluded++;
+
+      for (const m of matchupList) {
+        for (const side of ['home','away']) {
+          const s = m[side];
+          const rb = s.rbName || toRB(s.team || '') || s.team || '';
+          if (!rb) continue;
+          if (!accum[rb]) accum[rb] = {
+            teamId: s.teamId, espnName: s.team,
+            R:0, HR:0, RBI:0, SB:0, Kbat:0,
+            AVG_sum:0, AVG_n:0, OPS_sum:0, OPS_n:0,
+            IP_thirds:0,
+            H:0, K:0, QS:0, SVHD:0,
+            ERA_sum:0, ERA_ip:0,
+            WHIP_sum:0, WHIP_ip:0,
+          };
+          const a = accum[rb];
+
+          // Parse IP for weighting ERA/WHIP
+          let ip_dec = 0;
+          const ipRaw = s.categories?.IP?.value;
+          if (ipRaw && ipRaw !== '—') {
+            const ipf = parseFloat(ipRaw);
+            if (!isNaN(ipf)) {
+              const inn = Math.floor(ipf);
+              const thirds = Math.round((ipf - inn) * 10); // .1→1 third, .2→2 thirds
+              a.IP_thirds += inn * 3 + thirds;
+              ip_dec = inn + thirds / 3;
+            }
+          }
+
+          for (const [cat, info] of Object.entries(s.categories || {})) {
+            const v = parseFloat(info.value);
+            if (isNaN(v) || info.value === '—') continue;
+            if (COUNTING.has(cat))            { a[cat] += v; }
+            else if (cat === 'AVG')           { a.AVG_sum += v; a.AVG_n++; }
+            else if (cat === 'OPS')           { a.OPS_sum += v; a.OPS_n++; }
+            else if (cat === 'ERA' && ip_dec > 0) { a.ERA_sum += v * ip_dec; a.ERA_ip += ip_dec; }
+            else if (cat === 'WHIP' && ip_dec > 0){ a.WHIP_sum += v * ip_dec; a.WHIP_ip += ip_dec; }
+          }
+        }
+      }
+    }
+
+    if (!Object.keys(accum).length) {
+      el.innerHTML = `<div class="state">No completed weeks yet — check back after Week 1 closes.</div>`;
+      return;
+    }
+
+    // ── Convert accumulators to final stat objects ───────────────────────────
+    const teams = Object.entries(accum).map(([rb, a]) => {
+      const thirds = a.IP_thirds;
+      const ip = thirds > 0 ? parseFloat(`${Math.floor(thirds/3)}.${thirds % 3}`) : null;
+      const meta = Object.values(metaById).find(m => (m.rbName||toRB(m.name||'')||'')=== rb) || {};
+      return {
+        id: a.teamId || meta.id,
+        name: a.espnName || meta.name || rb,
+        rbName: rb,
+        stats: {
+          R: a.R, HR: a.HR, RBI: a.RBI, SB: a.SB,
+          Kbat: a.Kbat,
+          AVG: a.AVG_n > 0 ? +(a.AVG_sum / a.AVG_n).toFixed(3) : null,
+          OPS: a.OPS_n > 0 ? +(a.OPS_sum / a.OPS_n).toFixed(3) : null,
+          IP: ip,
+          H: a.H, K: a.K, QS: a.QS, SVHD: a.SVHD,
+          ERA:  a.ERA_ip  > 0 ? +(a.ERA_sum  / a.ERA_ip).toFixed(2)  : null,
+          WHIP: a.WHIP_ip > 0 ? +(a.WHIP_sum / a.WHIP_ip).toFixed(2) : null,
+        }
+      };
+    });
+
+    // Cache for resume statcast view (keep same shape as before)
+    _liveTeamStats = { teams: teams.map(t => ({...t, wins:0, losses:0})), season };
     const selVal = document.getElementById('res-sel')?.value;
     if (selVal) buildAndShowResume(selVal);
-    const HIT=['R','RBI','HR','SB','K','AVG','OPS'], PIT=['IP','H','K','QS','ERA','WHIP','SV','HLD'];
-    function ranks(cols,lb=[]) {
-      const r={};
-      cols.forEach(cat=>{
-        const v=teams.map((t,i)=>({i,v:t.stats[cat]??null})).filter(x=>x.v!==null);
-        v.sort((a,b)=>lb.includes(cat)?a.v-b.v:b.v-a.v);
-        v.forEach(({i},ri)=>r[`${i}_${cat}`]=ri+1);
+
+    // ── Column definitions ────────────────────────────────────────────────────
+    // Kbat = batting Ks (lower is better); label shown as "K" in hitting table
+    const HIT = ['R','RBI','HR','SB','Kbat','AVG','OPS'];
+    const PIT = ['IP','H','K','QS','ERA','WHIP','SVHD'];
+    const HIT_LB = ['Kbat'];    // lower-better hitting cats
+    const PIT_LB = ['ERA','WHIP','H'];
+    const COL_LABEL = { Kbat:'K', K:'K', SVHD:'SV/HLD' };
+
+    function ranks(cols, lb=[]) {
+      const r = {};
+      cols.forEach(cat => {
+        const vals = teams.map((t,i) => ({i, v: t.stats[cat] ?? null})).filter(x => x.v !== null);
+        vals.sort((a,b) => lb.includes(cat) ? a.v - b.v : b.v - a.v);
+        vals.forEach(({i}, ri) => r[`${i}_${cat}`] = ri + 1);
       });
       return r;
     }
-    const hr=ranks(HIT), pr=ranks(PIT,['ERA','WHIP','H']);
-    function rCol(r,n=12){return r<=3?'var(--green)':r>=n-2?'var(--red)':'var(--ink2)';}
-    function tbl(label,cols,rnks,lb=[]) {
-      const sortId='srt'+Math.random().toString(36).slice(2,5);
-      let sortCol=null,sortDir=1;
-      function doSort(col){
-        if(sortCol===col) sortDir*=-1; else{sortCol=col;sortDir=lb.includes(col)?1:-1;}
-        const tbody=document.getElementById(sortId);
-        const rs=[...tbody.querySelectorAll('tr')];
-        rs.sort((a,b)=>{
-          const av=parseFloat(a.dataset[col]||'NaN'),bv=parseFloat(b.dataset[col]||'NaN');
-          if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;
-          return (av-bv)*sortDir;
-        });
-        rs.forEach(r=>tbody.appendChild(r));
-      }
-      const hdr=['#','Owner',...cols].map((c,i)=>{
-        if(i<2) return `<th>${c}</th>`;
-        return `<th class="r" style="cursor:pointer" onclick="(function(){const t=document.getElementById('${sortId}');const rs=[...t.querySelectorAll('tr')];let sd=${JSON.stringify(lb)}.includes('${c}')?1:-1;const cv=rs[0]?.dataset?.${c};rs.sort((a,b)=>{const av=parseFloat(a.dataset['${c}']||'NaN'),bv=parseFloat(b.dataset['${c}']||'NaN');if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;return(av-bv)*sd;});rs.forEach(r=>t.appendChild(r));})()">${c} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
+    const hr = ranks(HIT, HIT_LB), pr = ranks(PIT, PIT_LB);
+    function rCol(r) { return r<=3?'var(--green)':r>=teams.length-2?'var(--red)':'var(--ink2)'; }
+
+    function tbl(label, cols, rnks, lb=[]) {
+      const sid = 'srt' + Math.random().toString(36).slice(2,5);
+      const hdr = ['#','Owner',...cols].map((c,i) => {
+        if (i < 2) return `<th>${i===0?'#':'Owner'}</th>`;
+        const lbl = COL_LABEL[c] || c;
+        const sdArr = JSON.stringify(lb);
+        return `<th class="r" style="cursor:pointer" onclick="(function(){
+          const tb=document.getElementById('${sid}');
+          const rs=[...tb.querySelectorAll('tr')];
+          const sd=${sdArr}.includes('${c}')?1:-1;
+          rs.sort((a,b)=>{const av=parseFloat(a.dataset['${c}']||'NaN'),bv=parseFloat(b.dataset['${c}']||'NaN');
+            if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;
+            return(av-bv)*sd;});
+          rs.forEach(r=>tb.appendChild(r));
+        })()">${lbl} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
       }).join('');
-      const dataAttrs=cols.map(c=>`data-${c}="\${t.stats['${c}']!==undefined?t.stats['${c}']:''}"`.replace(/\$\{t/g,'${t')).join(' ');
-      const rows=teams.map((t,i)=>{
-        const mine=isMine(t.name);
-        const dAttrs=cols.map(c=>`data-${c}="${t.stats[c]!==undefined?t.stats[c]:''}"`).join(' ');
-        const cells=cols.map(cat=>{const v=t.stats[cat],r=rnks[`${i}_${cat}`];return`<td class="r" style="color:${r?rCol(r):'var(--ink2)'}">${v!==undefined?v:'—'}</td>`;}).join('');
-        return`<tr class="${mine?'mine':''}" ${dAttrs}><td class="rk">${i+1}</td><td><span class="${mine?'wt':''} bt tl" onclick="goToRoster(${t.id})">${t.name}</span></td>${cells}</tr>`;
+
+      const rows = teams.map((t, i) => {
+        const mine = isMine(t.name);
+        const dAttrs = cols.map(c => `data-${c}="${t.stats[c] ?? ''}"`).join(' ');
+        const cells = cols.map(cat => {
+          const v = t.stats[cat];
+          const r = rnks[`${i}_${cat}`];
+          const disp = v !== null && v !== undefined ? v : '—';
+          return `<td class="r" style="color:${r ? rCol(r) : 'var(--ink2)'}">${disp}</td>`;
+        }).join('');
+        return `<tr class="${mine?'mine':''}" ${dAttrs}>
+          <td class="rk">${i+1}</td>
+          <td><span class="${mine?'wt':''} bt tl" onclick="goToRoster(${t.id})">${t.name}</span></td>
+          ${cells}
+        </tr>`;
       }).join('');
-      return`${sh(label,'')} <div class="tw"><table><thead><tr>${hdr}</tr></thead><tbody id="${sortId}">${rows}</tbody></table></div>`;
+
+      return `${sh(label,'')}
+        <div class="tw"><table>
+          <thead><tr>${hdr}</tr></thead>
+          <tbody id="${sid}">${rows}</tbody>
+        </table></div>`;
     }
-    document.getElementById('ts-c').innerHTML = `${sh(season+' Season Stats','Green = top 3, Red = bottom 3')}${tbl('Hitting',HIT,hr)}<div style="margin-top:28px">${tbl('Pitching',PIT,pr)}</div>`;
-  } catch(e) { document.getElementById('ts-c').innerHTML=`<div class="state err">⚠ ${e.message}</div>`; }
+
+    const thru = weeksIncluded > 0 ? `Weeks 1–${weeksIncluded} cumulative` : 'No data yet';
+    el.innerHTML = `${sh('2026 Season Stats', `${thru} · Green = top 3 · Red = bottom 3`)}
+      ${tbl('Hitting', HIT, hr, HIT_LB)}
+      <div style="margin-top:28px">${tbl('Pitching', PIT, pr, PIT_LB)}</div>
+      <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">
+        AVG &amp; OPS = weekly average · ERA &amp; WHIP = IP-weighted · IP shown as inn.thirds · K (Batting) = lower is better
+      </div>`;
+  } catch(e) {
+    el.innerHTML = `<div class="state err">⚠ ${e.message}</div>`;
+  }
 }
 
 // ═══ ROSTERS ═══
@@ -1157,7 +1315,109 @@ function renderELO(){
   document.getElementById('an-elo').innerHTML=`${sh('ELO Power Ratings','Regressed 33% each offseason · 2013–2025')}<div class="elo-grid">${cards}</div>${sh('Career Peak vs Current','')} <div class="tw"><table><thead><tr><th>Owner</th><th class="r">Current</th><th class="r">Peak (Year)</th><th class="r">Δ Since Peak</th></tr></thead><tbody>${peakRows}</tbody></table></div>`;
 }
 
-function renderLuck(){
+async function renderLuck(){
+  // ── Compute 2026 luck from live matchups data ─────────────────────────────
+  let luck2026Html = '';
+  try {
+    const mdata = await load('matchups.json');
+    const allWeeks = mdata.allWeeks || {};
+    const LOWER = new Set(['ERA','WHIP','H','Kbat']);
+
+    // Collect per-team per-week category values across all completed weeks
+    const teamWeekStats = {}; // rbName -> [{cat: val}]
+
+    for (const [wkStr, matchupList] of Object.entries(allWeeks)) {
+      if (!matchupList || matchupList.some(m => m.winner === 'UNDECIDED')) continue;
+      // Gather all teams' cat values this week
+      const weekTeams = []; // [{rbName, cats:{cat:float}}]
+      for (const m of matchupList) {
+        for (const side of ['home','away']) {
+          const s = m[side];
+          const espnName = s.team || s.name || '';
+          const rb = s.rbName || toRB(espnName) || espnName;
+          const cats = {};
+          for (const [cat, info] of Object.entries(s.categories || {})) {
+            const v = parseFloat(info.value);
+            if (!isNaN(v)) cats[cat] = v;
+          }
+          if (Object.keys(cats).length > 0) weekTeams.push({rb, cats});
+        }
+      }
+      if (weekTeams.length < 2) continue;
+
+      // All-play: each team vs each other
+      const allCats = new Set(weekTeams.flatMap(t => Object.keys(t.cats)));
+      for (const ta of weekTeams) {
+        if (!teamWeekStats[ta.rb]) teamWeekStats[ta.rb] = {w:0,l:0,t:0,actualW:0,actualL:0,actualT:0};
+        for (const tb of weekTeams) {
+          if (ta.rb === tb.rb) continue;
+          let aw = 0, bw = 0;
+          for (const cat of allCats) {
+            const av = ta.cats[cat], bv = tb.cats[cat];
+            if (av == null || bv == null) continue;
+            if (Math.abs(av - bv) < 0.0001) {}
+            else if ((av < bv) === LOWER.has(cat)) aw++;
+            else bw++;
+          }
+          if (aw > bw) teamWeekStats[ta.rb].w++;
+          else if (bw > aw) teamWeekStats[ta.rb].l++;
+          else teamWeekStats[ta.rb].t++;
+        }
+      }
+    }
+
+    // Get actual 2026 W/L from history_matchups
+    try {
+      const hdata = await load('history_matchups.json');
+      const mu26 = (hdata.matchups || []).filter(m => m.season === 2026 && m.winner !== 'UNDECIDED');
+      for (const m of mu26) {
+        const home = m.homeRB || toRB(m.home) || m.home;
+        const away = m.awayRB || toRB(m.away) || m.away;
+        if (!home || !away) continue;
+        if (!teamWeekStats[home]) teamWeekStats[home] = {w:0,l:0,t:0,actualW:0,actualL:0,actualT:0};
+        if (!teamWeekStats[away]) teamWeekStats[away] = {w:0,l:0,t:0,actualW:0,actualL:0,actualT:0};
+        const hw = m.homeCatW || 0, aw = m.awayCatW || 0;
+        if (hw > aw) { teamWeekStats[home].actualW++; teamWeekStats[away].actualL++; }
+        else if (aw > hw) { teamWeekStats[away].actualW++; teamWeekStats[home].actualL++; }
+        else { teamWeekStats[home].actualT++; teamWeekStats[away].actualT++; }
+      }
+    } catch(_) {}
+
+    const entries = Object.entries(teamWeekStats)
+      .filter(([,d]) => d.actualW + d.actualL + d.actualT > 0)
+      .map(([rb, d]) => {
+        const apTot = d.w + d.l + d.t;
+        const actTot = d.actualW + d.actualL + d.actualT;
+        const apPCT = apTot ? (d.w + d.t * 0.5) / apTot : 0;
+        const actPCT = actTot ? (d.actualW + d.actualT * 0.5) / actTot : 0;
+        return {rb, apPCT, actPCT, delta: actPCT - apPCT, d, apTot, actTot};
+      })
+      .filter(x => x.apTot >= 3)
+      .sort((a, b) => b.delta - a.delta);
+
+    if (entries.length) {
+      const maxD = Math.max(...entries.map(x => Math.abs(x.delta)), 0.01);
+      const rows2026 = entries.map(x => {
+        const d = x.delta;
+        const col = d > 0.03 ? 'var(--green)' : d < -0.03 ? 'var(--red)' : 'var(--ink2)';
+        const label = d > 0.05 ? 'Very Lucky' : d > 0.02 ? 'Lucky' : d < -0.05 ? 'Very Unlucky' : d < -0.02 ? 'Unlucky' : 'Neutral';
+        const bw = Math.abs(d / maxD * 48);
+        const mine = isMineExact(x.rb);
+        return `<div class="luck-row ${mine?'mine':''}">
+          <div class="luck-name" style="color:${col}">${x.rb}</div>
+          <div class="luck-delta" style="color:${col}">${d > 0 ? '+' : ''}${(d*100).toFixed(1)}%</div>
+          <div class="luck-track"><div class="luck-mid"></div><div class="luck-fill" style="left:${d>0?50:50-bw}%;width:${bw}%;background:${col}"></div></div>
+          <div class="luck-label" style="color:${col}">${label}</div>
+        </div>`;
+      }).join('');
+      luck2026Html = `${sh('2026 Luck Index (Live)', 'Actual Win% vs All-Play Win% · Updates with each refresh')}
+        <div style="font-family:var(--fm);font-size:8px;color:var(--ink3);margin-bottom:16px;line-height:1.8">Positive = lucky (schedule easier than deserved). Negative = unlucky.</div>
+        ${rows2026}
+        <div style="margin-top:16px;margin-bottom:32px"></div>`;
+    }
+  } catch(_) {}
+
+  // ── Historical all-time luck (from RB) ─────────────────────────────────────
   const luck=[...RB.luckAllTime||[]].filter(x=>!x.team.includes('defunct')).sort((a,b)=>b.luckDelta-a.luckDelta);
   const maxD=Math.max(...luck.map(x=>Math.abs(x.luckDelta)));
   const rows=luck.map(x=>{
@@ -1170,7 +1430,7 @@ function renderLuck(){
   const selTeam = MY_TEAM || 'TC';
   const jRows=(RB.luck||[]).filter(x=>x.team===selTeam).map(x=>{const d=x.luckDelta,col=d>0?'var(--green)':d<0?'var(--red)':'var(--ink2)';return`<tr><td class="bt">${x.season}</td><td class="r dt">${x.actualW}–${x.actualL} (${(x.actualPCT*100).toFixed(0)}%)</td><td class="r dt">${x.allPlayW}–${x.allPlayL} (${(x.allPlayPCT*100).toFixed(0)}%)</td><td class="r" style="color:${col};font-family:var(--fm)">${d>0?'+':''}${(d*100).toFixed(1)}%</td></tr>`;}).join('');
   const teamSel=`<div class="hist-ctrl" style="margin-top:24px"><label>Team Detail</label><select class="hsel" id="luck-sel">${(RB.luckAllTime||[]).filter(x=>!x.team.includes('defunct')).map(x=>`<option value="${x.team}" ${x.team===selTeam?'selected':''}>${x.team}</option>`).join('')}</select></div>`;
-  document.getElementById('an-luck').innerHTML=`${sh('All-Time Luck Index (Regular Season)','Actual Win% vs All-Play Win%')}<div style="font-family:var(--fm);font-size:8px;color:var(--ink3);margin-bottom:16px;line-height:1.8">Positive = lucky (schedule easier than deserved). Negative = unlucky. Center = perfectly fair.</div>${rows}${teamSel}<div class="tw" id="luck-tbl"><table><thead><tr><th>Season</th><th class="r">Actual W–L</th><th class="r">All-Play W–L</th><th class="r">Luck Δ</th></tr></thead><tbody>${jRows}</tbody></table></div>`;
+  document.getElementById('an-luck').innerHTML=`${luck2026Html}${sh('All-Time Luck Index (Regular Season)','Actual Win% vs All-Play Win%')}<div style="font-family:var(--fm);font-size:8px;color:var(--ink3);margin-bottom:16px;line-height:1.8">Positive = lucky (schedule easier than deserved). Negative = unlucky. Center = perfectly fair.</div>${rows}${teamSel}<div class="tw" id="luck-tbl"><table><thead><tr><th>Season</th><th class="r">Actual W–L</th><th class="r">All-Play W–L</th><th class="r">Luck Δ</th></tr></thead><tbody>${jRows}</tbody></table></div>`;
   document.getElementById('luck-sel').addEventListener('change',e=>{
     const t=e.target.value;
     const r=(RB.luck||[]).filter(x=>x.team===t).map(x=>{const d=x.luckDelta,col=d>0?'var(--green)':d<0?'var(--red)':'var(--ink2)';return`<tr><td class="bt">${x.season}</td><td class="r dt">${x.actualW}–${x.actualL} (${(x.actualPCT*100).toFixed(0)}%)</td><td class="r dt">${x.allPlayW}–${x.allPlayL} (${(x.allPlayPCT*100).toFixed(0)}%)</td><td class="r" style="color:${col};font-family:var(--fm)">${d>0?'+':''}${(d*100).toFixed(1)}%</td></tr>`;}).join('');
@@ -1795,18 +2055,34 @@ async function renderKOH() {
 
   const teams12 = (RB.legacyRankings?.rankings||[]).map(t=>t.team);
   const noWeeksPlayed = !(state.history?.length);
-  // If no weeks played yet, all teams are alive by default
-  const activeSet = noWeeksPlayed
+
+  // state.active stores ESPN team IDs; state.teamNames maps id→ESPN name
+  // Convert to RB short names to match teams12
+  const tnMap = state.teamNames || {}; // {id: espnName}
+  const activeRBSet = noWeeksPlayed
     ? new Set(teams12)
-    : new Set(state.active || []);
+    : new Set(
+        (state.active || [])
+          .map(id => tnMap[String(id)] || tnMap[id])
+          .filter(Boolean)
+          .map(espnName => toRB(espnName) || espnName)
+      );
+
+  // Build elim map keyed by RB name
   const elimMap = {};
-  (state.eliminated||[]).forEach(e => elimMap[e.team] = e);
-  const champNames = (state.champions||[]).map(c=>c.team);
+  (state.eliminated||[]).forEach(e => {
+    const espnName = e.team || tnMap[String(e.teamId)] || tnMap[e.teamId] || '';
+    const rbName = toRB(espnName) || espnName;
+    elimMap[rbName] = e;
+  });
+  const champNames = (state.champions||[]).map(c => {
+    const espnName = c.team || tnMap[String(c.teamId)] || tnMap[c.teamId] || c.team;
+    return toRB(espnName) || espnName;
+  });
 
   // Cards
   const cards = teams12.map(name => {
-    const alive = activeSet.has(name);
-    // Try matching by name fragment since active stores IDs sometimes
+    const alive = activeRBSet.has(name);
     const eInfo = elimMap[name];
     const isChamp = champNames.includes(name);
     const mine = isMineExact(name);
@@ -1843,7 +2119,7 @@ async function renderKOH() {
     </div>`;
   }).join('');
 
-  const surviving = teams12.filter(n => activeSet.has(n));
+  const surviving = teams12.filter(n => activeRBSet.has(n));
   const roundInfo = noWeeksPlayed
     ? `Round 1 · Season hasn't started — all 12 alive`
     : `Round ${state.currentRound||1} · ${surviving.length} of 12 surviving`;
@@ -1858,6 +2134,127 @@ async function renderKOH() {
     <div class="koh-grid">${cards}</div>
     ${hist.length ? `<div style="font-family:var(--fm);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3);margin-bottom:12px;margin-top:8px">Weekly Timeline</div>
     <div class="koh-timeline">${timeline}</div>` : ''}`;
+}
+
+// ═══ CATEGORY KING 2026 ═══
+async function renderCatKing2026() {
+  const c = document.getElementById('ck26-c');
+  if (!c) return;
+  try {
+    const data = await load('matchups.json');
+    const allWeeks = data.allWeeks || {};
+    const LOWER = new Set(['ERA','WHIP','H','Kbat']);
+
+    // Per category, collect all team-week entries
+    const catBest = {}; // cat -> [{rb, val, week}]
+
+    for (const [wkStr, matchupList] of Object.entries(allWeeks)) {
+      const wk = parseInt(wkStr);
+      if (!matchupList || matchupList.some(m => m.winner === 'UNDECIDED')) continue;
+      for (const m of matchupList) {
+        for (const side of ['home','away']) {
+          const s = m[side];
+          const rb = s.rbName || toRB(s.team||s.name||'') || s.team || s.name;
+          for (const [cat, info] of Object.entries(s.categories || {})) {
+            const v = parseFloat(info.value);
+            if (isNaN(v) || v === 0) continue;
+            if (!catBest[cat]) catBest[cat] = [];
+            catBest[cat].push({rb, val: v, week: wk});
+          }
+        }
+      }
+    }
+
+    if (!Object.keys(catBest).length) {
+      c.innerHTML = `<div class="state">No 2026 weekly data yet — check back after Week 1 closes.</div>`;
+      return;
+    }
+
+    const CAT_ORDER = ['R','HR','RBI','SB','AVG','OPS','K','QS','IP','SVHD','ERA','WHIP','Kbat','H'];
+    const CAT_LABELS = {R:'Runs',HR:'Home Runs',RBI:'RBI',SB:'Stolen Bases',AVG:'Batting AVG',OPS:'OPS',K:'Strikeouts (P)',QS:'Quality Starts',IP:'Innings Pitched',SVHD:'Saves+Holds',ERA:'ERA',WHIP:'WHIP',Kbat:'Batter Ks',H:'Hits Allowed'};
+
+    // Build king per category
+    let openCat = null;
+    const kingData = {};
+    for (const cat of CAT_ORDER) {
+      const entries = catBest[cat];
+      if (!entries || !entries.length) continue;
+      const sorted = [...entries].sort((a, b) => LOWER.has(cat) ? a.val - b.val : b.val - a.val);
+      kingData[cat] = {
+        king: sorted[0].rb,
+        kingVal: sorted[0].val,
+        kingWeek: `2026W${sorted[0].week}`,
+        direction: LOWER.has(cat) ? 'low' : 'high',
+        leaderboard: sorted.slice(0, 10).map((e, i) => ({rank: i+1, rb: e.rb, val: e.val, week: e.week}))
+      };
+    }
+
+    // Winnings: $25 per category king
+    const winnings = {};
+    Object.values(kingData).forEach(info => {
+      winnings[info.king] = (winnings[info.king] || 0) + 25;
+    });
+    const totalCats = Object.keys(kingData).length;
+    const prizePool = totalCats * 25;
+
+    function drawCK26() {
+      const ranked = Object.entries(winnings).sort((a,b) => b[1]-a[1]);
+      const maxW = ranked[0]?.[1] || 1;
+      const wRows = ranked.map(([team, amt], i) => {
+        const bw = (amt/maxW*100).toFixed(0);
+        const col = i===0?'var(--gold)':i===1?'#94a3b8':'var(--ink2)';
+        const mine = isMineExact(team);
+        return `<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)">
+          <div style="font-family:var(--fd);font-size:22px;font-weight:900;color:${col};min-width:26px">${i+1}</div>
+          <div style="font-family:var(--fd);font-weight:800;font-size:17px;text-transform:uppercase;min-width:70px;color:${mine?'var(--green)':col}">${team}</div>
+          <div style="flex:1;height:18px;background:var(--border);border-radius:4px;overflow:hidden;position:relative"><div style="position:absolute;left:0;top:0;height:100%;width:${bw}%;background:linear-gradient(90deg,${col},var(--bg3));border-radius:4px"></div></div>
+          <div style="font-family:var(--fd);font-size:22px;font-weight:900;color:${col};min-width:40px;text-align:right">$${amt}</div>
+        </div>`;
+      }).join('');
+
+      const ckCards = CAT_ORDER.map(cat => {
+        const info = kingData[cat];
+        if (!info) return '';
+        const isOpen = openCat === cat;
+        const lb = info.leaderboard.slice(0, 5);
+        const fmtVal = v => typeof v === 'number' && v < 10 ? v.toFixed(3) : String(v);
+        return `<div class="ck-cat">
+          <div class="ck-hd" onclick="window._tCat26('${cat}')">
+            <span class="ck-cat-lbl">${CAT_LABELS[cat]||cat}</span>
+            <span class="ck-king">👑 ${info.king}</span>
+            <span class="ck-val">${fmtVal(info.kingVal)}</span>
+            <span class="ck-wk">${info.kingWeek}</span>
+            <span style="color:var(--ink3);font-family:var(--fm);font-size:10px">${isOpen?'▲':'▼'}</span>
+          </div>
+          ${isOpen && lb.length ? `<div class="ck-body"><div>${lb.map((e,i) => {
+            const maxV = lb[0].val;
+            const bw = info.direction==='low'
+              ? (lb[lb.length-1].val/Math.max(e.val,0.001)*100)
+              : (e.val/Math.max(maxV,0.001)*100);
+            const col = i===0?'var(--gold)':i===1?'#94a3b8':'#cd7f32';
+            return `<div class="ck-lb-row">
+              <div class="ck-pos" style="color:${col}">#${e.rank}</div>
+              <div class="ck-team" style="color:${i===0?col:'var(--ink2)'}">${e.rb}</div>
+              <div class="ck-bar"><div class="ck-fill" style="width:${bw.toFixed(0)}%;background:${col}"></div></div>
+              <div class="ck-v" style="color:${i===0?col:'var(--ink2)'}">Wk ${e.week}: ${fmtVal(e.val)}</div>
+            </div>`;
+          }).join('')}</div></div>` : ''}
+        </div>`;
+      }).join('');
+
+      c.innerHTML = `${sh('Category King 2026','Best single-week performance per category · $25 per cat')}
+        ${ckCards}
+        <div style="margin-top:24px">${sh('Winnings Board','')}
+          <div style="background:var(--bg1);border:1px solid var(--border);border-radius:8px;padding:16px 20px">${wRows||'<div style="color:var(--ink3);font-family:var(--fm);font-size:10px">Crowns not yet assigned</div>'}</div>
+          <div style="font-family:var(--fm);font-size:9px;color:var(--ink3);margin-top:10px">Claimed: ${ranked.length}/${totalCats} cats · Prize pool: $${prizePool}</div>
+        </div>`;
+    }
+
+    window._tCat26 = (cat) => { openCat = openCat===cat ? null : cat; drawCK26(); };
+    drawCK26();
+  } catch(e) {
+    c.innerHTML = `<div class="state err">⚠ ${e.message}</div>`;
+  }
 }
 
 // ═══ PATCH 2026 INTO RB ═══
@@ -1976,7 +2373,7 @@ async function patch2026IntoRB() {
 (async()=>{
   // Patch RB with live 2026 data first, then render everything
   await patch2026IntoRB();
-  renderAnalytics();renderRecords();renderLegacy();renderResumeSelector();renderChampions();renderHOF();renderKOH();
+  renderAnalytics();renderRecords();renderLegacy();renderResumeSelector();renderChampions();renderHOF();renderKOH();renderCatKing2026();
   renderRBStandings();renderRBH2H();
 
   // Load ESPN live data
