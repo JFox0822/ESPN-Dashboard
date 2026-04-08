@@ -1916,11 +1916,17 @@ async function renderDraft() {
     function draw() {
       const tPicks = picks.filter(p=>p.team===curTeam);
       const opts = teams.map(t=>`<option value="${t}" ${t===curTeam?'selected':''}>${t}</option>`).join('');
-      const rows = tPicks.map(p=>`<tr class="${p.keeperEligible?'mine':''}">
-        <td class="rk">${p.round}</td><td class="c dt">${p.pick}</td>
-        <td class="bt">${p.player}</td>
-        <td class="c">${p.keeperEligible?'<span style="color:var(--green);font-family:var(--fm);font-size:9px">✅ Eligible</span>':'<span style="color:var(--ink3);font-family:var(--fm);font-size:9px">—</span>'}</td>
-      </tr>`).join('');
+      const rows = tPicks.map(p=>{
+        const isKeeper = p.keeper === true;
+        const rdDisplay = isKeeper ? '<span style="color:var(--gold);font-weight:700">K</span>' : p.round;
+        const rowClass = isKeeper ? 'kept' : (p.keeperEligible ? 'mine' : '');
+        const eligCell = isKeeper
+          ? '<span style="color:var(--gold);font-family:var(--fm);font-size:9px">⭐ Kept</span>'
+          : p.keeperEligible
+            ? '<span style="color:var(--green);font-family:var(--fm);font-size:9px">✅ Eligible</span>'
+            : '<span style="color:var(--ink3);font-family:var(--fm);font-size:9px">—</span>';
+        return `<tr class="${rowClass}"><td class="rk">${rdDisplay}</td><td class="c dt">${p.pick}</td><td class="bt">${p.player}</td><td class="c">${eligCell}</td></tr>`;
+      }).join('');
       document.getElementById('ros-draft-c').innerHTML = `${sh('2026 Draft Results', '')}
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
           <label style="font-family:var(--fm);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink3)">Owner</label>
@@ -1930,7 +1936,7 @@ async function renderDraft() {
           <thead><tr><th class="c">Rd</th><th class="c">Pick</th><th>Player</th><th class="c">Keeper?</th></tr></thead>
           <tbody>${rows}</tbody>
         </table></div>
-        <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">Rounds 13+ are keeper eligible · Free agent pickups also eligible</div>`;
+        <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">⭐ Kept from previous season · ✅ Rounds 13+ eligible to keep next year · Free agent pickups also eligible</div>`;
       document.getElementById('draft-sel').addEventListener('change',e=>{curTeam=e.target.value;draw();});
     }
     draw();
