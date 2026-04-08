@@ -1065,8 +1065,8 @@ async function renderTeamStats() {
       const hdr = ['#','Owner',...cols].map((c,i) => {
         if (i < 2) return `<th>${i===0?'#':'Owner'}</th>`;
         const lbl = COL_LABEL[c] || c;
-        const sdArr = JSON.stringify(lb);
-        return `<th class="r" style="cursor:pointer" onclick="(function(){const tb=document.getElementById('${sid}');const rs=[...tb.querySelectorAll('tr')];const sd=${sdArr}.includes('${c}')?1:-1;rs.sort((a,b)=>{const av=parseFloat(a.dataset['${c}']||'NaN'),bv=parseFloat(b.dataset['${c}']||'NaN');if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;return(av-bv)*sd;});rs.forEach(r=>tb.appendChild(r));})()">${lbl} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
+        const dir = lb.includes(c) ? 1 : -1;
+        return `<th class="r" style="cursor:pointer" onclick="(function(){const tb=document.getElementById('${sid}');const rs=[...tb.querySelectorAll('tr')];rs.sort((a,b)=>{const av=parseFloat(a.dataset['${c}']||'NaN'),bv=parseFloat(b.dataset['${c}']||'NaN');if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;return(av-bv)*${dir};});rs.forEach(r=>tb.appendChild(r));})()">${lbl} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
 
 
 
