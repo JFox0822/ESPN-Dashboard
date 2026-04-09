@@ -535,7 +535,7 @@
         },
         {
           "name": "Willy Adames",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -768,19 +768,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Cristian Javier",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Reynaldo Lopez",
           "slot": "SP",
           "position": "?",
@@ -822,6 +809,19 @@
         {
           "name": "Lance McCullers Jr.",
           "slot": "BE",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Josh Bell",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -925,7 +925,7 @@
         },
         {
           "name": "Noelvi Marte",
-          "slot": "BE",
+          "slot": "OF",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -951,7 +951,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "OF",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -964,7 +964,7 @@
         },
         {
           "name": "Chandler Simpson",
-          "slot": "OF",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -977,7 +977,7 @@
         },
         {
           "name": "Bryan Reynolds",
-          "slot": "OF",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1198,7 +1198,7 @@
         },
         {
           "name": "Kyle Isbel",
-          "slot": "BE",
+          "slot": "OF",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1224,7 +1224,7 @@
         },
         {
           "name": "Javier Sanoja",
-          "slot": "BE",
+          "slot": "OF",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1592,7 +1592,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1731,7 +1731,7 @@
         },
         {
           "name": "Framber Valdez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1770,7 +1770,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -1861,19 +1861,6 @@
         },
         {
           "name": "David Bednar",
-          "slot": "RP",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Dennis Santana",
           "slot": "RP",
           "position": "?",
           "eligible": "",
@@ -2069,7 +2056,20 @@
         },
         {
           "name": "Rhett Lowder",
-          "slot": "BE",
+          "slot": "SP",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Gleyber Torres",
+          "slot": "UTIL",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2697,7 +2697,7 @@
           "position": "?",
           "eligible": "",
           "isPitcher": false,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2861,8 +2861,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Joe Boyle",
-          "slot": "SP",
+          "name": "Luis Gil",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -2874,8 +2874,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Luis Gil",
-          "slot": "BE",
+          "name": "Jack Flaherty",
+          "slot": "SP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3096,7 +3096,7 @@
         },
         {
           "name": "Devin Williams",
-          "slot": "BE",
+          "slot": "RP",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -3252,7 +3252,7 @@
         },
         {
           "name": "Alex Vesia",
-          "slot": "RP",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4552,19 +4552,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Cade Horton",
-          "slot": "BE",
-          "position": "?",
-          "eligible": "",
-          "isPitcher": false,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Carlos Rodon",
           "slot": "IL",
           "position": "?",
@@ -4722,7 +4709,7 @@
         },
         {
           "name": "Emerson Hancock",
-          "slot": "P",
+          "slot": "BE",
           "position": "?",
           "eligible": "",
           "isPitcher": false,
@@ -4797,9 +4784,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Chase Dollander",
+          "slot": "P",
+          "position": "?",
+          "eligible": "",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-04-09T13:48:36Z"
+  "updated": "2026-04-09T17:44:33Z"
 }
