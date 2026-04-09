@@ -1074,23 +1074,54 @@ async function renderTeamStats() {
     const hr = ranks(HIT, HIT_LB), pr = ranks(PIT, PIT_LB);
     function rCol(r) { return r<=3?'var(--green)':r>=teams.length-2?'var(--red)':'var(--ink2)'; }
 
+    // Sort state: keyed by tbody id → {col, dir}
+    if (!window._tsSortState) window._tsSortState = {};
+
+    window.doTsSort = function(sid, col, defaultDir) {
+      const tb = document.getElementById(sid);
+      if (!tb) return;
+      const state = window._tsSortState;
+      const prev = state[sid];
+      const dir = (prev && prev.col === col) ? -prev.dir : defaultDir;
+      state[sid] = {col, dir};
+      // Update header indicators
+      const tbl2 = tb.closest('table');
+      tbl2.querySelectorAll('th[id^="th_' + sid + '_"]').forEach(th => {
+        const span = th.querySelector('span');
+        const thCol = th.id.slice(('th_' + sid + '_').length);
+        if (thCol === col) {
+          th.style.color = 'var(--accent)';
+          if (span) { span.style.color = 'var(--accent)'; span.textContent = dir > 0 ? ' ↑' : ' ↓'; }
+        } else {
+          th.style.color = '';
+          if (span) { span.style.color = 'var(--ink3)'; span.textContent = ' ⇕'; }
+        }
+      });
+      // Sort rows and update # column
+      const rs = [...tb.querySelectorAll('tr')];
+      rs.sort((a, b) => {
+        const av = parseFloat(a.dataset[col.toLowerCase()] ?? 'NaN');
+        const bv = parseFloat(b.dataset[col.toLowerCase()] ?? 'NaN');
+        if (isNaN(av) && isNaN(bv)) return 0;
+        if (isNaN(av)) return 1;
+        if (isNaN(bv)) return -1;
+        return (av - bv) * dir;
+      });
+      rs.forEach((r, i) => { tb.appendChild(r); r.querySelector('.rk').textContent = i + 1; });
+    };
+
     function tbl(label, cols, rnks, lb=[]) {
       const sid = 'srt' + Math.random().toString(36).slice(2,5);
       const hdr = ['#','Owner',...cols].map((c,i) => {
         if (i < 2) return `<th>${i===0?'#':'Owner'}</th>`;
         const lbl = COL_LABEL[c] || c;
-        const dir = lb.includes(c) ? 1 : -1;
-        return `<th class="r" style="cursor:pointer" onclick="(function(){const tb=document.getElementById('${sid}');const rs=[...tb.querySelectorAll('tr')];rs.sort((a,b)=>{const av=parseFloat(a.dataset['${c}']||'NaN'),bv=parseFloat(b.dataset['${c}']||'NaN');if(isNaN(av)&&isNaN(bv))return 0;if(isNaN(av))return 1;if(isNaN(bv))return -1;return(av-bv)*${dir};});rs.forEach(r=>tb.appendChild(r));})()">${lbl} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
-
-
-
-
-
+        const defaultDir = lb.includes(c) ? 1 : -1;
+        return `<th class="r" id="th_${sid}_${c}" style="cursor:pointer;user-select:none" onclick="doTsSort('${sid}','${c}',${defaultDir})">${lbl} <span style="color:var(--ink3);font-size:9px">⇕</span></th>`;
       }).join('');
 
       const rows = teams.map((t, i) => {
         const mine = isMine(t.name);
-        const dAttrs = cols.map(c => `data-${c}="${t.stats[c] ?? ''}"`).join(' ');
+        const dAttrs = cols.map(c => `data-${c.toLowerCase()}="${t.stats[c] ?? ''}"`).join(' ');
         const cells = cols.map(cat => {
           const v = t.stats[cat];
           const r = rnks[`${i}_${cat}`];
@@ -1140,7 +1171,7 @@ function drawRosters() {
   function sec(label,players){
     if(!players.length)return'';
     const hit=players.filter(p=>!p.isPitcher), pit=players.filter(p=>p.isPitcher);
-    const HS=['AVG','OPS','R','RBI','HR','SB'], PS=['ERA','WHIP','IP','K','QS','SV'];
+    const HS=['AVG','OPS','R','RBI','HR','SB'], PS=['ERA','WHIP','IP','K','QS','SVHD'];
     let html=`<div style="margin-top:22px">${sh(label,'')}</div>`;
     if(hit.length){const hdr=['Slot','Player','Pos',...HS].map((c,i)=>`<th ${i>2?'class="r"':''}>${c}</th>`).join('');html+=`<div class="tw"><table><thead><tr>${hdr}</tr></thead><tbody>${hit.map(p=>{const cells=HS.map(c=>`<td class="r dt">${p.stats[c]!==undefined?p.stats[c]:'—'}</td>`).join('');return`<tr><td style="text-align:center"><div style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:28px;border-radius:5px;background:var(--bg3);font-family:var(--fm);font-size:9px;color:var(--ink3)">${p.slot}</div></td><td><b>${pName(p.name)}</b>${tierB(p)}${injB(p.injStatus)}</td><td class="dt" style="font-family:var(--fm);font-size:10px;text-align:center">${p.position}</td>${cells}</tr>`;}).join('')}</tbody></table></div>`;}
     if(pit.length){const hdr=['Slot','Player','Pos',...PS].map((c,i)=>`<th ${i>2?'class="r"':''}>${c}</th>`).join('');html+=`<div class="tw" style="margin-top:8px"><table><thead><tr>${hdr}</tr></thead><tbody>${pit.map(p=>{const cells=PS.map(c=>`<td class="r dt">${p.stats[c]!==undefined?p.stats[c]:'—'}</td>`).join('');return`<tr><td style="text-align:center"><div style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:28px;border-radius:5px;background:var(--bg3);font-family:var(--fm);font-size:9px;color:var(--ink3)">${p.slot}</div></td><td><b>${pName(p.name)}</b>${tierB(p)}${injB(p.injStatus)}</td><td class="dt" style="font-family:var(--fm);font-size:10px;text-align:center">${p.position}</td>${cells}</tr>`;}).join('')}</tbody></table></div>`;}
