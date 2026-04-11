@@ -2414,7 +2414,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.333,
             "HR": 2,
@@ -3851,7 +3851,7 @@
         },
         {
           "name": "Jack Leiter",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3990,7 +3990,7 @@
         },
         {
           "name": "Grayson Rodriguez",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4066,7 +4066,7 @@
         },
         {
           "name": "Taj Bradley",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4866,7 +4866,7 @@
         },
         {
           "name": "Jakob Marsee",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5097,7 +5097,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5160,7 +5160,7 @@
         },
         {
           "name": "Jose Fernandez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5199,7 +5199,7 @@
         },
         {
           "name": "Max Muncy",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6981,5 +6981,5 @@
       ]
     }
   ],
-  "updated": "2026-04-11T11:58:16Z"
+  "updated": "2026-04-11T14:07:39Z"
 }
