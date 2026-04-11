@@ -1077,7 +1077,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.222,
             "HR": 2,
@@ -1354,27 +1354,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Noelvi Marte",
-          "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.143,
-            "HR": 0,
-            "OPS": 0.36,
-            "R": 1,
-            "RBI": 0,
-            "SB": 1,
-            "Kbat": 9
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 7,
-          "keeperEligible": false
-        },
-        {
           "name": "Ezequiel Tovar",
           "slot": "SS",
           "position": "SS",
@@ -1439,7 +1418,7 @@
         },
         {
           "name": "Bryan Reynolds",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1535,27 +1514,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Trevor Megill",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 4.0,
-            "H": 5,
-            "WHIP": 2.0,
-            "ERA": 11.25,
-            "K": 5,
-            "SVHD": 0,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 18,
-          "keeperEligible": true
-        },
-        {
           "name": "Giancarlo Stanton",
           "slot": "UTIL",
           "position": "DH",
@@ -1578,7 +1536,7 @@
         },
         {
           "name": "Matthew Liberatore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1667,7 +1625,7 @@
         },
         {
           "name": "Miguel Vargas",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -1706,7 +1664,7 @@
         },
         {
           "name": "Eric Lauer",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1732,7 +1690,7 @@
         },
         {
           "name": "Kyle Isbel",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1758,7 +1716,7 @@
         },
         {
           "name": "Javier Sanoja",
-          "slot": "3B",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1781,6 +1739,40 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Andres Gimenez",
+          "slot": "UTIL",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Dennis Santana",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 7.0,
+            "H": 1,
+            "WHIP": 0.429,
+            "ERA": 0.0,
+            "K": 6,
+            "SVHD": 2,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 17,
+          "keeperEligible": true
         }
       ]
     },
@@ -2389,7 +2381,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2410,7 +2402,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2913,7 +2905,7 @@
         },
         {
           "name": "Garrett Mitchell",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2926,7 +2918,7 @@
         },
         {
           "name": "Gleyber Torres",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4118,6 +4110,19 @@
           "acquisitionType": "ADD",
           "draftRound": 25,
           "keeperEligible": true
+        },
+        {
+          "name": "Gavin Sheets",
+          "slot": "BE",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -6981,5 +6986,5 @@
       ]
     }
   ],
-  "updated": "2026-04-11T14:07:39Z"
+  "updated": "2026-04-11T16:02:06Z"
 }
