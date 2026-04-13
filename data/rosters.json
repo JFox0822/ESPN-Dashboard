@@ -443,7 +443,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -751,9 +751,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.333,
+            "AVG": 0.328,
             "HR": 2,
-            "OPS": 0.983,
+            "OPS": 0.968,
             "R": 12,
             "RBI": 6,
             "SB": 1,
@@ -2033,11 +2033,11 @@
         },
         {
           "name": "Tatsuya Imai",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 8.2,
             "H": 7,
@@ -2060,10 +2060,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 20.0,
+            "IP": 20.2,
             "H": 13,
-            "WHIP": 0.9,
-            "ERA": 3.6,
+            "WHIP": 0.871,
+            "ERA": 3.484,
             "K": 16,
             "SVHD": 0,
             "QS": 2
@@ -2295,7 +2295,7 @@
         },
         {
           "name": "Kyle Teel",
-          "slot": "IL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2379,9 +2379,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.34,
+            "AVG": 0.333,
             "HR": 6,
-            "OPS": 1.255,
+            "OPS": 1.234,
             "R": 12,
             "RBI": 14,
             "SB": 1,
@@ -5474,11 +5474,11 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.256,
             "HR": 0,
@@ -5495,11 +5495,11 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "IL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.235,
             "HR": 2,
@@ -5789,7 +5789,7 @@
         },
         {
           "name": "Adolis Garcia",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6917,7 +6917,7 @@
         },
         {
           "name": "Emerson Hancock",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6951,7 +6951,7 @@
         },
         {
           "name": "Janson Junk",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7041,5 +7041,5 @@
       ]
     }
   ],
-  "updated": "2026-04-13T16:40:53Z"
+  "updated": "2026-04-13T20:14:21Z"
 }
