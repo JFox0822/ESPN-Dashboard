@@ -3780,7 +3780,7 @@
         },
         {
           "name": "Andrew Abbott",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4104,13 +4104,21 @@
           "keeperEligible": true
         },
         {
-          "name": "Gavin Sheets",
-          "slot": "BE",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
+          "name": "Bailey Ober",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {},
+          "stats": {
+            "IP": 13.2,
+            "H": 13,
+            "WHIP": 1.244,
+            "ERA": 5.268,
+            "K": 7,
+            "SVHD": 0,
+            "QS": 0
+          },
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -4299,7 +4307,7 @@
         },
         {
           "name": "Brice Turang",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4320,7 +4328,7 @@
         },
         {
           "name": "Yainer Diaz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4467,7 +4475,7 @@
         },
         {
           "name": "Kenley Jansen",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4669,7 +4677,7 @@
         },
         {
           "name": "Alex Vesia",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -7033,5 +7041,5 @@
       ]
     }
   ],
-  "updated": "2026-04-13T13:29:20Z"
+  "updated": "2026-04-13T16:40:53Z"
 }
