@@ -883,9 +883,11 @@ async function renderPowerRankings() {
     const cards = rankings.map(p => {
       const cr = p.catRanks||{};
       const ce = Object.entries(cr);
-      const strengths = ce.filter(([,r])=>r<=3).map(([c,r])=>`<span class="pr-cat cat-str">${c} #${r}</span>`).join('');
-      const mids = ce.filter(([,r])=>r>3&&r<n-2).map(([c,r])=>`<span class="pr-cat cat-mid">${c} #${r}</span>`).join('');
-      const weaks = ce.filter(([,r])=>r>=n-2).map(([c,r])=>`<span class="pr-cat cat-wk">${c} #${r}</span>`).join('');
+      const PR_CAT_LABEL = {SVHD:'SV/HD',Kbat:'K(bat)',Kpitch:'K(pit)'};
+      const prCL = c => PR_CAT_LABEL[c] || c;
+      const strengths = ce.filter(([,r])=>r<=3).map(([c,r])=>`<span class="pr-cat cat-str">${prCL(c)} #${r}</span>`).join('');
+      const mids = ce.filter(([,r])=>r>3&&r<n-2).map(([c,r])=>`<span class="pr-cat cat-mid">${prCL(c)} #${r}</span>`).join('');
+      const weaks = ce.filter(([,r])=>r>=n-2).map(([c,r])=>`<span class="pr-cat cat-wk">${prCL(c)} #${r}</span>`).join('');
       const catSec = (strengths||weaks||mids)?`<div class="pr-cats">${strengths}${mids}${weaks}</div>`:`<div style="font-family:var(--fm);font-size:9px;color:var(--ink3);margin-top:8px">Category ranks active after Opening Day (Mar 27)</div>`;
       const mine = isMine(p.name);
       const col = p.composite>=70?'var(--green)':p.composite>=50?'var(--blue)':'var(--red)';
@@ -1143,12 +1145,49 @@ async function renderTeamStats() {
     }
 
     const thru = weeksIncluded > 0 ? `Weeks 1–${weeksIncluded} cumulative` : 'No data yet';
+
+    // ── Category Dominance Score grid (12 pts = #1, 1 pt = #12) ─────────────
+    const ALL_CATS_PT = [...HIT, ...PIT];
+    const ptData = teams.map((t, i) => {
+      const pts = {}; let total = 0;
+      ALL_CATS_PT.forEach(cat => {
+        const rankMap = HIT.includes(cat) ? hr : pr;
+        const r = rankMap[`${i}_${cat}`];
+        const p = r ? (teams.length + 1 - r) : 0;
+        pts[cat] = p; total += p;
+      });
+      return { ...t, pts, total };
+    });
+    const ptSorted = [...ptData].sort((a, b) => b.total - a.total);
+    const maxPossible = teams.length * ALL_CATS_PT.length;
+    const ptHdr = ['#','Owner',...ALL_CATS_PT,'Total'].map((c, i) => {
+      if (i===0) return '<th class="c">#</th>';
+      if (i===1) return '<th>Owner</th>';
+      if (c==='Total') return '<th class="r" style="color:var(--green)">Total</th>';
+      return `<th class="r" style="font-size:7px">${COL_LABEL[c]||c}</th>`;
+    }).join('');
+    const ptRows = ptSorted.map((t, i) => {
+      const mine = isMine(t.name);
+      const cells = ALL_CATS_PT.map(cat => {
+        const p = t.pts[cat] || 0;
+        const col = p >= teams.length-2 ? 'var(--green)' : p <= 2 ? 'var(--red)' : 'var(--ink3)';
+        return `<td class="r" style="color:${col};font-family:var(--fm);font-size:10px">${p}</td>`;
+      }).join('');
+      const pct = t.total / maxPossible;
+      const totalCol = pct>=0.60?'var(--green)':pct<=0.40?'var(--red)':'var(--ink)';
+      return `<tr class="${mine?'mine':''}"><td class="rk">${i+1}</td><td><span class="${mine?'wt':''} bt">${t.name}</span></td>${cells}<td class="r" style="font-family:var(--fd);font-size:20px;font-weight:900;color:${totalCol}">${t.total}</td></tr>`;
+    }).join('');
+    const ptGrid = `<div style="margin-top:36px">${sh('Category Dominance Score','12 pts = #1 · 1 pt = #12 · Summed across all 14 categories')}</div>
+      <div style="font-family:var(--fm);font-size:8px;color:var(--ink3);margin-bottom:10px"><span style="color:var(--green)">Green</span> = top 3 pts · <span style="color:var(--red)">Red</span> = bottom 2 pts. Total = composite dominance score.</div>
+      <div class="tw" style="overflow-x:auto"><table><thead><tr>${ptHdr}</tr></thead><tbody>${ptRows}</tbody></table></div>`;
+
     el.innerHTML = `${sh('2026 Season Stats', `${thru} · Green = top 3 · Red = bottom 3`)}
       ${tbl('Hitting', HIT, hr, HIT_LB)}
       <div style="margin-top:28px">${tbl('Pitching', PIT, pr, PIT_LB)}</div>
       <div style="margin-top:10px;font-family:var(--fm);font-size:8px;color:var(--ink3)">
         AVG &amp; OPS = weekly average · ERA &amp; WHIP = IP-weighted · IP shown as inn.thirds · K (Batting) = lower is better
-      </div>`;
+      </div>
+      ${ptGrid}`;
   } catch(e) {
     el.innerHTML = `<div class="state err">⚠ ${e.message}</div>`;
   }
@@ -1541,10 +1580,20 @@ function renderBestWeeks(){
 }
 
 function renderLeagueRecords(){
-  // #4: filter to 1wk matchups only; #7: exclude 2025W1 (extended matchup)
+  // filter to 1wk matchups only; exclude 2-week extended periods (weeks 1, 15, 16)
+  function extractWkNum(yw) {
+    if (!yw) return null;
+    const m = String(yw).match(/W(\d+)/) || String(yw).match(/(\d+)(?:\s|$)/);
+    return m ? parseInt(m[1]) : null;
+  }
   const grouped={};
   const allRecs = [...(RB.offensiveRecords||[]),...(RB.pitchingRecords||[])]
-    .filter(r=>r.matchupType==='1wk' && r.yearWeek!=='2025W1' && r.yearWeek!=='W1 2025');
+    .filter(r => {
+      if (r.matchupType !== '1wk') return false;
+      const wk = extractWkNum(r.yearWeek);
+      if (wk === 1 || wk === 15 || wk === 16) return false;
+      return true;
+    });
   allRecs.forEach(r=>{if(!grouped[r.cat])grouped[r.cat]=[];grouped[r.cat].push(r);});
   Object.values(grouped).forEach(g=>g.sort((a,b)=>a.rank-b.rank));
   // Sort by value desc (or asc for ERA/WHIP/H)
