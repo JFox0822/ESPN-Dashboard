@@ -375,7 +375,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -409,7 +409,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3007,7 +3007,7 @@
         },
         {
           "name": "Wyatt Langford",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3327,7 +3327,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5237,7 +5237,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.226,
             "HR": 4,
@@ -5436,7 +5436,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.275,
             "HR": 0,
@@ -5857,7 +5857,7 @@
         },
         {
           "name": "Ryan Jeffers",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5878,6 +5878,27 @@
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "J.T. Realmuto",
+          "slot": "C",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.263,
+            "HR": 1,
+            "OPS": 0.773,
+            "R": 4,
+            "RBI": 4,
+            "SB": 0,
+            "Kbat": 10
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
         }
@@ -6106,7 +6127,7 @@
         },
         {
           "name": "Bo Bichette",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6423,7 +6444,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6618,7 +6639,7 @@
         },
         {
           "name": "Byron Buxton",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6681,7 +6702,7 @@
         },
         {
           "name": "Marcell Ozuna",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6783,7 +6804,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7046,5 +7067,5 @@
       ]
     }
   ],
-  "updated": "2026-04-14T19:56:14Z"
+  "updated": "2026-04-14T22:32:49Z"
 }
