@@ -11,10 +11,6 @@
         "catLoss": 5,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "4",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.233",
             "result": "WIN"
@@ -23,13 +19,9 @@
             "value": "3",
             "result": "TIE"
           },
-          "IP": {
-            "value": "47.1",
+          "H": {
+            "value": "32",
             "result": "WIN"
-          },
-          "HR": {
-            "value": "5",
-            "result": "LOSS"
           },
           "K": {
             "value": "36",
@@ -39,28 +31,36 @@
             "value": "21",
             "result": "LOSS"
           },
+          "HR": {
+            "value": "5",
+            "result": "LOSS"
+          },
           "R": {
             "value": "20",
+            "result": "LOSS"
+          },
+          "ERA": {
+            "value": "2.85",
             "result": "LOSS"
           },
           "SB": {
             "value": "0",
             "result": "LOSS"
           },
-          "Kbat": {
-            "value": "40",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "2.85",
-            "result": "LOSS"
-          },
           "OPS": {
             "value": "0.677",
             "result": "WIN"
           },
-          "H": {
-            "value": "32",
+          "QS": {
+            "value": "4",
+            "result": "TIE"
+          },
+          "Kbat": {
+            "value": "40",
+            "result": "WIN"
+          },
+          "IP": {
+            "value": "47.1",
             "result": "WIN"
           },
           "WHIP": {
@@ -78,10 +78,6 @@
         "catLoss": 7,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "4",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.206",
             "result": "LOSS"
@@ -90,13 +86,9 @@
             "value": "3",
             "result": "TIE"
           },
-          "IP": {
-            "value": "42.0",
+          "H": {
+            "value": "36",
             "result": "LOSS"
-          },
-          "HR": {
-            "value": "8",
-            "result": "WIN"
           },
           "K": {
             "value": "33",
@@ -106,28 +98,36 @@
             "value": "30",
             "result": "WIN"
           },
+          "HR": {
+            "value": "8",
+            "result": "WIN"
+          },
           "R": {
             "value": "25",
+            "result": "WIN"
+          },
+          "ERA": {
+            "value": "2.79",
             "result": "WIN"
           },
           "SB": {
             "value": "3",
             "result": "WIN"
           },
-          "Kbat": {
-            "value": "43",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "2.79",
-            "result": "WIN"
-          },
           "OPS": {
             "value": "0.664",
             "result": "LOSS"
           },
-          "H": {
-            "value": "36",
+          "QS": {
+            "value": "4",
+            "result": "TIE"
+          },
+          "Kbat": {
+            "value": "43",
+            "result": "LOSS"
+          },
+          "IP": {
+            "value": "42.0",
             "result": "LOSS"
           },
           "WHIP": {
@@ -149,10 +149,6 @@
         "catLoss": 4,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "2",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.278",
             "result": "LOSS"
@@ -161,12 +157,8 @@
             "value": "3",
             "result": "TIE"
           },
-          "IP": {
-            "value": "33.1",
-            "result": "LOSS"
-          },
-          "HR": {
-            "value": "8",
+          "H": {
+            "value": "25",
             "result": "WIN"
           },
           "K": {
@@ -177,29 +169,37 @@
             "value": "31",
             "result": "LOSS"
           },
-          "R": {
-            "value": "35",
+          "HR": {
+            "value": "8",
             "result": "WIN"
           },
-          "SB": {
-            "value": "5",
-            "result": "LOSS"
-          },
-          "Kbat": {
-            "value": "41",
+          "R": {
+            "value": "35",
             "result": "WIN"
           },
           "ERA": {
             "value": "2.70",
             "result": "WIN"
           },
+          "SB": {
+            "value": "5",
+            "result": "LOSS"
+          },
           "OPS": {
             "value": "0.854",
             "result": "WIN"
           },
-          "H": {
-            "value": "25",
+          "QS": {
+            "value": "2",
+            "result": "TIE"
+          },
+          "Kbat": {
+            "value": "41",
             "result": "WIN"
+          },
+          "IP": {
+            "value": "33.1",
+            "result": "LOSS"
           },
           "WHIP": {
             "value": "1.05",
@@ -216,10 +216,6 @@
         "catLoss": 7,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "2",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.294",
             "result": "WIN"
@@ -228,12 +224,8 @@
             "value": "3",
             "result": "TIE"
           },
-          "IP": {
-            "value": "40.0",
-            "result": "WIN"
-          },
-          "HR": {
-            "value": "7",
+          "H": {
+            "value": "46",
             "result": "LOSS"
           },
           "K": {
@@ -244,29 +236,37 @@
             "value": "40",
             "result": "WIN"
           },
-          "R": {
-            "value": "26",
+          "HR": {
+            "value": "7",
             "result": "LOSS"
           },
-          "SB": {
-            "value": "8",
-            "result": "WIN"
-          },
-          "Kbat": {
-            "value": "46",
+          "R": {
+            "value": "26",
             "result": "LOSS"
           },
           "ERA": {
             "value": "4.72",
             "result": "LOSS"
           },
+          "SB": {
+            "value": "8",
+            "result": "WIN"
+          },
           "OPS": {
             "value": "0.785",
             "result": "LOSS"
           },
-          "H": {
+          "QS": {
+            "value": "2",
+            "result": "TIE"
+          },
+          "Kbat": {
             "value": "46",
             "result": "LOSS"
+          },
+          "IP": {
+            "value": "40.0",
+            "result": "WIN"
           },
           "WHIP": {
             "value": "1.50",
@@ -287,10 +287,6 @@
         "catLoss": 5,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "3",
-            "result": "WIN"
-          },
           "AVG": {
             "value": "0.250",
             "result": "WIN"
@@ -299,13 +295,9 @@
             "value": "4",
             "result": "WIN"
           },
-          "IP": {
-            "value": "40.1",
-            "result": "LOSS"
-          },
-          "HR": {
-            "value": "6",
-            "result": "LOSS"
+          "H": {
+            "value": "31",
+            "result": "WIN"
           },
           "K": {
             "value": "32",
@@ -315,29 +307,37 @@
             "value": "24",
             "result": "LOSS"
           },
-          "R": {
-            "value": "35",
-            "result": "WIN"
-          },
-          "SB": {
-            "value": "1",
+          "HR": {
+            "value": "6",
             "result": "LOSS"
           },
-          "Kbat": {
-            "value": "39",
+          "R": {
+            "value": "35",
             "result": "WIN"
           },
           "ERA": {
             "value": "4.24",
             "result": "WIN"
           },
+          "SB": {
+            "value": "1",
+            "result": "LOSS"
+          },
           "OPS": {
             "value": "0.761",
             "result": "WIN"
           },
-          "H": {
-            "value": "31",
+          "QS": {
+            "value": "3",
             "result": "WIN"
+          },
+          "Kbat": {
+            "value": "39",
+            "result": "WIN"
+          },
+          "IP": {
+            "value": "40.1",
+            "result": "LOSS"
           },
           "WHIP": {
             "value": "1.17",
@@ -354,10 +354,6 @@
         "catLoss": 9,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "1",
-            "result": "LOSS"
-          },
           "AVG": {
             "value": "0.243",
             "result": "LOSS"
@@ -366,13 +362,9 @@
             "value": "2",
             "result": "LOSS"
           },
-          "IP": {
-            "value": "47.0",
-            "result": "WIN"
-          },
-          "HR": {
-            "value": "10",
-            "result": "WIN"
+          "H": {
+            "value": "50",
+            "result": "LOSS"
           },
           "K": {
             "value": "40",
@@ -382,29 +374,37 @@
             "value": "36",
             "result": "WIN"
           },
-          "R": {
-            "value": "26",
-            "result": "LOSS"
-          },
-          "SB": {
-            "value": "2",
+          "HR": {
+            "value": "10",
             "result": "WIN"
           },
-          "Kbat": {
-            "value": "55",
+          "R": {
+            "value": "26",
             "result": "LOSS"
           },
           "ERA": {
             "value": "4.60",
             "result": "LOSS"
           },
+          "SB": {
+            "value": "2",
+            "result": "WIN"
+          },
           "OPS": {
             "value": "0.753",
             "result": "LOSS"
           },
-          "H": {
-            "value": "50",
+          "QS": {
+            "value": "1",
             "result": "LOSS"
+          },
+          "Kbat": {
+            "value": "55",
+            "result": "LOSS"
+          },
+          "IP": {
+            "value": "47.0",
+            "result": "WIN"
           },
           "WHIP": {
             "value": "1.51",
@@ -425,10 +425,6 @@
         "catLoss": 9,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "2",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.246",
             "result": "LOSS"
@@ -437,12 +433,8 @@
             "value": "4",
             "result": "TIE"
           },
-          "IP": {
-            "value": "48.2",
-            "result": "WIN"
-          },
-          "HR": {
-            "value": "10",
+          "H": {
+            "value": "47",
             "result": "LOSS"
           },
           "K": {
@@ -453,29 +445,37 @@
             "value": "26",
             "result": "LOSS"
           },
-          "R": {
-            "value": "33",
+          "HR": {
+            "value": "10",
             "result": "LOSS"
           },
-          "SB": {
-            "value": "3",
-            "result": "WIN"
-          },
-          "Kbat": {
-            "value": "45",
+          "R": {
+            "value": "33",
             "result": "LOSS"
           },
           "ERA": {
             "value": "5.55",
             "result": "LOSS"
           },
+          "SB": {
+            "value": "3",
+            "result": "WIN"
+          },
           "OPS": {
             "value": "0.800",
             "result": "LOSS"
           },
-          "H": {
-            "value": "47",
+          "QS": {
+            "value": "2",
+            "result": "TIE"
+          },
+          "Kbat": {
+            "value": "45",
             "result": "LOSS"
+          },
+          "IP": {
+            "value": "48.2",
+            "result": "WIN"
           },
           "WHIP": {
             "value": "1.36",
@@ -492,10 +492,6 @@
         "catLoss": 3,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "2",
-            "result": "TIE"
-          },
           "AVG": {
             "value": "0.305",
             "result": "WIN"
@@ -504,12 +500,8 @@
             "value": "4",
             "result": "TIE"
           },
-          "IP": {
-            "value": "25.1",
-            "result": "LOSS"
-          },
-          "HR": {
-            "value": "16",
+          "H": {
+            "value": "14",
             "result": "WIN"
           },
           "K": {
@@ -520,29 +512,37 @@
             "value": "48",
             "result": "WIN"
           },
-          "R": {
-            "value": "36",
+          "HR": {
+            "value": "16",
             "result": "WIN"
           },
-          "SB": {
-            "value": "2",
-            "result": "LOSS"
-          },
-          "Kbat": {
-            "value": "41",
+          "R": {
+            "value": "36",
             "result": "WIN"
           },
           "ERA": {
             "value": "3.20",
             "result": "WIN"
           },
+          "SB": {
+            "value": "2",
+            "result": "LOSS"
+          },
           "OPS": {
             "value": "1.003",
             "result": "WIN"
           },
-          "H": {
-            "value": "14",
+          "QS": {
+            "value": "2",
+            "result": "TIE"
+          },
+          "Kbat": {
+            "value": "41",
             "result": "WIN"
+          },
+          "IP": {
+            "value": "25.1",
+            "result": "LOSS"
           },
           "WHIP": {
             "value": "0.95",
@@ -563,10 +563,6 @@
         "catLoss": 2,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "5",
-            "result": "WIN"
-          },
           "AVG": {
             "value": "0.288",
             "result": "WIN"
@@ -575,12 +571,8 @@
             "value": "1",
             "result": "LOSS"
           },
-          "IP": {
-            "value": "44.2",
-            "result": "WIN"
-          },
-          "HR": {
-            "value": "8",
+          "H": {
+            "value": "34",
             "result": "WIN"
           },
           "K": {
@@ -591,28 +583,36 @@
             "value": "21",
             "result": "WIN"
           },
+          "HR": {
+            "value": "8",
+            "result": "WIN"
+          },
           "R": {
             "value": "27",
             "result": "LOSS"
           },
-          "SB": {
-            "value": "3",
-            "result": "WIN"
-          },
-          "Kbat": {
-            "value": "45",
-            "result": "WIN"
-          },
           "ERA": {
             "value": "3.02",
+            "result": "WIN"
+          },
+          "SB": {
+            "value": "3",
             "result": "WIN"
           },
           "OPS": {
             "value": "0.823",
             "result": "WIN"
           },
-          "H": {
-            "value": "34",
+          "QS": {
+            "value": "5",
+            "result": "WIN"
+          },
+          "Kbat": {
+            "value": "45",
+            "result": "WIN"
+          },
+          "IP": {
+            "value": "44.2",
             "result": "WIN"
           },
           "WHIP": {
@@ -630,10 +630,6 @@
         "catLoss": 12,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "3",
-            "result": "LOSS"
-          },
           "AVG": {
             "value": "0.240",
             "result": "LOSS"
@@ -642,12 +638,8 @@
             "value": "3",
             "result": "WIN"
           },
-          "IP": {
-            "value": "41.0",
-            "result": "LOSS"
-          },
-          "HR": {
-            "value": "5",
+          "H": {
+            "value": "37",
             "result": "LOSS"
           },
           "K": {
@@ -658,28 +650,36 @@
             "value": "17",
             "result": "LOSS"
           },
+          "HR": {
+            "value": "5",
+            "result": "LOSS"
+          },
           "R": {
             "value": "29",
             "result": "WIN"
           },
-          "SB": {
-            "value": "2",
-            "result": "LOSS"
-          },
-          "Kbat": {
-            "value": "50",
-            "result": "LOSS"
-          },
           "ERA": {
             "value": "4.17",
+            "result": "LOSS"
+          },
+          "SB": {
+            "value": "2",
             "result": "LOSS"
           },
           "OPS": {
             "value": "0.732",
             "result": "LOSS"
           },
-          "H": {
-            "value": "37",
+          "QS": {
+            "value": "3",
+            "result": "LOSS"
+          },
+          "Kbat": {
+            "value": "50",
+            "result": "LOSS"
+          },
+          "IP": {
+            "value": "41.0",
             "result": "LOSS"
           },
           "WHIP": {
@@ -701,10 +701,6 @@
         "catLoss": 12,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "2",
-            "result": "LOSS"
-          },
           "AVG": {
             "value": "0.268",
             "result": "LOSS"
@@ -713,12 +709,8 @@
             "value": "2",
             "result": "LOSS"
           },
-          "IP": {
-            "value": "39.2",
-            "result": "LOSS"
-          },
-          "HR": {
-            "value": "9",
+          "H": {
+            "value": "32",
             "result": "LOSS"
           },
           "K": {
@@ -729,28 +721,36 @@
             "value": "29",
             "result": "WIN"
           },
+          "HR": {
+            "value": "9",
+            "result": "LOSS"
+          },
           "R": {
             "value": "33",
+            "result": "LOSS"
+          },
+          "ERA": {
+            "value": "4.76",
             "result": "LOSS"
           },
           "SB": {
             "value": "3",
             "result": "LOSS"
           },
-          "Kbat": {
-            "value": "43",
-            "result": "WIN"
-          },
-          "ERA": {
-            "value": "4.76",
-            "result": "LOSS"
-          },
           "OPS": {
             "value": "0.798",
             "result": "LOSS"
           },
-          "H": {
-            "value": "32",
+          "QS": {
+            "value": "2",
+            "result": "LOSS"
+          },
+          "Kbat": {
+            "value": "43",
+            "result": "WIN"
+          },
+          "IP": {
+            "value": "39.2",
             "result": "LOSS"
           },
           "WHIP": {
@@ -768,10 +768,6 @@
         "catLoss": 2,
         "catTies": 0,
         "categories": {
-          "QS": {
-            "value": "4",
-            "result": "WIN"
-          },
           "AVG": {
             "value": "0.298",
             "result": "WIN"
@@ -780,12 +776,8 @@
             "value": "4",
             "result": "WIN"
           },
-          "IP": {
-            "value": "44.1",
-            "result": "WIN"
-          },
-          "HR": {
-            "value": "12",
+          "H": {
+            "value": "29",
             "result": "WIN"
           },
           "K": {
@@ -796,28 +788,36 @@
             "value": "27",
             "result": "LOSS"
           },
+          "HR": {
+            "value": "12",
+            "result": "WIN"
+          },
           "R": {
             "value": "40",
+            "result": "WIN"
+          },
+          "ERA": {
+            "value": "2.64",
             "result": "WIN"
           },
           "SB": {
             "value": "8",
             "result": "WIN"
           },
-          "Kbat": {
-            "value": "51",
-            "result": "LOSS"
-          },
-          "ERA": {
-            "value": "2.64",
-            "result": "WIN"
-          },
           "OPS": {
             "value": "0.975",
             "result": "WIN"
           },
-          "H": {
-            "value": "29",
+          "QS": {
+            "value": "4",
+            "result": "WIN"
+          },
+          "Kbat": {
+            "value": "51",
+            "result": "LOSS"
+          },
+          "IP": {
+            "value": "44.1",
             "result": "WIN"
           },
           "WHIP": {
@@ -842,10 +842,6 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.233",
               "result": "WIN"
@@ -854,13 +850,9 @@
               "value": "3",
               "result": "TIE"
             },
-            "IP": {
-              "value": "47.1",
+            "H": {
+              "value": "32",
               "result": "WIN"
-            },
-            "HR": {
-              "value": "5",
-              "result": "LOSS"
             },
             "K": {
               "value": "36",
@@ -870,28 +862,36 @@
               "value": "21",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "5",
+              "result": "LOSS"
+            },
             "R": {
               "value": "20",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "2.85",
               "result": "LOSS"
             },
             "SB": {
               "value": "0",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "40",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "2.85",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.677",
               "result": "WIN"
             },
-            "H": {
-              "value": "32",
+            "QS": {
+              "value": "4",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "40",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "47.1",
               "result": "WIN"
             },
             "WHIP": {
@@ -909,10 +909,6 @@
           "catLoss": 7,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.206",
               "result": "LOSS"
@@ -921,13 +917,9 @@
               "value": "3",
               "result": "TIE"
             },
-            "IP": {
-              "value": "42.0",
+            "H": {
+              "value": "36",
               "result": "LOSS"
-            },
-            "HR": {
-              "value": "8",
-              "result": "WIN"
             },
             "K": {
               "value": "33",
@@ -937,28 +929,36 @@
               "value": "30",
               "result": "WIN"
             },
+            "HR": {
+              "value": "8",
+              "result": "WIN"
+            },
             "R": {
               "value": "25",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "2.79",
               "result": "WIN"
             },
             "SB": {
               "value": "3",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "43",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "2.79",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.664",
               "result": "LOSS"
             },
-            "H": {
-              "value": "36",
+            "QS": {
+              "value": "4",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "43",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "42.0",
               "result": "LOSS"
             },
             "WHIP": {
@@ -980,10 +980,6 @@
           "catLoss": 4,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.278",
               "result": "LOSS"
@@ -992,12 +988,8 @@
               "value": "3",
               "result": "TIE"
             },
-            "IP": {
-              "value": "33.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "8",
+            "H": {
+              "value": "25",
               "result": "WIN"
             },
             "K": {
@@ -1008,29 +1000,37 @@
               "value": "31",
               "result": "LOSS"
             },
-            "R": {
-              "value": "35",
+            "HR": {
+              "value": "8",
               "result": "WIN"
             },
-            "SB": {
-              "value": "5",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "41",
+            "R": {
+              "value": "35",
               "result": "WIN"
             },
             "ERA": {
               "value": "2.70",
               "result": "WIN"
             },
+            "SB": {
+              "value": "5",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.854",
               "result": "WIN"
             },
-            "H": {
-              "value": "25",
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "41",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "33.1",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.05",
@@ -1047,10 +1047,6 @@
           "catLoss": 7,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.294",
               "result": "WIN"
@@ -1059,12 +1055,8 @@
               "value": "3",
               "result": "TIE"
             },
-            "IP": {
-              "value": "40.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "7",
+            "H": {
+              "value": "46",
               "result": "LOSS"
             },
             "K": {
@@ -1075,29 +1067,37 @@
               "value": "40",
               "result": "WIN"
             },
-            "R": {
-              "value": "26",
+            "HR": {
+              "value": "7",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "8",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "46",
+            "R": {
+              "value": "26",
               "result": "LOSS"
             },
             "ERA": {
               "value": "4.72",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "8",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.785",
               "result": "LOSS"
             },
-            "H": {
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
               "value": "46",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "40.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.50",
@@ -1118,10 +1118,6 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.250",
               "result": "WIN"
@@ -1130,13 +1126,9 @@
               "value": "4",
               "result": "WIN"
             },
-            "IP": {
-              "value": "40.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "6",
-              "result": "LOSS"
+            "H": {
+              "value": "31",
+              "result": "WIN"
             },
             "K": {
               "value": "32",
@@ -1146,29 +1138,37 @@
               "value": "24",
               "result": "LOSS"
             },
-            "R": {
-              "value": "35",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "1",
+            "HR": {
+              "value": "6",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "39",
+            "R": {
+              "value": "35",
               "result": "WIN"
             },
             "ERA": {
               "value": "4.24",
               "result": "WIN"
             },
+            "SB": {
+              "value": "1",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.761",
               "result": "WIN"
             },
-            "H": {
-              "value": "31",
+            "QS": {
+              "value": "3",
               "result": "WIN"
+            },
+            "Kbat": {
+              "value": "39",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "40.1",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.17",
@@ -1185,10 +1185,6 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "1",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.243",
               "result": "LOSS"
@@ -1197,13 +1193,9 @@
               "value": "2",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "47.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "10",
-              "result": "WIN"
+            "H": {
+              "value": "50",
+              "result": "LOSS"
             },
             "K": {
               "value": "40",
@@ -1213,29 +1205,37 @@
               "value": "36",
               "result": "WIN"
             },
-            "R": {
-              "value": "26",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "2",
+            "HR": {
+              "value": "10",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "55",
+            "R": {
+              "value": "26",
               "result": "LOSS"
             },
             "ERA": {
               "value": "4.60",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "2",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.753",
               "result": "LOSS"
             },
-            "H": {
-              "value": "50",
+            "QS": {
+              "value": "1",
               "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "55",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "47.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.51",
@@ -1256,10 +1256,6 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.246",
               "result": "LOSS"
@@ -1268,12 +1264,8 @@
               "value": "4",
               "result": "TIE"
             },
-            "IP": {
-              "value": "48.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "10",
+            "H": {
+              "value": "47",
               "result": "LOSS"
             },
             "K": {
@@ -1284,29 +1276,37 @@
               "value": "26",
               "result": "LOSS"
             },
-            "R": {
-              "value": "33",
+            "HR": {
+              "value": "10",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "3",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "45",
+            "R": {
+              "value": "33",
               "result": "LOSS"
             },
             "ERA": {
               "value": "5.55",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "3",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.800",
               "result": "LOSS"
             },
-            "H": {
-              "value": "47",
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "45",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "48.2",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.36",
@@ -1323,10 +1323,6 @@
           "catLoss": 3,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.305",
               "result": "WIN"
@@ -1335,12 +1331,8 @@
               "value": "4",
               "result": "TIE"
             },
-            "IP": {
-              "value": "25.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "16",
+            "H": {
+              "value": "14",
               "result": "WIN"
             },
             "K": {
@@ -1351,29 +1343,37 @@
               "value": "48",
               "result": "WIN"
             },
-            "R": {
-              "value": "36",
+            "HR": {
+              "value": "16",
               "result": "WIN"
             },
-            "SB": {
-              "value": "2",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "41",
+            "R": {
+              "value": "36",
               "result": "WIN"
             },
             "ERA": {
               "value": "3.20",
               "result": "WIN"
             },
+            "SB": {
+              "value": "2",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "1.003",
               "result": "WIN"
             },
-            "H": {
-              "value": "14",
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "41",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "25.1",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "0.95",
@@ -1394,10 +1394,6 @@
           "catLoss": 2,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.288",
               "result": "WIN"
@@ -1406,12 +1402,8 @@
               "value": "1",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "44.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "8",
+            "H": {
+              "value": "34",
               "result": "WIN"
             },
             "K": {
@@ -1422,28 +1414,36 @@
               "value": "21",
               "result": "WIN"
             },
+            "HR": {
+              "value": "8",
+              "result": "WIN"
+            },
             "R": {
               "value": "27",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "3",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "45",
-              "result": "WIN"
-            },
             "ERA": {
               "value": "3.02",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "3",
               "result": "WIN"
             },
             "OPS": {
               "value": "0.823",
               "result": "WIN"
             },
-            "H": {
-              "value": "34",
+            "QS": {
+              "value": "5",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "45",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "44.2",
               "result": "WIN"
             },
             "WHIP": {
@@ -1461,10 +1461,6 @@
           "catLoss": 12,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.240",
               "result": "LOSS"
@@ -1473,12 +1469,8 @@
               "value": "3",
               "result": "WIN"
             },
-            "IP": {
-              "value": "41.0",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "5",
+            "H": {
+              "value": "37",
               "result": "LOSS"
             },
             "K": {
@@ -1489,28 +1481,36 @@
               "value": "17",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "5",
+              "result": "LOSS"
+            },
             "R": {
               "value": "29",
               "result": "WIN"
             },
-            "SB": {
-              "value": "2",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "50",
-              "result": "LOSS"
-            },
             "ERA": {
               "value": "4.17",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "2",
               "result": "LOSS"
             },
             "OPS": {
               "value": "0.732",
               "result": "LOSS"
             },
-            "H": {
-              "value": "37",
+            "QS": {
+              "value": "3",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "50",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "41.0",
               "result": "LOSS"
             },
             "WHIP": {
@@ -1532,10 +1532,6 @@
           "catLoss": 12,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.268",
               "result": "LOSS"
@@ -1544,12 +1540,8 @@
               "value": "2",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "39.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "9",
+            "H": {
+              "value": "32",
               "result": "LOSS"
             },
             "K": {
@@ -1560,28 +1552,36 @@
               "value": "29",
               "result": "WIN"
             },
+            "HR": {
+              "value": "9",
+              "result": "LOSS"
+            },
             "R": {
               "value": "33",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "4.76",
               "result": "LOSS"
             },
             "SB": {
               "value": "3",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "43",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "4.76",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.798",
               "result": "LOSS"
             },
-            "H": {
-              "value": "32",
+            "QS": {
+              "value": "2",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "43",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "39.2",
               "result": "LOSS"
             },
             "WHIP": {
@@ -1599,10 +1599,6 @@
           "catLoss": 2,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.298",
               "result": "WIN"
@@ -1611,12 +1607,8 @@
               "value": "4",
               "result": "WIN"
             },
-            "IP": {
-              "value": "44.1",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "12",
+            "H": {
+              "value": "29",
               "result": "WIN"
             },
             "K": {
@@ -1627,28 +1619,36 @@
               "value": "27",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "12",
+              "result": "WIN"
+            },
             "R": {
               "value": "40",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "2.64",
               "result": "WIN"
             },
             "SB": {
               "value": "8",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "51",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "2.64",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.975",
               "result": "WIN"
             },
-            "H": {
-              "value": "29",
+            "QS": {
+              "value": "4",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "51",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "44.1",
               "result": "WIN"
             },
             "WHIP": {
@@ -1672,10 +1672,6 @@
           "catLoss": 5,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.250",
               "result": "WIN"
@@ -1684,13 +1680,9 @@
               "value": "8",
               "result": "WIN"
             },
-            "IP": {
-              "value": "87.1",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "18",
-              "result": "WIN"
+            "H": {
+              "value": "75",
+              "result": "LOSS"
             },
             "K": {
               "value": "88",
@@ -1700,29 +1692,37 @@
               "value": "55",
               "result": "WIN"
             },
+            "HR": {
+              "value": "18",
+              "result": "WIN"
+            },
             "R": {
               "value": "59",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "3.50",
               "result": "WIN"
             },
             "SB": {
               "value": "4",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "102",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "3.50",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.812",
               "result": "WIN"
             },
-            "H": {
-              "value": "75",
+            "QS": {
+              "value": "4",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "102",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "87.1",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.24",
@@ -1739,10 +1739,6 @@
           "catLoss": 8,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.218",
               "result": "LOSS"
@@ -1751,13 +1747,9 @@
               "value": "3",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "78.0",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "13",
-              "result": "LOSS"
+            "H": {
+              "value": "65",
+              "result": "WIN"
             },
             "K": {
               "value": "107",
@@ -1767,29 +1759,37 @@
               "value": "45",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "13",
+              "result": "LOSS"
+            },
             "R": {
               "value": "52",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "4.38",
               "result": "LOSS"
             },
             "SB": {
               "value": "7",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "94",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "4.38",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.689",
               "result": "LOSS"
             },
-            "H": {
-              "value": "65",
+            "QS": {
+              "value": "4",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "94",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "78.0",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.22",
@@ -1810,10 +1810,6 @@
           "catLoss": 9,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.212",
               "result": "LOSS"
@@ -1822,13 +1818,9 @@
               "value": "7",
               "result": "WIN"
             },
-            "IP": {
-              "value": "90.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "19",
-              "result": "WIN"
+            "H": {
+              "value": "74",
+              "result": "LOSS"
             },
             "K": {
               "value": "86",
@@ -1838,29 +1830,37 @@
               "value": "60",
               "result": "TIE"
             },
+            "HR": {
+              "value": "19",
+              "result": "WIN"
+            },
             "R": {
               "value": "46",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "2",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "116",
               "result": "LOSS"
             },
             "ERA": {
               "value": "3.08",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "2",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.711",
               "result": "WIN"
             },
-            "H": {
-              "value": "74",
+            "QS": {
+              "value": "5",
               "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "116",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "90.2",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.17",
@@ -1877,10 +1877,6 @@
           "catLoss": 4,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "6",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.219",
               "result": "WIN"
@@ -1889,13 +1885,9 @@
               "value": "4",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "82.0",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "13",
-              "result": "LOSS"
+            "H": {
+              "value": "52",
+              "result": "WIN"
             },
             "K": {
               "value": "96",
@@ -1905,29 +1897,37 @@
               "value": "60",
               "result": "TIE"
             },
+            "HR": {
+              "value": "13",
+              "result": "LOSS"
+            },
             "R": {
               "value": "50",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "9",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "98",
               "result": "WIN"
             },
             "ERA": {
               "value": "2.09",
               "result": "WIN"
             },
+            "SB": {
+              "value": "9",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.694",
               "result": "LOSS"
             },
-            "H": {
-              "value": "52",
+            "QS": {
+              "value": "6",
               "result": "WIN"
+            },
+            "Kbat": {
+              "value": "98",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "82.0",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "0.99",
@@ -1948,10 +1948,6 @@
           "catLoss": 4,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.261",
               "result": "WIN"
@@ -1960,12 +1956,8 @@
               "value": "6",
               "result": "TIE"
             },
-            "IP": {
-              "value": "79.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "19",
+            "H": {
+              "value": "65",
               "result": "WIN"
             },
             "K": {
@@ -1976,29 +1968,37 @@
               "value": "67",
               "result": "WIN"
             },
-            "R": {
-              "value": "64",
+            "HR": {
+              "value": "19",
               "result": "WIN"
             },
-            "SB": {
-              "value": "7",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "66",
+            "R": {
+              "value": "64",
               "result": "WIN"
             },
             "ERA": {
               "value": "4.65",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "7",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.808",
               "result": "WIN"
             },
-            "H": {
-              "value": "65",
+            "QS": {
+              "value": "4",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "66",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "79.1",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.21",
@@ -2015,10 +2015,6 @@
           "catLoss": 9,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.241",
               "result": "LOSS"
@@ -2027,12 +2023,8 @@
               "value": "6",
               "result": "TIE"
             },
-            "IP": {
-              "value": "80.1",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "8",
+            "H": {
+              "value": "72",
               "result": "LOSS"
             },
             "K": {
@@ -2043,29 +2035,37 @@
               "value": "37",
               "result": "LOSS"
             },
-            "R": {
-              "value": "46",
+            "HR": {
+              "value": "8",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "8",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "100",
+            "R": {
+              "value": "46",
               "result": "LOSS"
             },
             "ERA": {
               "value": "3.59",
               "result": "WIN"
             },
+            "SB": {
+              "value": "8",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.654",
               "result": "LOSS"
             },
-            "H": {
-              "value": "72",
+            "QS": {
+              "value": "5",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "100",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "80.1",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.27",
@@ -2086,10 +2086,6 @@
           "catLoss": 3,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "8",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.257",
               "result": "WIN"
@@ -2098,12 +2094,8 @@
               "value": "7",
               "result": "WIN"
             },
-            "IP": {
-              "value": "85.1",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "10",
+            "H": {
+              "value": "66",
               "result": "LOSS"
             },
             "K": {
@@ -2114,29 +2106,37 @@
               "value": "48",
               "result": "WIN"
             },
+            "HR": {
+              "value": "10",
+              "result": "LOSS"
+            },
             "R": {
               "value": "66",
-              "result": "WIN"
-            },
-            "SB": {
-              "value": "14",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "94",
               "result": "WIN"
             },
             "ERA": {
               "value": "2.74",
               "result": "WIN"
             },
+            "SB": {
+              "value": "14",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.743",
               "result": "WIN"
             },
-            "H": {
-              "value": "66",
-              "result": "LOSS"
+            "QS": {
+              "value": "8",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "94",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "85.1",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.09",
@@ -2153,10 +2153,6 @@
           "catLoss": 11,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.230",
               "result": "LOSS"
@@ -2165,12 +2161,8 @@
               "value": "6",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "85.0",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "12",
+            "H": {
+              "value": "65",
               "result": "WIN"
             },
             "K": {
@@ -2181,29 +2173,37 @@
               "value": "44",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "12",
+              "result": "WIN"
+            },
             "R": {
               "value": "50",
-              "result": "LOSS"
-            },
-            "SB": {
-              "value": "7",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "103",
               "result": "LOSS"
             },
             "ERA": {
               "value": "3.81",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "7",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.690",
               "result": "LOSS"
             },
-            "H": {
-              "value": "65",
-              "result": "WIN"
+            "QS": {
+              "value": "4",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "103",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "85.0",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.21",
@@ -2224,10 +2224,6 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.211",
               "result": "LOSS"
@@ -2236,12 +2232,8 @@
               "value": "4",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "86.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "13",
+            "H": {
+              "value": "73",
               "result": "LOSS"
             },
             "K": {
@@ -2252,29 +2244,37 @@
               "value": "50",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "13",
+              "result": "LOSS"
+            },
             "R": {
               "value": "48",
               "result": "LOSS"
             },
+            "ERA": {
+              "value": "3.03",
+              "result": "WIN"
+            },
             "SB": {
               "value": "4",
+              "result": "LOSS"
+            },
+            "OPS": {
+              "value": "0.663",
+              "result": "LOSS"
+            },
+            "QS": {
+              "value": "3",
               "result": "LOSS"
             },
             "Kbat": {
               "value": "108",
               "result": "WIN"
             },
-            "ERA": {
-              "value": "3.03",
+            "IP": {
+              "value": "86.0",
               "result": "WIN"
-            },
-            "OPS": {
-              "value": "0.663",
-              "result": "LOSS"
-            },
-            "H": {
-              "value": "73",
-              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.23",
@@ -2291,10 +2291,6 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.245",
               "result": "WIN"
@@ -2303,12 +2299,8 @@
               "value": "7",
               "result": "WIN"
             },
-            "IP": {
-              "value": "76.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "16",
+            "H": {
+              "value": "67",
               "result": "WIN"
             },
             "K": {
@@ -2319,29 +2311,37 @@
               "value": "54",
               "result": "WIN"
             },
+            "HR": {
+              "value": "16",
+              "result": "WIN"
+            },
             "R": {
               "value": "57",
               "result": "WIN"
             },
+            "ERA": {
+              "value": "5.78",
+              "result": "LOSS"
+            },
             "SB": {
               "value": "6",
+              "result": "WIN"
+            },
+            "OPS": {
+              "value": "0.771",
+              "result": "WIN"
+            },
+            "QS": {
+              "value": "5",
               "result": "WIN"
             },
             "Kbat": {
               "value": "117",
               "result": "LOSS"
             },
-            "ERA": {
-              "value": "5.78",
+            "IP": {
+              "value": "76.1",
               "result": "LOSS"
-            },
-            "OPS": {
-              "value": "0.771",
-              "result": "WIN"
-            },
-            "H": {
-              "value": "67",
-              "result": "WIN"
             },
             "WHIP": {
               "value": "1.32",
@@ -2362,10 +2362,6 @@
           "catLoss": 9,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.260",
               "result": "WIN"
@@ -2374,12 +2370,8 @@
               "value": "8",
               "result": "WIN"
             },
-            "IP": {
-              "value": "82.1",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "13",
+            "H": {
+              "value": "69",
               "result": "LOSS"
             },
             "K": {
@@ -2390,28 +2382,36 @@
               "value": "44",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "13",
+              "result": "LOSS"
+            },
             "R": {
               "value": "49",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "4.15",
               "result": "LOSS"
             },
             "SB": {
               "value": "7",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "107",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "4.15",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.739",
               "result": "WIN"
             },
-            "H": {
-              "value": "69",
+            "QS": {
+              "value": "5",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "107",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "82.1",
               "result": "LOSS"
             },
             "WHIP": {
@@ -2429,10 +2429,6 @@
           "catLoss": 4,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "7",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.231",
               "result": "LOSS"
@@ -2441,12 +2437,8 @@
               "value": "7",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "92.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "14",
+            "H": {
+              "value": "68",
               "result": "WIN"
             },
             "K": {
@@ -2457,28 +2449,36 @@
               "value": "57",
               "result": "WIN"
             },
+            "HR": {
+              "value": "14",
+              "result": "WIN"
+            },
             "R": {
               "value": "62",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "3.11",
               "result": "WIN"
             },
             "SB": {
               "value": "11",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "111",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "3.11",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.694",
               "result": "LOSS"
             },
-            "H": {
-              "value": "68",
+            "QS": {
+              "value": "7",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "111",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "92.2",
               "result": "WIN"
             },
             "WHIP": {
@@ -2502,10 +2502,6 @@
           "catLoss": 7,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "4",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.242",
               "result": "LOSS"
@@ -2514,12 +2510,8 @@
               "value": "4",
               "result": "WIN"
             },
-            "IP": {
-              "value": "52.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "14",
+            "H": {
+              "value": "35",
               "result": "WIN"
             },
             "K": {
@@ -2530,29 +2522,37 @@
               "value": "42",
               "result": "WIN"
             },
+            "HR": {
+              "value": "14",
+              "result": "WIN"
+            },
             "R": {
               "value": "40",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "2.22",
               "result": "WIN"
             },
             "SB": {
               "value": "8",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "68",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "2.22",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.768",
               "result": "LOSS"
             },
-            "H": {
-              "value": "35",
-              "result": "WIN"
+            "QS": {
+              "value": "4",
+              "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "68",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "52.2",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.08",
@@ -2569,10 +2569,6 @@
           "catLoss": 7,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.278",
               "result": "WIN"
@@ -2581,12 +2577,8 @@
               "value": "3",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "59.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "8",
+            "H": {
+              "value": "46",
               "result": "LOSS"
             },
             "K": {
@@ -2597,29 +2589,37 @@
               "value": "36",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "8",
+              "result": "LOSS"
+            },
             "R": {
               "value": "37",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "3.47",
               "result": "LOSS"
             },
             "SB": {
               "value": "12",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "55",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "3.47",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.820",
               "result": "WIN"
             },
-            "H": {
-              "value": "46",
-              "result": "LOSS"
+            "QS": {
+              "value": "5",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "55",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "59.2",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.11",
@@ -2640,10 +2640,6 @@
           "catLoss": 9,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.215",
               "result": "LOSS"
@@ -2652,13 +2648,9 @@
               "value": "2",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "51.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "3",
-              "result": "LOSS"
+            "H": {
+              "value": "38",
+              "result": "WIN"
             },
             "K": {
               "value": "37",
@@ -2668,29 +2660,37 @@
               "value": "21",
               "result": "LOSS"
             },
-            "R": {
-              "value": "25",
+            "HR": {
+              "value": "3",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "3",
-              "result": "TIE"
-            },
-            "Kbat": {
-              "value": "60",
+            "R": {
+              "value": "25",
               "result": "LOSS"
             },
             "ERA": {
               "value": "2.79",
               "result": "WIN"
             },
+            "SB": {
+              "value": "3",
+              "result": "TIE"
+            },
             "OPS": {
               "value": "0.633",
               "result": "LOSS"
             },
-            "H": {
-              "value": "38",
+            "QS": {
+              "value": "5",
               "result": "WIN"
+            },
+            "Kbat": {
+              "value": "60",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "51.2",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.06",
@@ -2707,10 +2707,6 @@
           "catLoss": 4,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.264",
               "result": "WIN"
@@ -2719,13 +2715,9 @@
               "value": "4",
               "result": "WIN"
             },
-            "IP": {
-              "value": "60.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "5",
-              "result": "WIN"
+            "H": {
+              "value": "65",
+              "result": "LOSS"
             },
             "K": {
               "value": "54",
@@ -2735,29 +2727,37 @@
               "value": "27",
               "result": "WIN"
             },
-            "R": {
-              "value": "33",
+            "HR": {
+              "value": "5",
               "result": "WIN"
             },
-            "SB": {
-              "value": "3",
-              "result": "TIE"
-            },
-            "Kbat": {
-              "value": "59",
+            "R": {
+              "value": "33",
               "result": "WIN"
             },
             "ERA": {
               "value": "5.40",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "3",
+              "result": "TIE"
+            },
             "OPS": {
               "value": "0.748",
               "result": "WIN"
             },
-            "H": {
-              "value": "65",
+            "QS": {
+              "value": "2",
               "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "59",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "60.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.43",
@@ -2778,10 +2778,6 @@
           "catLoss": 6,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.286",
               "result": "WIN"
@@ -2790,13 +2786,9 @@
               "value": "5",
               "result": "WIN"
             },
-            "IP": {
-              "value": "54.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "9",
-              "result": "LOSS"
+            "H": {
+              "value": "45",
+              "result": "WIN"
             },
             "K": {
               "value": "60",
@@ -2806,29 +2798,37 @@
               "value": "37",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "9",
+              "result": "LOSS"
+            },
             "R": {
               "value": "42",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "9",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "45",
-              "result": "WIN"
-            },
             "ERA": {
               "value": "2.63",
+              "result": "WIN"
+            },
+            "SB": {
+              "value": "9",
               "result": "WIN"
             },
             "OPS": {
               "value": "0.825",
               "result": "LOSS"
             },
-            "H": {
+            "QS": {
+              "value": "3",
+              "result": "TIE"
+            },
+            "Kbat": {
               "value": "45",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "54.2",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.17",
@@ -2845,10 +2845,6 @@
           "catLoss": 7,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.253",
               "result": "LOSS"
@@ -2857,13 +2853,9 @@
               "value": "3",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "61.2",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "14",
-              "result": "WIN"
+            "H": {
+              "value": "57",
+              "result": "LOSS"
             },
             "K": {
               "value": "65",
@@ -2873,29 +2865,37 @@
               "value": "40",
               "result": "WIN"
             },
+            "HR": {
+              "value": "14",
+              "result": "WIN"
+            },
             "R": {
               "value": "43",
               "result": "WIN"
             },
-            "SB": {
-              "value": "4",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "60",
-              "result": "LOSS"
-            },
             "ERA": {
               "value": "3.94",
+              "result": "LOSS"
+            },
+            "SB": {
+              "value": "4",
               "result": "LOSS"
             },
             "OPS": {
               "value": "0.843",
               "result": "WIN"
             },
-            "H": {
-              "value": "57",
+            "QS": {
+              "value": "3",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "60",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "61.2",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.22",
@@ -2916,10 +2916,6 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.242",
               "result": "WIN"
@@ -2928,13 +2924,9 @@
               "value": "1",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "43.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "7",
-              "result": "LOSS"
+            "H": {
+              "value": "46",
+              "result": "WIN"
             },
             "K": {
               "value": "46",
@@ -2944,29 +2936,37 @@
               "value": "43",
               "result": "WIN"
             },
+            "HR": {
+              "value": "7",
+              "result": "LOSS"
+            },
             "R": {
               "value": "29",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "4.74",
               "result": "LOSS"
             },
             "SB": {
               "value": "4",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "46",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "4.74",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.711",
               "result": "WIN"
             },
-            "H": {
+            "QS": {
+              "value": "2",
+              "result": "LOSS"
+            },
+            "Kbat": {
               "value": "46",
               "result": "WIN"
+            },
+            "IP": {
+              "value": "43.2",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.58",
@@ -2983,10 +2983,6 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "5",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.231",
               "result": "LOSS"
@@ -2995,13 +2991,9 @@
               "value": "2",
               "result": "WIN"
             },
-            "IP": {
-              "value": "63.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "10",
-              "result": "WIN"
+            "H": {
+              "value": "47",
+              "result": "LOSS"
             },
             "K": {
               "value": "49",
@@ -3011,29 +3003,37 @@
               "value": "32",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "10",
+              "result": "WIN"
+            },
             "R": {
               "value": "37",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "2.43",
               "result": "WIN"
             },
             "SB": {
               "value": "8",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "58",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "2.43",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.691",
               "result": "LOSS"
             },
-            "H": {
-              "value": "47",
+            "QS": {
+              "value": "5",
+              "result": "WIN"
+            },
+            "Kbat": {
+              "value": "58",
               "result": "LOSS"
+            },
+            "IP": {
+              "value": "63.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.16",
@@ -3054,10 +3054,6 @@
           "catLoss": 6,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.242",
               "result": "LOSS"
@@ -3066,13 +3062,9 @@
               "value": "2",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "61.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "7",
-              "result": "WIN"
+            "H": {
+              "value": "58",
+              "result": "LOSS"
             },
             "K": {
               "value": "69",
@@ -3082,29 +3074,37 @@
               "value": "34",
               "result": "WIN"
             },
-            "R": {
-              "value": "34",
+            "HR": {
+              "value": "7",
               "result": "WIN"
             },
-            "SB": {
-              "value": "4",
-              "result": "LOSS"
-            },
-            "Kbat": {
-              "value": "55",
+            "R": {
+              "value": "34",
               "result": "WIN"
             },
             "ERA": {
               "value": "4.43",
               "result": "WIN"
             },
+            "SB": {
+              "value": "4",
+              "result": "LOSS"
+            },
             "OPS": {
               "value": "0.687",
               "result": "LOSS"
             },
-            "H": {
-              "value": "58",
-              "result": "LOSS"
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "55",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "61.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.38",
@@ -3121,10 +3121,6 @@
           "catLoss": 7,
           "catTies": 1,
           "categories": {
-            "QS": {
-              "value": "2",
-              "result": "TIE"
-            },
             "AVG": {
               "value": "0.255",
               "result": "WIN"
@@ -3133,13 +3129,9 @@
               "value": "5",
               "result": "WIN"
             },
-            "IP": {
-              "value": "56.0",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "6",
-              "result": "LOSS"
+            "H": {
+              "value": "53",
+              "result": "WIN"
             },
             "K": {
               "value": "52",
@@ -3149,29 +3141,37 @@
               "value": "30",
               "result": "LOSS"
             },
-            "R": {
-              "value": "30",
+            "HR": {
+              "value": "6",
               "result": "LOSS"
             },
-            "SB": {
-              "value": "8",
-              "result": "WIN"
-            },
-            "Kbat": {
-              "value": "70",
+            "R": {
+              "value": "30",
               "result": "LOSS"
             },
             "ERA": {
               "value": "4.66",
               "result": "LOSS"
             },
+            "SB": {
+              "value": "8",
+              "result": "WIN"
+            },
             "OPS": {
               "value": "0.691",
               "result": "WIN"
             },
-            "H": {
-              "value": "53",
-              "result": "WIN"
+            "QS": {
+              "value": "2",
+              "result": "TIE"
+            },
+            "Kbat": {
+              "value": "70",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "56.0",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.38",
@@ -3192,10 +3192,6 @@
           "catLoss": 9,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "3",
-              "result": "WIN"
-            },
             "AVG": {
               "value": "0.242",
               "result": "LOSS"
@@ -3204,13 +3200,9 @@
               "value": "3",
               "result": "WIN"
             },
-            "IP": {
-              "value": "48.2",
-              "result": "LOSS"
-            },
-            "HR": {
-              "value": "5",
-              "result": "LOSS"
+            "H": {
+              "value": "51",
+              "result": "WIN"
             },
             "K": {
               "value": "39",
@@ -3220,29 +3212,37 @@
               "value": "26",
               "result": "LOSS"
             },
+            "HR": {
+              "value": "5",
+              "result": "LOSS"
+            },
             "R": {
               "value": "24",
+              "result": "LOSS"
+            },
+            "ERA": {
+              "value": "6.29",
               "result": "LOSS"
             },
             "SB": {
               "value": "7",
               "result": "LOSS"
             },
-            "Kbat": {
-              "value": "56",
-              "result": "WIN"
-            },
-            "ERA": {
-              "value": "6.29",
-              "result": "LOSS"
-            },
             "OPS": {
               "value": "0.688",
               "result": "LOSS"
             },
-            "H": {
-              "value": "51",
+            "QS": {
+              "value": "3",
               "result": "WIN"
+            },
+            "Kbat": {
+              "value": "56",
+              "result": "WIN"
+            },
+            "IP": {
+              "value": "48.2",
+              "result": "LOSS"
             },
             "WHIP": {
               "value": "1.42",
@@ -3259,10 +3259,6 @@
           "catLoss": 5,
           "catTies": 0,
           "categories": {
-            "QS": {
-              "value": "1",
-              "result": "LOSS"
-            },
             "AVG": {
               "value": "0.249",
               "result": "WIN"
@@ -3271,13 +3267,9 @@
               "value": "2",
               "result": "LOSS"
             },
-            "IP": {
-              "value": "64.0",
-              "result": "WIN"
-            },
-            "HR": {
-              "value": "8",
-              "result": "WIN"
+            "H": {
+              "value": "77",
+              "result": "LOSS"
             },
             "K": {
               "value": "58",
@@ -3287,29 +3279,37 @@
               "value": "32",
               "result": "WIN"
             },
+            "HR": {
+              "value": "8",
+              "result": "WIN"
+            },
             "R": {
               "value": "35",
+              "result": "WIN"
+            },
+            "ERA": {
+              "value": "5.06",
               "result": "WIN"
             },
             "SB": {
               "value": "11",
               "result": "WIN"
             },
-            "Kbat": {
-              "value": "63",
-              "result": "LOSS"
-            },
-            "ERA": {
-              "value": "5.06",
-              "result": "WIN"
-            },
             "OPS": {
               "value": "0.737",
               "result": "WIN"
             },
-            "H": {
-              "value": "77",
+            "QS": {
+              "value": "1",
               "result": "LOSS"
+            },
+            "Kbat": {
+              "value": "63",
+              "result": "LOSS"
+            },
+            "IP": {
+              "value": "64.0",
+              "result": "WIN"
             },
             "WHIP": {
               "value": "1.59",
@@ -6654,5 +6654,5 @@
       }
     }
   },
-  "updated": "2026-04-18T11:09:47Z"
+  "updated": "2026-04-18T14:25:21Z"
 }
