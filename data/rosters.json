@@ -148,7 +148,7 @@
         },
         {
           "name": "Bryson Stott",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -211,7 +211,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -829,7 +829,7 @@
         },
         {
           "name": "Spencer Torkelson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1010,7 +1010,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1031,7 +1031,7 @@
         },
         {
           "name": "Otto Lopez",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1355,7 +1355,7 @@
         },
         {
           "name": "Ezequiel Tovar",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1656,7 +1656,7 @@
         },
         {
           "name": "Andres Gimenez",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1747,6 +1747,19 @@
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Carson Kelly",
+          "slot": "UTIL",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -7027,5 +7040,5 @@
       ]
     }
   ],
-  "updated": "2026-04-19T15:38:36Z"
+  "updated": "2026-04-19T16:42:12Z"
 }
