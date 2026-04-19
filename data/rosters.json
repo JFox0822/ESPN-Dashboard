@@ -1187,7 +1187,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "SUSPENSION",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2151,7 +2151,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6486,7 +6486,7 @@
         },
         {
           "name": "Kevin McGonigle",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6507,7 +6507,7 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -7040,5 +7040,5 @@
       ]
     }
   ],
-  "updated": "2026-04-19T16:42:12Z"
+  "updated": "2026-04-19T17:36:56Z"
 }
