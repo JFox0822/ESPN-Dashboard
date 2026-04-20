@@ -1,7 +1,7 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 3,
+  "currentWeek": 4,
   "teamCount": 12,
   "teams": [
     {
@@ -25,6 +25,11 @@
       "abbrev": "CORY"
     },
     {
+      "id": 12,
+      "name": "Brevard County Manatees",
+      "abbrev": "TC"
+    },
+    {
       "id": 2,
       "name": "Gettysburg Generals",
       "abbrev": "MION"
@@ -40,19 +45,9 @@
       "abbrev": "TIM"
     },
     {
-      "id": 12,
-      "name": "Brevard County Manatees",
-      "abbrev": "TC"
-    },
-    {
       "id": 9,
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN"
-    },
-    {
-      "id": 3,
-      "name": "Buffalo Bison",
-      "abbrev": "BERT"
     },
     {
       "id": 4,
@@ -60,10 +55,15 @@
       "abbrev": "CHRS"
     },
     {
+      "id": 3,
+      "name": "Buffalo Bison",
+      "abbrev": "BERT"
+    },
+    {
       "id": 6,
       "name": "San Juan Coquis",
       "abbrev": "JACB"
     }
   ],
-  "updated": "2026-04-20T05:43:10Z"
+  "updated": "2026-04-20T08:10:14Z"
 }

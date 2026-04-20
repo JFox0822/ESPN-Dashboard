@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "week": 3,
+  "week": 4,
   "teams": [
     {
       "id": 1,
@@ -15,7 +15,7 @@
       "players": [
         {
           "name": "Cody Bellinger",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -85,7 +85,7 @@
         },
         {
           "name": "Aaron Judge",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -169,7 +169,7 @@
         },
         {
           "name": "Alec Bohm",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -211,7 +211,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -439,7 +439,7 @@
         },
         {
           "name": "Wilyer Abreu",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1195,25 +1195,17 @@
           "keeperEligible": false
         },
         {
-          "name": "Brady Singer",
+          "name": "Riley Cornelio",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 23.2,
-            "H": 32,
-            "WHIP": 1.648,
-            "ERA": 5.324,
-            "K": 16,
-            "SVHD": 0,
-            "QS": 2
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 21,
-          "keeperEligible": true
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -4252,7 +4244,7 @@
         },
         {
           "name": "Ben Rice",
-          "slot": "C",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -4336,7 +4328,7 @@
         },
         {
           "name": "Yainer Diaz",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4399,7 +4391,7 @@
         },
         {
           "name": "Michael King",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4441,7 +4433,7 @@
         },
         {
           "name": "Devin Williams",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4651,7 +4643,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4685,7 +4677,7 @@
         },
         {
           "name": "Alex Vesia",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4782,7 +4774,7 @@
         },
         {
           "name": "Bryan Woo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4824,7 +4816,7 @@
         },
         {
           "name": "William Contreras",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4845,7 +4837,7 @@
         },
         {
           "name": "Tyler Soderstrom",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4887,7 +4879,7 @@
         },
         {
           "name": "Jakob Marsee",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4908,7 +4900,7 @@
         },
         {
           "name": "Jac Caglianone",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4992,7 +4984,7 @@
         },
         {
           "name": "Eury Perez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5034,7 +5026,7 @@
         },
         {
           "name": "Dylan Cease",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5118,7 +5110,7 @@
         },
         {
           "name": "Samuel Basallo",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5191,7 +5183,7 @@
         },
         {
           "name": "Heliot Ramos",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5225,23 +5217,10 @@
         },
         {
           "name": "Luke Raley",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Blake Treinen",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -5290,7 +5269,7 @@
       "players": [
         {
           "name": "Garrett Crochet",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5374,7 +5353,7 @@
         },
         {
           "name": "Jackson Merrill",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5458,7 +5437,7 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5479,7 +5458,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5542,7 +5521,7 @@
         },
         {
           "name": "Kyle Bradish",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5626,7 +5605,7 @@
         },
         {
           "name": "Gavin Williams",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5752,7 +5731,7 @@
         },
         {
           "name": "Adolis Garcia",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6494,7 +6473,7 @@
         },
         {
           "name": "Kevin McGonigle",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6515,7 +6494,7 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6599,7 +6578,7 @@
         },
         {
           "name": "Byron Buxton",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6764,7 +6743,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6798,7 +6777,7 @@
         },
         {
           "name": "Will Warren",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7034,7 +7013,7 @@
         },
         {
           "name": "Robby Snelling",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7048,5 +7027,5 @@
       ]
     }
   ],
-  "updated": "2026-04-20T05:43:10Z"
+  "updated": "2026-04-20T08:10:14Z"
 }

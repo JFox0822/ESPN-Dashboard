@@ -6,7 +6,6 @@
     3,
     5,
     6,
-    7,
     8,
     9,
     11,
@@ -26,13 +25,21 @@
       "week": 2,
       "catWins": 4,
       "round": 1
+    },
+    {
+      "teamId": 7,
+      "team": "Nagasaki Bombers",
+      "week": 3,
+      "catWins": 2,
+      "round": 1
     }
   ],
   "champions": [],
   "currentRound": 1,
   "processedWeeks": [
     1,
-    2
+    2,
+    3
   ],
   "history": [
     {
@@ -164,6 +171,69 @@
         "Santa Clara Sea-Creatures": true,
         "Brevard County Manatees": true
       }
+    },
+    {
+      "week": 3,
+      "round": 1,
+      "allScores": {
+        "4": 7,
+        "9": 7,
+        "8": 9,
+        "10": 4,
+        "5": 9,
+        "2": 5,
+        "6": 3,
+        "11": 9,
+        "1": 9,
+        "3": 5,
+        "7": 2,
+        "12": 12
+      },
+      "losers": [
+        {
+          "team": "Amsterdam Mohawks",
+          "catWins": 4
+        },
+        {
+          "team": "Gettysburg Generals",
+          "catWins": 5
+        },
+        {
+          "team": "San Juan Coquis",
+          "catWins": 3
+        },
+        {
+          "team": "Buffalo Bison",
+          "catWins": 5
+        },
+        {
+          "team": "Nagasaki Bombers",
+          "catWins": 2
+        }
+      ],
+      "eliminated": [
+        {
+          "teamId": 7,
+          "team": "Nagasaki Bombers",
+          "week": 3,
+          "catWins": 2,
+          "round": 1
+        }
+      ],
+      "allActive": {
+        "Roosevelt Ruff Ryders": true,
+        "Gettysburg Generals": true,
+        "Buffalo Bison": true,
+        "\ud83c\udfc6 Virginia Beach VelociRaptors": false,
+        "Cooperstown Udder Tuggers": true,
+        "San Juan Coquis": true,
+        "Nagasaki Bombers": false,
+        "Portland Pickles": true,
+        "Las Vegas Degenerate": true,
+        "Amsterdam Mohawks": false,
+        "Santa Clara Sea-Creatures": true,
+        "Brevard County Manatees": true
+      }
     }
   ],
   "teamNames": {
@@ -180,5 +250,5 @@
     "11": "Santa Clara Sea-Creatures",
     "12": "Brevard County Manatees"
   },
-  "updated": "2026-04-20T05:43:10Z"
+  "updated": "2026-04-20T08:10:14Z"
 }
