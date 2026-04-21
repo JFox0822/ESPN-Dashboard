@@ -1256,7 +1256,7 @@
         },
         {
           "name": "Ketel Marte",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1360,7 +1360,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1402,7 +1402,7 @@
         },
         {
           "name": "Bryan Reynolds",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1739,7 +1739,7 @@
         },
         {
           "name": "Carson Kelly",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2386,7 +2386,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2533,7 +2533,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4055,7 +4055,7 @@
         },
         {
           "name": "Luis Gil",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4068,7 +4068,7 @@
         },
         {
           "name": "Jack Flaherty",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4442,7 +4442,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 8.2,
             "H": 5,
@@ -7024,5 +7024,5 @@
       ]
     }
   ],
-  "updated": "2026-04-21T13:43:52Z"
+  "updated": "2026-04-21T15:14:13Z"
 }
