@@ -722,9 +722,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.274,
+            "AVG": 0.271,
             "HR": 5,
-            "OPS": 0.903,
+            "OPS": 0.893,
             "R": 16,
             "RBI": 18,
             "SB": 0,
@@ -743,13 +743,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.278,
             "HR": 3,
-            "OPS": 0.834,
+            "OPS": 0.825,
             "R": 17,
             "RBI": 8,
             "SB": 1,
-            "Kbat": 19
+            "Kbat": 20
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -821,7 +821,7 @@
         },
         {
           "name": "Spencer Torkelson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1002,11 +1002,11 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.267,
             "HR": 7,
@@ -2371,9 +2371,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.326,
+            "AVG": 0.322,
             "HR": 10,
-            "OPS": 1.215,
+            "OPS": 1.202,
             "R": 19,
             "RBI": 21,
             "SB": 1,
@@ -2892,13 +2892,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.275,
+            "AVG": 0.272,
             "HR": 1,
-            "OPS": 0.734,
+            "OPS": 0.725,
             "R": 16,
             "RBI": 12,
             "SB": 1,
-            "Kbat": 15
+            "Kbat": 16
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -3288,9 +3288,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.219,
+            "AVG": 0.216,
             "HR": 5,
-            "OPS": 0.811,
+            "OPS": 0.8,
             "R": 11,
             "RBI": 12,
             "SB": 0,
@@ -3398,11 +3398,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 25.2,
-            "H": 13,
-            "WHIP": 0.779,
-            "ERA": 1.052,
-            "K": 25,
+            "IP": 27.2,
+            "H": 14,
+            "WHIP": 0.759,
+            "ERA": 0.976,
+            "K": 27,
             "SVHD": 0,
             "QS": 3
           },
@@ -3660,9 +3660,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.221,
+            "AVG": 0.217,
             "HR": 2,
-            "OPS": 0.697,
+            "OPS": 0.687,
             "R": 8,
             "RBI": 10,
             "SB": 0,
@@ -5658,9 +5658,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.22,
+            "AVG": 0.217,
             "HR": 1,
-            "OPS": 0.58,
+            "OPS": 0.574,
             "R": 9,
             "RBI": 8,
             "SB": 2,
@@ -6547,10 +6547,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.23,
+            "AVG": 0.239,
             "HR": 6,
-            "OPS": 0.85,
-            "R": 16,
+            "OPS": 0.862,
+            "R": 17,
             "RBI": 12,
             "SB": 10,
             "Kbat": 14
@@ -6824,7 +6824,7 @@
         },
         {
           "name": "Max Meyer",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7031,7 +7031,7 @@
         },
         {
           "name": "Payton Tolle",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7045,5 +7045,5 @@
       ]
     }
   ],
-  "updated": "2026-04-21T21:47:38Z"
+  "updated": "2026-04-21T22:38:58Z"
 }
