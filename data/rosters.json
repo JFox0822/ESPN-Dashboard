@@ -148,7 +148,7 @@
         },
         {
           "name": "Bryson Stott",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -169,7 +169,7 @@
         },
         {
           "name": "Alec Burleson",
-          "slot": "OF",
+          "slot": "1B",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -190,7 +190,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -245,11 +245,11 @@
         },
         {
           "name": "Sonny Gray",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "OUT",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 23.0,
             "H": 25,
@@ -473,7 +473,7 @@
         },
         {
           "name": "Michael Wacha",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -559,7 +559,7 @@
         },
         {
           "name": "Dominic Smith",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -4438,7 +4438,7 @@
         },
         {
           "name": "Raisel Iglesias",
-          "slot": "BE",
+          "slot": "IL",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4679,6 +4679,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Griffin Jax",
+          "slot": "BE",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 7.2,
+            "H": 9,
+            "WHIP": 1.957,
+            "ERA": 7.043,
+            "K": 7,
+            "SVHD": 2,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 16,
+          "keeperEligible": true
         }
       ]
     },
@@ -6440,7 +6461,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.244,
             "HR": 1,
@@ -7024,5 +7045,5 @@
       ]
     }
   ],
-  "updated": "2026-04-21T17:04:21Z"
+  "updated": "2026-04-21T19:14:40Z"
 }
