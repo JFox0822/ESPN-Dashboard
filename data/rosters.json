@@ -36,11 +36,11 @@
         },
         {
           "name": "Freddie Freeman",
-          "slot": "BE",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.296,
             "HR": 3,
@@ -148,7 +148,7 @@
         },
         {
           "name": "Bryson Stott",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -169,7 +169,7 @@
         },
         {
           "name": "Alec Burleson",
-          "slot": "1B",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2390,7 +2390,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.3,
             "HR": 3,
@@ -2407,7 +2407,7 @@
         },
         {
           "name": "Vladimir Guerrero Jr.",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2491,7 +2491,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2554,7 +2554,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2800,7 +2800,7 @@
         },
         {
           "name": "Garrett Mitchell",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2860,7 +2860,7 @@
         },
         {
           "name": "Moises Ballesteros",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -7045,5 +7045,5 @@
       ]
     }
   ],
-  "updated": "2026-04-21T20:54:49Z"
+  "updated": "2026-04-21T21:47:38Z"
 }
