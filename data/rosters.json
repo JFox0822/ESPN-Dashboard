@@ -863,7 +863,7 @@
         },
         {
           "name": "Kris Bubic",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -981,7 +981,7 @@
         },
         {
           "name": "Matthew Boyd",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1870,7 +1870,7 @@
         },
         {
           "name": "Adley Rutschman",
-          "slot": "IL",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1891,7 +1891,7 @@
         },
         {
           "name": "Nolan Schanuel",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1933,7 +1933,7 @@
         },
         {
           "name": "Owen Caissie",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2101,7 +2101,7 @@
         },
         {
           "name": "Daniel Palencia",
-          "slot": "RP",
+          "slot": "IL",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2291,19 +2291,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Brady House",
-          "slot": "BE",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Noah Schultz",
           "slot": "BE",
           "position": "SP",
@@ -2339,7 +2326,7 @@
         },
         {
           "name": "Dalton Rushing",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2349,6 +2336,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Trevor Megill",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 8.0,
+            "H": 9,
+            "WHIP": 1.625,
+            "ERA": 9.0,
+            "K": 10,
+            "SVHD": 2,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 18,
+          "keeperEligible": true
         }
       ]
     },
@@ -2386,7 +2394,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2491,7 +2499,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2533,7 +2541,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2766,7 +2774,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2975,7 +2983,7 @@
         },
         {
           "name": "Wyatt Langford",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3282,7 +3290,7 @@
         },
         {
           "name": "Chase DeLauter",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3303,7 +3311,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7017,7 +7025,7 @@
           "keeperEligible": false
         },
         {
-          "name": "Robby Snelling",
+          "name": "Payton Tolle",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
@@ -7030,7 +7038,7 @@
           "keeperEligible": false
         },
         {
-          "name": "Payton Tolle",
+          "name": "Didier Fuentes",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
@@ -7039,11 +7047,11 @@
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
+          "draftRound": 27,
+          "keeperEligible": true
         }
       ]
     }
   ],
-  "updated": "2026-04-22T11:06:59Z"
+  "updated": "2026-04-22T13:43:57Z"
 }
