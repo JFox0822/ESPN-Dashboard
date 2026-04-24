@@ -190,7 +190,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -418,7 +418,7 @@
         },
         {
           "name": "Wilyer Abreu",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5475,7 +5475,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.318,
             "HR": 6,
@@ -6058,7 +6058,7 @@
         },
         {
           "name": "Mike Trout",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6352,7 +6352,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6412,7 +6412,7 @@
         },
         {
           "name": "Hyeseong Kim",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6464,7 +6464,7 @@
         },
         {
           "name": "Troy Johnston",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7087,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-04-24T20:51:39Z"
+  "updated": "2026-04-24T21:49:59Z"
 }
