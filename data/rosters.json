@@ -737,7 +737,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -758,7 +758,7 @@
         },
         {
           "name": "Willy Adames",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -800,7 +800,7 @@
         },
         {
           "name": "Trevor Story",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1023,7 +1023,7 @@
         },
         {
           "name": "Otto Lopez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1140,21 +1140,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Lance McCullers Jr.",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Josh Bell",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -1198,6 +1185,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Yusei Kikuchi",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 24.0,
+            "H": 28,
+            "WHIP": 1.625,
+            "ERA": 5.625,
+            "K": 27,
+            "SVHD": 0,
+            "QS": 1
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 22,
+          "keeperEligible": true
         }
       ]
     },
@@ -3088,7 +3096,7 @@
         },
         {
           "name": "Kyle Stowers",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3109,7 +3117,7 @@
         },
         {
           "name": "Vinnie Pasquantino",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3332,7 +3340,7 @@
         },
         {
           "name": "Colt Keith",
-          "slot": "BE",
+          "slot": "3B",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3426,7 +3434,7 @@
         },
         {
           "name": "Maikel Garcia",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3840,7 +3848,7 @@
         },
         {
           "name": "Marcus Semien",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3882,7 +3890,7 @@
         },
         {
           "name": "Luis Robert Jr.",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3937,7 +3945,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5463,11 +5471,11 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.318,
             "HR": 6,
@@ -5652,7 +5660,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -7079,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-04-24T18:55:31Z"
+  "updated": "2026-04-24T19:53:31Z"
 }
