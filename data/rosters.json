@@ -1752,7 +1752,7 @@
       "players": [
         {
           "name": "Roman Anthony",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1920,7 +1920,7 @@
         },
         {
           "name": "Owen Caissie",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1983,7 +1983,7 @@
         },
         {
           "name": "Carter Jensen",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2292,7 +2292,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2313,7 +2313,7 @@
         },
         {
           "name": "Dalton Rushing",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4123,7 +4123,7 @@
       "players": [
         {
           "name": "Fernando Tatis Jr.",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4270,7 +4270,7 @@
         },
         {
           "name": "Seiya Suzuki",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -4501,7 +4501,7 @@
         },
         {
           "name": "Xander Bogaerts",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4543,7 +4543,7 @@
         },
         {
           "name": "Sal Frelick",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4564,7 +4564,7 @@
         },
         {
           "name": "Colson Montgomery",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5877,7 +5877,7 @@
         },
         {
           "name": "Foster Griffin",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7009,40 +7009,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Juan Morillo",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Matt McLain",
-          "slot": "2B",
-          "position": "2B",
-          "eligible": "2B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.2,
-            "HR": 0,
-            "OPS": 0.583,
-            "R": 10,
-            "RBI": 4,
-            "SB": 4,
-            "Kbat": 26
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 7,
-          "keeperEligible": false
-        },
-        {
           "name": "Payton Tolle",
           "slot": "SP",
           "position": "SP",
@@ -7057,7 +7023,7 @@
         },
         {
           "name": "Ildemaro Vargas",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -7067,9 +7033,51 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Jeff Hoffman",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 10.2,
+            "H": 16,
+            "WHIP": 2.062,
+            "ERA": 7.594,
+            "K": 24,
+            "SVHD": 1,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 15,
+          "keeperEligible": true
+        },
+        {
+          "name": "Cade Cavalli",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 24.2,
+            "H": 29,
+            "WHIP": 1.662,
+            "ERA": 4.014,
+            "K": 28,
+            "SVHD": 0,
+            "QS": 1
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 19,
+          "keeperEligible": true
         }
       ]
     }
   ],
-  "updated": "2026-04-24T15:16:54Z"
+  "updated": "2026-04-24T16:59:11Z"
 }
