@@ -2674,19 +2674,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Tommy Edman",
-          "slot": "IL",
-          "position": "2B",
-          "eligible": "2B",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jordan Westburg",
           "slot": "IL",
           "position": "3B",
@@ -2701,7 +2688,7 @@
         },
         {
           "name": "Grant Holmes",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2768,19 +2755,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Garrett Mitchell",
-          "slot": "BE",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Gleyber Torres",
           "slot": "2B",
           "position": "2B",
@@ -2816,7 +2790,7 @@
         },
         {
           "name": "Joey Cantillo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2906,6 +2880,40 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Mick Abel",
+          "slot": "IL",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {
+            "IP": 20.1,
+            "H": 22,
+            "WHIP": 1.574,
+            "ERA": 3.984,
+            "K": 23,
+            "SVHD": 0,
+            "QS": 2
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 18,
+          "keeperEligible": true
+        },
+        {
+          "name": "Rhett Lowder",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -7087,5 +7095,5 @@
       ]
     }
   ],
-  "updated": "2026-04-25T09:54:23Z"
+  "updated": "2026-04-25T10:45:54Z"
 }
