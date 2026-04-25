@@ -64,7 +64,7 @@
       "catWins": 25,
       "catLosses": 13,
       "catTies": 4,
-      "allPlayPct": 0.7273,
+      "allPlayPct": 0.7424,
       "rank": 3
     },
     {
@@ -86,7 +86,7 @@
       "catWins": 25,
       "catLosses": 16,
       "catTies": 1,
-      "allPlayPct": 0.8485,
+      "allPlayPct": 0.8333,
       "rank": 4
     },
     {
@@ -135,6 +135,28 @@
       "rank": 6
     },
     {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
+      "owners": [
+        "C.Eriole824"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Eriole",
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 1,
+      "streakType": "WIN",
+      "catWins": 16,
+      "catLosses": 24,
+      "catTies": 2,
+      "allPlayPct": 0.1212,
+      "rank": 7
+    },
+    {
       "id": 7,
       "name": "Nagasaki Bombers",
       "abbrev": "SPNY",
@@ -154,7 +176,7 @@
       "catLosses": 22,
       "catTies": 1,
       "allPlayPct": 0.5909,
-      "rank": 7
+      "rank": 8
     },
     {
       "id": 10,
@@ -176,7 +198,7 @@
       "catLosses": 26,
       "catTies": 1,
       "allPlayPct": 0.697,
-      "rank": 8
+      "rank": 9
     },
     {
       "id": 9,
@@ -188,38 +210,16 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
       "rbName": "Greene",
       "wins": 0,
-      "losses": 1,
-      "ties": 2,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 2,
-      "streakType": "TIE",
-      "catWins": 19,
-      "catLosses": 22,
-      "catTies": 1,
-      "allPlayPct": 0.5,
-      "rank": 9
-    },
-    {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "owners": [
-        "C.Eriole824"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Eriole",
-      "wins": 0,
       "losses": 2,
       "ties": 1,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 1,
-      "streakType": "TIE",
-      "catWins": 15,
-      "catLosses": 25,
-      "catTies": 2,
-      "allPlayPct": 0.1061,
+      "streakType": "LOSS",
+      "catWins": 18,
+      "catLosses": 23,
+      "catTies": 1,
+      "allPlayPct": 0.4848,
       "rank": 10
     },
     {
@@ -267,5 +267,5 @@
       "rank": 12
     }
   ],
-  "updated": "2026-04-25T05:12:44Z"
+  "updated": "2026-04-25T07:19:45Z"
 }

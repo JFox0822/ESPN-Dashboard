@@ -152,12 +152,37 @@
       "rankDelta": 0
     },
     {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
+      "overallW": 1,
+      "overallL": 2,
+      "overallRank": 7,
+      "catRanks": {
+        "R": 12,
+        "RBI": 12,
+        "HR": 12,
+        "SB": 10,
+        "Kbat": 5,
+        "AVG": 11,
+        "OPS": 12,
+        "IP": 9,
+        "H": 3,
+        "K": 12,
+        "QS": 1,
+        "ERA": 2,
+        "WHIP": 2
+      },
+      "pwRank": 7,
+      "rankDelta": 0
+    },
+    {
       "id": 7,
       "name": "Nagasaki Bombers",
       "abbrev": "SPNY",
       "overallW": 1,
       "overallL": 2,
-      "overallRank": 7,
+      "overallRank": 8,
       "catRanks": {
         "R": 5,
         "RBI": 10,
@@ -173,7 +198,7 @@
         "ERA": 7,
         "WHIP": 8
       },
-      "pwRank": 7,
+      "pwRank": 8,
       "rankDelta": 0
     },
     {
@@ -182,7 +207,7 @@
       "abbrev": "TIM",
       "overallW": 1,
       "overallL": 2,
-      "overallRank": 8,
+      "overallRank": 9,
       "catRanks": {
         "R": 8,
         "RBI": 6,
@@ -198,7 +223,7 @@
         "ERA": 4,
         "WHIP": 6
       },
-      "pwRank": 8,
+      "pwRank": 9,
       "rankDelta": 0
     },
     {
@@ -206,8 +231,8 @@
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN",
       "overallW": 0,
-      "overallL": 1,
-      "overallRank": 9,
+      "overallL": 2,
+      "overallRank": 10,
       "catRanks": {
         "R": 9,
         "RBI": 7,
@@ -222,31 +247,6 @@
         "QS": 6,
         "ERA": 5,
         "WHIP": 4
-      },
-      "pwRank": 9,
-      "rankDelta": 0
-    },
-    {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "overallW": 0,
-      "overallL": 2,
-      "overallRank": 10,
-      "catRanks": {
-        "R": 12,
-        "RBI": 12,
-        "HR": 12,
-        "SB": 10,
-        "Kbat": 5,
-        "AVG": 11,
-        "OPS": 12,
-        "IP": 9,
-        "H": 3,
-        "K": 12,
-        "QS": 1,
-        "ERA": 2,
-        "WHIP": 2
       },
       "pwRank": 10,
       "rankDelta": 0
@@ -302,5 +302,5 @@
       "rankDelta": 0
     }
   ],
-  "updated": "2026-04-25T05:12:44Z"
+  "updated": "2026-04-25T07:19:45Z"
 }
