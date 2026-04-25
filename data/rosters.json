@@ -1507,7 +1507,7 @@
         },
         {
           "name": "Matthew Liberatore",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1574,27 +1574,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Max Scherzer",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 18.2,
-            "H": 22,
-            "WHIP": 1.607,
-            "ERA": 9.643,
-            "K": 10,
-            "SVHD": 0,
-            "QS": 2
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Landen Roupp",
           "slot": "SP",
           "position": "SP",
@@ -1622,7 +1601,7 @@
         },
         {
           "name": "Davis Martin",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1735,6 +1714,19 @@
         {
           "name": "Christian Scott",
           "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Walbert Urena",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7095,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-04-25T11:39:22Z"
+  "updated": "2026-04-25T13:07:45Z"
 }
