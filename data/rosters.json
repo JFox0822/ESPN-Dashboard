@@ -4396,7 +4396,7 @@
         },
         {
           "name": "Jacob Misiorowski",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4681,25 +4681,17 @@
           "keeperEligible": false
         },
         {
-          "name": "Griffin Jax",
-          "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
+          "name": "Kumar Rocker",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 9.0,
-            "H": 10,
-            "WHIP": 1.889,
-            "ERA": 8.0,
-            "K": 10,
-            "SVHD": 2,
-            "QS": 0
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 16,
-          "keeperEligible": true
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -7079,5 +7071,5 @@
       ]
     }
   ],
-  "updated": "2026-04-26T09:02:31Z"
+  "updated": "2026-04-26T10:47:16Z"
 }
