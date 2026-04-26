@@ -651,9 +651,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.198,
+            "AVG": 0.195,
             "HR": 1,
-            "OPS": 0.549,
+            "OPS": 0.543,
             "R": 13,
             "RBI": 11,
             "SB": 4,
@@ -1771,13 +1771,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.229,
+            "AVG": 0.227,
             "HR": 3,
-            "OPS": 0.664,
+            "OPS": 0.658,
             "R": 16,
             "RBI": 9,
             "SB": 3,
-            "Kbat": 22
+            "Kbat": 23
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4326,11 +4326,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 29.0,
+            "IP": 29.1,
             "H": 22,
-            "WHIP": 1.0,
-            "ERA": 2.793,
-            "K": 29,
+            "WHIP": 0.989,
+            "ERA": 2.761,
+            "K": 30,
             "SVHD": 0,
             "QS": 4
           },
@@ -5467,7 +5467,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.208,
             "HR": 3,
@@ -5532,10 +5532,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 25.0,
+            "IP": 25.1,
             "H": 31,
-            "WHIP": 1.76,
-            "ERA": 3.96,
+            "WHIP": 1.737,
+            "ERA": 3.908,
             "K": 28,
             "SVHD": 0,
             "QS": 1
@@ -6029,7 +6029,7 @@
         },
         {
           "name": "Mike Trout",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6176,7 +6176,7 @@
         },
         {
           "name": "Emilio Pagan",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6302,7 +6302,7 @@
         },
         {
           "name": "Ryan Walker",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6435,7 +6435,7 @@
         },
         {
           "name": "Troy Johnston",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6609,7 +6609,7 @@
         },
         {
           "name": "Byron Buxton",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6761,7 +6761,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7058,5 +7058,5 @@
       ]
     }
   ],
-  "updated": "2026-04-26T16:44:52Z"
+  "updated": "2026-04-26T17:40:04Z"
 }
