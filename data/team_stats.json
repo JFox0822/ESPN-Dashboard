@@ -2,6 +2,62 @@
   "season": 2026,
   "teams": [
     {
+      "id": 5,
+      "name": "Cooperstown Udder Tuggers",
+      "abbrev": "AARN",
+      "owners": [
+        "Slater09"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e939d6c0-1e43-11f1-af5c-d9f0f0f4a1ed",
+      "rbName": "Slater",
+      "wins": 4,
+      "losses": 0,
+      "stats": {
+        "IP": 263.2,
+        "K": 243,
+        "Kbat": 269,
+        "AVG": 0.267,
+        "SB": 14,
+        "ERA": 4.2,
+        "RBI": 150,
+        "R": 179,
+        "OPS": 0.805,
+        "WHIP": 1.29,
+        "HR": 41,
+        "H": 246,
+        "SVHD": 21,
+        "QS": 13
+      }
+    },
+    {
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "owners": [
+        "schoonee"
+      ],
+      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
+      "rbName": "Schoon",
+      "wins": 3,
+      "losses": 0,
+      "stats": {
+        "IP": 262.2,
+        "K": 299,
+        "Kbat": 291,
+        "AVG": 0.261,
+        "SB": 30,
+        "ERA": 3.33,
+        "RBI": 182,
+        "R": 176,
+        "OPS": 0.793,
+        "WHIP": 1.18,
+        "HR": 46,
+        "H": 211,
+        "SVHD": 13,
+        "QS": 18
+      }
+    },
+    {
       "id": 1,
       "name": "Roosevelt Ruff Ryders",
       "abbrev": "BOYC",
@@ -11,50 +67,22 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
       "rbName": "Boyce",
       "wins": 3,
-      "losses": 0,
+      "losses": 1,
       "stats": {
-        "IP": 199.1,
-        "QS": 14,
-        "Kbat": 187,
-        "H": 166,
+        "IP": 260.2,
+        "K": 255,
+        "Kbat": 237,
+        "AVG": 0.262,
+        "SB": 25,
+        "ERA": 4.28,
+        "RBI": 165,
+        "R": 186,
+        "OPS": 0.801,
         "WHIP": 1.23,
-        "RBI": 130,
-        "R": 140,
-        "SVHD": 12,
-        "K": 200,
-        "OPS": 0.782,
-        "ERA": 3.84,
-        "AVG": 0.261,
-        "SB": 18,
-        "HR": 41
-      }
-    },
-    {
-      "id": 5,
-      "name": "Cooperstown Udder Tuggers",
-      "abbrev": "AARN",
-      "owners": [
-        "Slater09"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e939d6c0-1e43-11f1-af5c-d9f0f0f4a1ed",
-      "rbName": "Slater",
-      "wins": 3,
-      "losses": 0,
-      "stats": {
-        "IP": 202.1,
-        "QS": 10,
-        "Kbat": 211,
-        "H": 180,
-        "WHIP": 1.26,
-        "RBI": 114,
-        "R": 134,
-        "SVHD": 18,
-        "K": 190,
-        "OPS": 0.772,
-        "ERA": 4.13,
-        "AVG": 0.254,
-        "SB": 9,
-        "HR": 32
+        "HR": 53,
+        "H": 224,
+        "SVHD": 14,
+        "QS": 17
       }
     },
     {
@@ -67,50 +95,22 @@
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/074aa850-f5be-11f0-8cb2-bdc05f3f329b",
       "rbName": "Leo",
       "wins": 3,
-      "losses": 0,
+      "losses": 1,
       "stats": {
-        "IP": 207.0,
-        "QS": 12,
-        "Kbat": 225,
-        "H": 173,
-        "WHIP": 1.19,
-        "RBI": 147,
-        "R": 139,
-        "SVHD": 15,
-        "K": 218,
-        "OPS": 0.76,
-        "ERA": 3.7,
+        "IP": 260.1,
+        "K": 254,
+        "Kbat": 291,
         "AVG": 0.25,
-        "SB": 18,
-        "HR": 40
-      }
-    },
-    {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
-      "owners": [
-        "schoonee"
-      ],
-      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
-      "rbName": "Schoon",
-      "wins": 2,
-      "losses": 0,
-      "stats": {
-        "IP": 204.2,
-        "QS": 14,
-        "Kbat": 216,
-        "H": 145,
-        "WHIP": 1.06,
-        "RBI": 139,
-        "R": 132,
-        "SVHD": 12,
-        "K": 235,
-        "OPS": 0.789,
-        "ERA": 2.68,
-        "AVG": 0.256,
-        "SB": 28,
-        "HR": 33
+        "SB": 27,
+        "ERA": 3.8,
+        "RBI": 188,
+        "R": 177,
+        "OPS": 0.756,
+        "WHIP": 1.19,
+        "HR": 53,
+        "H": 225,
+        "SVHD": 20,
+        "QS": 15
       }
     },
     {
@@ -126,20 +126,104 @@
       "wins": 2,
       "losses": 1,
       "stats": {
-        "IP": 217.1,
-        "QS": 11,
-        "Kbat": 252,
-        "H": 198,
-        "WHIP": 1.26,
-        "RBI": 116,
-        "R": 137,
-        "SVHD": 10,
-        "K": 230,
-        "OPS": 0.77,
-        "ERA": 3.31,
-        "AVG": 0.248,
-        "SB": 25,
-        "HR": 37
+        "IP": 276.1,
+        "K": 281,
+        "Kbat": 338,
+        "AVG": 0.243,
+        "SB": 33,
+        "ERA": 3.55,
+        "RBI": 155,
+        "R": 179,
+        "OPS": 0.759,
+        "WHIP": 1.27,
+        "HR": 51,
+        "H": 262,
+        "SVHD": 14,
+        "QS": 15
+      }
+    },
+    {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
+      "owners": [
+        "C.Eriole824"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Eriole",
+      "wins": 2,
+      "losses": 2,
+      "stats": {
+        "IP": 255.1,
+        "K": 221,
+        "Kbat": 266,
+        "AVG": 0.234,
+        "SB": 19,
+        "ERA": 3.17,
+        "RBI": 121,
+        "R": 125,
+        "OPS": 0.672,
+        "WHIP": 1.13,
+        "HR": 26,
+        "H": 207,
+        "SVHD": 14,
+        "QS": 21
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY",
+      "owners": [
+        "nubbz518"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/8916c110-014f-11f1-8cb2-bdc05f3f329b",
+      "rbName": "Sponny",
+      "wins": 2,
+      "losses": 2,
+      "stats": {
+        "IP": 268.1,
+        "K": 254,
+        "Kbat": 266,
+        "AVG": 0.269,
+        "SB": 34,
+        "ERA": 3.65,
+        "RBI": 146,
+        "R": 172,
+        "OPS": 0.756,
+        "WHIP": 1.22,
+        "HR": 33,
+        "H": 216,
+        "SVHD": 20,
+        "QS": 18
+      }
+    },
+    {
+      "id": 10,
+      "name": "Amsterdam Mohawks",
+      "abbrev": "TIM",
+      "owners": [
+        "ESPNfan2970444862"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/a7a066c0-f602-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Tim",
+      "wins": 2,
+      "losses": 2,
+      "stats": {
+        "IP": 262.0,
+        "K": 282,
+        "Kbat": 274,
+        "AVG": 0.275,
+        "SB": 34,
+        "ERA": 3.71,
+        "RBI": 168,
+        "R": 172,
+        "OPS": 0.801,
+        "WHIP": 1.27,
+        "HR": 46,
+        "H": 229,
+        "SVHD": 20,
+        "QS": 16
       }
     },
     {
@@ -152,162 +236,22 @@
       "logo": "https://i.pinimg.com/236x/ca/e6/1d/cae61d197ea51c02afbd2971e9d498d2.jpg",
       "rbName": "Mion",
       "wins": 1,
-      "losses": 2,
-      "stats": {
-        "IP": 186.0,
-        "QS": 10,
-        "Kbat": 243,
-        "H": 181,
-        "WHIP": 1.46,
-        "RBI": 136,
-        "R": 120,
-        "SVHD": 12,
-        "K": 168,
-        "OPS": 0.703,
-        "ERA": 5.37,
-        "AVG": 0.232,
-        "SB": 13,
-        "HR": 33
-      }
-    },
-    {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "owners": [
-        "C.Eriole824"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Eriole",
-      "wins": 1,
-      "losses": 2,
-      "stats": {
-        "IP": 197.0,
-        "QS": 15,
-        "Kbat": 218,
-        "H": 157,
-        "WHIP": 1.12,
-        "RBI": 84,
-        "R": 99,
-        "SVHD": 12,
-        "K": 168,
-        "OPS": 0.652,
-        "ERA": 3.02,
-        "AVG": 0.231,
-        "SB": 12,
-        "HR": 17
-      }
-    },
-    {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY",
-      "owners": [
-        "nubbz518"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/8916c110-014f-11f1-8cb2-bdc05f3f329b",
-      "rbName": "Sponny",
-      "wins": 1,
-      "losses": 2,
-      "stats": {
-        "IP": 203.2,
-        "QS": 14,
-        "Kbat": 227,
-        "H": 175,
-        "WHIP": 1.25,
-        "RBI": 114,
-        "R": 135,
-        "SVHD": 15,
-        "K": 201,
-        "OPS": 0.743,
-        "ERA": 3.75,
-        "AVG": 0.259,
-        "SB": 26,
-        "HR": 28
-      }
-    },
-    {
-      "id": 10,
-      "name": "Amsterdam Mohawks",
-      "abbrev": "TIM",
-      "owners": [
-        "ESPNfan2970444862"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/a7a066c0-f602-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Tim",
-      "wins": 1,
-      "losses": 2,
-      "stats": {
-        "IP": 199.1,
-        "QS": 11,
-        "Kbat": 216,
-        "H": 167,
-        "WHIP": 1.23,
-        "RBI": 130,
-        "R": 129,
-        "SVHD": 17,
-        "K": 224,
-        "OPS": 0.766,
-        "ERA": 3.61,
-        "AVG": 0.264,
-        "SB": 26,
-        "HR": 32
-      }
-    },
-    {
-      "id": 9,
-      "name": "Las Vegas Degenerate",
-      "abbrev": "GREN",
-      "owners": [
-        "greene1012"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
-      "rbName": "Greene",
-      "wins": 0,
-      "losses": 2,
-      "stats": {
-        "IP": 191.1,
-        "QS": 14,
-        "Kbat": 218,
-        "H": 152,
-        "WHIP": 1.22,
-        "RBI": 125,
-        "R": 127,
-        "SVHD": 10,
-        "K": 214,
-        "OPS": 0.707,
-        "ERA": 3.62,
-        "AVG": 0.222,
-        "SB": 19,
-        "HR": 38
-      }
-    },
-    {
-      "id": 3,
-      "name": "Buffalo Bison",
-      "abbrev": "BERT",
-      "owners": [
-        "ESPNfan9102809647"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/34505760-fc02-11f0-840c-11858ed68471",
-      "rbName": "Bert",
-      "wins": 0,
       "losses": 3,
       "stats": {
-        "IP": 191.0,
-        "QS": 14,
-        "Kbat": 235,
-        "H": 173,
-        "WHIP": 1.29,
-        "RBI": 92,
-        "R": 110,
-        "SVHD": 14,
-        "K": 176,
-        "OPS": 0.691,
-        "ERA": 4.52,
-        "AVG": 0.243,
+        "IP": 246.2,
+        "K": 216,
+        "Kbat": 309,
+        "AVG": 0.231,
         "SB": 16,
-        "HR": 23
+        "ERA": 5.36,
+        "RBI": 163,
+        "R": 158,
+        "OPS": 0.699,
+        "WHIP": 1.44,
+        "HR": 44,
+        "H": 244,
+        "SVHD": 17,
+        "QS": 13
       }
     },
     {
@@ -322,22 +266,78 @@
       "wins": 0,
       "losses": 3,
       "stats": {
-        "IP": 212.2,
-        "QS": 11,
-        "Kbat": 245,
-        "H": 191,
-        "WHIP": 1.24,
-        "RBI": 140,
-        "R": 136,
-        "SVHD": 15,
-        "K": 209,
-        "OPS": 0.765,
-        "ERA": 4.06,
-        "AVG": 0.233,
-        "SB": 9,
-        "HR": 46
+        "IP": 260.1,
+        "K": 257,
+        "Kbat": 302,
+        "AVG": 0.24,
+        "SB": 14,
+        "ERA": 3.84,
+        "RBI": 179,
+        "R": 178,
+        "OPS": 0.778,
+        "WHIP": 1.25,
+        "HR": 59,
+        "H": 234,
+        "SVHD": 16,
+        "QS": 13
+      }
+    },
+    {
+      "id": 9,
+      "name": "Las Vegas Degenerate",
+      "abbrev": "GREN",
+      "owners": [
+        "greene1012"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
+      "rbName": "Greene",
+      "wins": 0,
+      "losses": 3,
+      "stats": {
+        "IP": 255.1,
+        "K": 303,
+        "Kbat": 275,
+        "AVG": 0.228,
+        "SB": 27,
+        "ERA": 3.74,
+        "RBI": 165,
+        "R": 169,
+        "OPS": 0.714,
+        "WHIP": 1.25,
+        "HR": 49,
+        "H": 219,
+        "SVHD": 12,
+        "QS": 18
+      }
+    },
+    {
+      "id": 3,
+      "name": "Buffalo Bison",
+      "abbrev": "BERT",
+      "owners": [
+        "ESPNfan9102809647"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/34505760-fc02-11f0-840c-11858ed68471",
+      "rbName": "Bert",
+      "wins": 0,
+      "losses": 4,
+      "stats": {
+        "IP": 245.1,
+        "K": 228,
+        "Kbat": 297,
+        "AVG": 0.239,
+        "SB": 23,
+        "ERA": 4.88,
+        "RBI": 112,
+        "R": 141,
+        "OPS": 0.675,
+        "WHIP": 1.35,
+        "HR": 27,
+        "H": 228,
+        "SVHD": 16,
+        "QS": 18
       }
     }
   ],
-  "updated": "2026-04-27T05:56:29Z"
+  "updated": "2026-04-27T08:33:53Z"
 }

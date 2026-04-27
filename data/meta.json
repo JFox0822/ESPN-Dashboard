@@ -1,23 +1,13 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 4,
+  "currentWeek": 5,
   "teamCount": 12,
   "teams": [
-    {
-      "id": 1,
-      "name": "Roosevelt Ruff Ryders",
-      "abbrev": "BOYC"
-    },
     {
       "id": 5,
       "name": "Cooperstown Udder Tuggers",
       "abbrev": "AARN"
-    },
-    {
-      "id": 11,
-      "name": "Santa Clara Sea-Creatures",
-      "abbrev": "LEO"
     },
     {
       "id": 8,
@@ -25,14 +15,19 @@
       "abbrev": "CORY"
     },
     {
+      "id": 1,
+      "name": "Roosevelt Ruff Ryders",
+      "abbrev": "BOYC"
+    },
+    {
+      "id": 11,
+      "name": "Santa Clara Sea-Creatures",
+      "abbrev": "LEO"
+    },
+    {
       "id": 12,
       "name": "Brevard County Manatees",
       "abbrev": "TC"
-    },
-    {
-      "id": 2,
-      "name": "Gettysburg Generals",
-      "abbrev": "MION"
     },
     {
       "id": 4,
@@ -50,6 +45,16 @@
       "abbrev": "TIM"
     },
     {
+      "id": 2,
+      "name": "Gettysburg Generals",
+      "abbrev": "MION"
+    },
+    {
+      "id": 6,
+      "name": "San Juan Coquis",
+      "abbrev": "JACB"
+    },
+    {
       "id": 9,
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN"
@@ -58,12 +63,7 @@
       "id": 3,
       "name": "Buffalo Bison",
       "abbrev": "BERT"
-    },
-    {
-      "id": 6,
-      "name": "San Juan Coquis",
-      "abbrev": "JACB"
     }
   ],
-  "updated": "2026-04-27T05:56:29Z"
+  "updated": "2026-04-27T08:33:53Z"
 }
