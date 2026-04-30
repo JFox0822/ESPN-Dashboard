@@ -3004,7 +3004,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -3025,7 +3025,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3452,7 +3452,7 @@
         },
         {
           "name": "Bryan Baker",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3464,10 +3464,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Martin Perez",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
+          "name": "Bryan King",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -3638,7 +3638,7 @@
         },
         {
           "name": "Isaac Paredes",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3874,11 +3874,11 @@
         },
         {
           "name": "Luis Robert Jr.",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.224,
             "HR": 2,
@@ -6235,7 +6235,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 28.2,
             "H": 32,
@@ -7071,5 +7071,5 @@
       ]
     }
   ],
-  "updated": "2026-04-30T13:59:02Z"
+  "updated": "2026-04-30T15:50:45Z"
 }
