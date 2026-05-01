@@ -112,13 +112,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.247,
+            "AVG": 0.245,
             "HR": 2,
-            "OPS": 0.771,
+            "OPS": 0.764,
             "R": 12,
             "RBI": 9,
             "SB": 6,
-            "Kbat": 14
+            "Kbat": 15
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -169,7 +169,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -504,7 +504,7 @@
         },
         {
           "name": "Dominic Smith",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1233,9 +1233,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.231,
             "HR": 5,
-            "OPS": 0.682,
+            "OPS": 0.676,
             "R": 17,
             "RBI": 11,
             "SB": 0,
@@ -2058,7 +2058,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 10.2,
             "H": 7,
@@ -2374,13 +2374,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.284,
+            "AVG": 0.282,
             "HR": 4,
-            "OPS": 0.932,
+            "OPS": 0.924,
             "R": 20,
             "RBI": 18,
             "SB": 4,
-            "Kbat": 34
+            "Kbat": 35
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2500,9 +2500,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.218,
+            "AVG": 0.216,
             "HR": 6,
-            "OPS": 0.78,
+            "OPS": 0.773,
             "R": 24,
             "RBI": 24,
             "SB": 2,
@@ -2521,9 +2521,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.244,
+            "AVG": 0.242,
             "HR": 3,
-            "OPS": 0.669,
+            "OPS": 0.664,
             "R": 20,
             "RBI": 13,
             "SB": 6,
@@ -3092,7 +3092,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.165,
             "HR": 3,
@@ -4838,7 +4838,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.211,
             "HR": 3,
@@ -6042,7 +6042,7 @@
         },
         {
           "name": "Jo Adell",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6388,7 +6388,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7063,5 +7063,5 @@
       ]
     }
   ],
-  "updated": "2026-05-01T20:54:36Z"
+  "updated": "2026-05-01T21:54:19Z"
 }
