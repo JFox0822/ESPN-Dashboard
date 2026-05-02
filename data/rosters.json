@@ -1305,7 +1305,7 @@
         },
         {
           "name": "Will Smith",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1326,7 +1326,7 @@
         },
         {
           "name": "Ezequiel Tovar",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1486,7 +1486,7 @@
         },
         {
           "name": "Matthew Liberatore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1565,19 +1565,6 @@
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Paul Sewald",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -1669,7 +1656,7 @@
         },
         {
           "name": "Oswald Peraza",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -1694,32 +1681,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Brett Baty",
-          "slot": "3B",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Dalton Rushing",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jack Perkins",
           "slot": "RP",
           "position": "RP",
@@ -1731,6 +1692,61 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Cole Young",
+          "slot": "UTIL",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.276,
+            "HR": 3,
+            "OPS": 0.751,
+            "R": 20,
+            "RBI": 19,
+            "SB": 2,
+            "Kbat": 27
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Sean Burke",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jacob Lopez",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 24.2,
+            "H": 27,
+            "WHIP": 1.946,
+            "ERA": 5.838,
+            "K": 18,
+            "SVHD": 1,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 24,
+          "keeperEligible": true
         }
       ]
     },
@@ -7071,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-05-02T07:46:21Z"
+  "updated": "2026-05-02T09:07:47Z"
 }
