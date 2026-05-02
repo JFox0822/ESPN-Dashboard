@@ -1931,11 +1931,11 @@
         },
         {
           "name": "Owen Caissie",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.2,
             "HR": 2,
@@ -2303,7 +2303,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3070,7 +3070,7 @@
         },
         {
           "name": "Kerry Carpenter",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3463,7 +3463,7 @@
         },
         {
           "name": "Carlos Cortes",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4822,13 +4822,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.207,
+            "AVG": 0.206,
             "HR": 9,
-            "OPS": 0.742,
+            "OPS": 0.737,
             "R": 22,
             "RBI": 19,
             "SB": 5,
-            "Kbat": 46
+            "Kbat": 47
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5479,7 +5479,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5731,7 +5731,7 @@
         },
         {
           "name": "Adolis Garcia",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6990,11 +6990,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 33.2,
+            "IP": 34.0,
             "H": 33,
-            "WHIP": 1.218,
-            "ERA": 3.208,
-            "K": 40,
+            "WHIP": 1.235,
+            "ERA": 3.176,
+            "K": 41,
             "SVHD": 0,
             "QS": 2
           },
@@ -7087,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-05-02T16:50:58Z"
+  "updated": "2026-05-02T17:44:29Z"
 }
