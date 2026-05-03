@@ -482,7 +482,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -834,7 +834,7 @@
         },
         {
           "name": "Luis Castillo",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -855,7 +855,7 @@
         },
         {
           "name": "Kris Bubic",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -876,7 +876,7 @@
         },
         {
           "name": "Spencer Strider",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -973,7 +973,7 @@
         },
         {
           "name": "Matthew Boyd",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1036,7 +1036,7 @@
         },
         {
           "name": "Seth Lugo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1067,27 +1067,6 @@
           "acquisitionType": "DRAFT",
           "draftRound": 25,
           "keeperEligible": true
-        },
-        {
-          "name": "Reynaldo Lopez",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 23.2,
-            "H": 20,
-            "WHIP": 1.31,
-            "ERA": 3.423,
-            "K": 22,
-            "SVHD": 0,
-            "QS": 1
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         },
         {
           "name": "JoJo Romero",
@@ -2078,7 +2057,7 @@
         },
         {
           "name": "Ryan Helsley",
-          "slot": "RP",
+          "slot": "IL",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2099,7 +2078,7 @@
         },
         {
           "name": "Daniel Palencia",
-          "slot": "IL",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5479,7 +5458,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5689,7 +5668,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5710,7 +5689,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5812,7 +5791,7 @@
         },
         {
           "name": "Jordan Walker",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5961,7 +5940,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6255,7 +6234,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6293,27 +6272,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 21,
-          "keeperEligible": true
-        },
-        {
-          "name": "Brayan Bello",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 25.2,
-            "H": 43,
-            "WHIP": 2.26,
-            "ERA": 9.117,
-            "K": 17,
-            "SVHD": 0,
-            "QS": 1
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 22,
           "keeperEligible": true
         },
         {
@@ -6386,7 +6344,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6474,6 +6432,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Tyler Mahle",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 30.2,
+            "H": 33,
+            "WHIP": 1.63,
+            "ERA": 5.87,
+            "K": 29,
+            "SVHD": 0,
+            "QS": 1
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 20,
+          "keeperEligible": true
         }
       ]
     },
@@ -6941,27 +6920,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Carson Benge",
-          "slot": "OF",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.179,
-            "HR": 2,
-            "OPS": 0.498,
-            "R": 9,
-            "RBI": 6,
-            "SB": 6,
-            "Kbat": 24
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Willson Contreras",
           "slot": "1B",
           "position": "1B",
@@ -7083,9 +7041,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Sam Antonacci",
+          "slot": "OF",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-03T11:43:13Z"
+  "updated": "2026-05-03T13:13:50Z"
 }
