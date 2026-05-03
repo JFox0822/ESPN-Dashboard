@@ -169,7 +169,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -491,7 +491,7 @@
         },
         {
           "name": "Dominic Smith",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2411,11 +2411,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 38.1,
+            "IP": 38.2,
             "H": 31,
-            "WHIP": 1.043,
-            "ERA": 3.757,
-            "K": 39,
+            "WHIP": 1.06,
+            "ERA": 3.724,
+            "K": 40,
             "SVHD": 0,
             "QS": 3
           },
@@ -2468,7 +2468,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2489,7 +2489,7 @@
         },
         {
           "name": "Dansby Swanson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2688,7 +2688,7 @@
         },
         {
           "name": "Gleyber Torres",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2795,7 +2795,7 @@
         },
         {
           "name": "Travis Bazzana",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2808,7 +2808,7 @@
         },
         {
           "name": "Miguel Vargas",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3264,7 +3264,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3434,7 +3434,7 @@
         },
         {
           "name": "Carlos Cortes",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4370,7 +4370,7 @@
         },
         {
           "name": "Michael King",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4454,7 +4454,7 @@
         },
         {
           "name": "Kenley Jansen",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4676,10 +4676,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Kumar Rocker",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
+          "name": "Matt Strahm",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -5395,7 +5395,7 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5647,7 +5647,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5676,7 +5676,7 @@
           "stats": {
             "AVG": 0.235,
             "HR": 8,
-            "OPS": 0.77,
+            "OPS": 0.775,
             "R": 17,
             "RBI": 20,
             "SB": 0,
@@ -5919,7 +5919,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6323,7 +6323,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7024,5 +7024,5 @@
       ]
     }
   ],
-  "updated": "2026-05-03T15:49:54Z"
+  "updated": "2026-05-03T16:53:26Z"
 }
