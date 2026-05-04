@@ -1214,7 +1214,7 @@
         },
         {
           "name": "Ketel Marte",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1305,7 +1305,7 @@
         },
         {
           "name": "Ezequiel Tovar",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1326,7 +1326,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1368,7 +1368,7 @@
         },
         {
           "name": "Bryan Reynolds",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1389,7 +1389,7 @@
         },
         {
           "name": "Ian Happ",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1519,27 +1519,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Evan Carter",
-          "slot": "BE",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.17,
-            "HR": 3,
-            "OPS": 0.588,
-            "R": 11,
-            "RBI": 9,
-            "SB": 5,
-            "Kbat": 28
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Landen Roupp",
           "slot": "SP",
           "position": "SP",
@@ -1567,7 +1546,7 @@
         },
         {
           "name": "Andres Gimenez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1609,7 +1588,7 @@
         },
         {
           "name": "Edouard Julien",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1661,7 +1640,7 @@
         },
         {
           "name": "Cole Young",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1694,31 +1673,36 @@
           "keeperEligible": false
         },
         {
-          "name": "Jacob Lopez",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 30.0,
-            "H": 35,
-            "WHIP": 1.9,
-            "ERA": 6.6,
-            "K": 23,
-            "SVHD": 1,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
           "name": "Brayan Rocchio",
           "slot": "SS",
           "position": "SS",
           "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jacob Latz",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Drew Romo",
+          "slot": "UTIL",
+          "position": "C",
+          "eligible": "C",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -5902,7 +5886,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "IP": 43.1,
             "H": 35,
@@ -6349,7 +6333,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6375,7 +6359,7 @@
         },
         {
           "name": "Troy Johnston",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7045,5 +7029,5 @@
       ]
     }
   ],
-  "updated": "2026-05-04T16:47:24Z"
+  "updated": "2026-05-04T18:15:35Z"
 }
