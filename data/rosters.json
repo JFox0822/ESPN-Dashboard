@@ -5413,11 +5413,11 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.333,
             "HR": 5,
@@ -5560,7 +5560,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5882,11 +5882,11 @@
         },
         {
           "name": "Tarik Skubal",
-          "slot": "SP",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 43.1,
             "H": 35,
@@ -6346,7 +6346,7 @@
         },
         {
           "name": "Anthony Volpe",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -7029,5 +7029,5 @@
       ]
     }
   ],
-  "updated": "2026-05-04T18:15:35Z"
+  "updated": "2026-05-04T20:16:30Z"
 }
