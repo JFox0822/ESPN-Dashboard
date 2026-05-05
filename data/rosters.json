@@ -3777,7 +3777,7 @@
         },
         {
           "name": "Jack Leiter",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4000,7 +4000,7 @@
         },
         {
           "name": "Taj Bradley",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5171,11 +5171,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Jakob Junis",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
+          "name": "Brooks Lee",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -5184,10 +5184,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Brooks Lee",
+          "name": "Brandon Marsh",
           "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
+          "position": "CF",
+          "eligible": "CF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -5463,7 +5463,7 @@
         },
         {
           "name": "Tanner Bibee",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7016,5 +7016,5 @@
       ]
     }
   ],
-  "updated": "2026-05-05T08:12:04Z"
+  "updated": "2026-05-05T10:47:38Z"
 }
