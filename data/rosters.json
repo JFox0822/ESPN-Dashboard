@@ -1844,7 +1844,7 @@
         },
         {
           "name": "Ceddanne Rafaela",
-          "slot": "2B",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1865,7 +1865,7 @@
         },
         {
           "name": "Owen Caissie",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1907,7 +1907,7 @@
         },
         {
           "name": "JJ Wetherholt",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2156,7 +2156,7 @@
         },
         {
           "name": "TJ Rumfield",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2257,19 +2257,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Elmer Rodriguez",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Dustin May",
           "slot": "BE",
           "position": "SP",
@@ -2281,6 +2268,19 @@
           "acquisitionType": "ADD",
           "draftRound": 20,
           "keeperEligible": true
+        },
+        {
+          "name": "Andre Pallante",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -2604,7 +2604,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2669,7 +2669,7 @@
         },
         {
           "name": "Moises Ballesteros",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2954,7 +2954,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2996,7 +2996,7 @@
         },
         {
           "name": "Kerry Carpenter",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3059,7 +3059,7 @@
         },
         {
           "name": "Ivan Herrera",
-          "slot": "BE",
+          "slot": "C",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3156,7 +3156,7 @@
         },
         {
           "name": "Abner Uribe",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3177,7 +3177,7 @@
         },
         {
           "name": "Ramon Laureano",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3219,7 +3219,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3261,7 +3261,7 @@
         },
         {
           "name": "Colt Keith",
-          "slot": "2B",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3321,7 +3321,7 @@
         },
         {
           "name": "Rico Garcia",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3355,7 +3355,7 @@
         },
         {
           "name": "Luis Arraez",
-          "slot": "BE",
+          "slot": "2B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-05-06T11:48:23Z"
+  "updated": "2026-05-06T14:15:44Z"
 }
