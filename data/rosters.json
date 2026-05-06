@@ -478,7 +478,7 @@
         },
         {
           "name": "Jeffrey Springs",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -504,7 +504,7 @@
         },
         {
           "name": "Jack Kochanowicz",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -611,7 +611,7 @@
         },
         {
           "name": "Jackson Chourio",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -632,7 +632,7 @@
         },
         {
           "name": "Juan Soto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -737,7 +737,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -821,7 +821,7 @@
         },
         {
           "name": "Spencer Torkelson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -989,7 +989,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2694,27 +2694,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Carlos Correa",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "OUT",
-          "stats": {
-            "AVG": 0.279,
-            "HR": 3,
-            "OPS": 0.787,
-            "R": 22,
-            "RBI": 16,
-            "SB": 1,
-            "Kbat": 26
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 22,
-          "keeperEligible": true
-        },
-        {
           "name": "Justin Wrobleski",
           "slot": "BE",
           "position": "RP",
@@ -2954,7 +2933,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -3261,7 +3240,7 @@
         },
         {
           "name": "Colt Keith",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -4337,7 +4316,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 38.0,
             "H": 23,
@@ -6092,7 +6071,7 @@
         },
         {
           "name": "Emilio Pagan",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6303,19 +6282,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Anthony Volpe",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Troy Johnston",
           "slot": "BE",
           "position": "RF",
@@ -6374,6 +6340,19 @@
           "acquisitionType": "ADD",
           "draftRound": 20,
           "keeperEligible": true
+        },
+        {
+          "name": "Paul Sewald",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -6412,7 +6391,7 @@
         },
         {
           "name": "Cristopher Sanchez",
-          "slot": "SP",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6795,7 +6774,7 @@
         },
         {
           "name": "Emerson Hancock",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6892,7 +6871,7 @@
         },
         {
           "name": "Cade Cavalli",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6987,5 +6966,5 @@
       ]
     }
   ],
-  "updated": "2026-05-06T14:15:44Z"
+  "updated": "2026-05-06T16:40:58Z"
 }
