@@ -1277,9 +1277,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.293,
+            "AVG": 0.291,
             "HR": 4,
-            "OPS": 0.826,
+            "OPS": 0.82,
             "R": 17,
             "RBI": 12,
             "SB": 1,
@@ -2212,7 +2212,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.248,
             "HR": 4,
@@ -3559,7 +3559,7 @@
         },
         {
           "name": "Isaac Paredes",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3753,7 +3753,7 @@
         },
         {
           "name": "Marcus Semien",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3774,7 +3774,7 @@
         },
         {
           "name": "Nolan Arenado",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3858,7 +3858,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6971,5 +6971,5 @@
       ]
     }
   ],
-  "updated": "2026-05-07T14:12:20Z"
+  "updated": "2026-05-07T16:52:01Z"
 }
