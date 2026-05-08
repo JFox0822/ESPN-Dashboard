@@ -2212,7 +2212,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.246,
             "HR": 4,
@@ -3119,7 +3119,7 @@
         },
         {
           "name": "Abner Uribe",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3284,7 +3284,7 @@
         },
         {
           "name": "Rico Garcia",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3799,7 +3799,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.2,
             "HR": 1,
@@ -6937,5 +6937,5 @@
       ]
     }
   ],
-  "updated": "2026-05-08T13:51:17Z"
+  "updated": "2026-05-08T15:23:35Z"
 }
