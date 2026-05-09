@@ -2182,7 +2182,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2250,7 +2250,7 @@
         },
         {
           "name": "Dustin May",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3851,9 +3851,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.263,
+            "AVG": 0.271,
             "HR": 2,
-            "OPS": 0.694,
+            "OPS": 0.714,
             "R": 15,
             "RBI": 12,
             "SB": 0,
@@ -4727,9 +4727,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 3,
-            "OPS": 0.75,
+            "OPS": 0.755,
             "R": 21,
             "RBI": 23,
             "SB": 0,
@@ -4811,13 +4811,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.231,
+            "AVG": 0.233,
             "HR": 4,
-            "OPS": 0.667,
+            "OPS": 0.673,
             "R": 17,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 40
+            "Kbat": 39
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5266,7 +5266,7 @@
           "stats": {
             "AVG": 0.235,
             "HR": 4,
-            "OPS": 0.68,
+            "OPS": 0.677,
             "R": 22,
             "RBI": 18,
             "SB": 7,
@@ -6244,7 +6244,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6270,7 +6270,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6958,5 +6958,5 @@
       ]
     }
   ],
-  "updated": "2026-05-09T11:51:37Z"
+  "updated": "2026-05-09T13:20:26Z"
 }
