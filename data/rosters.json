@@ -1168,7 +1168,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "IP": 10.2,
             "H": 5,
@@ -6906,7 +6906,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.209,
             "HR": 5,
@@ -6963,5 +6963,5 @@
       ]
     }
   ],
-  "updated": "2026-05-09T17:53:59Z"
+  "updated": "2026-05-09T19:04:16Z"
 }
