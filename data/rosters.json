@@ -175,9 +175,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.247,
+            "AVG": 0.245,
             "HR": 3,
-            "OPS": 0.69,
+            "OPS": 0.686,
             "R": 24,
             "RBI": 15,
             "SB": 2,
@@ -1003,9 +1003,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.353,
+            "AVG": 0.35,
             "HR": 4,
-            "OPS": 0.907,
+            "OPS": 0.902,
             "R": 27,
             "RBI": 16,
             "SB": 5,
@@ -3004,9 +3004,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.235,
             "HR": 1,
-            "OPS": 0.663,
+            "OPS": 0.654,
             "R": 10,
             "RBI": 3,
             "SB": 0,
@@ -3682,7 +3682,7 @@
         },
         {
           "name": "Andrew Abbott",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3737,7 +3737,7 @@
         },
         {
           "name": "Jack Leiter",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3869,9 +3869,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.263,
+            "AVG": 0.271,
             "HR": 2,
-            "OPS": 0.694,
+            "OPS": 0.714,
             "R": 15,
             "RBI": 12,
             "SB": 0,
@@ -4745,9 +4745,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 3,
-            "OPS": 0.75,
+            "OPS": 0.755,
             "R": 21,
             "RBI": 23,
             "SB": 0,
@@ -4829,13 +4829,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.231,
+            "AVG": 0.233,
             "HR": 4,
-            "OPS": 0.667,
+            "OPS": 0.673,
             "R": 17,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 40
+            "Kbat": 39
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5261,9 +5261,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.243,
+            "AVG": 0.247,
             "HR": 11,
-            "OPS": 0.921,
+            "OPS": 0.928,
             "R": 35,
             "RBI": 28,
             "SB": 7,
@@ -5276,15 +5276,15 @@
         },
         {
           "name": "Jackson Merrill",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.234,
+            "AVG": 0.235,
             "HR": 4,
-            "OPS": 0.68,
+            "OPS": 0.677,
             "R": 22,
             "RBI": 18,
             "SB": 7,
@@ -5297,7 +5297,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5877,13 +5877,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.295,
+            "AVG": 0.293,
             "HR": 9,
-            "OPS": 0.941,
+            "OPS": 0.934,
             "R": 23,
             "RBI": 36,
             "SB": 7,
-            "Kbat": 29
+            "Kbat": 30
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5898,9 +5898,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.324,
+            "AVG": 0.322,
             "HR": 4,
-            "OPS": 0.896,
+            "OPS": 0.89,
             "R": 26,
             "RBI": 14,
             "SB": 4,
@@ -6045,11 +6045,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 51.2,
-            "H": 48,
-            "WHIP": 1.277,
-            "ERA": 4.006,
-            "K": 36,
+            "IP": 54.2,
+            "H": 49,
+            "WHIP": 1.244,
+            "ERA": 3.787,
+            "K": 37,
             "SVHD": 0,
             "QS": 5
           },
@@ -6207,7 +6207,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6288,7 +6288,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6853,11 +6853,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 34.2,
-            "H": 42,
-            "WHIP": 1.702,
-            "ERA": 4.154,
-            "K": 40,
+            "IP": 36.2,
+            "H": 43,
+            "WHIP": 1.636,
+            "ERA": 3.927,
+            "K": 41,
             "SVHD": 0,
             "QS": 2
           },
@@ -6955,5 +6955,5 @@
       ]
     }
   ],
-  "updated": "2026-05-10T15:55:36Z"
+  "updated": "2026-05-10T16:58:20Z"
 }
