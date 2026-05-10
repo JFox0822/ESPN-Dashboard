@@ -3165,27 +3165,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Ramon Laureano",
-          "slot": "BE",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.221,
-            "HR": 5,
-            "OPS": 0.699,
-            "R": 17,
-            "RBI": 19,
-            "SB": 4,
-            "Kbat": 45
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 21,
-          "keeperEligible": true
-        },
-        {
           "name": "Chase DeLauter",
           "slot": "OF",
           "position": "RF",
@@ -3297,7 +3276,7 @@
         },
         {
           "name": "Parker Messick",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3397,6 +3376,27 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Noah Cameron",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 31.2,
+            "H": 40,
+            "WHIP": 1.611,
+            "ERA": 5.4,
+            "K": 28,
+            "SVHD": 0,
+            "QS": 1
+          },
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -6598,7 +6598,7 @@
         },
         {
           "name": "Marcell Ozuna",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6619,7 +6619,7 @@
         },
         {
           "name": "Carlos Rodon",
-          "slot": "IL",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6666,7 +6666,7 @@
         },
         {
           "name": "Will Warren",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6719,27 +6719,6 @@
             "WHIP": 1.306,
             "ERA": 5.661,
             "K": 26,
-            "SVHD": 7,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Garrett Whitlock",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 15.1,
-            "H": 13,
-            "WHIP": 1.239,
-            "ERA": 3.522,
-            "K": 19,
             "SVHD": 7,
             "QS": 0
           },
@@ -6935,19 +6914,6 @@
           "keeperEligible": false
         },
         {
-          "name": "JJ Bleday",
-          "slot": "UTIL",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Carson Benge",
           "slot": "BE",
           "position": "CF",
@@ -6972,9 +6938,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "David Peterson",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-10T11:52:51Z"
+  "updated": "2026-05-10T13:21:15Z"
 }
