@@ -1538,7 +1538,7 @@
         },
         {
           "name": "Oswald Peraza",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -1689,7 +1689,7 @@
         },
         {
           "name": "Ryan McMahon",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -1887,7 +1887,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.198,
             "HR": 2,
@@ -3869,9 +3869,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.263,
             "HR": 2,
-            "OPS": 0.714,
+            "OPS": 0.694,
             "R": 15,
             "RBI": 12,
             "SB": 0,
@@ -4745,9 +4745,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.278,
             "HR": 3,
-            "OPS": 0.755,
+            "OPS": 0.75,
             "R": 21,
             "RBI": 23,
             "SB": 0,
@@ -4802,7 +4802,7 @@
         },
         {
           "name": "Jac Caglianone",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4829,13 +4829,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.231,
             "HR": 4,
-            "OPS": 0.673,
+            "OPS": 0.667,
             "R": 17,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 39
+            "Kbat": 40
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4991,7 +4991,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5132,7 +5132,7 @@
         },
         {
           "name": "Brandon Marsh",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5145,7 +5145,7 @@
         },
         {
           "name": "Bryson Stott",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5282,9 +5282,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.235,
+            "AVG": 0.234,
             "HR": 4,
-            "OPS": 0.677,
+            "OPS": 0.68,
             "R": 22,
             "RBI": 18,
             "SB": 7,
@@ -5297,7 +5297,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5549,7 +5549,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5591,7 +5591,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "SS",
+          "slot": "2B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6955,5 +6955,5 @@
       ]
     }
   ],
-  "updated": "2026-05-10T14:54:25Z"
+  "updated": "2026-05-10T15:55:36Z"
 }
