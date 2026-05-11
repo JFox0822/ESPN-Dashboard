@@ -5308,7 +5308,7 @@
         },
         {
           "name": "Jackson Merrill",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5560,7 +5560,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5661,27 +5661,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
-          "name": "Adolis Garcia",
-          "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.24,
-            "HR": 4,
-            "OPS": 0.683,
-            "R": 15,
-            "RBI": 13,
-            "SB": 1,
-            "Kbat": 41
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 26,
           "keeperEligible": true
         },
         {
@@ -5797,6 +5776,19 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Mauricio Dubon",
+          "slot": "BE",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6995,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-05-11T14:55:43Z"
+  "updated": "2026-05-11T17:26:35Z"
 }
