@@ -320,7 +320,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "IP": 47.2,
             "H": 46,
@@ -1052,7 +1052,7 @@
         },
         {
           "name": "JoJo Romero",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2238,7 +2238,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.252,
             "HR": 4,
@@ -3035,7 +3035,7 @@
         },
         {
           "name": "Vinnie Pasquantino",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3443,11 +3443,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Trevor McDonald",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
+          "name": "Jose Fernandez",
+          "slot": "UTIL",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -3922,9 +3922,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.263,
+            "AVG": 0.271,
             "HR": 2,
-            "OPS": 0.694,
+            "OPS": 0.714,
             "R": 15,
             "RBI": 12,
             "SB": 0,
@@ -4798,9 +4798,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 3,
-            "OPS": 0.75,
+            "OPS": 0.755,
             "R": 21,
             "RBI": 23,
             "SB": 0,
@@ -4882,13 +4882,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.231,
+            "AVG": 0.233,
             "HR": 4,
-            "OPS": 0.667,
+            "OPS": 0.673,
             "R": 17,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 40
+            "Kbat": 39
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5316,7 +5316,7 @@
           "stats": {
             "AVG": 0.235,
             "HR": 4,
-            "OPS": 0.68,
+            "OPS": 0.677,
             "R": 22,
             "RBI": 18,
             "SB": 7,
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-05-11T19:49:20Z"
+  "updated": "2026-05-11T21:18:31Z"
 }
