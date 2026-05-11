@@ -1,7 +1,7 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 6,
+  "currentWeek": 7,
   "teamCount": 12,
   "teams": [
     {
@@ -13,6 +13,11 @@
       "id": 5,
       "name": "Cooperstown Udder Tuggers",
       "abbrev": "AARN"
+    },
+    {
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY"
     },
     {
       "id": 11,
@@ -35,24 +40,14 @@
       "abbrev": "CHRS"
     },
     {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY"
-    },
-    {
-      "id": 2,
-      "name": "Gettysburg Generals",
-      "abbrev": "MION"
-    },
-    {
       "id": 10,
       "name": "Amsterdam Mohawks",
       "abbrev": "TIM"
     },
     {
-      "id": 6,
-      "name": "San Juan Coquis",
-      "abbrev": "JACB"
+      "id": 2,
+      "name": "Gettysburg Generals",
+      "abbrev": "MION"
     },
     {
       "id": 9,
@@ -63,7 +58,12 @@
       "id": 3,
       "name": "Buffalo Bison",
       "abbrev": "BERT"
+    },
+    {
+      "id": 6,
+      "name": "San Juan Coquis",
+      "abbrev": "JACB"
     }
   ],
-  "updated": "2026-05-11T03:38:47Z"
+  "updated": "2026-05-11T07:42:30Z"
 }
