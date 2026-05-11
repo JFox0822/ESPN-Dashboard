@@ -472,19 +472,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Angel Martinez",
-          "slot": "2B",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jeffrey Springs",
           "slot": "SP",
           "position": "SP",
@@ -576,6 +563,19 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Nick Gonzales",
+          "slot": "2B",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -2399,7 +2399,7 @@
         },
         {
           "name": "Framber Valdez",
-          "slot": "P",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2677,7 +2677,7 @@
         },
         {
           "name": "Riley O'Brien",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2827,10 +2827,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Kyle Leahy",
-          "slot": "SP",
-          "position": "RP",
-          "eligible": "RP",
+          "name": "Connor Prielipp",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -2840,8 +2840,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Connor Prielipp",
-          "slot": "BE",
+          "name": "Alek Manoah",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3922,9 +3922,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.263,
             "HR": 2,
-            "OPS": 0.714,
+            "OPS": 0.694,
             "R": 15,
             "RBI": 12,
             "SB": 0,
@@ -4798,9 +4798,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.278,
             "HR": 3,
-            "OPS": 0.755,
+            "OPS": 0.75,
             "R": 21,
             "RBI": 23,
             "SB": 0,
@@ -4882,13 +4882,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.231,
             "HR": 4,
-            "OPS": 0.673,
+            "OPS": 0.667,
             "R": 17,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 39
+            "Kbat": 40
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5316,7 +5316,7 @@
           "stats": {
             "AVG": 0.235,
             "HR": 4,
-            "OPS": 0.677,
+            "OPS": 0.68,
             "R": 22,
             "RBI": 18,
             "SB": 7,
@@ -6972,11 +6972,11 @@
           "keeperEligible": false
         },
         {
-          "name": "David Peterson",
+          "name": "Henry Bolte",
           "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-05-11T17:26:35Z"
+  "updated": "2026-05-11T19:49:20Z"
 }
