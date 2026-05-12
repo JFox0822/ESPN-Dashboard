@@ -1971,7 +1971,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 8.2,
             "H": 7,
@@ -2238,7 +2238,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.252,
             "HR": 4,
@@ -2742,7 +2742,7 @@
         },
         {
           "name": "Travis Bazzana",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2802,7 +2802,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5056,7 +5056,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.27,
             "HR": 5,
@@ -5882,7 +5882,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5987,11 +5987,11 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "IL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.314,
             "HR": 1,
@@ -6008,7 +6008,7 @@
         },
         {
           "name": "Bo Bichette",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6092,7 +6092,7 @@
         },
         {
           "name": "Emilio Pagan",
-          "slot": "BE",
+          "slot": "IL",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6252,7 +6252,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6286,7 +6286,7 @@
         },
         {
           "name": "Hyeseong Kim",
-          "slot": "SS",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6299,7 +6299,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6982,5 +6982,5 @@
       ]
     }
   ],
-  "updated": "2026-05-12T18:56:28Z"
+  "updated": "2026-05-12T20:42:23Z"
 }
