@@ -169,7 +169,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -392,7 +392,7 @@
         },
         {
           "name": "Andrew Vaughn",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -558,11 +558,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Tyler Kinley",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
+          "name": "Nick Gonzales",
+          "slot": "2B",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -571,11 +571,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Nick Gonzales",
-          "slot": "2B",
-          "position": "2B",
-          "eligible": "2B",
-          "isPitcher": false,
+          "name": "Kevin Kelly",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -2441,7 +2441,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2504,7 +2504,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2729,7 +2729,7 @@
         },
         {
           "name": "Justin Wrobleski",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2755,7 +2755,7 @@
         },
         {
           "name": "Miguel Vargas",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2789,7 +2789,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2827,11 +2827,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Alek Manoah",
+          "name": "A.J. Ewing",
           "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -2840,11 +2840,11 @@
           "keeperEligible": false
         },
         {
-          "name": "A.J. Ewing",
-          "slot": "BE",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
+          "name": "Walbert Urena",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -3081,7 +3081,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 30.1,
             "H": 34,
@@ -3203,7 +3203,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3423,7 +3423,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3922,13 +3922,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.268,
             "HR": 2,
-            "OPS": 0.714,
-            "R": 15,
+            "OPS": 0.692,
+            "R": 17,
             "RBI": 12,
             "SB": 0,
-            "Kbat": 18
+            "Kbat": 21
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4798,13 +4798,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.287,
             "HR": 3,
-            "OPS": 0.755,
+            "OPS": 0.759,
             "R": 21,
-            "RBI": 23,
+            "RBI": 26,
             "SB": 0,
-            "Kbat": 16
+            "Kbat": 18
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4813,7 +4813,7 @@
         },
         {
           "name": "Tyler Soderstrom",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4876,19 +4876,19 @@
         },
         {
           "name": "Teoscar Hernandez",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.248,
             "HR": 4,
-            "OPS": 0.673,
-            "R": 17,
+            "OPS": 0.709,
+            "R": 18,
             "RBI": 17,
             "SB": 1,
-            "Kbat": 39
+            "Kbat": 42
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5314,13 +5314,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.235,
+            "AVG": 0.228,
             "HR": 4,
-            "OPS": 0.677,
+            "OPS": 0.665,
             "R": 22,
             "RBI": 18,
-            "SB": 7,
-            "Kbat": 35
+            "SB": 8,
+            "Kbat": 40
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-05-12T13:03:57Z"
+  "updated": "2026-05-12T16:18:37Z"
 }
