@@ -3077,7 +3077,7 @@
         },
         {
           "name": "Trevor Rogers",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3440,19 +3440,6 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 7,
-          "keeperEligible": false
-        },
-        {
-          "name": "Jose Fernandez",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -5895,7 +5882,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6168,7 +6155,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6312,7 +6299,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6325,7 +6312,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6912,19 +6899,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Sam Antonacci",
-          "slot": "BE",
-          "position": "2B",
-          "eligible": "2B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Ketel Marte",
           "slot": "2B",
           "position": "2B",
@@ -6983,9 +6957,30 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Garrett Whitlock",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 15.1,
+            "H": 13,
+            "WHIP": 1.239,
+            "ERA": 3.522,
+            "K": 19,
+            "SVHD": 7,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-12T16:18:37Z"
+  "updated": "2026-05-12T18:56:28Z"
 }
