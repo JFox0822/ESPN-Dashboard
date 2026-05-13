@@ -1736,7 +1736,7 @@
         },
         {
           "name": "Paul Skenes",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1778,7 +1778,7 @@
         },
         {
           "name": "Yoshinobu Yamamoto",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1967,7 +1967,7 @@
         },
         {
           "name": "Tatsuya Imai",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2085,7 +2085,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2221,7 +2221,7 @@
         },
         {
           "name": "Noah Schultz",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2546,7 +2546,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2716,7 +2716,7 @@
         },
         {
           "name": "Reid Detmers",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5273,27 +5273,6 @@
           "keeperEligible": false
         },
         {
-          "name": "James Wood",
-          "slot": "UTIL",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.244,
-            "HR": 12,
-            "OPS": 0.929,
-            "R": 36,
-            "RBI": 29,
-            "SB": 7,
-            "Kbat": 62
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 5,
-          "keeperEligible": false
-        },
-        {
           "name": "Jackson Merrill",
           "slot": "OF",
           "position": "CF",
@@ -5652,7 +5631,7 @@
         },
         {
           "name": "Braxton Ashcraft",
-          "slot": "P",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5781,6 +5760,27 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Cristopher Sanchez",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 55.1,
+            "H": 57,
+            "WHIP": 1.283,
+            "ERA": 2.114,
+            "K": 67,
+            "SVHD": 0,
+            "QS": 6
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 3,
           "keeperEligible": false
         }
       ]
@@ -6419,27 +6419,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Cristopher Sanchez",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 55.1,
-            "H": 57,
-            "WHIP": 1.283,
-            "ERA": 2.114,
-            "K": 67,
-            "SVHD": 0,
-            "QS": 6
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 3,
-          "keeperEligible": false
-        },
-        {
           "name": "Kevin McGonigle",
           "slot": "SS",
           "position": "SS",
@@ -6525,7 +6504,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6609,7 +6588,7 @@
         },
         {
           "name": "Marcell Ozuna",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6790,7 +6769,7 @@
         },
         {
           "name": "Willson Contreras",
-          "slot": "1B",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6886,19 +6865,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Cam Smith",
-          "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Ketel Marte",
           "slot": "2B",
           "position": "2B",
@@ -6921,7 +6887,7 @@
         },
         {
           "name": "Carson Benge",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6978,9 +6944,43 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "James Wood",
+          "slot": "OF",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.244,
+            "HR": 12,
+            "OPS": 0.929,
+            "R": 36,
+            "RBI": 29,
+            "SB": 7,
+            "Kbat": 62
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 5,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kade Anderson",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-13T10:28:53Z"
+  "updated": "2026-05-13T13:11:49Z"
 }
