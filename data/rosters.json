@@ -2288,17 +2288,17 @@
           "keeperEligible": true
         },
         {
-          "name": "Jeff McNeil",
+          "name": "Troy Johnston",
           "slot": "UTIL",
-          "position": "2B",
-          "eligible": "2B",
+          "position": "RF",
+          "eligible": "RF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 19,
-          "keeperEligible": true
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -5274,7 +5274,7 @@
         },
         {
           "name": "James Wood",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5358,7 +5358,7 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5442,7 +5442,7 @@
         },
         {
           "name": "Kyle Bradish",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6982,5 +6982,5 @@
       ]
     }
   ],
-  "updated": "2026-05-13T07:49:49Z"
+  "updated": "2026-05-13T10:28:53Z"
 }
