@@ -2403,7 +2403,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SUSPENSION",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 43.1,
             "H": 46,
@@ -2622,7 +2622,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2828,7 +2828,7 @@
         },
         {
           "name": "A.J. Ewing",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3203,7 +3203,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3423,7 +3423,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4341,7 +4341,7 @@
         },
         {
           "name": "Michael King",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4593,7 +4593,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5400,7 +5400,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6008,7 +6008,7 @@
         },
         {
           "name": "Bo Bichette",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6029,7 +6029,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6050,7 +6050,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6252,7 +6252,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6299,7 +6299,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6372,7 +6372,7 @@
         },
         {
           "name": "Anthony Volpe",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6982,5 +6982,5 @@
       ]
     }
   ],
-  "updated": "2026-05-13T13:11:49Z"
+  "updated": "2026-05-13T16:20:09Z"
 }
