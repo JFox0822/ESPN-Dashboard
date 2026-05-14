@@ -413,7 +413,7 @@
         },
         {
           "name": "Bryce Miller",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -468,19 +468,6 @@
         },
         {
           "name": "Bryce Elder",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Jeffrey Springs",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
@@ -553,19 +540,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Griffin Canning",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Nick Gonzales",
           "slot": "2B",
           "position": "2B",
@@ -584,6 +558,19 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Sam Antonacci",
+          "slot": "BE",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -652,7 +639,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.263,
             "HR": 4,
@@ -1166,7 +1153,7 @@
           "keeperEligible": false
         },
         {
-          "name": "Eric Lauer",
+          "name": "Jack Wenninger",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
@@ -1891,7 +1878,7 @@
         },
         {
           "name": "Owen Caissie",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2093,7 +2080,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2135,7 +2122,7 @@
         },
         {
           "name": "Jake Burger",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2216,7 +2203,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2229,7 +2216,7 @@
         },
         {
           "name": "Noah Schultz",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3507,7 +3494,7 @@
         },
         {
           "name": "Max Fried",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3688,7 +3675,7 @@
         },
         {
           "name": "Zack Wheeler",
-          "slot": "SP",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3785,7 +3772,7 @@
         },
         {
           "name": "Jack Leiter",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6496,7 +6483,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6576,27 +6563,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 11,
-          "keeperEligible": false
-        },
-        {
-          "name": "Marcell Ozuna",
-          "slot": "UTIL",
-          "position": "DH",
-          "eligible": "DH",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.19,
-            "HR": 4,
-            "OPS": 0.581,
-            "R": 12,
-            "RBI": 14,
-            "SB": 0,
-            "Kbat": 39
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 12,
           "keeperEligible": false
         },
         {
@@ -6816,7 +6782,7 @@
         },
         {
           "name": "Jeff Hoffman",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6978,9 +6944,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Carmen Mlodzinski",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-14T12:25:43Z"
+  "updated": "2026-05-14T15:20:15Z"
 }
