@@ -3924,7 +3924,7 @@
         },
         {
           "name": "Grayson Rodriguez",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4055,7 +4055,7 @@
         },
         {
           "name": "Zebby Matthews",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5059,21 +5059,8 @@
           "keeperEligible": true
         },
         {
-          "name": "Gregory Soto",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Heliot Ramos",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5172,7 +5159,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "BE",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5203,6 +5190,27 @@
           "acquisitionType": "ADD",
           "draftRound": 7,
           "keeperEligible": false
+        },
+        {
+          "name": "Garrett Cleavinger",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 7.0,
+            "H": 7,
+            "WHIP": 1.714,
+            "ERA": 3.857,
+            "K": 10,
+            "SVHD": 7,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 17,
+          "keeperEligible": true
         }
       ]
     },
@@ -6617,7 +6625,7 @@
         },
         {
           "name": "Bubba Chandler",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6832,7 +6840,7 @@
         },
         {
           "name": "Cade Cavalli",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6990,5 +6998,5 @@
       ]
     }
   ],
-  "updated": "2026-05-16T13:24:52Z"
+  "updated": "2026-05-16T14:57:38Z"
 }
