@@ -169,7 +169,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -320,7 +320,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 47.2,
             "H": 46,
@@ -392,7 +392,7 @@
         },
         {
           "name": "Andrew Vaughn",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1402,7 +1402,7 @@
         },
         {
           "name": "Kevin Gausman",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2323,7 +2323,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2828,7 +2828,7 @@
         },
         {
           "name": "Spencer Steer",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3435,7 +3435,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -4366,7 +4366,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 51.0,
             "H": 29,
@@ -5316,7 +5316,7 @@
         },
         {
           "name": "Jackson Merrill",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5631,7 +5631,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "BE",
+          "slot": "SS",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5652,7 +5652,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5780,7 +5780,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "SS",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5814,7 +5814,7 @@
         },
         {
           "name": "JJ Bleday",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6029,11 +6029,11 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.291,
             "HR": 1,
@@ -6071,7 +6071,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6092,7 +6092,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6238,27 +6238,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Ryan Walker",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 15.1,
-            "H": 19,
-            "WHIP": 1.891,
-            "ERA": 6.457,
-            "K": 14,
-            "SVHD": 2,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 23,
-          "keeperEligible": true
-        },
-        {
           "name": "Trent Grisham",
           "slot": "UTIL",
           "position": "CF",
@@ -6354,7 +6333,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6400,10 +6379,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Anthony Volpe",
-          "slot": "UTIL",
-          "position": "SS",
-          "eligible": "SS",
+          "name": "Luke Raley",
+          "slot": "OF",
+          "position": "RF",
+          "eligible": "RF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -6413,11 +6392,32 @@
           "keeperEligible": false
         },
         {
-          "name": "Luke Raley",
-          "slot": "OF",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
+          "name": "Pete Fairbanks",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 10.0,
+            "H": 10,
+            "WHIP": 1.5,
+            "ERA": 9.0,
+            "K": 15,
+            "SVHD": 1,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 18,
+          "keeperEligible": true
+        },
+        {
+          "name": "Lucas Giolito",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -7024,5 +7024,5 @@
       ]
     }
   ],
-  "updated": "2026-05-17T14:57:50Z"
+  "updated": "2026-05-17T16:03:26Z"
 }
