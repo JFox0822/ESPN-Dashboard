@@ -891,7 +891,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 50.1,
             "H": 36,
@@ -1579,19 +1579,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Jack Perkins",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Sean Burke",
           "slot": "SP",
           "position": "SP",
@@ -1729,6 +1716,19 @@
           "slot": "P",
           "position": "SP",
           "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Gregory Soto",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -3004,7 +3004,7 @@
         },
         {
           "name": "Kyle Schwarber",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3298,7 +3298,7 @@
         },
         {
           "name": "Colt Keith",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3941,13 +3941,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.268,
-            "HR": 2,
-            "OPS": 0.692,
-            "R": 17,
-            "RBI": 12,
+            "AVG": 0.266,
+            "HR": 3,
+            "OPS": 0.693,
+            "R": 20,
+            "RBI": 17,
             "SB": 0,
-            "Kbat": 21
+            "Kbat": 22
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4859,13 +4859,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.287,
+            "AVG": 0.277,
             "HR": 3,
-            "OPS": 0.759,
-            "R": 21,
-            "RBI": 26,
+            "OPS": 0.732,
+            "R": 23,
+            "RBI": 27,
             "SB": 0,
-            "Kbat": 18
+            "Kbat": 22
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4922,13 +4922,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.248,
-            "HR": 4,
-            "OPS": 0.709,
-            "R": 18,
-            "RBI": 17,
+            "AVG": 0.268,
+            "HR": 5,
+            "OPS": 0.755,
+            "R": 23,
+            "RBI": 23,
             "SB": 1,
-            "Kbat": 42
+            "Kbat": 48
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5375,13 +5375,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.228,
+            "AVG": 0.206,
             "HR": 4,
-            "OPS": 0.665,
-            "R": 22,
-            "RBI": 18,
+            "OPS": 0.604,
+            "R": 23,
+            "RBI": 19,
             "SB": 8,
-            "Kbat": 40
+            "Kbat": 49
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6300,7 +6300,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6376,7 +6376,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7109,5 +7109,5 @@
       ]
     }
   ],
-  "updated": "2026-05-18T18:52:38Z"
+  "updated": "2026-05-18T20:25:33Z"
 }
