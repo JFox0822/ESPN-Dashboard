@@ -1610,7 +1610,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "IP": 52.2,
             "H": 40,
@@ -2478,7 +2478,7 @@
         },
         {
           "name": "Dansby Swanson",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2638,7 +2638,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2800,7 +2800,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2865,7 +2865,7 @@
         },
         {
           "name": "Jakob Marsee",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3733,7 +3733,7 @@
         },
         {
           "name": "Tyler Glasnow",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3796,7 +3796,7 @@
         },
         {
           "name": "Josh Hader",
-          "slot": "IL",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4079,19 +4079,6 @@
           "acquisitionType": "ADD",
           "draftRound": 27,
           "keeperEligible": true
-        },
-        {
-          "name": "JR Ritchie",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         },
         {
           "name": "Gavin Sheets",
@@ -5752,7 +5739,7 @@
         },
         {
           "name": "Ryan Jeffers",
-          "slot": "C",
+          "slot": "IL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5876,6 +5863,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 7,
+          "keeperEligible": false
+        },
+        {
+          "name": "Carson Kelly",
+          "slot": "C",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -7080,5 +7080,5 @@
       ]
     }
   ],
-  "updated": "2026-05-19T16:21:33Z"
+  "updated": "2026-05-19T19:01:42Z"
 }
