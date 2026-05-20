@@ -1899,7 +1899,7 @@
         },
         {
           "name": "Ceddanne Rafaela",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1916,27 +1916,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 8,
-          "keeperEligible": false
-        },
-        {
-          "name": "Owen Caissie",
-          "slot": "OF",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.207,
-            "HR": 3,
-            "OPS": 0.603,
-            "R": 14,
-            "RBI": 19,
-            "SB": 3,
-            "Kbat": 53
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 10,
           "keeperEligible": false
         },
         {
@@ -1962,7 +1941,7 @@
         },
         {
           "name": "JJ Wetherholt",
-          "slot": "BE",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1983,7 +1962,7 @@
         },
         {
           "name": "Carter Jensen",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2122,7 +2101,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2245,7 +2224,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2336,6 +2315,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Daulton Varsho",
+          "slot": "OF",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.278,
+            "HR": 5,
+            "OPS": 0.785,
+            "R": 22,
+            "RBI": 15,
+            "SB": 4,
+            "Kbat": 32
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 11,
+          "keeperEligible": false
         }
       ]
     },
@@ -2415,7 +2415,7 @@
         },
         {
           "name": "Joe Ryan",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2604,7 +2604,7 @@
         },
         {
           "name": "Edward Cabrera",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2715,19 +2715,6 @@
         {
           "name": "Joey Cantillo",
           "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Reid Detmers",
-          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2903,6 +2890,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 8,
+          "keeperEligible": false
+        },
+        {
+          "name": "Thomas White",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -6523,7 +6523,7 @@
       "players": [
         {
           "name": "Ronald Acuna Jr.",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6670,7 +6670,7 @@
         },
         {
           "name": "Oneil Cruz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6969,7 +6969,7 @@
         },
         {
           "name": "Carson Benge",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7087,7 +7087,7 @@
         },
         {
           "name": "Dylan Crews",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7109,5 +7109,5 @@
       ]
     }
   ],
-  "updated": "2026-05-20T10:51:33Z"
+  "updated": "2026-05-20T13:39:36Z"
 }
