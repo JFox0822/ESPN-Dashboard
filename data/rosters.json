@@ -2357,7 +2357,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2504,7 +2504,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2567,7 +2567,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2805,7 +2805,7 @@
         },
         {
           "name": "Connor Prielipp",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2844,7 +2844,7 @@
         },
         {
           "name": "Spencer Steer",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2857,7 +2857,7 @@
         },
         {
           "name": "Jakob Marsee",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5702,7 +5702,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5723,7 +5723,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5837,19 +5837,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Juan Morillo",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Cristopher Sanchez",
           "slot": "P",
           "position": "SP",
@@ -5916,6 +5903,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Fernando Cruz",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 20.0,
+            "H": 14,
+            "WHIP": 1.35,
+            "ERA": 2.25,
+            "K": 28,
+            "SVHD": 9,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 18,
+          "keeperEligible": true
         }
       ]
     },
@@ -7127,5 +7135,5 @@
       ]
     }
   ],
-  "updated": "2026-05-22T09:27:34Z"
+  "updated": "2026-05-22T12:20:21Z"
 }
