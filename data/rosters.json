@@ -754,13 +754,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.255,
+            "AVG": 0.254,
             "HR": 11,
-            "OPS": 0.813,
+            "OPS": 0.808,
             "R": 28,
             "RBI": 31,
             "SB": 0,
-            "Kbat": 42
+            "Kbat": 43
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1338,7 +1338,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.273,
             "HR": 5,
@@ -1403,9 +1403,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.215,
+            "AVG": 0.214,
             "HR": 10,
-            "OPS": 0.783,
+            "OPS": 0.779,
             "R": 35,
             "RBI": 20,
             "SB": 2,
@@ -1813,9 +1813,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.238,
             "HR": 5,
-            "OPS": 0.652,
+            "OPS": 0.649,
             "R": 32,
             "RBI": 16,
             "SB": 9,
@@ -2531,9 +2531,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.23,
+            "AVG": 0.229,
             "HR": 4,
-            "OPS": 0.733,
+            "OPS": 0.729,
             "R": 20,
             "RBI": 27,
             "SB": 1,
@@ -2762,7 +2762,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.237,
             "HR": 11,
@@ -2884,13 +2884,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.22,
+            "AVG": 0.219,
             "HR": 5,
-            "OPS": 0.631,
+            "OPS": 0.627,
             "R": 15,
             "RBI": 22,
             "SB": 0,
-            "Kbat": 27
+            "Kbat": 28
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -3002,13 +3002,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.23,
+            "AVG": 0.229,
             "HR": 20,
-            "OPS": 0.98,
+            "OPS": 0.975,
             "R": 33,
             "RBI": 36,
             "SB": 1,
-            "Kbat": 70
+            "Kbat": 71
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4187,9 +4187,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.267,
+            "AVG": 0.271,
             "HR": 12,
-            "OPS": 0.887,
+            "OPS": 0.898,
             "R": 29,
             "RBI": 31,
             "SB": 3,
@@ -5471,7 +5471,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5492,7 +5492,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5519,9 +5519,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.251,
+            "AVG": 0.25,
             "HR": 4,
-            "OPS": 0.691,
+            "OPS": 0.688,
             "R": 22,
             "RBI": 16,
             "SB": 2,
@@ -5624,11 +5624,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 61.1,
-            "H": 51,
-            "WHIP": 1.19,
-            "ERA": 3.668,
-            "K": 73,
+            "IP": 62.1,
+            "H": 52,
+            "WHIP": 1.187,
+            "ERA": 3.61,
+            "K": 75,
             "SVHD": 0,
             "QS": 4
           },
@@ -5844,11 +5844,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 64.1,
-            "H": 63,
-            "WHIP": 1.197,
-            "ERA": 1.819,
-            "K": 80,
+            "IP": 65.2,
+            "H": 64,
+            "WHIP": 1.188,
+            "ERA": 1.782,
+            "K": 82,
             "SVHD": 0,
             "QS": 7
           },
@@ -6373,7 +6373,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6618,9 +6618,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.236,
+            "AVG": 0.234,
             "HR": 8,
-            "OPS": 0.78,
+            "OPS": 0.776,
             "R": 30,
             "RBI": 24,
             "SB": 20,
@@ -7135,5 +7135,5 @@
       ]
     }
   ],
-  "updated": "2026-05-22T21:11:14Z"
+  "updated": "2026-05-22T23:00:18Z"
 }
