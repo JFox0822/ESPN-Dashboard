@@ -853,7 +853,7 @@
         },
         {
           "name": "Spencer Torkelson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -871,27 +871,6 @@
           "acquisitionType": "DRAFT",
           "draftRound": 12,
           "keeperEligible": false
-        },
-        {
-          "name": "Luis Castillo",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 46.1,
-            "H": 54,
-            "WHIP": 1.554,
-            "ERA": 6.41,
-            "K": 47,
-            "SVHD": 1,
-            "QS": 1
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 13,
-          "keeperEligible": true
         },
         {
           "name": "Kris Bubic",
@@ -958,7 +937,7 @@
         },
         {
           "name": "Shane Baz",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1000,7 +979,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1021,7 +1000,7 @@
         },
         {
           "name": "Otto Lopez",
-          "slot": "BE",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1097,7 +1076,7 @@
         },
         {
           "name": "Victor Scott II",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1118,7 +1097,7 @@
         },
         {
           "name": "Jorge Soler",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1196,10 +1175,23 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "2B",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Adrian Houser",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -2512,7 +2504,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2651,7 +2643,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2852,7 +2844,7 @@
         },
         {
           "name": "Spencer Steer",
-          "slot": "BE",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2865,7 +2857,7 @@
         },
         {
           "name": "Jakob Marsee",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5102,7 +5094,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5217,7 +5209,7 @@
         },
         {
           "name": "Brandon Marsh",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5243,7 +5235,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6717,7 +6709,7 @@
         },
         {
           "name": "Oneil Cruz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7134,7 +7126,7 @@
         },
         {
           "name": "Dylan Crews",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7156,5 +7148,5 @@
       ]
     }
   ],
-  "updated": "2026-05-23T15:01:39Z"
+  "updated": "2026-05-23T17:00:25Z"
 }
