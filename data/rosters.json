@@ -1820,7 +1820,7 @@
         },
         {
           "name": "Yoshinobu Yamamoto",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2114,7 +2114,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2156,7 +2156,7 @@
         },
         {
           "name": "Jake Burger",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2250,7 +2250,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2525,7 +2525,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2567,7 +2567,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2758,7 +2758,7 @@
         },
         {
           "name": "Miguel Vargas",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2831,7 +2831,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2896,6 +2896,27 @@
           "acquisitionType": "ADD",
           "draftRound": 8,
           "keeperEligible": false
+        },
+        {
+          "name": "Merrill Kelly",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 41.0,
+            "H": 44,
+            "WHIP": 1.512,
+            "ERA": 5.707,
+            "K": 27,
+            "SVHD": 0,
+            "QS": 3
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 21,
+          "keeperEligible": true
         }
       ]
     },
@@ -7148,5 +7169,5 @@
       ]
     }
   ],
-  "updated": "2026-05-24T10:41:55Z"
+  "updated": "2026-05-24T12:00:37Z"
 }
