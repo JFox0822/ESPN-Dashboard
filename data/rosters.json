@@ -6475,7 +6475,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6604,7 +6604,7 @@
         },
         {
           "name": "Kevin McGonigle",
-          "slot": "3B",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6625,7 +6625,7 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6646,7 +6646,7 @@
         },
         {
           "name": "Jose Ramirez",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6751,7 +6751,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "IL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6953,7 +6953,7 @@
         },
         {
           "name": "Payton Tolle",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6963,27 +6963,6 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
-        },
-        {
-          "name": "Jeff Hoffman",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 23.0,
-            "H": 29,
-            "WHIP": 1.609,
-            "ERA": 5.087,
-            "K": 40,
-            "SVHD": 6,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 15,
-          "keeperEligible": true
         },
         {
           "name": "Cade Cavalli",
@@ -7029,7 +7008,7 @@
         },
         {
           "name": "Carson Benge",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7088,19 +7067,6 @@
           "tier": "",
           "acquisitionType": "TRADE",
           "draftRound": 5,
-          "keeperEligible": false
-        },
-        {
-          "name": "Kade Anderson",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
           "keeperEligible": false
         },
         {
@@ -7165,9 +7131,22 @@
           "acquisitionType": "ADD",
           "draftRound": 11,
           "keeperEligible": false
+        },
+        {
+          "name": "Martin Perez",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-05-24T12:00:37Z"
+  "updated": "2026-05-24T14:24:29Z"
 }
