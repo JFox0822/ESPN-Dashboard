@@ -622,7 +622,7 @@
       "players": [
         {
           "name": "Manny Machado",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -685,7 +685,7 @@
         },
         {
           "name": "Jarren Duran",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -790,7 +790,7 @@
         },
         {
           "name": "Willy Adames",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -811,7 +811,7 @@
         },
         {
           "name": "Brent Rooker",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -1076,7 +1076,7 @@
         },
         {
           "name": "Victor Scott II",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1175,7 +1175,7 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1828,7 +1828,7 @@
         },
         {
           "name": "Yoshinobu Yamamoto",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1996,7 +1996,7 @@
         },
         {
           "name": "Tatsuya Imai",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2101,7 +2101,7 @@
         },
         {
           "name": "Gerrit Cole",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2122,7 +2122,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2143,7 +2143,7 @@
         },
         {
           "name": "Chad Patrick",
-          "slot": "BE",
+          "slot": "RP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2252,19 +2252,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Noah Schultz",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jose Caballero",
           "slot": "UTIL",
           "position": "RF",
@@ -2346,13 +2333,34 @@
           "keeperEligible": false
         },
         {
-          "name": "Grant Taylor",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
+          "name": "Chase Dollander",
+          "slot": "IL",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Noah Cameron",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {},
+          "stats": {
+            "IP": 47.2,
+            "H": 53,
+            "WHIP": 1.448,
+            "ERA": 4.72,
+            "K": 44,
+            "SVHD": 0,
+            "QS": 3
+          },
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -6176,7 +6184,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6239,7 +6247,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6323,7 +6331,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6386,7 +6394,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7169,5 +7177,5 @@
       ]
     }
   ],
-  "updated": "2026-05-25T08:57:30Z"
+  "updated": "2026-05-25T12:38:00Z"
 }
