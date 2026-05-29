@@ -664,7 +664,7 @@
         },
         {
           "name": "Juan Soto",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1097,7 +1097,7 @@
         },
         {
           "name": "Jorge Soler",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1175,7 +1175,7 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1593,7 +1593,7 @@
         },
         {
           "name": "Ildemaro Vargas",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1731,7 +1731,7 @@
         },
         {
           "name": "Rikuu Nishida",
-          "slot": "2B",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4668,7 +4668,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "PATERNITY",
           "stats": {
             "IP": 56.2,
             "H": 64,
@@ -4740,7 +4740,7 @@
         },
         {
           "name": "Angel Martinez",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4753,7 +4753,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5035,7 +5035,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 62.2,
             "H": 51,
@@ -5489,7 +5489,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5762,7 +5762,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5919,7 +5919,7 @@
         },
         {
           "name": "JJ Bleday",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6252,7 +6252,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6336,7 +6336,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6357,7 +6357,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6475,7 +6475,7 @@
         },
         {
           "name": "Jeremiah Jackson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6488,7 +6488,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6501,7 +6501,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6527,7 +6527,7 @@
         },
         {
           "name": "Luke Raley",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6561,7 +6561,7 @@
         },
         {
           "name": "Lucas Giolito",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7187,5 +7187,5 @@
       ]
     }
   ],
-  "updated": "2026-05-29T18:34:37Z"
+  "updated": "2026-05-29T21:08:21Z"
 }
