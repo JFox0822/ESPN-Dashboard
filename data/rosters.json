@@ -1127,7 +1127,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1326,7 +1326,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1347,7 +1347,7 @@
         },
         {
           "name": "Chandler Simpson",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1444,7 +1444,7 @@
         },
         {
           "name": "Matthew Liberatore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1512,7 +1512,7 @@
         },
         {
           "name": "Andres Gimenez",
-          "slot": "SS",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1546,7 +1546,7 @@
         },
         {
           "name": "Brayan Rocchio",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1645,7 +1645,7 @@
         },
         {
           "name": "Grant Holmes",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2181,7 +2181,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4601,7 +4601,7 @@
         },
         {
           "name": "Colson Montgomery",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4740,7 +4740,7 @@
         },
         {
           "name": "Angel Martinez",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5157,7 +5157,7 @@
         },
         {
           "name": "Samuel Basallo",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7187,5 +7187,5 @@
       ]
     }
   ],
-  "updated": "2026-05-29T15:36:21Z"
+  "updated": "2026-05-29T18:34:37Z"
 }
