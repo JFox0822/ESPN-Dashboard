@@ -1778,7 +1778,7 @@
         },
         {
           "name": "Paul Skenes",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1883,7 +1883,7 @@
         },
         {
           "name": "Nolan Schanuel",
-          "slot": "BE",
+          "slot": "IL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2009,7 +2009,7 @@
         },
         {
           "name": "George Kirby",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2177,7 +2177,7 @@
         },
         {
           "name": "Jared Jones",
-          "slot": "IL",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2203,7 +2203,7 @@
         },
         {
           "name": "TJ Rumfield",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2245,7 +2245,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "3B",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2386,7 +2386,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2428,7 +2428,7 @@
         },
         {
           "name": "Joe Ryan",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2512,7 +2512,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2779,7 +2779,7 @@
         },
         {
           "name": "A.J. Ewing",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2792,7 +2792,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2805,7 +2805,7 @@
         },
         {
           "name": "Spencer Steer",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3501,21 +3501,13 @@
           "keeperEligible": false
         },
         {
-          "name": "Jesus Sanchez",
+          "name": "Cam Smith",
           "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.284,
-            "HR": 6,
-            "OPS": 0.779,
-            "R": 18,
-            "RBI": 27,
-            "SB": 1,
-            "Kbat": 38
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -7195,5 +7187,5 @@
       ]
     }
   ],
-  "updated": "2026-05-29T11:36:41Z"
+  "updated": "2026-05-29T15:36:21Z"
 }
