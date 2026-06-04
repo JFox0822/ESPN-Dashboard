@@ -148,7 +148,7 @@
         },
         {
           "name": "Alec Burleson",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -371,7 +371,7 @@
         },
         {
           "name": "Wilyer Abreu",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -392,7 +392,7 @@
         },
         {
           "name": "Andrew Vaughn",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1958,7 +1958,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.249,
             "HR": 9,
@@ -2219,7 +2219,7 @@
         },
         {
           "name": "TJ Rumfield",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2261,7 +2261,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "BE",
+          "slot": "3B",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2549,7 +2549,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2795,7 +2795,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2842,7 +2842,7 @@
         },
         {
           "name": "Kai-Wei Teng",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2915,7 +2915,7 @@
         },
         {
           "name": "Jake McCarthy",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3214,7 +3214,7 @@
         },
         {
           "name": "Abner Uribe",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3429,7 +3429,7 @@
         },
         {
           "name": "Bryan Baker",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4231,7 +4231,7 @@
         },
         {
           "name": "Riley Greene",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4378,7 +4378,7 @@
         },
         {
           "name": "Chris Sale",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4399,7 +4399,7 @@
         },
         {
           "name": "Freddy Peralta",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4672,7 +4672,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4748,7 +4748,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4762,19 +4762,6 @@
             "SB": 0,
             "Kbat": 36
           },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Nathaniel Lowe",
-          "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -6218,7 +6205,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6239,7 +6226,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6323,7 +6310,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6441,7 +6428,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6501,7 +6488,7 @@
         },
         {
           "name": "Luke Raley",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6535,7 +6522,7 @@
         },
         {
           "name": "Lucas Giolito",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6560,16 +6547,16 @@
           "keeperEligible": false
         },
         {
-          "name": "Joe Mack",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
+          "name": "Paul Goldschmidt",
+          "slot": "UTIL",
+          "position": "1B",
+          "eligible": "1B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
+          "draftRound": 7,
           "keeperEligible": false
         }
       ]
@@ -7171,5 +7158,5 @@
       ]
     }
   ],
-  "updated": "2026-06-04T11:55:17Z"
+  "updated": "2026-06-04T15:18:28Z"
 }
