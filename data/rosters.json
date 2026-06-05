@@ -89,7 +89,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.248,
             "HR": 17,
@@ -337,7 +337,7 @@
         },
         {
           "name": "Max Muncy",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -392,7 +392,7 @@
         },
         {
           "name": "Andrew Vaughn",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -489,7 +489,7 @@
         },
         {
           "name": "Nick Gonzales",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -796,11 +796,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.244,
-            "HR": 9,
-            "OPS": 0.718,
-            "R": 30,
-            "RBI": 25,
+            "AVG": 0.247,
+            "HR": 10,
+            "OPS": 0.735,
+            "R": 31,
+            "RBI": 27,
             "SB": 1,
             "Kbat": 72
           },
@@ -1411,9 +1411,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.237,
+            "AVG": 0.236,
             "HR": 14,
-            "OPS": 0.843,
+            "OPS": 0.84,
             "R": 42,
             "RBI": 34,
             "SB": 2,
@@ -2529,9 +2529,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.184,
+            "AVG": 0.183,
             "HR": 7,
-            "OPS": 0.618,
+            "OPS": 0.615,
             "R": 34,
             "RBI": 28,
             "SB": 5,
@@ -2550,9 +2550,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.246,
+            "AVG": 0.245,
             "HR": 9,
-            "OPS": 0.745,
+            "OPS": 0.742,
             "R": 35,
             "RBI": 30,
             "SB": 13,
@@ -2571,13 +2571,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.246,
+            "AVG": 0.244,
             "HR": 6,
-            "OPS": 0.767,
+            "OPS": 0.764,
             "R": 27,
             "RBI": 36,
             "SB": 1,
-            "Kbat": 61
+            "Kbat": 62
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2655,11 +2655,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 54.0,
-            "H": 53,
-            "WHIP": 1.352,
-            "ERA": 4.0,
-            "K": 47,
+            "IP": 56.0,
+            "H": 55,
+            "WHIP": 1.339,
+            "ERA": 4.179,
+            "K": 50,
             "SVHD": 0,
             "QS": 4
           },
@@ -3173,11 +3173,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 62.2,
-            "H": 57,
-            "WHIP": 1.404,
-            "ERA": 4.452,
-            "K": 59,
+            "IP": 64.2,
+            "H": 58,
+            "WHIP": 1.407,
+            "ERA": 4.314,
+            "K": 60,
             "SVHD": 0,
             "QS": 4
           },
@@ -3417,10 +3417,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.325,
+            "AVG": 0.328,
             "HR": 2,
-            "OPS": 0.8,
-            "R": 31,
+            "OPS": 0.809,
+            "R": 32,
             "RBI": 24,
             "SB": 5,
             "Kbat": 11
@@ -3970,9 +3970,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.322,
+            "AVG": 0.321,
             "HR": 3,
-            "OPS": 0.803,
+            "OPS": 0.799,
             "R": 28,
             "RBI": 21,
             "SB": 0,
@@ -4339,7 +4339,7 @@
           "stats": {
             "AVG": 0.243,
             "HR": 8,
-            "OPS": 0.73,
+            "OPS": 0.733,
             "R": 27,
             "RBI": 20,
             "SB": 0,
@@ -5370,7 +5370,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "IP": 30.0,
             "H": 33,
@@ -5456,9 +5456,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.253,
+            "AVG": 0.252,
             "HR": 4,
-            "OPS": 0.694,
+            "OPS": 0.692,
             "R": 26,
             "RBI": 33,
             "SB": 12,
@@ -5563,7 +5563,7 @@
           "stats": {
             "AVG": 0.255,
             "HR": 5,
-            "OPS": 0.694,
+            "OPS": 0.697,
             "R": 29,
             "RBI": 19,
             "SB": 2,
@@ -5988,13 +5988,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.239,
             "HR": 7,
-            "OPS": 0.7,
+            "OPS": 0.697,
             "R": 27,
             "RBI": 30,
             "SB": 0,
-            "Kbat": 81
+            "Kbat": 82
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6415,7 +6415,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6543,7 +6543,7 @@
         },
         {
           "name": "Anthony Volpe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -7166,5 +7166,5 @@
       ]
     }
   ],
-  "updated": "2026-06-05T17:56:04Z"
+  "updated": "2026-06-05T19:59:34Z"
 }
