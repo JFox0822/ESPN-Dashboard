@@ -937,7 +937,7 @@
         },
         {
           "name": "Shane Baz",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1110,7 +1110,7 @@
         },
         {
           "name": "Keider Montero",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2999,7 +2999,7 @@
         },
         {
           "name": "Wyatt Langford",
-          "slot": "IL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3020,7 +3020,7 @@
         },
         {
           "name": "Jesus Luzardo",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3083,7 +3083,7 @@
         },
         {
           "name": "Kerry Carpenter",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3104,7 +3104,7 @@
         },
         {
           "name": "Kyle Stowers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3188,7 +3188,7 @@
         },
         {
           "name": "Nick Lodolo",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3230,7 +3230,7 @@
         },
         {
           "name": "Abner Uribe",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3431,21 +3431,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Carlos Cortes",
-          "slot": "OF",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Bryan Baker",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3458,7 +3445,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3479,7 +3466,7 @@
         },
         {
           "name": "Ben Brown",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3505,7 +3492,7 @@
         },
         {
           "name": "Reid Detmers",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6192,7 +6179,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6297,7 +6284,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7070,27 +7057,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Trevor Megill",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 23.0,
-            "H": 19,
-            "WHIP": 1.13,
-            "ERA": 4.696,
-            "K": 29,
-            "SVHD": 6,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 18,
-          "keeperEligible": true
-        },
-        {
           "name": "River Ryan",
           "slot": "BE",
           "position": "SP",
@@ -7141,9 +7107,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Sean Manaea",
+          "slot": "RP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-06-06T13:45:55Z"
+  "updated": "2026-06-06T15:17:01Z"
 }
