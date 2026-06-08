@@ -1,7 +1,17 @@
 {
   "season": 2026,
   "active": [
+    1,
+    2,
+    3,
+    4,
+    5,
     6,
+    7,
+    8,
+    9,
+    10,
+    11,
     12
   ],
   "eliminated": [
@@ -74,10 +84,24 @@
       "week": 9,
       "catWins": 1,
       "round": 1
+    },
+    {
+      "teamId": 6,
+      "team": "San Juan Coquis",
+      "week": 10,
+      "catWins": 3,
+      "round": 1
     }
   ],
-  "champions": [],
-  "currentRound": 1,
+  "champions": [
+    {
+      "teamId": 12,
+      "team": "Brevard County Manatees",
+      "week": 10,
+      "round": 1
+    }
+  ],
+  "currentRound": 2,
   "processedWeeks": [
     1,
     2,
@@ -87,7 +111,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "history": [
     {
@@ -679,6 +704,74 @@
         "Santa Clara Sea-Creatures": false,
         "Brevard County Manatees": true
       }
+    },
+    {
+      "week": 10,
+      "round": 1,
+      "allScores": {
+        "9": 4,
+        "1": 10,
+        "6": 3,
+        "7": 11,
+        "5": 5,
+        "12": 9,
+        "8": 9,
+        "3": 5,
+        "4": 9,
+        "11": 5,
+        "10": 11,
+        "2": 2
+      },
+      "losers": [
+        {
+          "team": "Las Vegas Degenerate",
+          "catWins": 4
+        },
+        {
+          "team": "San Juan Coquis",
+          "catWins": 3
+        },
+        {
+          "team": "Cooperstown Udder Tuggers",
+          "catWins": 5
+        },
+        {
+          "team": "Buffalo Bison",
+          "catWins": 5
+        },
+        {
+          "team": "Santa Clara Sea-Creatures",
+          "catWins": 5
+        },
+        {
+          "team": "Gettysburg Generals",
+          "catWins": 2
+        }
+      ],
+      "eliminated": [
+        {
+          "teamId": 6,
+          "team": "San Juan Coquis",
+          "week": 10,
+          "catWins": 3,
+          "round": 1
+        }
+      ],
+      "allActive": {
+        "Roosevelt Ruff Ryders": false,
+        "Gettysburg Generals": false,
+        "Buffalo Bison": false,
+        "\ud83c\udfc6 Virginia Beach VelociRaptors": false,
+        "Cooperstown Udder Tuggers": false,
+        "San Juan Coquis": false,
+        "Nagasaki Bombers": false,
+        "Portland Pickles": false,
+        "Las Vegas Degenerate": false,
+        "Amsterdam Mohawks": false,
+        "Santa Clara Sea-Creatures": false,
+        "Brevard County Manatees": true
+      },
+      "champion": "Brevard County Manatees"
     }
   ],
   "teamNames": {
@@ -695,5 +788,5 @@
     "11": "Santa Clara Sea-Creatures",
     "12": "Brevard County Manatees"
   },
-  "updated": "2026-06-08T04:07:51Z"
+  "updated": "2026-06-08T09:22:59Z"
 }
