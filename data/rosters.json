@@ -459,7 +459,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.242,
             "HR": 4,
@@ -1882,7 +1882,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.253,
             "HR": 4,
@@ -3943,7 +3943,7 @@
         },
         {
           "name": "Spencer Horwitz",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -4040,7 +4040,7 @@
         },
         {
           "name": "Gavin Sheets",
-          "slot": "BE",
+          "slot": "1B",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -6008,7 +6008,7 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6336,7 +6336,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6425,7 +6425,7 @@
         },
         {
           "name": "Luke Raley",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6484,10 +6484,10 @@
           "keeperEligible": false
         },
         {
-          "name": "Victor Caratini",
-          "slot": "BE",
-          "position": "C",
-          "eligible": "C",
+          "name": "Zack Gelof",
+          "slot": "2B",
+          "position": "2B",
+          "eligible": "2B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -7103,5 +7103,5 @@
       ]
     }
   ],
-  "updated": "2026-06-08T20:20:03Z"
+  "updated": "2026-06-08T22:26:53Z"
 }
