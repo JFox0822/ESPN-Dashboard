@@ -691,9 +691,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.208,
+            "AVG": 0.207,
             "HR": 10,
-            "OPS": 0.657,
+            "OPS": 0.655,
             "R": 32,
             "RBI": 33,
             "SB": 11,
@@ -1093,7 +1093,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "OUT",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1827,9 +1827,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.256,
+            "AVG": 0.255,
             "HR": 13,
-            "OPS": 0.767,
+            "OPS": 0.764,
             "R": 37,
             "RBI": 32,
             "SB": 9,
@@ -1867,7 +1867,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.253,
             "HR": 4,
@@ -2624,9 +2624,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.26,
+            "AVG": 0.263,
             "HR": 3,
-            "OPS": 0.766,
+            "OPS": 0.771,
             "R": 40,
             "RBI": 20,
             "SB": 2,
@@ -3639,9 +3639,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.293,
+            "AVG": 0.291,
             "HR": 6,
-            "OPS": 0.828,
+            "OPS": 0.825,
             "R": 43,
             "RBI": 30,
             "SB": 18,
@@ -5043,7 +5043,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.266,
             "HR": 9,
@@ -5346,8 +5346,8 @@
           "injStatus": "ACTIVE",
           "stats": {
             "IP": 73.2,
-            "H": 64,
-            "WHIP": 1.1,
+            "H": 65,
+            "WHIP": 1.113,
             "ERA": 3.787,
             "K": 77,
             "SVHD": 0,
@@ -6102,7 +6102,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6346,7 +6346,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6677,11 +6677,11 @@
         },
         {
           "name": "Oneil Cruz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.264,
             "HR": 14,
@@ -6698,7 +6698,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -7100,5 +7100,5 @@
       ]
     }
   ],
-  "updated": "2026-06-09T20:58:10Z"
+  "updated": "2026-06-09T22:42:09Z"
 }
