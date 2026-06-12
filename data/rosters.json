@@ -561,27 +561,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Sean Burke",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 69.2,
-            "H": 59,
-            "WHIP": 1.177,
-            "ERA": 3.876,
-            "K": 67,
-            "SVHD": 0,
-            "QS": 3
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Bryson Stott",
           "slot": "BE",
           "position": "2B",
@@ -607,6 +586,19 @@
           "slot": "RP",
           "position": "RP",
           "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kumar Rocker",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -2444,27 +2436,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Dansby Swanson",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.178,
-            "HR": 7,
-            "OPS": 0.602,
-            "R": 37,
-            "RBI": 28,
-            "SB": 6,
-            "Kbat": 61
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 9,
-          "keeperEligible": false
-        },
-        {
           "name": "Pete Crow-Armstrong",
           "slot": "OF",
           "position": "CF",
@@ -2970,7 +2941,7 @@
         },
         {
           "name": "Jesus Luzardo",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3054,7 +3025,7 @@
         },
         {
           "name": "Kyle Stowers",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3138,7 +3109,7 @@
         },
         {
           "name": "Nick Lodolo",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3353,7 +3324,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3494,7 +3465,7 @@
         },
         {
           "name": "Zach Neto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3788,7 +3759,7 @@
         },
         {
           "name": "Jack Leiter",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3809,7 +3780,7 @@
         },
         {
           "name": "Marcus Semien",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4019,7 +3990,7 @@
         },
         {
           "name": "Zebby Matthews",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7121,5 +7092,5 @@
       ]
     }
   ],
-  "updated": "2026-06-12T12:25:03Z"
+  "updated": "2026-06-12T16:19:09Z"
 }
