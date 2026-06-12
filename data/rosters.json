@@ -664,7 +664,7 @@
         },
         {
           "name": "Juan Soto",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -769,7 +769,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "OF",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -790,7 +790,7 @@
         },
         {
           "name": "Willy Adames",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1115,7 +1115,7 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1149,7 +1149,7 @@
         },
         {
           "name": "Caleb Durbin",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2962,7 +2962,7 @@
         },
         {
           "name": "Kyle Schwarber",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3067,7 +3067,7 @@
         },
         {
           "name": "Ivan Herrera",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -4466,7 +4466,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.231,
             "HR": 8,
@@ -5569,27 +5569,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Steven Kwan",
-          "slot": "BE",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.213,
-            "HR": 1,
-            "OPS": 0.586,
-            "R": 30,
-            "RBI": 12,
-            "SB": 3,
-            "Kbat": 26
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 20,
-          "keeperEligible": true
-        },
-        {
           "name": "Jacob Wilson",
           "slot": "IL",
           "position": "SS",
@@ -5855,6 +5834,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Luke Keaschall",
+          "slot": "BE",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.247,
+            "HR": 1,
+            "OPS": 0.636,
+            "R": 28,
+            "RBI": 21,
+            "SB": 10,
+            "Kbat": 39
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 25,
+          "keeperEligible": true
         }
       ]
     },
@@ -7092,5 +7092,5 @@
       ]
     }
   ],
-  "updated": "2026-06-12T16:19:09Z"
+  "updated": "2026-06-12T19:05:48Z"
 }
