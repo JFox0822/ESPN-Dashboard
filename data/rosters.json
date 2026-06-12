@@ -57,7 +57,7 @@
         },
         {
           "name": "Shohei Ohtani",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -562,7 +562,7 @@
         },
         {
           "name": "Bryson Stott",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -769,7 +769,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -979,7 +979,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1000,7 +1000,7 @@
         },
         {
           "name": "Otto Lopez",
-          "slot": "2B",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1115,7 +1115,7 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1656,7 +1656,7 @@
         },
         {
           "name": "Brandon Valenzuela",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1669,7 +1669,7 @@
         },
         {
           "name": "Jonah Heim",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2601,7 +2601,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2898,27 +2898,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Matt Olson",
-          "slot": "UTIL",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.272,
-            "HR": 19,
-            "OPS": 0.903,
-            "R": 49,
-            "RBI": 50,
-            "SB": 2,
-            "Kbat": 68
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 5,
-          "keeperEligible": false
-        },
-        {
           "name": "Wyatt Langford",
           "slot": "OF",
           "position": "LF",
@@ -2958,48 +2937,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 2,
-          "keeperEligible": false
-        },
-        {
-          "name": "Kyle Schwarber",
-          "slot": "UTIL",
-          "position": "DH",
-          "eligible": "DH",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.239,
-            "HR": 24,
-            "OPS": 0.933,
-            "R": 42,
-            "RBI": 42,
-            "SB": 1,
-            "Kbat": 100
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 1,
-          "keeperEligible": false
-        },
-        {
-          "name": "Dillon Dingler",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.254,
-            "HR": 16,
-            "OPS": 0.858,
-            "R": 33,
-            "RBI": 49,
-            "SB": 0,
-            "Kbat": 52
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 6,
           "keeperEligible": false
         },
         {
@@ -3067,7 +3004,7 @@
         },
         {
           "name": "Ivan Herrera",
-          "slot": "BE",
+          "slot": "C",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -3126,27 +3063,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 15,
-          "keeperEligible": true
-        },
-        {
-          "name": "Tanner Scott",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 29.0,
-            "H": 19,
-            "WHIP": 0.759,
-            "ERA": 2.483,
-            "K": 35,
-            "SVHD": 5,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 16,
           "keeperEligible": true
         },
         {
@@ -3210,48 +3126,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 26,
-          "keeperEligible": true
-        },
-        {
-          "name": "Kyle Harrison",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 59.2,
-            "H": 51,
-            "WHIP": 1.156,
-            "ERA": 2.715,
-            "K": 77,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Parker Messick",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 80.2,
-            "H": 63,
-            "WHIP": 1.091,
-            "ERA": 2.678,
-            "K": 82,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 22,
           "keeperEligible": true
         },
         {
@@ -3344,19 +3218,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Ben Brown",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Troy Melton",
           "slot": "BE",
           "position": "RP",
@@ -3391,19 +3252,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Edwin Arroyo",
-          "slot": "SS",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Braden Montgomery",
           "slot": "OF",
           "position": "CF",
@@ -3421,6 +3269,176 @@
           "slot": "BE",
           "position": "CF",
           "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Corbin Burnes",
+          "slot": "IL",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 16,
+          "keeperEligible": true
+        },
+        {
+          "name": "Kade Anderson",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Garrett Whitlock",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 20.2,
+            "H": 17,
+            "WHIP": 1.113,
+            "ERA": 3.048,
+            "K": 26,
+            "SVHD": 9,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Konnor Griffin",
+          "slot": "IL",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "TEN_DAY_DL",
+          "stats": {
+            "AVG": 0.27,
+            "HR": 4,
+            "OPS": 0.729,
+            "R": 30,
+            "RBI": 22,
+            "SB": 14,
+            "Kbat": 56
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 2,
+          "keeperEligible": false
+        },
+        {
+          "name": "Dominic Canzone",
+          "slot": "UTIL",
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.276,
+            "HR": 9,
+            "OPS": 0.874,
+            "R": 23,
+            "RBI": 26,
+            "SB": 1,
+            "Kbat": 35
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 24,
+          "keeperEligible": true
+        },
+        {
+          "name": "River Ryan",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Dylan Crews",
+          "slot": "UTIL",
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.183,
+            "HR": 2,
+            "OPS": 0.519,
+            "R": 7,
+            "RBI": 7,
+            "SB": 2,
+            "Kbat": 15
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 11,
+          "keeperEligible": false
+        },
+        {
+          "name": "Carter Jensen",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.215,
+            "HR": 8,
+            "OPS": 0.67,
+            "R": 27,
+            "RBI": 31,
+            "SB": 0,
+            "Kbat": 69
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 13,
+          "keeperEligible": true
+        },
+        {
+          "name": "Blaze Alexander",
+          "slot": "BE",
+          "position": "3B",
+          "eligible": "3B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jacob Gonzalez",
+          "slot": "SS",
+          "position": "2B",
+          "eligible": "2B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -3968,40 +3986,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Bailey Ober",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {
-            "IP": 66.2,
-            "H": 63,
-            "WHIP": 1.215,
-            "ERA": 4.59,
-            "K": 46,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Zebby Matthews",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 27,
-          "keeperEligible": true
-        },
-        {
           "name": "Gavin Sheets",
           "slot": "BE",
           "position": "LF",
@@ -4029,7 +4013,7 @@
         },
         {
           "name": "Bubba Chandler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4067,6 +4051,48 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 13,
+          "keeperEligible": true
+        },
+        {
+          "name": "Ryan Weathers",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 70.0,
+            "H": 61,
+            "WHIP": 1.157,
+            "ERA": 3.857,
+            "K": 79,
+            "SVHD": 0,
+            "QS": 4
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 26,
+          "keeperEligible": true
+        },
+        {
+          "name": "Max Meyer",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 79.0,
+            "H": 57,
+            "WHIP": 1.089,
+            "ERA": 2.848,
+            "K": 86,
+            "SVHD": 0,
+            "QS": 4
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 26,
           "keeperEligible": true
         }
       ]
@@ -4424,7 +4450,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 15.0,
             "H": 9,
@@ -4647,7 +4673,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -5339,7 +5365,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5570,11 +5596,11 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.292,
             "HR": 3,
@@ -5675,7 +5701,7 @@
         },
         {
           "name": "Casey Mize",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5837,7 +5863,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5913,7 +5939,7 @@
         },
         {
           "name": "Tarik Skubal",
-          "slot": "IL",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5934,7 +5960,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "BE",
+          "slot": "IL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5955,7 +5981,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5976,7 +6002,7 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "SS",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6060,7 +6086,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6102,7 +6128,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6283,7 +6309,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6325,7 +6351,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6406,7 +6432,7 @@
         },
         {
           "name": "Paul Goldschmidt",
-          "slot": "1B",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6419,7 +6445,7 @@
         },
         {
           "name": "Casey Schmitt",
-          "slot": "2B",
+          "slot": "3B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6432,7 +6458,7 @@
         },
         {
           "name": "Pete Alonso",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6453,7 +6479,7 @@
         },
         {
           "name": "Curtis Mead",
-          "slot": "3B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6521,27 +6547,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Konnor Griffin",
-          "slot": "IL",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {
-            "AVG": 0.27,
-            "HR": 4,
-            "OPS": 0.729,
-            "R": 30,
-            "RBI": 22,
-            "SB": 14,
-            "Kbat": 56
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 2,
-          "keeperEligible": false
-        },
-        {
           "name": "Jose Ramirez",
           "slot": "3B",
           "position": "3B",
@@ -6585,7 +6590,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "1B",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6689,19 +6694,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Corbin Burnes",
-          "slot": "IL",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 16,
-          "keeperEligible": true
-        },
-        {
           "name": "Will Warren",
           "slot": "SP",
           "position": "SP",
@@ -6720,27 +6712,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
-          "name": "Max Meyer",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 79.0,
-            "H": 57,
-            "WHIP": 1.089,
-            "ERA": 2.848,
-            "K": 86,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 26,
           "keeperEligible": true
         },
         {
@@ -6808,7 +6779,7 @@
         },
         {
           "name": "Willson Contreras",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6825,27 +6796,6 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 21,
-          "keeperEligible": true
-        },
-        {
-          "name": "Ryan Weathers",
-          "slot": "P",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 70.0,
-            "H": 61,
-            "WHIP": 1.157,
-            "ERA": 3.857,
-            "K": 79,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 26,
           "keeperEligible": true
         },
         {
@@ -6925,27 +6875,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Garrett Whitlock",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 20.2,
-            "H": 17,
-            "WHIP": 1.113,
-            "ERA": 3.048,
-            "K": 26,
-            "SVHD": 9,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "James Wood",
           "slot": "OF",
           "position": "LF",
@@ -6988,32 +6917,6 @@
           "keeperEligible": true
         },
         {
-          "name": "River Ryan",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Kade Anderson",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Bryce Eldridge",
           "slot": "BE",
           "position": "DH",
@@ -7048,49 +6951,146 @@
           "keeperEligible": true
         },
         {
-          "name": "Dominic Canzone",
-          "slot": "UTIL",
-          "position": "RF",
-          "eligible": "RF",
+          "name": "Dillon Dingler",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.276,
-            "HR": 9,
-            "OPS": 0.874,
-            "R": 23,
-            "RBI": 26,
-            "SB": 1,
-            "Kbat": 35
+            "AVG": 0.254,
+            "HR": 16,
+            "OPS": 0.858,
+            "R": 33,
+            "RBI": 49,
+            "SB": 0,
+            "Kbat": 52
           },
           "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 24,
+          "acquisitionType": "TRADE",
+          "draftRound": 6,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kyle Harrison",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 59.2,
+            "H": 51,
+            "WHIP": 1.156,
+            "ERA": 2.715,
+            "K": 77,
+            "SVHD": 0,
+            "QS": 4
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ben Brown",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Tanner Scott",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 29.0,
+            "H": 19,
+            "WHIP": 0.759,
+            "ERA": 2.483,
+            "K": 35,
+            "SVHD": 5,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 16,
           "keeperEligible": true
         },
         {
-          "name": "Dylan Crews",
+          "name": "Parker Messick",
           "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 80.2,
+            "H": 63,
+            "WHIP": 1.091,
+            "ERA": 2.678,
+            "K": 82,
+            "SVHD": 0,
+            "QS": 4
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 22,
+          "keeperEligible": true
+        },
+        {
+          "name": "Matt Olson",
+          "slot": "1B",
+          "position": "1B",
+          "eligible": "1B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.183,
-            "HR": 2,
-            "OPS": 0.519,
-            "R": 7,
-            "RBI": 7,
+            "AVG": 0.272,
+            "HR": 19,
+            "OPS": 0.903,
+            "R": 49,
+            "RBI": 50,
             "SB": 2,
-            "Kbat": 15
+            "Kbat": 68
           },
           "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 11,
+          "acquisitionType": "TRADE",
+          "draftRound": 5,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kyle Schwarber",
+          "slot": "UTIL",
+          "position": "DH",
+          "eligible": "DH",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.239,
+            "HR": 24,
+            "OPS": 0.933,
+            "R": 42,
+            "RBI": 42,
+            "SB": 1,
+            "Kbat": 100
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 1,
           "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-06-12T19:05:48Z"
+  "updated": "2026-06-12T21:46:03Z"
 }
