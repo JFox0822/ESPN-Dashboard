@@ -1750,7 +1750,7 @@
           "stats": {
             "IP": 76.0,
             "H": 56,
-            "WHIP": 0.934,
+            "WHIP": 0.947,
             "ERA": 2.842,
             "K": 89,
             "SVHD": 0,
@@ -3000,7 +3000,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.224,
             "HR": 6,
@@ -4471,7 +4471,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.231,
             "HR": 8,
@@ -4695,7 +4695,7 @@
       "players": [
         {
           "name": "Junior Caminero",
-          "slot": "3B",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5023,7 +5023,7 @@
         },
         {
           "name": "Louis Varland",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5088,7 +5088,7 @@
         },
         {
           "name": "Hunter Gaddis",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5135,7 +5135,7 @@
         },
         {
           "name": "Royce Lewis",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5169,7 +5169,7 @@
         },
         {
           "name": "Brad Keller",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5436,7 +5436,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5541,7 +5541,7 @@
         },
         {
           "name": "Gavin Williams",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5604,7 +5604,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5740,7 +5740,7 @@
         },
         {
           "name": "Cristopher Sanchez",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6199,7 +6199,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6304,7 +6304,7 @@
           "stats": {
             "AVG": 0.272,
             "HR": 13,
-            "OPS": 0.835,
+            "OPS": 0.837,
             "R": 38,
             "RBI": 51,
             "SB": 1,
@@ -6330,7 +6330,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6518,7 +6518,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.239,
             "HR": 10,
@@ -6619,7 +6619,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6884,7 +6884,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6897,7 +6897,7 @@
         },
         {
           "name": "Jeff Hoffman",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -7056,28 +7056,20 @@
           "keeperEligible": false
         },
         {
-          "name": "Noelvi Marte",
-          "slot": "3B",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
+          "name": "Ian Seymour",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.216,
-            "HR": 2,
-            "OPS": 0.626,
-            "R": 6,
-            "RBI": 2,
-            "SB": 4,
-            "Kbat": 14
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 7,
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-06-14T14:04:57Z"
+  "updated": "2026-06-14T16:22:50Z"
 }
