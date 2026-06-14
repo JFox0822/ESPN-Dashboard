@@ -4236,7 +4236,7 @@
         },
         {
           "name": "Corey Seager",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4446,7 +4446,7 @@
         },
         {
           "name": "Ranger Suarez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4509,7 +4509,7 @@
         },
         {
           "name": "Colson Montgomery",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4547,27 +4547,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
-          "name": "Aaron Nola",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 70.2,
-            "H": 80,
-            "WHIP": 1.472,
-            "ERA": 5.858,
-            "K": 71,
-            "SVHD": 0,
-            "QS": 4
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 26,
           "keeperEligible": true
         },
         {
@@ -4686,6 +4665,19 @@
           "tier": "",
           "acquisitionType": "TRADE",
           "draftRound": 12,
+          "keeperEligible": false
+        },
+        {
+          "name": "Stephen Kolek",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -5360,7 +5352,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5633,7 +5625,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -7087,5 +7079,5 @@
       ]
     }
   ],
-  "updated": "2026-06-14T08:41:17Z"
+  "updated": "2026-06-14T11:31:07Z"
 }
