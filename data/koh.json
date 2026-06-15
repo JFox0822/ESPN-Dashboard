@@ -3,7 +3,6 @@
   "active": [
     1,
     2,
-    3,
     4,
     5,
     6,
@@ -91,6 +90,13 @@
       "week": 10,
       "catWins": 3,
       "round": 1
+    },
+    {
+      "teamId": 3,
+      "team": "Buffalo Bison",
+      "week": 11,
+      "catWins": 1,
+      "round": 2
     }
   ],
   "champions": [
@@ -112,7 +118,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "history": [
     {
@@ -772,6 +779,73 @@
         "Brevard County Manatees": true
       },
       "champion": "Brevard County Manatees"
+    },
+    {
+      "week": 11,
+      "round": 2,
+      "allScores": {
+        "6": 7,
+        "9": 6,
+        "1": 11,
+        "5": 3,
+        "7": 3,
+        "8": 10,
+        "12": 8,
+        "4": 5,
+        "3": 1,
+        "10": 12,
+        "11": 10,
+        "2": 3
+      },
+      "losers": [
+        {
+          "team": "Las Vegas Degenerate",
+          "catWins": 6
+        },
+        {
+          "team": "Cooperstown Udder Tuggers",
+          "catWins": 3
+        },
+        {
+          "team": "Nagasaki Bombers",
+          "catWins": 3
+        },
+        {
+          "team": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+          "catWins": 5
+        },
+        {
+          "team": "Buffalo Bison",
+          "catWins": 1
+        },
+        {
+          "team": "Gettysburg Generals",
+          "catWins": 3
+        }
+      ],
+      "eliminated": [
+        {
+          "teamId": 3,
+          "team": "Buffalo Bison",
+          "week": 11,
+          "catWins": 1,
+          "round": 2
+        }
+      ],
+      "allActive": {
+        "Roosevelt Ruff Ryders": true,
+        "Gettysburg Generals": true,
+        "Buffalo Bison": false,
+        "\ud83c\udfc6 Virginia Beach VelociRaptors": true,
+        "Cooperstown Udder Tuggers": true,
+        "San Juan Coquis": true,
+        "Nagasaki Bombers": true,
+        "Portland Pickles": true,
+        "Las Vegas Degenerate": true,
+        "Amsterdam Mohawks": true,
+        "Santa Clara Sea-Creatures": true,
+        "Brevard County Manatees": true
+      }
     }
   ],
   "teamNames": {
@@ -788,5 +862,5 @@
     "11": "Santa Clara Sea-Creatures",
     "12": "Brevard County Manatees"
   },
-  "updated": "2026-06-15T06:25:04Z"
+  "updated": "2026-06-15T13:15:14Z"
 }
