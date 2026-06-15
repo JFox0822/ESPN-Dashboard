@@ -131,7 +131,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.303,
             "HR": 13,
@@ -3593,7 +3593,7 @@
         },
         {
           "name": "Ozzie Albies",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3614,7 +3614,7 @@
         },
         {
           "name": "Isaac Paredes",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3824,7 +3824,7 @@
         },
         {
           "name": "Marcus Semien",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4245,7 +4245,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "SEVEN_DAY_DL",
           "stats": {
             "AVG": 0.186,
             "HR": 9,
@@ -4266,7 +4266,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.255,
             "HR": 10,
@@ -5119,19 +5119,6 @@
           "eligible": "SS",
           "isPitcher": false,
           "injStatus": "DAY_TO_DAY",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Christian Scott",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "OUT",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -6111,7 +6098,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "BEREAVEMENT",
           "stats": {
             "IP": 30.0,
             "H": 12,
@@ -6170,7 +6157,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6191,7 +6178,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6309,7 +6296,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6377,7 +6364,7 @@
         },
         {
           "name": "Lucas Giolito",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7092,5 +7079,5 @@
       ]
     }
   ],
-  "updated": "2026-06-15T18:27:03Z"
+  "updated": "2026-06-15T21:43:54Z"
 }
