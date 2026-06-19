@@ -859,9 +859,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.204,
+            "AVG": 0.203,
             "HR": 12,
-            "OPS": 0.712,
+            "OPS": 0.709,
             "R": 27,
             "RBI": 29,
             "SB": 0,
@@ -1817,7 +1817,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.249,
             "HR": 13,
@@ -2665,11 +2665,11 @@
           "stats": {
             "AVG": 0.24,
             "HR": 16,
-            "OPS": 0.837,
+            "OPS": 0.834,
             "R": 51,
             "RBI": 44,
             "SB": 10,
-            "Kbat": 52
+            "Kbat": 53
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -3227,7 +3227,7 @@
         },
         {
           "name": "Braden Montgomery",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3300,7 +3300,7 @@
         },
         {
           "name": "Dominic Canzone",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3470,7 +3470,7 @@
         },
         {
           "name": "Christian Moore",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4184,13 +4184,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.295,
+            "AVG": 0.294,
             "HR": 8,
-            "OPS": 0.828,
+            "OPS": 0.825,
             "R": 36,
             "RBI": 33,
             "SB": 1,
-            "Kbat": 88
+            "Kbat": 89
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4522,11 +4522,11 @@
           "stats": {
             "AVG": 0.23,
             "HR": 20,
-            "OPS": 0.841,
+            "OPS": 0.838,
             "R": 36,
             "RBI": 45,
             "SB": 1,
-            "Kbat": 87
+            "Kbat": 88
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5919,11 +5919,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 48.0,
-            "H": 40,
-            "WHIP": 0.979,
-            "ERA": 2.812,
-            "K": 49,
+            "IP": 49.0,
+            "H": 41,
+            "WHIP": 0.98,
+            "ERA": 2.939,
+            "K": 52,
             "SVHD": 0,
             "QS": 5
           },
@@ -6127,7 +6127,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "BEREAVEMENT",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 30.0,
             "H": 12,
@@ -6499,13 +6499,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.282,
+            "AVG": 0.281,
             "HR": 6,
-            "OPS": 0.818,
+            "OPS": 0.816,
             "R": 47,
             "RBI": 26,
             "SB": 9,
-            "Kbat": 41
+            "Kbat": 42
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6924,10 +6924,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.255,
+            "AVG": 0.258,
             "HR": 16,
-            "OPS": 0.851,
-            "R": 36,
+            "OPS": 0.855,
+            "R": 37,
             "RBI": 51,
             "SB": 0,
             "Kbat": 59
@@ -7100,5 +7100,5 @@
       ]
     }
   ],
-  "updated": "2026-06-19T21:16:55Z"
+  "updated": "2026-06-19T22:58:59Z"
 }
