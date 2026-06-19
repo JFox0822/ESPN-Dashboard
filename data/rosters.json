@@ -169,7 +169,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -455,7 +455,7 @@
         },
         {
           "name": "Colt Emerson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -664,7 +664,7 @@
         },
         {
           "name": "Juan Soto",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -769,7 +769,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "BE",
+          "slot": "OF",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1021,7 +1021,7 @@
         },
         {
           "name": "Seth Lugo",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Javier Assad",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1771,7 +1771,7 @@
         },
         {
           "name": "Trea Turner",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2149,7 +2149,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "OF",
+          "slot": "SS",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2327,7 +2327,7 @@
         },
         {
           "name": "Kyle Stowers",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5394,7 +5394,7 @@
         },
         {
           "name": "Michael Harris II",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5457,7 +5457,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5625,11 +5625,11 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.294,
             "HR": 7,
@@ -5790,7 +5790,7 @@
         },
         {
           "name": "JJ Bleday",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7100,5 +7100,5 @@
       ]
     }
   ],
-  "updated": "2026-06-19T15:20:20Z"
+  "updated": "2026-06-19T17:59:20Z"
 }
