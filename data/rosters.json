@@ -320,7 +320,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "IP": 87.1,
             "H": 81,
@@ -2584,7 +2584,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2665,7 +2665,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5088,7 +5088,7 @@
         },
         {
           "name": "Brandon Marsh",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5101,7 +5101,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5976,7 +5976,7 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6186,7 +6186,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6207,7 +6207,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6262,7 +6262,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6398,7 +6398,7 @@
         },
         {
           "name": "Casey Schmitt",
-          "slot": "3B",
+          "slot": "OF",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6431,8 +6431,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Cooper Pratt",
-          "slot": "BE",
+          "name": "Brooks Lee",
+          "slot": "3B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6444,17 +6444,17 @@
           "keeperEligible": false
         },
         {
-          "name": "Brooks Lee",
-          "slot": "2B",
-          "position": "SS",
-          "eligible": "SS",
+          "name": "Andrew Benintendi",
+          "slot": "OF",
+          "position": "LF",
+          "eligible": "LF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
+          "draftRound": 23,
+          "keeperEligible": true
         }
       ]
     },
@@ -6619,7 +6619,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6724,7 +6724,7 @@
         },
         {
           "name": "Emerson Hancock",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6960,7 +6960,7 @@
         },
         {
           "name": "Ben Brown",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7078,7 +7078,7 @@
         },
         {
           "name": "Noelvi Marte",
-          "slot": "BE",
+          "slot": "3B",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7100,5 +7100,5 @@
       ]
     }
   ],
-  "updated": "2026-06-20T14:13:20Z"
+  "updated": "2026-06-20T16:19:14Z"
 }
