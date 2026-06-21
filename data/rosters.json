@@ -895,7 +895,7 @@
         },
         {
           "name": "Spencer Strider",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -957,27 +957,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Matthew Boyd",
-          "slot": "IL",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {
-            "IP": 24.0,
-            "H": 25,
-            "WHIP": 1.292,
-            "ERA": 6.0,
-            "K": 31,
-            "SVHD": 0,
-            "QS": 1
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 20,
-          "keeperEligible": true
-        },
-        {
           "name": "Brandon Lowe",
           "slot": "2B",
           "position": "2B",
@@ -1021,7 +1000,7 @@
         },
         {
           "name": "Seth Lugo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1156,21 +1135,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Connor Prielipp",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Joey Cantillo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -1196,6 +1162,32 @@
         },
         {
           "name": "Michael Lorenzen",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kai-Wei Teng",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "David Peterson",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
@@ -2665,7 +2657,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "BE",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2889,7 +2881,7 @@
         },
         {
           "name": "Colt Keith",
-          "slot": "2B",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -4346,7 +4338,7 @@
         },
         {
           "name": "Freddy Peralta",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4674,7 +4666,7 @@
         },
         {
           "name": "Stephen Kolek",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7100,5 +7092,5 @@
       ]
     }
   ],
-  "updated": "2026-06-21T10:30:27Z"
+  "updated": "2026-06-21T13:07:02Z"
 }
