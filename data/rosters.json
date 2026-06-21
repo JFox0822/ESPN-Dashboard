@@ -649,13 +649,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.304,
+            "AVG": 0.302,
             "HR": 10,
-            "OPS": 0.908,
+            "OPS": 0.903,
             "R": 29,
             "RBI": 29,
             "SB": 5,
-            "Kbat": 44
+            "Kbat": 45
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1626,7 +1626,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -3219,7 +3219,7 @@
         },
         {
           "name": "Braden Montgomery",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3415,7 +3415,7 @@
         },
         {
           "name": "A.J. Ewing",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3740,7 +3740,7 @@
         },
         {
           "name": "Andrew Abbott",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3799,27 +3799,6 @@
           "tier": "",
           "acquisitionType": "DRAFT",
           "draftRound": 17,
-          "keeperEligible": true
-        },
-        {
-          "name": "Jack Leiter",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 80.0,
-            "H": 80,
-            "WHIP": 1.438,
-            "ERA": 5.287,
-            "K": 83,
-            "SVHD": 0,
-            "QS": 2
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 19,
           "keeperEligible": true
         },
         {
@@ -4039,7 +4018,7 @@
         },
         {
           "name": "Max Meyer",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4086,6 +4065,19 @@
         },
         {
           "name": "Andrew Alvarez",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Elmer Rodriguez",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
@@ -5370,7 +5362,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5412,7 +5404,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5580,7 +5572,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "SS",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5626,7 +5618,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.292,
             "HR": 7,
@@ -5643,7 +5635,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6063,9 +6055,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.275,
+            "AVG": 0.273,
             "HR": 5,
-            "OPS": 0.776,
+            "OPS": 0.772,
             "R": 35,
             "RBI": 24,
             "SB": 5,
@@ -6284,7 +6276,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.278,
             "HR": 13,
@@ -6532,7 +6524,7 @@
         },
         {
           "name": "Hunter Goodman",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6881,7 +6873,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6915,7 +6907,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7097,5 +7089,5 @@
       ]
     }
   ],
-  "updated": "2026-06-21T15:52:35Z"
+  "updated": "2026-06-21T17:39:36Z"
 }
