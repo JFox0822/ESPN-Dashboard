@@ -362,7 +362,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3118,7 +3118,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.261,
             "HR": 3,
@@ -4694,6 +4694,7 @@
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN",
       "owners": [
+        "Cdcanes009",
         "greene1012"
       ],
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
@@ -5467,7 +5468,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5635,7 +5636,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -7086,5 +7087,5 @@
       ]
     }
   ],
-  "updated": "2026-06-23T15:48:40Z"
+  "updated": "2026-06-23T17:56:59Z"
 }
