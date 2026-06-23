@@ -1973,7 +1973,7 @@
         },
         {
           "name": "Gerrit Cole",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1994,7 +1994,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2912,7 +2912,7 @@
       "players": [
         {
           "name": "Elly De La Cruz",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2995,29 +2995,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Ivan Herrera",
-          "slot": "C",
-          "position": "DH",
-          "eligible": "DH",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.266,
-            "HR": 10,
-            "OPS": 0.834,
-            "R": 53,
-            "RBI": 35,
-            "SB": 5,
-            "Kbat": 53
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 12,
-          "keeperEligible": false
-        },
-        {
           "name": "Robbie Ray",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3122,7 +3101,7 @@
         },
         {
           "name": "Rico Garcia",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3276,7 +3255,7 @@
         },
         {
           "name": "Dominic Canzone",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3339,7 +3318,7 @@
         },
         {
           "name": "Blaze Alexander",
-          "slot": "SS",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3386,7 +3365,7 @@
         },
         {
           "name": "A.J. Ewing",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3433,7 +3412,7 @@
         },
         {
           "name": "Eric Lauer",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3470,6 +3449,19 @@
           },
           "tier": "",
           "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Keibert Ruiz",
+          "slot": "C",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
           "draftRound": 0,
           "keeperEligible": false
         }
@@ -4482,7 +4474,7 @@
         },
         {
           "name": "Ryan O'Hearn",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -4600,7 +4592,7 @@
         },
         {
           "name": "Matt Chapman",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5799,19 +5791,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Keibert Ruiz",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Luke Keaschall",
           "slot": "2B",
           "position": "2B",
@@ -5843,6 +5822,27 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ivan Herrera",
+          "slot": "C",
+          "position": "DH",
+          "eligible": "DH",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.266,
+            "HR": 10,
+            "OPS": 0.834,
+            "R": 53,
+            "RBI": 35,
+            "SB": 5,
+            "Kbat": 53
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 12,
           "keeperEligible": false
         }
       ]
@@ -5881,7 +5881,7 @@
         },
         {
           "name": "Cam Schlittler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6070,7 +6070,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6091,7 +6091,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6175,7 +6175,7 @@
         },
         {
           "name": "Shane McClanahan",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6196,7 +6196,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6306,7 +6306,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -7065,5 +7065,5 @@
       ]
     }
   ],
-  "updated": "2026-06-23T09:41:13Z"
+  "updated": "2026-06-23T12:33:23Z"
 }
