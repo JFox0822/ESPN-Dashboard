@@ -364,11 +364,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 0.1,
-            "H": 1,
-            "WHIP": 3.0,
-            "ERA": 0.0,
-            "K": 0,
+            "IP": 3.2,
+            "H": 9,
+            "WHIP": 2.455,
+            "ERA": 9.818,
+            "K": 2,
             "SVHD": 0,
             "QS": 0
           },
@@ -770,13 +770,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.238,
+            "AVG": 0.236,
             "HR": 18,
-            "OPS": 0.788,
+            "OPS": 0.78,
             "R": 43,
             "RBI": 52,
             "SB": 0,
-            "Kbat": 71
+            "Kbat": 72
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -791,10 +791,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.242,
             "HR": 8,
-            "OPS": 0.72,
-            "R": 33,
+            "OPS": 0.722,
+            "R": 34,
             "RBI": 21,
             "SB": 1,
             "Kbat": 55
@@ -1455,7 +1455,7 @@
         },
         {
           "name": "Ildemaro Vargas",
-          "slot": "1B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1562,11 +1562,11 @@
           "stats": {
             "AVG": 0.228,
             "HR": 8,
-            "OPS": 0.709,
+            "OPS": 0.705,
             "R": 25,
             "RBI": 21,
             "SB": 6,
-            "Kbat": 45
+            "Kbat": 47
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -1596,7 +1596,7 @@
         },
         {
           "name": "Luke Raley",
-          "slot": "BE",
+          "slot": "1B",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2262,13 +2262,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.283,
+            "AVG": 0.282,
             "HR": 4,
-            "OPS": 0.737,
+            "OPS": 0.734,
             "R": 42,
             "RBI": 32,
             "SB": 5,
-            "Kbat": 32
+            "Kbat": 33
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -2359,9 +2359,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.322,
+            "AVG": 0.324,
             "HR": 25,
-            "OPS": 1.067,
+            "OPS": 1.075,
             "R": 55,
             "RBI": 56,
             "SB": 1,
@@ -3509,7 +3509,7 @@
         },
         {
           "name": "Zach Neto",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3572,7 +3572,7 @@
         },
         {
           "name": "Bobby Witt Jr.",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3620,11 +3620,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.247,
+            "AVG": 0.248,
             "HR": 10,
-            "OPS": 0.767,
+            "OPS": 0.766,
             "R": 31,
-            "RBI": 38,
+            "RBI": 39,
             "SB": 0,
             "Kbat": 50
           },
@@ -3845,7 +3845,7 @@
         },
         {
           "name": "Jasson Dominguez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3887,7 +3887,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4078,7 +4078,7 @@
         },
         {
           "name": "Jake McCarthy",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4299,11 +4299,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.237,
-            "HR": 2,
-            "OPS": 0.607,
-            "R": 8,
-            "RBI": 15,
+            "AVG": 0.239,
+            "HR": 3,
+            "OPS": 0.634,
+            "R": 9,
+            "RBI": 16,
             "SB": 0,
             "Kbat": 19
           },
@@ -5146,7 +5146,7 @@
         },
         {
           "name": "Royce Lewis",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5167,7 +5167,7 @@
         },
         {
           "name": "Lars Nootbaar",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5193,7 +5193,7 @@
         },
         {
           "name": "Cole Carrigg",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5219,7 +5219,7 @@
         },
         {
           "name": "Blaze Jordan",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5671,9 +5671,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.234,
+            "AVG": 0.233,
             "HR": 17,
-            "OPS": 0.776,
+            "OPS": 0.778,
             "R": 39,
             "RBI": 46,
             "SB": 0,
@@ -6395,7 +6395,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -7095,5 +7095,5 @@
       ]
     }
   ],
-  "updated": "2026-06-23T20:12:30Z"
+  "updated": "2026-06-23T22:14:19Z"
 }
