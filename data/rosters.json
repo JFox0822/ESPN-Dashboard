@@ -1001,9 +1001,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.337,
+            "AVG": 0.339,
             "HR": 5,
-            "OPS": 0.84,
+            "OPS": 0.844,
             "R": 49,
             "RBI": 33,
             "SB": 16,
@@ -1270,9 +1270,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.27,
             "HR": 8,
-            "OPS": 0.772,
+            "OPS": 0.77,
             "R": 32,
             "RBI": 28,
             "SB": 3,
@@ -2002,7 +2002,7 @@
         },
         {
           "name": "Mitch Keller",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2050,9 +2050,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.251,
+            "AVG": 0.254,
             "HR": 13,
-            "OPS": 0.754,
+            "OPS": 0.758,
             "R": 35,
             "RBI": 46,
             "SB": 1,
@@ -2175,7 +2175,7 @@
         },
         {
           "name": "Gage Jump",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2201,7 +2201,7 @@
         },
         {
           "name": "Trey Yesavage",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2304,13 +2304,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.223,
+            "AVG": 0.222,
             "HR": 8,
-            "OPS": 0.732,
+            "OPS": 0.729,
             "R": 25,
             "RBI": 29,
             "SB": 1,
-            "Kbat": 72
+            "Kbat": 73
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -2395,7 +2395,7 @@
         },
         {
           "name": "Joe Ryan",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2610,7 +2610,7 @@
         },
         {
           "name": "Justin Wrobleski",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2947,11 +2947,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.264,
-            "HR": 6,
-            "OPS": 0.774,
-            "R": 20,
-            "RBI": 16,
+            "AVG": 0.267,
+            "HR": 7,
+            "OPS": 0.797,
+            "R": 21,
+            "RBI": 17,
             "SB": 4,
             "Kbat": 36
           },
@@ -3406,27 +3406,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Eric Lauer",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 64.2,
-            "H": 56,
-            "WHIP": 1.237,
-            "ERA": 4.871,
-            "K": 42,
-            "SVHD": 0,
-            "QS": 2
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Tony Santillan",
           "slot": "RP",
           "position": "RP",
@@ -3472,6 +3451,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Matthew Boyd",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {
+            "IP": 24.0,
+            "H": 25,
+            "WHIP": 1.292,
+            "ERA": 6.0,
+            "K": 31,
+            "SVHD": 0,
+            "QS": 1
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 20,
+          "keeperEligible": true
         }
       ]
     },
@@ -4753,7 +4753,7 @@
         },
         {
           "name": "Mookie Betts",
-          "slot": "SS",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4795,7 +4795,7 @@
         },
         {
           "name": "Gunnar Henderson",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4906,11 +4906,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 82.2,
-            "H": 67,
-            "WHIP": 1.028,
-            "ERA": 3.593,
-            "K": 98,
+            "IP": 85.2,
+            "H": 68,
+            "WHIP": 1.004,
+            "ERA": 3.467,
+            "K": 102,
             "SVHD": 0,
             "QS": 6
           },
@@ -4927,10 +4927,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 62.2,
-            "H": 51,
-            "WHIP": 1.261,
-            "ERA": 4.596,
+            "IP": 66.0,
+            "H": 54,
+            "WHIP": 1.242,
+            "ERA": 4.5,
             "K": 72,
             "SVHD": 0,
             "QS": 4
@@ -5099,7 +5099,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "BE",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5146,7 +5146,7 @@
         },
         {
           "name": "Lars Nootbaar",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5350,7 +5350,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5455,7 +5455,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5801,7 +5801,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5953,7 +5953,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5974,15 +5974,15 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "2B",
+          "slot": "SS",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.293,
+            "AVG": 0.291,
             "HR": 6,
-            "OPS": 0.803,
+            "OPS": 0.798,
             "R": 44,
             "RBI": 27,
             "SB": 11,
@@ -6396,7 +6396,7 @@
         },
         {
           "name": "Casey Schmitt",
-          "slot": "OF",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6443,7 +6443,7 @@
         },
         {
           "name": "Andrew Benintendi",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -6554,7 +6554,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6954,7 +6954,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -7026,7 +7026,7 @@
         },
         {
           "name": "Kyle Schwarber",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -7074,5 +7074,5 @@
       ]
     }
   ],
-  "updated": "2026-06-24T14:32:40Z"
+  "updated": "2026-06-24T17:04:58Z"
 }
