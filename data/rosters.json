@@ -812,13 +812,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.224,
-            "HR": 13,
-            "OPS": 0.685,
-            "R": 38,
-            "RBI": 31,
+            "AVG": 0.226,
+            "HR": 14,
+            "OPS": 0.699,
+            "R": 40,
+            "RBI": 32,
             "SB": 1,
-            "Kbat": 90
+            "Kbat": 91
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1135,7 +1135,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1380,11 +1380,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 80.1,
-            "H": 71,
-            "WHIP": 1.295,
-            "ERA": 4.145,
-            "K": 89,
+            "IP": 86.1,
+            "H": 77,
+            "WHIP": 1.286,
+            "ERA": 4.066,
+            "K": 95,
             "SVHD": 0,
             "QS": 6
           },
@@ -1513,11 +1513,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 32.1,
+            "IP": 33.1,
             "H": 20,
-            "WHIP": 1.021,
-            "ERA": 3.34,
-            "K": 38,
+            "WHIP": 0.99,
+            "ERA": 3.24,
+            "K": 39,
             "SVHD": 6,
             "QS": 0
           },
@@ -1819,9 +1819,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.248,
+            "AVG": 0.247,
             "HR": 14,
-            "OPS": 0.733,
+            "OPS": 0.731,
             "R": 42,
             "RBI": 38,
             "SB": 11,
@@ -2422,13 +2422,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.265,
+            "AVG": 0.262,
             "HR": 19,
-            "OPS": 0.841,
+            "OPS": 0.833,
             "R": 49,
             "RBI": 40,
             "SB": 1,
-            "Kbat": 62
+            "Kbat": 64
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3424,7 +3424,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 24.0,
             "H": 25,
@@ -3861,11 +3861,11 @@
           "stats": {
             "AVG": 0.333,
             "HR": 5,
-            "OPS": 0.841,
-            "R": 40,
-            "RBI": 27,
+            "OPS": 0.846,
+            "R": 41,
+            "RBI": 30,
             "SB": 5,
-            "Kbat": 26
+            "Kbat": 27
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4229,7 +4229,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "SEVEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.186,
             "HR": 9,
@@ -4588,9 +4588,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.242,
             "HR": 7,
-            "OPS": 0.708,
+            "OPS": 0.712,
             "R": 35,
             "RBI": 42,
             "SB": 0,
@@ -4825,9 +4825,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.242,
+            "AVG": 0.246,
             "HR": 13,
-            "OPS": 0.808,
+            "OPS": 0.813,
             "R": 40,
             "RBI": 41,
             "SB": 1,
@@ -5275,13 +5275,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.282,
+            "AVG": 0.279,
             "HR": 19,
-            "OPS": 0.969,
+            "OPS": 0.96,
             "R": 56,
-            "RBI": 61,
+            "RBI": 62,
             "SB": 7,
-            "Kbat": 108
+            "Kbat": 110
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5353,7 +5353,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "SS",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5437,7 +5437,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5605,11 +5605,11 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "BE",
+          "slot": "SS",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.292,
             "HR": 7,
@@ -5857,13 +5857,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.236,
             "HR": 12,
-            "OPS": 0.739,
+            "OPS": 0.732,
             "R": 36,
             "RBI": 38,
             "SB": 0,
-            "Kbat": 99
+            "Kbat": 101
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5922,11 +5922,11 @@
           "stats": {
             "AVG": 0.168,
             "HR": 8,
-            "OPS": 0.584,
+            "OPS": 0.581,
             "R": 18,
             "RBI": 21,
             "SB": 2,
-            "Kbat": 67
+            "Kbat": 68
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6991,7 +6991,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.252,
             "HR": 29,
@@ -7056,5 +7056,5 @@
       ]
     }
   ],
-  "updated": "2026-06-25T19:05:08Z"
+  "updated": "2026-06-25T21:44:00Z"
 }
