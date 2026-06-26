@@ -3573,7 +3573,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.294,
             "HR": 10,
@@ -3678,7 +3678,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.198,
             "HR": 4,
@@ -3998,7 +3998,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "BEREAVEMENT",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 90.0,
             "H": 70,
@@ -7074,5 +7074,5 @@
       ]
     }
   ],
-  "updated": "2026-06-26T18:52:24Z"
+  "updated": "2026-06-26T20:46:59Z"
 }
