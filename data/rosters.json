@@ -646,7 +646,7 @@
       "players": [
         {
           "name": "Manny Machado",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -667,7 +667,7 @@
         },
         {
           "name": "Jackson Chourio",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -709,7 +709,7 @@
         },
         {
           "name": "Jarren Duran",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2120,7 +2120,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2162,7 +2162,7 @@
         },
         {
           "name": "Dustin May",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3200,11 +3200,11 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.27,
             "HR": 4,
@@ -3221,7 +3221,7 @@
         },
         {
           "name": "Dominic Canzone",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3369,7 +3369,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 31.0,
             "H": 29,
@@ -3432,27 +3432,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Marcus Semien",
-          "slot": "BE",
-          "position": "2B",
-          "eligible": "2B",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {
-            "AVG": 0.214,
-            "HR": 9,
-            "OPS": 0.613,
-            "R": 30,
-            "RBI": 29,
-            "SB": 6,
-            "Kbat": 68
-          },
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 20,
-          "keeperEligible": true
-        },
-        {
           "name": "Walker Buehler",
           "slot": "P",
           "position": "SP",
@@ -3470,6 +3449,19 @@
           "slot": "BE",
           "position": "1B",
           "eligible": "1B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Sean Keys",
+          "slot": "BE",
+          "position": "3B",
+          "eligible": "3B",
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -7082,5 +7074,5 @@
       ]
     }
   ],
-  "updated": "2026-06-26T16:17:35Z"
+  "updated": "2026-06-26T18:52:24Z"
 }
