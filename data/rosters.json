@@ -1193,6 +1193,19 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Ryan Feltner",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -2941,7 +2954,7 @@
         },
         {
           "name": "Wyatt Langford",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3127,7 +3140,7 @@
         },
         {
           "name": "Braden Montgomery",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3179,7 +3192,7 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3263,7 +3276,7 @@
         },
         {
           "name": "Blaze Alexander",
-          "slot": "2B",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3323,7 +3336,7 @@
         },
         {
           "name": "Cole Young",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3438,7 +3451,7 @@
         },
         {
           "name": "Sean Keys",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -4812,7 +4825,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.242,
             "HR": 13,
@@ -5321,7 +5334,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5573,7 +5586,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "2B",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5594,7 +5607,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -7066,5 +7079,5 @@
       ]
     }
   ],
-  "updated": "2026-06-28T11:08:04Z"
+  "updated": "2026-06-28T13:48:05Z"
 }
