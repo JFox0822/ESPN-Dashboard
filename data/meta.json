@@ -1,23 +1,18 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 13,
+  "currentWeek": 14,
   "teamCount": 12,
   "teams": [
-    {
-      "id": 1,
-      "name": "Roosevelt Ruff Ryders",
-      "abbrev": "BOYC"
-    },
     {
       "id": 7,
       "name": "Nagasaki Bombers",
       "abbrev": "SPNY"
     },
     {
-      "id": 11,
-      "name": "Santa Clara Sea-Creatures",
-      "abbrev": "LEO"
+      "id": 1,
+      "name": "Roosevelt Ruff Ryders",
+      "abbrev": "BOYC"
     },
     {
       "id": 12,
@@ -33,6 +28,11 @@
       "id": 10,
       "name": "Amsterdam Mohawks",
       "abbrev": "TIM"
+    },
+    {
+      "id": 11,
+      "name": "Santa Clara Sea-Creatures",
+      "abbrev": "LEO"
     },
     {
       "id": 4,
@@ -65,5 +65,5 @@
       "abbrev": "BERT"
     }
   ],
-  "updated": "2026-06-29T04:02:35Z"
+  "updated": "2026-06-29T09:26:18Z"
 }
