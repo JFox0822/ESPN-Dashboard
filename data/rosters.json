@@ -2514,7 +2514,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "PATERNITY",
           "stats": {
             "IP": 35.0,
             "H": 31,
@@ -5850,7 +5850,7 @@
         },
         {
           "name": "Cam Schlittler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6039,7 +6039,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6060,7 +6060,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6262,7 +6262,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6275,7 +6275,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6343,7 +6343,7 @@
         },
         {
           "name": "Casey Schmitt",
-          "slot": "OF",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6402,21 +6402,13 @@
           "keeperEligible": true
         },
         {
-          "name": "Slade Cecconi",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
+          "name": "Tristan Peters",
+          "slot": "OF",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 90.1,
-            "H": 94,
-            "WHIP": 1.362,
-            "ERA": 4.185,
-            "K": 70,
-            "SVHD": 0,
-            "QS": 5
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -7058,5 +7050,5 @@
       ]
     }
   ],
-  "updated": "2026-06-29T17:37:36Z"
+  "updated": "2026-06-29T19:59:02Z"
 }
