@@ -967,9 +967,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.239,
             "HR": 20,
-            "OPS": 0.813,
+            "OPS": 0.811,
             "R": 51,
             "RBI": 57,
             "SB": 0,
@@ -1775,11 +1775,11 @@
           "stats": {
             "AVG": 0.239,
             "HR": 10,
-            "OPS": 0.655,
+            "OPS": 0.653,
             "R": 59,
             "RBI": 31,
             "SB": 16,
-            "Kbat": 85
+            "Kbat": 86
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2067,11 +2067,11 @@
           "isPitcher": true,
           "injStatus": "DAY_TO_DAY",
           "stats": {
-            "IP": 25.0,
+            "IP": 26.0,
             "H": 27,
-            "WHIP": 1.44,
-            "ERA": 5.76,
-            "K": 25,
+            "WHIP": 1.385,
+            "ERA": 5.538,
+            "K": 28,
             "SVHD": 0,
             "QS": 0
           },
@@ -2513,7 +2513,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 35.0,
             "H": 31,
@@ -4127,13 +4127,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.275,
+            "AVG": 0.274,
             "HR": 20,
-            "OPS": 0.908,
+            "OPS": 0.905,
             "R": 56,
             "RBI": 56,
             "SB": 5,
-            "Kbat": 71
+            "Kbat": 72
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4631,13 +4631,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.279,
             "HR": 11,
-            "OPS": 0.857,
+            "OPS": 0.854,
             "R": 58,
             "RBI": 53,
             "SB": 5,
-            "Kbat": 84
+            "Kbat": 85
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -4655,6 +4655,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 19,
+          "keeperEligible": true
+        },
+        {
+          "name": "Jack Flaherty",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 25,
           "keeperEligible": true
         }
       ]
@@ -4841,7 +4854,7 @@
         },
         {
           "name": "Sal Stewart",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5086,7 +5099,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -5108,7 +5121,7 @@
         },
         {
           "name": "Cole Carrigg",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5155,7 +5168,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "OF",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5189,7 +5202,7 @@
         },
         {
           "name": "Jacob Gonzalez",
-          "slot": "2B",
+          "slot": "1B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5831,7 +5844,7 @@
       "players": [
         {
           "name": "Rafael Devers",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5894,7 +5907,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6495,7 +6508,7 @@
         },
         {
           "name": "Hunter Goodman",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6844,7 +6857,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6970,11 +6983,11 @@
           "stats": {
             "AVG": 0.252,
             "HR": 30,
-            "OPS": 0.942,
+            "OPS": 0.939,
             "R": 55,
             "RBI": 55,
             "SB": 2,
-            "Kbat": 127
+            "Kbat": 128
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -7052,5 +7065,5 @@
       ]
     }
   ],
-  "updated": "2026-07-02T14:03:08Z"
+  "updated": "2026-07-02T16:49:32Z"
 }
