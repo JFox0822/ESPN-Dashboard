@@ -3062,19 +3062,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Bryan Baker",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Troy Melton",
           "slot": "SP",
           "position": "RP",
@@ -3188,27 +3175,6 @@
           "acquisitionType": "TRADE",
           "draftRound": 11,
           "keeperEligible": false
-        },
-        {
-          "name": "Carter Jensen",
-          "slot": "BE",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.251,
-            "HR": 13,
-            "OPS": 0.766,
-            "R": 41,
-            "RBI": 47,
-            "SB": 1,
-            "Kbat": 84
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 13,
-          "keeperEligible": true
         },
         {
           "name": "Blaze Alexander",
@@ -3408,6 +3374,40 @@
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Anthony Volpe",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jason Adam",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {
+            "IP": 32.1,
+            "H": 30,
+            "WHIP": 1.175,
+            "ERA": 2.505,
+            "K": 22,
+            "SVHD": 17,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
           "draftRound": 0,
           "keeperEligible": false
         }
@@ -3845,27 +3845,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Jason Adam",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {
-            "IP": 32.1,
-            "H": 30,
-            "WHIP": 1.175,
-            "ERA": 2.505,
-            "K": 22,
-            "SVHD": 17,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Taj Bradley",
           "slot": "SP",
           "position": "SP",
@@ -3976,19 +3955,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Anthony Volpe",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jake McCarthy",
           "slot": "UTIL",
           "position": "LF",
@@ -4042,6 +4008,40 @@
           "acquisitionType": "TRADE",
           "draftRound": 7,
           "keeperEligible": false
+        },
+        {
+          "name": "Bryan Baker",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Carter Jensen",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.251,
+            "HR": 13,
+            "OPS": 0.766,
+            "R": 41,
+            "RBI": 47,
+            "SB": 1,
+            "Kbat": 84
+          },
+          "tier": "",
+          "acquisitionType": "TRADE",
+          "draftRound": 13,
+          "keeperEligible": true
         }
       ]
     },
@@ -6659,7 +6659,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "SUSPENSION",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.283,
             "HR": 18,
@@ -6693,7 +6693,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SUSPENSION",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 90.1,
             "H": 91,
@@ -7023,5 +7023,5 @@
       ]
     }
   ],
-  "updated": "2026-07-03T14:06:48Z"
+  "updated": "2026-07-03T16:24:43Z"
 }
