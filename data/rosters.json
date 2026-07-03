@@ -776,7 +776,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.239,
             "HR": 19,
@@ -1939,7 +1939,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 15.1,
             "H": 13,
@@ -5053,7 +5053,7 @@
         },
         {
           "name": "Lars Nootbaar",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5113,7 +5113,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5134,7 +5134,7 @@
         },
         {
           "name": "Jacob Gonzalez",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6163,7 +6163,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.232,
             "HR": 8,
@@ -6235,7 +6235,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6515,33 +6515,12 @@
           "keeperEligible": false
         },
         {
-          "name": "Eugenio Suarez",
-          "slot": "3B",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.207,
-            "HR": 8,
-            "OPS": 0.648,
-            "R": 19,
-            "RBI": 29,
-            "SB": 0,
-            "Kbat": 77
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 11,
-          "keeperEligible": false
-        },
-        {
           "name": "Carlos Rodon",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 46.1,
             "H": 32,
@@ -6941,7 +6920,7 @@
         },
         {
           "name": "Framber Valdez",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7006,9 +6985,30 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Luis Castillo",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 76.2,
+            "H": 78,
+            "WHIP": 1.357,
+            "ERA": 4.93,
+            "K": 73,
+            "SVHD": 1,
+            "QS": 2
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 13,
+          "keeperEligible": true
         }
       ]
     }
   ],
-  "updated": "2026-07-03T18:12:52Z"
+  "updated": "2026-07-03T20:14:21Z"
 }
