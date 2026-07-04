@@ -21,13 +21,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.251,
+            "AVG": 0.252,
             "HR": 11,
-            "OPS": 0.777,
+            "OPS": 0.782,
             "R": 46,
-            "RBI": 49,
+            "RBI": 50,
             "SB": 10,
-            "Kbat": 51
+            "Kbat": 52
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3760,11 +3760,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.214,
-            "HR": 3,
-            "OPS": 0.63,
-            "R": 8,
-            "RBI": 9,
+            "AVG": 0.228,
+            "HR": 4,
+            "OPS": 0.69,
+            "R": 9,
+            "RBI": 10,
             "SB": 5,
             "Kbat": 23
           },
@@ -3939,7 +3939,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -4140,13 +4140,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.222,
+            "AVG": 0.223,
             "HR": 12,
             "OPS": 0.699,
             "R": 43,
             "RBI": 33,
             "SB": 26,
-            "Kbat": 95
+            "Kbat": 97
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4161,9 +4161,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.268,
             "HR": 24,
-            "OPS": 0.928,
+            "OPS": 0.927,
             "R": 58,
             "RBI": 56,
             "SB": 2,
@@ -5359,7 +5359,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5380,7 +5380,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6170,13 +6170,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.237,
+            "AVG": 0.236,
             "HR": 9,
-            "OPS": 0.763,
-            "R": 42,
+            "OPS": 0.762,
+            "R": 43,
             "RBI": 37,
-            "SB": 6,
-            "Kbat": 43
+            "SB": 7,
+            "Kbat": 44
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6422,9 +6422,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.284,
+            "AVG": 0.283,
             "HR": 7,
-            "OPS": 0.819,
+            "OPS": 0.817,
             "R": 54,
             "RBI": 31,
             "SB": 11,
@@ -6485,13 +6485,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.269,
             "HR": 25,
-            "OPS": 0.905,
+            "OPS": 0.901,
             "R": 57,
             "RBI": 44,
             "SB": 7,
-            "Kbat": 81
+            "Kbat": 83
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -7007,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-07-04T18:01:30Z"
+  "updated": "2026-07-04T20:09:03Z"
 }
