@@ -1123,7 +1123,7 @@
         },
         {
           "name": "Kyle Leahy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -1136,7 +1136,7 @@
         },
         {
           "name": "Anthony Kay",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2826,19 +2826,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Sean Burke",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Sal Frelick",
           "slot": "UTIL",
           "position": "RF",
@@ -2858,6 +2845,32 @@
           "acquisitionType": "ADD",
           "draftRound": 22,
           "keeperEligible": true
+        },
+        {
+          "name": "Anthony Santander",
+          "slot": "IL",
+          "position": "DH",
+          "eligible": "DH",
+          "isPitcher": false,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ronel Blanco",
+          "slot": "IL",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -6994,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-07-04T10:10:31Z"
+  "updated": "2026-07-04T12:07:00Z"
 }
