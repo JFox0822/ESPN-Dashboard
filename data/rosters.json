@@ -21,9 +21,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.252,
+            "AVG": 0.251,
             "HR": 11,
-            "OPS": 0.78,
+            "OPS": 0.777,
             "R": 46,
             "RBI": 49,
             "SB": 10,
@@ -175,13 +175,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.255,
+            "AVG": 0.259,
             "HR": 10,
-            "OPS": 0.728,
+            "OPS": 0.733,
             "R": 48,
             "RBI": 43,
-            "SB": 7,
-            "Kbat": 63
+            "SB": 8,
+            "Kbat": 64
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -946,13 +946,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.245,
+            "AVG": 0.242,
             "HR": 20,
-            "OPS": 0.819,
+            "OPS": 0.812,
             "R": 53,
             "RBI": 60,
             "SB": 1,
-            "Kbat": 96
+            "Kbat": 97
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1254,7 +1254,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.262,
             "HR": 8,
@@ -2526,7 +2526,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3113,13 +3113,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.275,
+            "AVG": 0.271,
             "HR": 5,
-            "OPS": 0.739,
+            "OPS": 0.729,
             "R": 34,
             "RBI": 23,
             "SB": 19,
-            "Kbat": 63
+            "Kbat": 64
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -3155,13 +3155,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.228,
+            "AVG": 0.23,
             "HR": 5,
             "OPS": 0.644,
             "R": 21,
             "RBI": 17,
             "SB": 5,
-            "Kbat": 33
+            "Kbat": 35
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -3988,9 +3988,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.282,
+            "AVG": 0.28,
             "HR": 18,
-            "OPS": 0.87,
+            "OPS": 0.864,
             "R": 41,
             "RBI": 62,
             "SB": 2,
@@ -4161,9 +4161,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.27,
+            "AVG": 0.269,
             "HR": 24,
-            "OPS": 0.931,
+            "OPS": 0.928,
             "R": 58,
             "RBI": 56,
             "SB": 2,
@@ -4323,7 +4323,7 @@
         },
         {
           "name": "Devin Williams",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4344,7 +4344,7 @@
         },
         {
           "name": "Raisel Iglesias",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4392,10 +4392,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.283,
             "HR": 13,
-            "OPS": 0.798,
-            "R": 41,
+            "OPS": 0.799,
+            "R": 42,
             "RBI": 51,
             "SB": 1,
             "Kbat": 70
@@ -4602,10 +4602,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.283,
+            "AVG": 0.284,
             "HR": 12,
-            "OPS": 0.867,
-            "R": 60,
+            "OPS": 0.865,
+            "R": 61,
             "RBI": 55,
             "SB": 6,
             "Kbat": 88
@@ -5575,11 +5575,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 104.2,
-            "H": 90,
-            "WHIP": 1.08,
-            "ERA": 3.354,
-            "K": 120,
+            "IP": 108.1,
+            "H": 94,
+            "WHIP": 1.098,
+            "ERA": 3.24,
+            "K": 122,
             "SVHD": 0,
             "QS": 10
           },
@@ -5870,7 +5870,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5897,9 +5897,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.272,
+            "AVG": 0.27,
             "HR": 18,
-            "OPS": 0.859,
+            "OPS": 0.851,
             "R": 53,
             "RBI": 60,
             "SB": 14,
@@ -5996,7 +5996,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6017,7 +6017,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6038,7 +6038,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6143,7 +6143,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6170,9 +6170,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.238,
+            "AVG": 0.237,
             "HR": 9,
-            "OPS": 0.766,
+            "OPS": 0.763,
             "R": 42,
             "RBI": 37,
             "SB": 6,
@@ -6219,7 +6219,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6308,7 +6308,7 @@
         },
         {
           "name": "Paul Goldschmidt",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6485,11 +6485,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.268,
+            "AVG": 0.271,
             "HR": 25,
-            "OPS": 0.898,
-            "R": 56,
-            "RBI": 43,
+            "OPS": 0.905,
+            "R": 57,
+            "RBI": 44,
             "SB": 7,
             "Kbat": 81
           },
@@ -6729,7 +6729,7 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.27,
+            "AVG": 0.269,
             "HR": 23,
             "OPS": 0.93,
             "R": 77,
@@ -7007,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-07-04T16:02:43Z"
+  "updated": "2026-07-04T18:01:30Z"
 }
