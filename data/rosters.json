@@ -2459,7 +2459,7 @@
         },
         {
           "name": "Brandon Woodruff",
-          "slot": "SP",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2879,6 +2879,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Steven Kwan",
+          "slot": "BE",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.219,
+            "HR": 1,
+            "OPS": 0.601,
+            "R": 35,
+            "RBI": 14,
+            "SB": 3,
+            "Kbat": 34
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 20,
+          "keeperEligible": true
         }
       ]
     },
@@ -7015,5 +7036,5 @@
       ]
     }
   ],
-  "updated": "2026-07-05T10:13:56Z"
+  "updated": "2026-07-05T12:16:33Z"
 }
