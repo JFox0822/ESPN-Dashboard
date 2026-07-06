@@ -1339,7 +1339,7 @@
         },
         {
           "name": "Landen Roupp",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1664,19 +1664,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Cameron Cauley",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Joshua Baez",
           "slot": "BE",
           "position": "RF",
@@ -1700,6 +1687,27 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Salvador Perez",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.202,
+            "HR": 10,
+            "OPS": 0.57,
+            "R": 29,
+            "RBI": 32,
+            "SB": 0,
+            "Kbat": 70
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 6,
           "keeperEligible": false
         }
       ]
@@ -2590,7 +2598,7 @@
         },
         {
           "name": "Travis Bazzana",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2835,7 +2843,7 @@
         },
         {
           "name": "Sal Frelick",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3021,7 +3029,7 @@
         },
         {
           "name": "Chase DeLauter",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3386,40 +3394,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Anthony Volpe",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Jason Adam",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {
-            "IP": 32.1,
-            "H": 30,
-            "WHIP": 1.175,
-            "ERA": 2.505,
-            "K": 22,
-            "SVHD": 17,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jake Bennett",
           "slot": "BE",
           "position": "SP",
@@ -3452,6 +3426,48 @@
           "acquisitionType": "ADD",
           "draftRound": 26,
           "keeperEligible": true
+        },
+        {
+          "name": "Garrett Mitchell",
+          "slot": "OF",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.264,
+            "HR": 8,
+            "OPS": 0.817,
+            "R": 37,
+            "RBI": 42,
+            "SB": 6,
+            "Kbat": 94
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Garrett Whitlock",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 29.0,
+            "H": 23,
+            "WHIP": 1.0,
+            "ERA": 2.483,
+            "K": 34,
+            "SVHD": 13,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -6521,7 +6537,7 @@
         },
         {
           "name": "Byron Buxton",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6563,7 +6579,7 @@
         },
         {
           "name": "Carlos Rodon",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6744,7 +6760,7 @@
         },
         {
           "name": "Carson Benge",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6786,7 +6802,7 @@
         },
         {
           "name": "Kevin Gausman",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7034,11 +7050,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Sean Keys",
-          "slot": "3B",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
+          "name": "Sean Burke",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -7049,5 +7065,5 @@
       ]
     }
   ],
-  "updated": "2026-07-06T10:23:56Z"
+  "updated": "2026-07-06T14:26:07Z"
 }
