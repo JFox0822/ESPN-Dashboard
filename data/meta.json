@@ -1,18 +1,18 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 14,
+  "currentWeek": 15,
   "teamCount": 12,
   "teams": [
-    {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY"
-    },
     {
       "id": 1,
       "name": "Roosevelt Ruff Ryders",
       "abbrev": "BOYC"
+    },
+    {
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY"
     },
     {
       "id": 12,
@@ -35,11 +35,6 @@
       "abbrev": "LEO"
     },
     {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS"
-    },
-    {
       "id": 8,
       "name": "Portland Pickles",
       "abbrev": "CORY"
@@ -48,6 +43,11 @@
       "id": 2,
       "name": "Gettysburg Generals",
       "abbrev": "MION"
+    },
+    {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS"
     },
     {
       "id": 9,
@@ -65,5 +65,5 @@
       "abbrev": "BERT"
     }
   ],
-  "updated": "2026-07-06T05:12:20Z"
+  "updated": "2026-07-06T10:23:56Z"
 }
