@@ -1207,7 +1207,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "OUT",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1809,7 +1809,7 @@
         },
         {
           "name": "Julio Rodriguez",
-          "slot": "UTIL",
+          "slot": "IL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1830,7 +1830,7 @@
         },
         {
           "name": "Adley Rutschman",
-          "slot": "IL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1935,7 +1935,7 @@
         },
         {
           "name": "Ryan Helsley",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2019,7 +2019,7 @@
         },
         {
           "name": "Chad Patrick",
-          "slot": "BE",
+          "slot": "RP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2040,7 +2040,7 @@
         },
         {
           "name": "Jake Burger",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2137,7 +2137,7 @@
         },
         {
           "name": "Dustin May",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2163,7 +2163,7 @@
         },
         {
           "name": "Gage Jump",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2189,7 +2189,7 @@
         },
         {
           "name": "Trey Yesavage",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2244,7 +2244,7 @@
         },
         {
           "name": "Vladimir Guerrero Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2658,7 +2658,7 @@
         },
         {
           "name": "Jesus Made",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2890,7 +2890,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3505,7 +3505,7 @@
         },
         {
           "name": "Zach Neto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3547,7 +3547,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3652,7 +3652,7 @@
         },
         {
           "name": "Randy Arozarena",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3799,7 +3799,7 @@
         },
         {
           "name": "Jasson Dominguez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3904,7 +3904,7 @@
         },
         {
           "name": "Dalton Rushing",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4061,7 +4061,7 @@
         },
         {
           "name": "Carter Jensen",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7065,5 +7065,5 @@
       ]
     }
   ],
-  "updated": "2026-07-06T14:26:07Z"
+  "updated": "2026-07-06T17:43:52Z"
 }
