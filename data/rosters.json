@@ -154,9 +154,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.279,
             "HR": 14,
-            "OPS": 0.816,
+            "OPS": 0.811,
             "R": 46,
             "RBI": 63,
             "SB": 3,
@@ -644,9 +644,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.292,
+            "AVG": 0.289,
             "HR": 13,
-            "OPS": 0.873,
+            "OPS": 0.865,
             "R": 38,
             "RBI": 35,
             "SB": 6,
@@ -1865,13 +1865,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.266,
+            "AVG": 0.265,
             "HR": 13,
             "OPS": 0.771,
-            "R": 55,
+            "R": 56,
             "RBI": 36,
             "SB": 9,
-            "Kbat": 60
+            "Kbat": 61
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3029,7 +3029,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3165,7 +3165,7 @@
         },
         {
           "name": "Dylan Crews",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3401,9 +3401,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.268,
             "HR": 8,
-            "OPS": 0.825,
+            "OPS": 0.822,
             "R": 38,
             "RBI": 42,
             "SB": 6,
@@ -3883,7 +3883,7 @@
         },
         {
           "name": "Dalton Rushing",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4040,7 +4040,7 @@
         },
         {
           "name": "Carter Jensen",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -4261,13 +4261,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.268,
+            "AVG": 0.266,
             "HR": 12,
-            "OPS": 0.817,
+            "OPS": 0.812,
             "R": 62,
             "RBI": 53,
             "SB": 13,
-            "Kbat": 98
+            "Kbat": 100
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4345,11 +4345,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 104.0,
-            "H": 54,
-            "WHIP": 0.779,
-            "ERA": 1.471,
-            "K": 156,
+            "IP": 106.2,
+            "H": 57,
+            "WHIP": 0.787,
+            "ERA": 1.688,
+            "K": 161,
             "SVHD": 0,
             "QS": 11
           },
@@ -4784,9 +4784,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.288,
+            "AVG": 0.287,
             "HR": 9,
-            "OPS": 0.76,
+            "OPS": 0.757,
             "R": 47,
             "RBI": 51,
             "SB": 1,
@@ -5526,7 +5526,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.277,
             "HR": 4,
@@ -5667,11 +5667,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.29,
-            "HR": 20,
-            "OPS": 0.879,
-            "R": 54,
-            "RBI": 67,
+            "AVG": 0.292,
+            "HR": 21,
+            "OPS": 0.891,
+            "R": 55,
+            "RBI": 69,
             "SB": 11,
             "Kbat": 94
           },
@@ -5708,7 +5708,7 @@
         },
         {
           "name": "Cristopher Sanchez",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5735,11 +5735,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.252,
-            "HR": 10,
-            "OPS": 0.785,
-            "R": 58,
-            "RBI": 39,
+            "AVG": 0.254,
+            "HR": 11,
+            "OPS": 0.795,
+            "R": 59,
+            "RBI": 40,
             "SB": 5,
             "Kbat": 65
           },
@@ -6039,11 +6039,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.245,
             "HR": 6,
-            "OPS": 0.7,
+            "OPS": 0.716,
             "R": 41,
-            "RBI": 28,
+            "RBI": 29,
             "SB": 6,
             "Kbat": 71
           },
@@ -7044,5 +7044,5 @@
       ]
     }
   ],
-  "updated": "2026-07-07T16:31:55Z"
+  "updated": "2026-07-07T19:02:47Z"
 }
