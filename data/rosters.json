@@ -154,13 +154,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.279,
+            "AVG": 0.277,
             "HR": 14,
-            "OPS": 0.811,
+            "OPS": 0.807,
             "R": 46,
             "RBI": 63,
             "SB": 3,
-            "Kbat": 56
+            "Kbat": 57
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -385,9 +385,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.328,
+            "AVG": 0.326,
             "HR": 2,
-            "OPS": 0.924,
+            "OPS": 0.918,
             "R": 18,
             "RBI": 24,
             "SB": 0,
@@ -644,9 +644,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.289,
+            "AVG": 0.286,
             "HR": 13,
-            "OPS": 0.865,
+            "OPS": 0.855,
             "R": 38,
             "RBI": 35,
             "SB": 6,
@@ -972,11 +972,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 39.0,
-            "H": 38,
-            "WHIP": 1.308,
-            "ERA": 3.692,
-            "K": 39,
+            "IP": 40.0,
+            "H": 39,
+            "WHIP": 1.325,
+            "ERA": 3.6,
+            "K": 40,
             "SVHD": 21,
             "QS": 0
           },
@@ -1237,7 +1237,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1368,7 +1368,7 @@
         },
         {
           "name": "Brayan Rocchio",
-          "slot": "SS",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1428,7 +1428,7 @@
         },
         {
           "name": "Ezequiel Duran",
-          "slot": "1B",
+          "slot": "3B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1501,7 +1501,7 @@
         },
         {
           "name": "Zack Gelof",
-          "slot": "OF",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1553,7 +1553,7 @@
         },
         {
           "name": "Curtis Mead",
-          "slot": "3B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1566,7 +1566,7 @@
         },
         {
           "name": "Victor Caratini",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Kody Clemens",
-          "slot": "2B",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1605,7 +1605,7 @@
         },
         {
           "name": "Xander Bogaerts",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1665,7 +1665,7 @@
         },
         {
           "name": "Salvador Perez",
-          "slot": "C",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1865,9 +1865,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.265,
+            "AVG": 0.266,
             "HR": 13,
-            "OPS": 0.771,
+            "OPS": 0.772,
             "R": 56,
             "RBI": 36,
             "SB": 9,
@@ -2395,7 +2395,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.264,
             "HR": 20,
@@ -2945,7 +2945,7 @@
         },
         {
           "name": "Kerry Carpenter",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3084,7 +3084,7 @@
         },
         {
           "name": "Braden Montgomery",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3123,11 +3123,11 @@
         },
         {
           "name": "Konnor Griffin",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.276,
             "HR": 5,
@@ -3401,13 +3401,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.268,
+            "AVG": 0.273,
             "HR": 8,
-            "OPS": 0.822,
+            "OPS": 0.828,
             "R": 38,
-            "RBI": 42,
+            "RBI": 43,
             "SB": 6,
-            "Kbat": 95
+            "Kbat": 96
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -4261,13 +4261,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.266,
+            "AVG": 0.265,
             "HR": 12,
-            "OPS": 0.812,
+            "OPS": 0.809,
             "R": 62,
             "RBI": 53,
-            "SB": 13,
-            "Kbat": 100
+            "SB": 14,
+            "Kbat": 101
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4345,13 +4345,13 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 106.2,
+            "IP": 111.0,
             "H": 57,
-            "WHIP": 0.787,
-            "ERA": 1.688,
-            "K": 161,
+            "WHIP": 0.757,
+            "ERA": 1.622,
+            "K": 167,
             "SVHD": 0,
-            "QS": 11
+            "QS": 12
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4597,11 +4597,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 35.2,
+            "IP": 36.2,
             "H": 24,
             "WHIP": 1.009,
-            "ERA": 2.776,
-            "K": 34,
+            "ERA": 2.7,
+            "K": 35,
             "SVHD": 13,
             "QS": 0
           },
@@ -4784,9 +4784,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.287,
+            "AVG": 0.285,
             "HR": 9,
-            "OPS": 0.757,
+            "OPS": 0.753,
             "R": 47,
             "RBI": 51,
             "SB": 1,
@@ -5667,13 +5667,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.292,
+            "AVG": 0.29,
             "HR": 21,
-            "OPS": 0.891,
+            "OPS": 0.883,
             "R": 55,
             "RBI": 69,
             "SB": 11,
-            "Kbat": 94
+            "Kbat": 95
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -5735,9 +5735,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.254,
+            "AVG": 0.255,
             "HR": 11,
-            "OPS": 0.795,
+            "OPS": 0.796,
             "R": 59,
             "RBI": 40,
             "SB": 5,
@@ -6039,11 +6039,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.245,
+            "AVG": 0.247,
             "HR": 6,
-            "OPS": 0.716,
+            "OPS": 0.719,
             "R": 41,
-            "RBI": 29,
+            "RBI": 30,
             "SB": 6,
             "Kbat": 71
           },
@@ -6520,7 +6520,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.271,
             "HR": 25,
@@ -7044,5 +7044,5 @@
       ]
     }
   ],
-  "updated": "2026-07-07T19:02:47Z"
+  "updated": "2026-07-07T21:25:15Z"
 }
