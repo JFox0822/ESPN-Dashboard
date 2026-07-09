@@ -680,7 +680,7 @@
         },
         {
           "name": "Jarren Duran",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -722,7 +722,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "OF",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1060,7 +1060,7 @@
         },
         {
           "name": "Ryan Feltner",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1073,7 +1073,7 @@
         },
         {
           "name": "Javier Sanoja",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2320,7 +2320,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "OF",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2467,7 +2467,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2530,7 +2530,7 @@
         },
         {
           "name": "Taylor Ward",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2611,7 +2611,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2720,7 +2720,7 @@
         },
         {
           "name": "Trevor Rogers",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2741,7 +2741,7 @@
         },
         {
           "name": "Reid Detmers",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2809,7 +2809,7 @@
         },
         {
           "name": "Dean Kremer",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2848,7 +2848,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3686,7 +3686,7 @@
         },
         {
           "name": "Andrew Abbott",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4052,17 +4052,25 @@
           "keeperEligible": true
         },
         {
-          "name": "JP Sears",
+          "name": "Carlos Rodon",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
+          "injStatus": "FIFTEEN_DAY_DL",
+          "stats": {
+            "IP": 46.1,
+            "H": 32,
+            "WHIP": 1.252,
+            "ERA": 3.302,
+            "K": 52,
+            "SVHD": 0,
+            "QS": 3
+          },
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
+          "draftRound": 14,
+          "keeperEligible": true
         }
       ]
     },
@@ -6997,5 +7005,5 @@
       ]
     }
   ],
-  "updated": "2026-07-09T08:29:15Z"
+  "updated": "2026-07-09T11:59:58Z"
 }
