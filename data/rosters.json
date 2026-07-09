@@ -2210,7 +2210,7 @@
         },
         {
           "name": "Vladimir Guerrero Jr.",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2294,7 +2294,7 @@
         },
         {
           "name": "Tyler Tolbert",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3518,7 +3518,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3581,7 +3581,7 @@
         },
         {
           "name": "Isaac Paredes",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3749,7 +3749,7 @@
         },
         {
           "name": "Nolan Arenado",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3770,7 +3770,7 @@
         },
         {
           "name": "Jasson Dominguez",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3812,7 +3812,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4799,7 +4799,7 @@
         },
         {
           "name": "Tyler Soderstrom",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4946,7 +4946,7 @@
         },
         {
           "name": "Samuel Basallo",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6922,19 +6922,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Esmerlyn Valdez",
-          "slot": "OF",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Ian Seymour",
           "slot": "BE",
           "position": "RP",
@@ -6983,7 +6970,7 @@
         },
         {
           "name": "George Springer",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -7001,9 +6988,30 @@
           "acquisitionType": "ADD",
           "draftRound": 8,
           "keeperEligible": false
+        },
+        {
+          "name": "Emmet Sheehan",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 77.0,
+            "H": 73,
+            "WHIP": 1.273,
+            "ERA": 4.909,
+            "K": 86,
+            "SVHD": 0,
+            "QS": 5
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 20,
+          "keeperEligible": true
         }
       ]
     }
   ],
-  "updated": "2026-07-09T11:59:58Z"
+  "updated": "2026-07-09T15:29:42Z"
 }
