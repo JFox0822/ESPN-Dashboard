@@ -57,7 +57,7 @@
         },
         {
           "name": "Shohei Ohtani",
-          "slot": "SP",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -358,7 +358,7 @@
         },
         {
           "name": "Wilyer Abreu",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -463,7 +463,7 @@
         },
         {
           "name": "Nick Gonzales",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -578,7 +578,7 @@
         },
         {
           "name": "Nasim Nunez",
-          "slot": "2B",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1505,7 +1505,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -2937,7 +2937,7 @@
         },
         {
           "name": "Kerry Carpenter",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2958,11 +2958,11 @@
         },
         {
           "name": "Vinnie Pasquantino",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.224,
             "HR": 6,
@@ -3170,7 +3170,7 @@
         },
         {
           "name": "Jac Caglianone",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4217,7 +4217,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.266,
             "HR": 15,
@@ -5999,7 +5999,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6020,7 +6020,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6125,7 +6125,7 @@
         },
         {
           "name": "Zac Gallen",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6201,7 +6201,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "1B",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6235,7 +6235,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6303,7 +6303,7 @@
         },
         {
           "name": "Pete Alonso",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6324,7 +6324,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6979,5 +6979,5 @@
       ]
     }
   ],
-  "updated": "2026-07-10T18:23:23Z"
+  "updated": "2026-07-10T20:23:40Z"
 }
