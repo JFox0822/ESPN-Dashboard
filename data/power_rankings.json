@@ -2,37 +2,12 @@
   "week": 15,
   "rankings": [
     {
-      "id": 1,
-      "name": "Roosevelt Ruff Ryders",
-      "abbrev": "BOYC",
-      "overallW": 9,
-      "overallL": 3,
-      "overallRank": 1,
-      "catRanks": {
-        "R": 2,
-        "RBI": 4,
-        "HR": 9,
-        "SB": 7,
-        "Kbat": 1,
-        "AVG": 4,
-        "OPS": 2,
-        "IP": 2,
-        "H": 10,
-        "K": 4,
-        "QS": 1,
-        "ERA": 6,
-        "WHIP": 4
-      },
-      "pwRank": 1,
-      "rankDelta": 0
-    },
-    {
       "id": 7,
       "name": "Nagasaki Bombers",
       "abbrev": "SPNY",
       "overallW": 9,
       "overallL": 4,
-      "overallRank": 2,
+      "overallRank": 1,
       "catRanks": {
         "R": 3,
         "RBI": 9,
@@ -43,12 +18,12 @@
         "OPS": 5,
         "IP": 8,
         "H": 2,
-        "K": 8,
+        "K": 7,
         "QS": 7,
-        "ERA": 7,
-        "WHIP": 9
+        "ERA": 6,
+        "WHIP": 8
       },
-      "pwRank": 2,
+      "pwRank": 1,
       "rankDelta": 0
     },
     {
@@ -57,7 +32,7 @@
       "abbrev": "TC",
       "overallW": 8,
       "overallL": 3,
-      "overallRank": 3,
+      "overallRank": 2,
       "catRanks": {
         "R": 1,
         "RBI": 3,
@@ -66,12 +41,37 @@
         "Kbat": 12,
         "AVG": 2,
         "OPS": 1,
-        "IP": 1,
-        "H": 9,
-        "K": 1,
-        "QS": 4,
+        "IP": 2,
+        "H": 8,
+        "K": 2,
+        "QS": 5,
         "ERA": 2,
         "WHIP": 3
+      },
+      "pwRank": 2,
+      "rankDelta": 0
+    },
+    {
+      "id": 1,
+      "name": "Roosevelt Ruff Ryders",
+      "abbrev": "BOYC",
+      "overallW": 8,
+      "overallL": 4,
+      "overallRank": 3,
+      "catRanks": {
+        "R": 2,
+        "RBI": 4,
+        "HR": 9,
+        "SB": 7,
+        "Kbat": 1,
+        "AVG": 4,
+        "OPS": 2,
+        "IP": 1,
+        "H": 10,
+        "K": 4,
+        "QS": 1,
+        "ERA": 7,
+        "WHIP": 4
       },
       "pwRank": 3,
       "rankDelta": 0
@@ -91,10 +91,10 @@
         "Kbat": 7,
         "AVG": 5,
         "OPS": 3,
-        "IP": 6,
+        "IP": 5,
         "H": 11,
         "K": 6,
-        "QS": 5,
+        "QS": 6,
         "ERA": 10,
         "WHIP": 10
       },
@@ -119,11 +119,36 @@
         "IP": 3,
         "H": 5,
         "K": 5,
-        "QS": 3,
+        "QS": 2,
         "ERA": 1,
         "WHIP": 2
       },
       "pwRank": 5,
+      "rankDelta": 0
+    },
+    {
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "overallW": 7,
+      "overallL": 5,
+      "overallRank": 6,
+      "catRanks": {
+        "R": 9,
+        "RBI": 7,
+        "HR": 6,
+        "SB": 5,
+        "Kbat": 10,
+        "AVG": 9,
+        "OPS": 8,
+        "IP": 6,
+        "H": 3,
+        "K": 1,
+        "QS": 4,
+        "ERA": 3,
+        "WHIP": 7
+      },
+      "pwRank": 6,
       "rankDelta": 0
     },
     {
@@ -132,7 +157,7 @@
       "abbrev": "LEO",
       "overallW": 7,
       "overallL": 5,
-      "overallRank": 6,
+      "overallRank": 7,
       "catRanks": {
         "R": 6,
         "RBI": 5,
@@ -146,32 +171,7 @@
         "K": 9,
         "QS": 8,
         "ERA": 9,
-        "WHIP": 8
-      },
-      "pwRank": 6,
-      "rankDelta": 0
-    },
-    {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
-      "overallW": 6,
-      "overallL": 6,
-      "overallRank": 7,
-      "catRanks": {
-        "R": 9,
-        "RBI": 7,
-        "HR": 6,
-        "SB": 5,
-        "Kbat": 10,
-        "AVG": 9,
-        "OPS": 8,
-        "IP": 7,
-        "H": 3,
-        "K": 2,
-        "QS": 6,
-        "ERA": 3,
-        "WHIP": 7
+        "WHIP": 9
       },
       "pwRank": 7,
       "rankDelta": 0
@@ -192,7 +192,7 @@
         "AVG": 12,
         "OPS": 10,
         "IP": 11,
-        "H": 8,
+        "H": 9,
         "K": 12,
         "QS": 12,
         "ERA": 12,
@@ -202,37 +202,12 @@
       "rankDelta": 0
     },
     {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "overallW": 6,
-      "overallL": 8,
-      "overallRank": 9,
-      "catRanks": {
-        "R": 11,
-        "RBI": 11,
-        "HR": 11,
-        "SB": 6,
-        "Kbat": 3,
-        "AVG": 10,
-        "OPS": 11,
-        "IP": 5,
-        "H": 6,
-        "K": 7,
-        "QS": 2,
-        "ERA": 8,
-        "WHIP": 5
-      },
-      "pwRank": 9,
-      "rankDelta": 0
-    },
-    {
       "id": 9,
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN",
-      "overallW": 5,
-      "overallL": 8,
-      "overallRank": 10,
+      "overallW": 6,
+      "overallL": 7,
+      "overallRank": 9,
       "catRanks": {
         "R": 5,
         "RBI": 6,
@@ -247,6 +222,31 @@
         "QS": 9,
         "ERA": 4,
         "WHIP": 1
+      },
+      "pwRank": 9,
+      "rankDelta": 0
+    },
+    {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
+      "overallW": 5,
+      "overallL": 9,
+      "overallRank": 10,
+      "catRanks": {
+        "R": 11,
+        "RBI": 11,
+        "HR": 11,
+        "SB": 6,
+        "Kbat": 3,
+        "AVG": 10,
+        "OPS": 11,
+        "IP": 7,
+        "H": 6,
+        "K": 8,
+        "QS": 3,
+        "ERA": 8,
+        "WHIP": 5
       },
       "pwRank": 10,
       "rankDelta": 0
@@ -302,5 +302,5 @@
       "rankDelta": 0
     }
   ],
-  "updated": "2026-07-09T23:12:18Z"
+  "updated": "2026-07-10T03:25:48Z"
 }

@@ -2,34 +2,6 @@
   "season": 2026,
   "teams": [
     {
-      "id": 1,
-      "name": "Roosevelt Ruff Ryders",
-      "abbrev": "BOYC",
-      "owners": [
-        "biggerboyce"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
-      "rbName": "Boyce",
-      "wins": 9,
-      "losses": 3,
-      "stats": {
-        "IP": 905.1,
-        "Kbat": 776,
-        "OPS": 0.787,
-        "HR": 141,
-        "H": 800,
-        "ERA": 3.87,
-        "K": 911,
-        "SVHD": 45,
-        "SB": 78,
-        "R": 564,
-        "AVG": 0.262,
-        "WHIP": 1.2,
-        "RBI": 529,
-        "QS": 72
-      }
-    },
-    {
       "id": 7,
       "name": "Nagasaki Bombers",
       "abbrev": "SPNY",
@@ -41,20 +13,20 @@
       "wins": 9,
       "losses": 4,
       "stats": {
-        "IP": 842.1,
+        "IP": 834.0,
+        "QS": 53,
         "Kbat": 796,
-        "OPS": 0.778,
-        "HR": 135,
-        "H": 726,
-        "ERA": 3.9,
-        "K": 808,
+        "ERA": 3.8,
         "SVHD": 61,
-        "SB": 101,
-        "R": 552,
+        "K": 801,
+        "H": 715,
         "AVG": 0.263,
-        "WHIP": 1.25,
+        "SB": 101,
+        "HR": 135,
+        "WHIP": 1.24,
         "RBI": 499,
-        "QS": 53
+        "R": 552,
+        "OPS": 0.778
       }
     },
     {
@@ -70,20 +42,48 @@
       "wins": 8,
       "losses": 3,
       "stats": {
-        "IP": 913.0,
+        "IP": 880.2,
+        "QS": 54,
         "Kbat": 1023,
-        "OPS": 0.812,
-        "HR": 183,
-        "H": 788,
-        "ERA": 3.46,
-        "K": 940,
+        "ERA": 3.51,
         "SVHD": 47,
-        "SB": 112,
-        "R": 593,
+        "K": 915,
+        "H": 766,
         "AVG": 0.264,
-        "WHIP": 1.18,
+        "SB": 112,
+        "HR": 183,
+        "WHIP": 1.19,
         "RBI": 537,
-        "QS": 58
+        "R": 593,
+        "OPS": 0.812
+      }
+    },
+    {
+      "id": 1,
+      "name": "Roosevelt Ruff Ryders",
+      "abbrev": "BOYC",
+      "owners": [
+        "biggerboyce"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
+      "rbName": "Boyce",
+      "wins": 8,
+      "losses": 4,
+      "stats": {
+        "IP": 882.0,
+        "QS": 71,
+        "Kbat": 776,
+        "ERA": 3.9,
+        "SVHD": 45,
+        "K": 883,
+        "H": 783,
+        "AVG": 0.262,
+        "SB": 78,
+        "HR": 141,
+        "WHIP": 1.21,
+        "RBI": 529,
+        "R": 564,
+        "OPS": 0.787
       }
     },
     {
@@ -98,20 +98,20 @@
       "wins": 8,
       "losses": 6,
       "stats": {
-        "IP": 864.1,
+        "IP": 846.2,
+        "QS": 53,
         "Kbat": 889,
-        "OPS": 0.784,
-        "HR": 151,
-        "H": 801,
-        "ERA": 4.28,
-        "K": 839,
+        "ERA": 4.34,
         "SVHD": 57,
-        "SB": 76,
-        "R": 550,
+        "K": 823,
+        "H": 789,
         "AVG": 0.256,
-        "WHIP": 1.31,
+        "SB": 76,
+        "HR": 151,
+        "WHIP": 1.32,
         "RBI": 494,
-        "QS": 55
+        "R": 550,
+        "OPS": 0.784
       }
     },
     {
@@ -126,20 +126,48 @@
       "wins": 8,
       "losses": 6,
       "stats": {
-        "IP": 885.2,
+        "IP": 868.2,
+        "QS": 63,
         "Kbat": 836,
-        "OPS": 0.767,
-        "HR": 144,
-        "H": 755,
         "ERA": 3.38,
-        "K": 886,
         "SVHD": 53,
-        "SB": 91,
-        "R": 541,
+        "K": 864,
+        "H": 737,
         "AVG": 0.264,
+        "SB": 91,
+        "HR": 144,
         "WHIP": 1.15,
         "RBI": 540,
-        "QS": 65
+        "R": 541,
+        "OPS": 0.767
+      }
+    },
+    {
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "owners": [
+        "schoonee"
+      ],
+      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
+      "rbName": "Schoon",
+      "wins": 7,
+      "losses": 5,
+      "stats": {
+        "IP": 841.0,
+        "QS": 55,
+        "Kbat": 996,
+        "ERA": 3.52,
+        "SVHD": 47,
+        "K": 923,
+        "H": 721,
+        "AVG": 0.252,
+        "SB": 84,
+        "HR": 150,
+        "WHIP": 1.23,
+        "RBI": 513,
+        "R": 523,
+        "OPS": 0.761
       }
     },
     {
@@ -154,48 +182,20 @@
       "wins": 7,
       "losses": 5,
       "stats": {
-        "IP": 866.0,
+        "IP": 854.1,
+        "QS": 52,
         "Kbat": 916,
-        "OPS": 0.768,
-        "HR": 158,
-        "H": 811,
-        "ERA": 4.01,
-        "K": 794,
+        "ERA": 4.04,
         "SVHD": 54,
-        "SB": 67,
-        "R": 543,
+        "K": 784,
+        "H": 802,
         "AVG": 0.254,
+        "SB": 67,
+        "HR": 158,
         "WHIP": 1.24,
         "RBI": 528,
-        "QS": 53
-      }
-    },
-    {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
-      "owners": [
-        "schoonee"
-      ],
-      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
-      "rbName": "Schoon",
-      "wins": 6,
-      "losses": 6,
-      "stats": {
-        "IP": 843.2,
-        "Kbat": 996,
-        "OPS": 0.761,
-        "HR": 150,
-        "H": 727,
-        "ERA": 3.54,
-        "K": 928,
-        "SVHD": 47,
-        "SB": 84,
-        "R": 523,
-        "AVG": 0.252,
-        "WHIP": 1.23,
-        "RBI": 513,
-        "QS": 55
+        "R": 543,
+        "OPS": 0.768
       }
     },
     {
@@ -210,48 +210,20 @@
       "wins": 6,
       "losses": 7,
       "stats": {
-        "IP": 794.2,
+        "IP": 783.1,
+        "QS": 43,
         "Kbat": 1005,
-        "OPS": 0.726,
-        "HR": 163,
-        "H": 780,
-        "ERA": 4.78,
-        "K": 678,
+        "ERA": 4.8,
         "SVHD": 53,
-        "SB": 71,
-        "R": 510,
+        "K": 672,
+        "H": 771,
         "AVG": 0.238,
+        "SB": 71,
+        "HR": 163,
         "WHIP": 1.35,
         "RBI": 512,
-        "QS": 44
-      }
-    },
-    {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
-      "owners": [
-        "C.Eriole824"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Eriole",
-      "wins": 6,
-      "losses": 8,
-      "stats": {
-        "IP": 865.0,
-        "Kbat": 811,
-        "OPS": 0.714,
-        "HR": 103,
-        "H": 767,
-        "ERA": 3.93,
-        "K": 825,
-        "SVHD": 46,
-        "SB": 80,
-        "R": 453,
-        "AVG": 0.249,
-        "WHIP": 1.21,
-        "RBI": 420,
-        "QS": 65
+        "R": 510,
+        "OPS": 0.726
       }
     },
     {
@@ -264,23 +236,51 @@
       ],
       "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
       "rbName": "Greene",
-      "wins": 5,
-      "losses": 8,
+      "wins": 6,
+      "losses": 7,
       "stats": {
-        "IP": 803.2,
+        "IP": 796.2,
+        "QS": 51,
         "Kbat": 876,
-        "OPS": 0.753,
-        "HR": 146,
-        "H": 634,
-        "ERA": 3.54,
-        "K": 912,
+        "ERA": 3.56,
         "SVHD": 58,
-        "SB": 59,
-        "R": 548,
+        "K": 904,
+        "H": 631,
         "AVG": 0.253,
-        "WHIP": 1.11,
+        "SB": 59,
+        "HR": 146,
+        "WHIP": 1.12,
         "RBI": 515,
-        "QS": 52
+        "R": 548,
+        "OPS": 0.753
+      }
+    },
+    {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
+      "owners": [
+        "C.Eriole824"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Eriole",
+      "wins": 5,
+      "losses": 9,
+      "stats": {
+        "IP": 834.2,
+        "QS": 61,
+        "Kbat": 811,
+        "ERA": 3.97,
+        "SVHD": 46,
+        "K": 796,
+        "H": 743,
+        "AVG": 0.249,
+        "SB": 80,
+        "HR": 103,
+        "WHIP": 1.21,
+        "RBI": 420,
+        "R": 453,
+        "OPS": 0.714
       }
     },
     {
@@ -295,20 +295,20 @@
       "wins": 3,
       "losses": 9,
       "stats": {
-        "IP": 831.0,
+        "IP": 821.0,
+        "QS": 46,
         "Kbat": 915,
-        "OPS": 0.783,
-        "HR": 170,
-        "H": 732,
-        "ERA": 3.76,
-        "K": 788,
+        "ERA": 3.71,
         "SVHD": 52,
-        "SB": 57,
-        "R": 536,
+        "K": 774,
+        "H": 722,
         "AVG": 0.256,
+        "SB": 57,
+        "HR": 170,
         "WHIP": 1.23,
         "RBI": 538,
-        "QS": 46
+        "R": 536,
+        "OPS": 0.783
       }
     },
     {
@@ -323,22 +323,22 @@
       "wins": 2,
       "losses": 12,
       "stats": {
-        "IP": 793.0,
+        "IP": 783.0,
+        "QS": 49,
         "Kbat": 848,
-        "OPS": 0.7,
-        "HR": 97,
-        "H": 768,
-        "ERA": 4.62,
-        "K": 781,
+        "ERA": 4.67,
         "SVHD": 52,
-        "SB": 88,
-        "R": 444,
+        "K": 770,
+        "H": 759,
         "AVG": 0.245,
+        "SB": 88,
+        "HR": 97,
         "WHIP": 1.37,
         "RBI": 399,
-        "QS": 50
+        "R": 444,
+        "OPS": 0.7
       }
     }
   ],
-  "updated": "2026-07-09T23:12:18Z"
+  "updated": "2026-07-10T03:25:48Z"
 }
