@@ -896,13 +896,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.243,
+            "AVG": 0.242,
             "HR": 21,
-            "OPS": 0.805,
+            "OPS": 0.801,
             "R": 56,
             "RBI": 64,
             "SB": 1,
-            "Kbat": 102
+            "Kbat": 103
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1553,7 +1553,7 @@
         },
         {
           "name": "Victor Caratini",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1686,7 +1686,7 @@
         },
         {
           "name": "Willi Castro",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3380,13 +3380,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.274,
+            "AVG": 0.272,
             "HR": 8,
-            "OPS": 0.823,
+            "OPS": 0.817,
             "R": 41,
             "RBI": 43,
             "SB": 6,
-            "Kbat": 99
+            "Kbat": 101
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -4158,7 +4158,7 @@
         },
         {
           "name": "Jazz Chisholm Jr.",
-          "slot": "3B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4248,9 +4248,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.268,
             "HR": 13,
-            "OPS": 0.823,
+            "OPS": 0.821,
             "R": 65,
             "RBI": 56,
             "SB": 15,
@@ -4416,13 +4416,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.289,
+            "AVG": 0.288,
             "HR": 16,
-            "OPS": 0.835,
+            "OPS": 0.833,
             "R": 47,
             "RBI": 61,
             "SB": 1,
-            "Kbat": 71
+            "Kbat": 72
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4431,7 +4431,7 @@
         },
         {
           "name": "Colson Montgomery",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4494,7 +4494,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "SS",
+          "slot": "3B",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4628,8 +4628,8 @@
           "stats": {
             "AVG": 0.281,
             "HR": 14,
-            "OPS": 0.872,
-            "R": 65,
+            "OPS": 0.873,
+            "R": 66,
             "RBI": 57,
             "SB": 7,
             "Kbat": 91
@@ -4771,10 +4771,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 9,
-            "OPS": 0.735,
-            "R": 47,
+            "OPS": 0.741,
+            "R": 48,
             "RBI": 52,
             "SB": 1,
             "Kbat": 50
@@ -5565,11 +5565,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 108.1,
-            "H": 94,
-            "WHIP": 1.098,
-            "ERA": 3.24,
-            "K": 122,
+            "IP": 111.1,
+            "H": 96,
+            "WHIP": 1.087,
+            "ERA": 3.314,
+            "K": 125,
             "SVHD": 0,
             "QS": 10
           },
@@ -5992,13 +5992,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.242,
+            "AVG": 0.24,
             "HR": 6,
-            "OPS": 0.707,
+            "OPS": 0.701,
             "R": 41,
             "RBI": 31,
             "SB": 6,
-            "Kbat": 74
+            "Kbat": 75
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-07-11T15:56:45Z"
+  "updated": "2026-07-11T17:02:41Z"
 }
