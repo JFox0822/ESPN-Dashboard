@@ -869,7 +869,7 @@
         },
         {
           "name": "Shane Baz",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1190,7 +1190,7 @@
         },
         {
           "name": "Ryan Johnson",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2450,7 +2450,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "IP": 45.1,
             "H": 28,
@@ -2991,7 +2991,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 62.2,
             "H": 65,
@@ -4338,7 +4338,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "IP": 111.0,
             "H": 57,
@@ -5847,7 +5847,7 @@
         },
         {
           "name": "Tarik Skubal",
-          "slot": "SP",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6015,7 +6015,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "P",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-07-12T13:21:08Z"
+  "updated": "2026-07-12T14:57:03Z"
 }
