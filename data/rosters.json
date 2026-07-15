@@ -1733,7 +1733,7 @@
         },
         {
           "name": "Paul Skenes",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2103,7 +2103,7 @@
         },
         {
           "name": "Dustin May",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2272,27 +2272,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Kyle Teel",
-          "slot": "BE",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.204,
-            "HR": 2,
-            "OPS": 0.628,
-            "R": 9,
-            "RBI": 13,
-            "SB": 0,
-            "Kbat": 22
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jake Mangum",
           "slot": "BE",
           "position": "LF",
@@ -2303,6 +2282,27 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Dansby Swanson",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.211,
+            "HR": 16,
+            "OPS": 0.705,
+            "R": 59,
+            "RBI": 58,
+            "SB": 12,
+            "Kbat": 84
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 9,
           "keeperEligible": false
         }
       ]
@@ -6987,5 +6987,5 @@
       ]
     }
   ],
-  "updated": "2026-07-15T16:22:36Z"
+  "updated": "2026-07-15T18:08:08Z"
 }
