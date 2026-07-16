@@ -378,27 +378,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Andrew Vaughn",
-          "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.311,
-            "HR": 2,
-            "OPS": 0.871,
-            "R": 20,
-            "RBI": 24,
-            "SB": 0,
-            "Kbat": 19
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 26,
-          "keeperEligible": true
-        },
-        {
           "name": "Bryce Miller",
           "slot": "BE",
           "position": "SP",
@@ -616,6 +595,19 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Tommy White",
+          "slot": "BE",
+          "position": "3B",
+          "eligible": "3B",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6987,5 +6979,5 @@
       ]
     }
   ],
-  "updated": "2026-07-15T23:58:18Z"
+  "updated": "2026-07-16T03:26:53Z"
 }
