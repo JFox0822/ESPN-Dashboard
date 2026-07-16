@@ -1976,27 +1976,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Chad Patrick",
-          "slot": "RP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 73.1,
-            "H": 61,
-            "WHIP": 1.2,
-            "ERA": 3.559,
-            "K": 61,
-            "SVHD": 4,
-            "QS": 1
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 22,
-          "keeperEligible": true
-        },
-        {
           "name": "Jake Burger",
           "slot": "UTIL",
           "position": "1B",
@@ -2295,6 +2274,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 9,
+          "keeperEligible": false
+        },
+        {
+          "name": "Grant Taylor",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -6979,5 +6971,5 @@
       ]
     }
   ],
-  "updated": "2026-07-16T13:52:38Z"
+  "updated": "2026-07-16T15:38:49Z"
 }
