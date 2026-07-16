@@ -2687,7 +2687,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.255,
             "HR": 10,
@@ -3230,7 +3230,7 @@
         },
         {
           "name": "Matthew Boyd",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3324,7 +3324,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6971,5 +6971,5 @@
       ]
     }
   ],
-  "updated": "2026-07-16T19:12:03Z"
+  "updated": "2026-07-16T20:59:42Z"
 }
