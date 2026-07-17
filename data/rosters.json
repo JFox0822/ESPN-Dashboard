@@ -364,13 +364,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.261,
+            "AVG": 0.258,
             "HR": 11,
-            "OPS": 0.759,
+            "OPS": 0.753,
             "R": 45,
             "RBI": 43,
             "SB": 6,
-            "Kbat": 82
+            "Kbat": 84
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -678,11 +678,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.194,
+            "AVG": 0.196,
             "HR": 13,
-            "OPS": 0.609,
-            "R": 41,
-            "RBI": 45,
+            "OPS": 0.61,
+            "R": 42,
+            "RBI": 48,
             "SB": 14,
             "Kbat": 113
           },
@@ -1256,9 +1256,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.279,
+            "AVG": 0.277,
             "HR": 0,
-            "OPS": 0.654,
+            "OPS": 0.65,
             "R": 39,
             "RBI": 17,
             "SB": 22,
@@ -1836,13 +1836,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.278,
             "HR": 8,
-            "OPS": 0.761,
+            "OPS": 0.754,
             "R": 41,
             "RBI": 39,
-            "SB": 12,
-            "Kbat": 73
+            "SB": 13,
+            "Kbat": 74
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2744,13 +2744,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.297,
+            "AVG": 0.295,
             "HR": 14,
-            "OPS": 0.865,
+            "OPS": 0.861,
             "R": 48,
             "RBI": 64,
             "SB": 0,
-            "Kbat": 88
+            "Kbat": 89
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -3149,7 +3149,7 @@
         },
         {
           "name": "Blaze Alexander",
-          "slot": "3B",
+          "slot": "IL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3311,7 +3311,7 @@
         },
         {
           "name": "Jake Bennett",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3324,7 +3324,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3414,6 +3414,19 @@
             "SVHD": 1,
             "QS": 1
           },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Anthony Seigler",
+          "slot": "3B",
+          "position": "3B",
+          "eligible": "3B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -4423,7 +4436,7 @@
         },
         {
           "name": "Colson Montgomery",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4486,7 +4499,7 @@
         },
         {
           "name": "Mauricio Dubon",
-          "slot": "SS",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4681,7 +4694,7 @@
           "stats": {
             "AVG": 0.279,
             "HR": 28,
-            "OPS": 0.927,
+            "OPS": 0.925,
             "R": 61,
             "RBI": 59,
             "SB": 2,
@@ -5347,13 +5360,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.322,
+            "AVG": 0.319,
             "HR": 13,
-            "OPS": 0.888,
+            "OPS": 0.881,
             "R": 51,
             "RBI": 55,
             "SB": 1,
-            "Kbat": 54
+            "Kbat": 55
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6971,5 +6984,5 @@
       ]
     }
   ],
-  "updated": "2026-07-17T17:12:49Z"
+  "updated": "2026-07-17T19:10:22Z"
 }
