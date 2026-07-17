@@ -714,7 +714,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "OF",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -882,7 +882,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -962,7 +962,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 43.0,
             "H": 40,
@@ -1065,7 +1065,7 @@
         },
         {
           "name": "Javier Sanoja",
-          "slot": "3B",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1161,7 +1161,7 @@
         },
         {
           "name": "Colt Emerson",
-          "slot": "BE",
+          "slot": "3B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5291,7 +5291,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5768,7 +5768,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6984,5 +6984,5 @@
       ]
     }
   ],
-  "updated": "2026-07-17T20:56:26Z"
+  "updated": "2026-07-17T21:57:13Z"
 }
