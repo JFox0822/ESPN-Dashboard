@@ -110,7 +110,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.241,
             "HR": 6,
@@ -320,7 +320,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "IP": 111.1,
             "H": 105,
@@ -6984,5 +6984,5 @@
       ]
     }
   ],
-  "updated": "2026-07-17T21:57:13Z"
+  "updated": "2026-07-17T22:54:54Z"
 }
