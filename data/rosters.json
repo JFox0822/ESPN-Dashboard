@@ -364,9 +364,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.258,
+            "AVG": 0.261,
             "HR": 11,
-            "OPS": 0.753,
+            "OPS": 0.758,
             "R": 45,
             "RBI": 43,
             "SB": 6,
@@ -678,13 +678,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.196,
+            "AVG": 0.195,
             "HR": 13,
-            "OPS": 0.61,
+            "OPS": 0.608,
             "R": 42,
             "RBI": 48,
             "SB": 14,
-            "Kbat": 113
+            "Kbat": 114
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -760,7 +760,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "AVG": 0.2,
             "HR": 10,
@@ -1256,9 +1256,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.277,
+            "AVG": 0.276,
             "HR": 0,
-            "OPS": 0.65,
+            "OPS": 0.648,
             "R": 39,
             "RBI": 17,
             "SB": 22,
@@ -1836,11 +1836,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 8,
-            "OPS": 0.754,
-            "R": 41,
-            "RBI": 39,
+            "OPS": 0.758,
+            "R": 42,
+            "RBI": 40,
             "SB": 13,
             "Kbat": 74
           },
@@ -2744,9 +2744,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.295,
+            "AVG": 0.294,
             "HR": 14,
-            "OPS": 0.861,
+            "OPS": 0.859,
             "R": 48,
             "RBI": 64,
             "SB": 0,
@@ -4694,11 +4694,11 @@
           "stats": {
             "AVG": 0.279,
             "HR": 28,
-            "OPS": 0.925,
+            "OPS": 0.923,
             "R": 61,
             "RBI": 59,
             "SB": 2,
-            "Kbat": 78
+            "Kbat": 79
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5360,9 +5360,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.319,
+            "AVG": 0.318,
             "HR": 13,
-            "OPS": 0.881,
+            "OPS": 0.879,
             "R": 51,
             "RBI": 55,
             "SB": 1,
@@ -5755,7 +5755,7 @@
         },
         {
           "name": "Kyle Karros",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5768,7 +5768,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5844,7 +5844,7 @@
         },
         {
           "name": "Tarik Skubal",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6033,7 +6033,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6248,7 +6248,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6557,7 +6557,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "SUSPENSION",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.285,
             "HR": 20,
@@ -6984,5 +6984,5 @@
       ]
     }
   ],
-  "updated": "2026-07-17T19:10:22Z"
+  "updated": "2026-07-17T20:56:26Z"
 }
