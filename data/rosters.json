@@ -1746,7 +1746,7 @@
         },
         {
           "name": "Trea Turner",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1998,7 +1998,7 @@
         },
         {
           "name": "Jared Jones",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2257,7 +2257,7 @@
         },
         {
           "name": "Dansby Swanson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2278,7 +2278,7 @@
         },
         {
           "name": "Grant Taylor",
-          "slot": "P",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2513,27 +2513,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Taylor Ward",
-          "slot": "UTIL",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.255,
-            "HR": 6,
-            "OPS": 0.746,
-            "R": 57,
-            "RBI": 25,
-            "SB": 3,
-            "Kbat": 91
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 8,
-          "keeperEligible": false
-        },
-        {
           "name": "Riley O'Brien",
           "slot": "RP",
           "position": "RP",
@@ -2655,7 +2634,7 @@
         },
         {
           "name": "Nolan McLean",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2725,7 +2704,7 @@
         },
         {
           "name": "Reid Detmers",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2827,7 +2806,7 @@
         },
         {
           "name": "Heliot Ramos",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2870,6 +2849,27 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 17,
+          "keeperEligible": true
+        },
+        {
+          "name": "Francisco Alvarez",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.259,
+            "HR": 11,
+            "OPS": 0.773,
+            "R": 21,
+            "RBI": 24,
+            "SB": 0,
+            "Kbat": 61
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 13,
           "keeperEligible": true
         }
       ]
@@ -6971,5 +6971,5 @@
       ]
     }
   ],
-  "updated": "2026-07-17T09:10:04Z"
+  "updated": "2026-07-17T11:22:08Z"
 }
