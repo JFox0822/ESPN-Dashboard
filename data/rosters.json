@@ -1767,7 +1767,7 @@
         },
         {
           "name": "Trea Turner",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1809,7 +1809,7 @@
         },
         {
           "name": "Julio Rodriguez",
-          "slot": "IL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2040,7 +2040,7 @@
         },
         {
           "name": "TJ Rumfield",
-          "slot": "3B",
+          "slot": "1B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2082,7 +2082,7 @@
         },
         {
           "name": "Jose Caballero",
-          "slot": "SS",
+          "slot": "3B",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2105,19 +2105,6 @@
           "acquisitionType": "ADD",
           "draftRound": 20,
           "keeperEligible": true
-        },
-        {
-          "name": "Troy Johnston",
-          "slot": "1B",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         },
         {
           "name": "Gage Jump",
@@ -2278,7 +2265,7 @@
         },
         {
           "name": "Dansby Swanson",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2448,27 +2435,6 @@
           "acquisitionType": "DRAFT",
           "draftRound": 12,
           "keeperEligible": false
-        },
-        {
-          "name": "Brandon Woodruff",
-          "slot": "IL",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
-          "stats": {
-            "IP": 45.1,
-            "H": 28,
-            "WHIP": 0.838,
-            "ERA": 2.978,
-            "K": 47,
-            "SVHD": 0,
-            "QS": 3
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 14,
-          "keeperEligible": true
         },
         {
           "name": "MacKenzie Gore",
@@ -2852,27 +2818,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Garrett Cleavinger",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 28.0,
-            "H": 25,
-            "WHIP": 1.357,
-            "ERA": 3.857,
-            "K": 38,
-            "SVHD": 16,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 17,
-          "keeperEligible": true
-        },
-        {
           "name": "Francisco Alvarez",
           "slot": "BE",
           "position": "C",
@@ -2892,6 +2837,32 @@
           "acquisitionType": "ADD",
           "draftRound": 13,
           "keeperEligible": true
+        },
+        {
+          "name": "Jackson Jobe",
+          "slot": "IL",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jakob Junis",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -5291,7 +5262,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "SS",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5501,7 +5472,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5543,7 +5514,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "2B",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5564,7 +5535,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -7018,5 +6989,5 @@
       ]
     }
   ],
-  "updated": "2026-07-19T11:58:56Z"
+  "updated": "2026-07-19T13:43:25Z"
 }
