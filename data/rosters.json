@@ -1360,7 +1360,7 @@
         },
         {
           "name": "Davis Martin",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1672,8 +1672,29 @@
           "keeperEligible": false
         },
         {
-          "name": "Hurston Waldrep",
+          "name": "Taylor Ward",
           "slot": "BE",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.253,
+            "HR": 7,
+            "OPS": 0.749,
+            "R": 59,
+            "RBI": 27,
+            "SB": 3,
+            "Kbat": 93
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 8,
+          "keeperEligible": false
+        },
+        {
+          "name": "Robert Gasser",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1685,29 +1706,24 @@
           "keeperEligible": false
         },
         {
-          "name": "Willi Castro",
+          "name": "Cole Ragans",
           "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {
+            "IP": 35.1,
+            "H": 27,
+            "WHIP": 1.415,
+            "ERA": 4.84,
+            "K": 45,
+            "SVHD": 0,
+            "QS": 3
+          },
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
-          "name": "Paul Goldschmidt",
-          "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 7,
+          "draftRound": 4,
           "keeperEligible": false
         }
       ]
@@ -3439,7 +3455,7 @@
       "players": [
         {
           "name": "Francisco Lindor",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3523,7 +3539,7 @@
         },
         {
           "name": "Bobby Witt Jr.",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3607,7 +3623,7 @@
         },
         {
           "name": "Randy Arozarena",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3754,7 +3770,7 @@
         },
         {
           "name": "Jasson Dominguez",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4858,7 +4874,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 100.2,
             "H": 80,
@@ -6997,5 +7013,5 @@
       ]
     }
   ],
-  "updated": "2026-07-19T14:56:05Z"
+  "updated": "2026-07-19T15:59:39Z"
 }
