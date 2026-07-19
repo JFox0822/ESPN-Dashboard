@@ -3502,7 +3502,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3796,7 +3796,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4044,13 +4044,21 @@
           "keeperEligible": true
         },
         {
-          "name": "Spencer Arrighetti",
+          "name": "Grant Holmes",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {},
+          "stats": {
+            "IP": 87.1,
+            "H": 76,
+            "WHIP": 1.317,
+            "ERA": 3.607,
+            "K": 76,
+            "SVHD": 0,
+            "QS": 5
+          },
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -4699,7 +4707,7 @@
         },
         {
           "name": "Mookie Betts",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4741,7 +4749,7 @@
         },
         {
           "name": "Gunnar Henderson",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -4964,7 +4972,7 @@
         },
         {
           "name": "Josh Jung",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5857,7 +5865,7 @@
         },
         {
           "name": "Cal Raleigh",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6206,7 +6214,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6329,7 +6337,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6718,7 +6726,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6912,7 +6920,7 @@
         },
         {
           "name": "George Springer",
-          "slot": "OF",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6954,7 +6962,7 @@
         },
         {
           "name": "Esmerlyn Valdez",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6989,5 +6997,5 @@
       ]
     }
   ],
-  "updated": "2026-07-19T13:43:25Z"
+  "updated": "2026-07-19T14:56:05Z"
 }
