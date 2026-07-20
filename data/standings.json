@@ -2,6 +2,28 @@
   "week": 16,
   "standings": [
     {
+      "id": 1,
+      "name": "Roosevelt Ruff Ryders",
+      "abbrev": "BOYC",
+      "owners": [
+        "biggerboyce"
+      ],
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
+      "rbName": "Boyce",
+      "wins": 10,
+      "losses": 3,
+      "ties": 2,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 2,
+      "streakType": "WIN",
+      "catWins": 114,
+      "catLosses": 90,
+      "catTies": 6,
+      "allPlayPct": 0.6818,
+      "rank": 1
+    },
+    {
       "id": 12,
       "name": "Brevard County Manatees",
       "abbrev": "TC",
@@ -18,32 +40,10 @@
       "pointsAgainst": 0,
       "streak": 1,
       "streakType": "WIN",
-      "catWins": 124,
-      "catLosses": 81,
-      "catTies": 5,
-      "allPlayPct": 0.6788,
-      "rank": 1
-    },
-    {
-      "id": 1,
-      "name": "Roosevelt Ruff Ryders",
-      "abbrev": "BOYC",
-      "owners": [
-        "biggerboyce"
-      ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/67f69b20-fc0b-11f0-840c-11858ed68471",
-      "rbName": "Boyce",
-      "wins": 9,
-      "losses": 4,
-      "ties": 2,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 2,
-      "streakType": "WIN",
-      "catWins": 111,
-      "catLosses": 93,
+      "catWins": 126,
+      "catLosses": 78,
       "catTies": 6,
-      "allPlayPct": 0.6667,
+      "allPlayPct": 0.6727,
       "rank": 2
     },
     {
@@ -62,10 +62,10 @@
       "pointsAgainst": 0,
       "streak": 1,
       "streakType": "LOSS",
-      "catWins": 113,
-      "catLosses": 88,
+      "catWins": 112,
+      "catLosses": 89,
       "catTies": 9,
-      "allPlayPct": 0.6182,
+      "allPlayPct": 0.6152,
       "rank": 3
     },
     {
@@ -85,32 +85,10 @@
       "streak": 1,
       "streakType": "WIN",
       "catWins": 104,
-      "catLosses": 95,
-      "catTies": 11,
-      "allPlayPct": 0.4939,
+      "catLosses": 94,
+      "catTies": 12,
+      "allPlayPct": 0.4848,
       "rank": 4
-    },
-    {
-      "id": 8,
-      "name": "Portland Pickles",
-      "abbrev": "CORY",
-      "owners": [
-        "schoonee"
-      ],
-      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
-      "rbName": "Schoon",
-      "wins": 8,
-      "losses": 5,
-      "ties": 2,
-      "pointsFor": 0,
-      "pointsAgainst": 0,
-      "streak": 2,
-      "streakType": "WIN",
-      "catWins": 108,
-      "catLosses": 97,
-      "catTies": 5,
-      "allPlayPct": 0.5515,
-      "rank": 5
     },
     {
       "id": 10,
@@ -128,10 +106,32 @@
       "pointsAgainst": 0,
       "streak": 1,
       "streakType": "TIE",
-      "catWins": 113,
-      "catLosses": 89,
-      "catTies": 8,
-      "allPlayPct": 0.6576,
+      "catWins": 111,
+      "catLosses": 92,
+      "catTies": 7,
+      "allPlayPct": 0.6697,
+      "rank": 5
+    },
+    {
+      "id": 8,
+      "name": "Portland Pickles",
+      "abbrev": "CORY",
+      "owners": [
+        "schoonee"
+      ],
+      "logo": "https://images.squarespace-cdn.com/content/5c507f8371069953ff34b784/16c3f8a7-2b39-41af-96cf-eb19ccbd0fa9/Mascot+Badge_NoShadow_4-Color_CMYK.png",
+      "rbName": "Schoon",
+      "wins": 7,
+      "losses": 6,
+      "ties": 2,
+      "pointsFor": 0,
+      "pointsAgainst": 0,
+      "streak": 2,
+      "streakType": "WIN",
+      "catWins": 106,
+      "catLosses": 99,
+      "catTies": 5,
+      "allPlayPct": 0.5273,
       "rank": 6
     },
     {
@@ -157,26 +157,25 @@
       "rank": 7
     },
     {
-      "id": 9,
-      "name": "Las Vegas Degenerate",
-      "abbrev": "GREN",
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS",
       "owners": [
-        "Cdcanes009",
-        "greene1012"
+        "C.Eriole824"
       ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
-      "rbName": "Greene",
-      "wins": 6,
-      "losses": 7,
-      "ties": 2,
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
+      "rbName": "Eriole",
+      "wins": 7,
+      "losses": 8,
+      "ties": 0,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 1,
-      "streakType": "TIE",
-      "catWins": 100,
-      "catLosses": 100,
-      "catTies": 10,
-      "allPlayPct": 0.5576,
+      "streakType": "WIN",
+      "catWins": 99,
+      "catLosses": 104,
+      "catTies": 7,
+      "allPlayPct": 0.3455,
       "rank": 8
     },
     {
@@ -195,32 +194,33 @@
       "pointsAgainst": 0,
       "streak": 1,
       "streakType": "LOSS",
-      "catWins": 83,
+      "catWins": 85,
       "catLosses": 116,
-      "catTies": 11,
-      "allPlayPct": 0.2242,
+      "catTies": 9,
+      "allPlayPct": 0.2212,
       "rank": 9
     },
     {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS",
+      "id": 9,
+      "name": "Las Vegas Degenerate",
+      "abbrev": "GREN",
       "owners": [
-        "C.Eriole824"
+        "Cdcanes009",
+        "greene1012"
       ],
-      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d2b0a330-f60b-11f0-8cb2-bdc05f3f329b",
-      "rbName": "Eriole",
-      "wins": 6,
-      "losses": 9,
-      "ties": 0,
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/d147e660-fbe8-11f0-a7b7-0bc3deaecc7e",
+      "rbName": "Greene",
+      "wins": 5,
+      "losses": 8,
+      "ties": 2,
       "pointsFor": 0,
       "pointsAgainst": 0,
       "streak": 1,
-      "streakType": "WIN",
-      "catWins": 98,
-      "catLosses": 106,
-      "catTies": 6,
-      "allPlayPct": 0.3273,
+      "streakType": "TIE",
+      "catWins": 99,
+      "catLosses": 101,
+      "catTies": 10,
+      "allPlayPct": 0.5667,
       "rank": 10
     },
     {
@@ -239,10 +239,10 @@
       "pointsAgainst": 0,
       "streak": 1,
       "streakType": "LOSS",
-      "catWins": 83,
-      "catLosses": 116,
-      "catTies": 11,
-      "allPlayPct": 0.5091,
+      "catWins": 81,
+      "catLosses": 117,
+      "catTies": 12,
+      "allPlayPct": 0.5,
       "rank": 11
     },
     {
@@ -262,11 +262,11 @@
       "streak": 6,
       "streakType": "LOSS",
       "catWins": 72,
-      "catLosses": 131,
-      "catTies": 7,
+      "catLosses": 132,
+      "catTies": 6,
       "allPlayPct": 0.2242,
       "rank": 12
     }
   ],
-  "updated": "2026-07-20T13:06:33Z"
+  "updated": "2026-07-20T15:50:51Z"
 }
