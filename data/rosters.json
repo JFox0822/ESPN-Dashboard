@@ -1522,7 +1522,7 @@
         },
         {
           "name": "Zack Gelof",
-          "slot": "IL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1582,19 +1582,6 @@
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Stephen Kolek",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "TRADE",
           "draftRound": 0,
           "keeperEligible": false
         },
@@ -1681,7 +1668,7 @@
         },
         {
           "name": "Robert Gasser",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1694,7 +1681,7 @@
         },
         {
           "name": "Cole Ragans",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1711,6 +1698,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 4,
+          "keeperEligible": false
+        },
+        {
+          "name": "Erick Fedde",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -6467,11 +6467,11 @@
         },
         {
           "name": "Byron Buxton",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.271,
             "HR": 25,
@@ -6648,7 +6648,7 @@
         },
         {
           "name": "Carson Benge",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -7003,5 +7003,5 @@
       ]
     }
   ],
-  "updated": "2026-07-20T15:50:51Z"
+  "updated": "2026-07-20T18:04:11Z"
 }
