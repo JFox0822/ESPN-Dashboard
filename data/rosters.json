@@ -2363,11 +2363,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 110.1,
-            "H": 92,
-            "WHIP": 1.06,
-            "ERA": 3.344,
-            "K": 128,
+            "IP": 111.1,
+            "H": 95,
+            "WHIP": 1.078,
+            "ERA": 3.557,
+            "K": 129,
             "SVHD": 0,
             "QS": 11
           },
@@ -2760,9 +2760,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.239,
             "HR": 1,
-            "OPS": 0.643,
+            "OPS": 0.641,
             "R": 40,
             "RBI": 17,
             "SB": 6,
@@ -2974,7 +2974,7 @@
           "stats": {
             "AVG": 0.277,
             "HR": 11,
-            "OPS": 0.79,
+            "OPS": 0.788,
             "R": 34,
             "RBI": 47,
             "SB": 4,
@@ -3879,7 +3879,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 111.0,
             "H": 85,
@@ -4628,11 +4628,11 @@
           "stats": {
             "AVG": 0.251,
             "HR": 13,
-            "OPS": 0.737,
+            "OPS": 0.735,
             "R": 48,
             "RBI": 61,
             "SB": 1,
-            "Kbat": 84
+            "Kbat": 85
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -5009,7 +5009,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5056,7 +5056,7 @@
         },
         {
           "name": "Cole Carrigg",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5392,11 +5392,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 113.0,
-            "H": 96,
-            "WHIP": 1.15,
-            "ERA": 3.903,
-            "K": 87,
+            "IP": 114.1,
+            "H": 98,
+            "WHIP": 1.163,
+            "ERA": 3.936,
+            "K": 89,
             "SVHD": 0,
             "QS": 11
           },
@@ -6465,9 +6465,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.271,
+            "AVG": 0.274,
             "HR": 25,
-            "OPS": 0.904,
+            "OPS": 0.907,
             "R": 57,
             "RBI": 45,
             "SB": 7,
@@ -6995,5 +6995,5 @@
       ]
     }
   ],
-  "updated": "2026-07-20T21:59:57Z"
+  "updated": "2026-07-20T23:09:04Z"
 }
