@@ -1,14 +1,9 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 15,
+  "currentWeek": 16,
   "teamCount": 12,
   "teams": [
-    {
-      "id": 7,
-      "name": "Nagasaki Bombers",
-      "abbrev": "SPNY"
-    },
     {
       "id": 12,
       "name": "Brevard County Manatees",
@@ -20,14 +15,14 @@
       "abbrev": "BOYC"
     },
     {
+      "id": 7,
+      "name": "Nagasaki Bombers",
+      "abbrev": "SPNY"
+    },
+    {
       "id": 5,
       "name": "Cooperstown Udder Tuggers",
       "abbrev": "AARN"
-    },
-    {
-      "id": 10,
-      "name": "Amsterdam Mohawks",
-      "abbrev": "TIM"
     },
     {
       "id": 8,
@@ -35,19 +30,24 @@
       "abbrev": "CORY"
     },
     {
+      "id": 10,
+      "name": "Amsterdam Mohawks",
+      "abbrev": "TIM"
+    },
+    {
       "id": 11,
       "name": "Santa Clara Sea-Creatures",
       "abbrev": "LEO"
     },
     {
-      "id": 2,
-      "name": "Gettysburg Generals",
-      "abbrev": "MION"
-    },
-    {
       "id": 9,
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN"
+    },
+    {
+      "id": 2,
+      "name": "Gettysburg Generals",
+      "abbrev": "MION"
     },
     {
       "id": 4,
@@ -65,5 +65,5 @@
       "abbrev": "BERT"
     }
   ],
-  "updated": "2026-07-20T06:46:51Z"
+  "updated": "2026-07-20T10:11:35Z"
 }
