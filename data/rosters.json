@@ -2569,7 +2569,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2665,7 +2665,7 @@
         },
         {
           "name": "Trevor Rogers",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2805,11 +2805,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Jakob Junis",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
+          "name": "Heriberto Hernandez",
+          "slot": "BE",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -2818,11 +2818,11 @@
           "keeperEligible": false
         },
         {
-          "name": "Heriberto Hernandez",
-          "slot": "BE",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
+          "name": "Ryne Stanek",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6992,5 +6992,5 @@
       ]
     }
   ],
-  "updated": "2026-07-23T08:31:18Z"
+  "updated": "2026-07-23T11:10:20Z"
 }
