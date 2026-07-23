@@ -133,9 +133,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.275,
+            "AVG": 0.274,
             "HR": 18,
-            "OPS": 0.841,
+            "OPS": 0.839,
             "R": 56,
             "RBI": 54,
             "SB": 2,
@@ -584,9 +584,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.202,
+            "AVG": 0.204,
             "HR": 22,
-            "OPS": 0.721,
+            "OPS": 0.724,
             "R": 50,
             "RBI": 59,
             "SB": 2,
@@ -4043,13 +4043,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.286,
+            "AVG": 0.285,
             "HR": 8,
-            "OPS": 0.76,
+            "OPS": 0.758,
             "R": 52,
             "RBI": 46,
             "SB": 25,
-            "Kbat": 89
+            "Kbat": 90
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -4232,11 +4232,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 105.0,
-            "H": 86,
+            "IP": 106.0,
+            "H": 87,
             "WHIP": 1.057,
-            "ERA": 2.057,
-            "K": 123,
+            "ERA": 2.038,
+            "K": 126,
             "SVHD": 0,
             "QS": 11
           },
@@ -5881,7 +5881,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6332,7 +6332,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6992,5 +6992,5 @@
       ]
     }
   ],
-  "updated": "2026-07-23T14:01:46Z"
+  "updated": "2026-07-23T16:26:53Z"
 }
