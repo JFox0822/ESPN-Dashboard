@@ -337,7 +337,7 @@
         },
         {
           "name": "Max Muncy",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -468,7 +468,7 @@
         },
         {
           "name": "Gabriel Moreno",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -646,7 +646,7 @@
           "stats": {
             "AVG": 0.277,
             "HR": 13,
-            "OPS": 0.812,
+            "OPS": 0.81,
             "R": 49,
             "RBI": 39,
             "SB": 10,
@@ -1536,7 +1536,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2964,13 +2964,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.279,
+            "AVG": 0.278,
             "HR": 16,
-            "OPS": 0.887,
+            "OPS": 0.885,
             "R": 34,
-            "RBI": 42,
+            "RBI": 43,
             "SB": 1,
-            "Kbat": 59
+            "Kbat": 60
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -3288,9 +3288,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.277,
+            "AVG": 0.276,
             "HR": 8,
-            "OPS": 0.819,
+            "OPS": 0.815,
             "R": 45,
             "RBI": 48,
             "SB": 7,
@@ -4198,11 +4198,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.259,
-            "HR": 14,
-            "OPS": 0.809,
-            "R": 68,
-            "RBI": 61,
+            "AVG": 0.265,
+            "HR": 15,
+            "OPS": 0.826,
+            "R": 69,
+            "RBI": 62,
             "SB": 15,
             "Kbat": 107
           },
@@ -4737,9 +4737,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.27,
             "HR": 10,
-            "OPS": 0.726,
+            "OPS": 0.725,
             "R": 49,
             "RBI": 57,
             "SB": 1,
@@ -5979,11 +5979,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.243,
-            "HR": 6,
-            "OPS": 0.719,
-            "R": 43,
-            "RBI": 35,
+            "AVG": 0.244,
+            "HR": 7,
+            "OPS": 0.73,
+            "R": 44,
+            "RBI": 36,
             "SB": 8,
             "Kbat": 83
           },
@@ -6420,7 +6420,7 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.26,
+            "AVG": 0.259,
             "HR": 31,
             "OPS": 0.893,
             "R": 64,
@@ -6963,5 +6963,5 @@
       ]
     }
   ],
-  "updated": "2026-07-24T20:19:40Z"
+  "updated": "2026-07-24T22:04:46Z"
 }
