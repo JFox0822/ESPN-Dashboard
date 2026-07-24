@@ -5019,7 +5019,7 @@
         },
         {
           "name": "Hunter Gaddis",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5087,7 +5087,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5134,7 +5134,7 @@
         },
         {
           "name": "Jacob Gonzalez",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5147,7 +5147,7 @@
         },
         {
           "name": "Andres Chaparro",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5160,7 +5160,7 @@
         },
         {
           "name": "Justin Slaten",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5291,7 +5291,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5375,7 +5375,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5480,7 +5480,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "SS",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5522,7 +5522,7 @@
         },
         {
           "name": "Ernie Clement",
-          "slot": "3B",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5589,7 +5589,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 80.2,
             "H": 64,
@@ -6625,7 +6625,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.258,
             "HR": 18,
@@ -6989,5 +6989,5 @@
       ]
     }
   ],
-  "updated": "2026-07-24T14:55:28Z"
+  "updated": "2026-07-24T16:43:15Z"
 }
