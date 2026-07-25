@@ -112,9 +112,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.234,
+            "AVG": 0.233,
             "HR": 7,
-            "OPS": 0.706,
+            "OPS": 0.704,
             "R": 48,
             "RBI": 36,
             "SB": 17,
@@ -406,13 +406,13 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 128.1,
-            "H": 114,
-            "WHIP": 1.177,
-            "ERA": 3.647,
-            "K": 103,
+            "IP": 132.1,
+            "H": 117,
+            "WHIP": 1.171,
+            "ERA": 3.605,
+            "K": 104,
             "SVHD": 0,
-            "QS": 13
+            "QS": 14
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -508,11 +508,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 110.2,
-            "H": 91,
-            "WHIP": 1.31,
-            "ERA": 3.334,
-            "K": 96,
+            "IP": 111.1,
+            "H": 92,
+            "WHIP": 1.311,
+            "ERA": 3.314,
+            "K": 97,
             "SVHD": 0,
             "QS": 7
           },
@@ -663,7 +663,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.283,
             "HR": 21,
@@ -791,9 +791,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.205,
+            "AVG": 0.204,
             "HR": 19,
-            "OPS": 0.716,
+            "OPS": 0.714,
             "R": 43,
             "RBI": 50,
             "SB": 0,
@@ -1624,11 +1624,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.208,
-            "HR": 14,
-            "OPS": 0.615,
-            "R": 37,
-            "RBI": 43,
+            "AVG": 0.21,
+            "HR": 15,
+            "OPS": 0.625,
+            "R": 38,
+            "RBI": 44,
             "SB": 0,
             "Kbat": 85
           },
@@ -2114,9 +2114,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.277,
             "HR": 4,
-            "OPS": 0.788,
+            "OPS": 0.78,
             "R": 28,
             "RBI": 18,
             "SB": 0,
@@ -2334,13 +2334,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.252,
+            "AVG": 0.251,
             "HR": 15,
-            "OPS": 0.835,
+            "OPS": 0.833,
             "R": 59,
             "RBI": 49,
             "SB": 13,
-            "Kbat": 98
+            "Kbat": 99
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2412,7 +2412,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2798,7 +2798,7 @@
         },
         {
           "name": "Christian Encarnacion-Strand",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2872,9 +2872,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.206,
+            "AVG": 0.21,
             "HR": 13,
-            "OPS": 0.692,
+            "OPS": 0.698,
             "R": 27,
             "RBI": 36,
             "SB": 0,
@@ -2893,9 +2893,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.234,
             "HR": 6,
-            "OPS": 0.667,
+            "OPS": 0.67,
             "R": 34,
             "RBI": 34,
             "SB": 4,
@@ -3097,9 +3097,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.256,
+            "AVG": 0.254,
             "HR": 16,
-            "OPS": 0.772,
+            "OPS": 0.768,
             "R": 46,
             "RBI": 37,
             "SB": 3,
@@ -3403,9 +3403,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.238,
+            "AVG": 0.237,
             "HR": 19,
-            "OPS": 0.775,
+            "OPS": 0.773,
             "R": 70,
             "RBI": 46,
             "SB": 13,
@@ -3946,9 +3946,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.241,
             "HR": 14,
-            "OPS": 0.736,
+            "OPS": 0.737,
             "R": 44,
             "RBI": 52,
             "SB": 1,
@@ -4085,9 +4085,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.284,
+            "AVG": 0.285,
             "HR": 15,
-            "OPS": 0.841,
+            "OPS": 0.843,
             "R": 54,
             "RBI": 51,
             "SB": 2,
@@ -5190,7 +5190,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.266,
             "HR": 20,
@@ -5354,7 +5354,7 @@
         },
         {
           "name": "Alex Bregman",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5522,7 +5522,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5570,13 +5570,13 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 84.1,
+            "IP": 86.2,
             "H": 67,
-            "WHIP": 1.02,
-            "ERA": 2.775,
-            "K": 84,
+            "WHIP": 0.992,
+            "ERA": 2.7,
+            "K": 85,
             "SVHD": 0,
-            "QS": 7
+            "QS": 8
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -5810,7 +5810,7 @@
         },
         {
           "name": "Cam Schlittler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5942,9 +5942,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.233,
+            "AVG": 0.235,
             "HR": 18,
-            "OPS": 0.844,
+            "OPS": 0.847,
             "R": 59,
             "RBI": 40,
             "SB": 8,
@@ -5999,7 +5999,7 @@
         },
         {
           "name": "Shota Imanaga",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6222,7 +6222,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6235,7 +6235,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6383,9 +6383,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.278,
             "HR": 9,
-            "OPS": 0.806,
+            "OPS": 0.802,
             "R": 61,
             "RBI": 35,
             "SB": 11,
@@ -6684,7 +6684,7 @@
         },
         {
           "name": "Jeff Hoffman",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6711,9 +6711,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.272,
+            "AVG": 0.271,
             "HR": 22,
-            "OPS": 0.871,
+            "OPS": 0.869,
             "R": 54,
             "RBI": 66,
             "SB": 0,
@@ -6968,5 +6968,5 @@
       ]
     }
   ],
-  "updated": "2026-07-25T18:01:43Z"
+  "updated": "2026-07-25T20:10:33Z"
 }
