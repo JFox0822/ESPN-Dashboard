@@ -2299,7 +2299,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2341,7 +2341,7 @@
         },
         {
           "name": "Joe Ryan",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2446,7 +2446,7 @@
         },
         {
           "name": "Hunter Greene",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2691,7 +2691,7 @@
         },
         {
           "name": "Ronel Blanco",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2721,19 +2721,6 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 20,
-          "keeperEligible": true
-        },
-        {
-          "name": "Heliot Ramos",
-          "slot": "OF",
-          "position": "LF",
-          "eligible": "LF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 13,
           "keeperEligible": true
         },
         {
@@ -2790,10 +2777,23 @@
         },
         {
           "name": "Christian Encarnacion-Strand",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jameson Taillon",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6939,5 +6939,5 @@
       ]
     }
   ],
-  "updated": "2026-07-26T10:02:36Z"
+  "updated": "2026-07-26T12:03:14Z"
 }
