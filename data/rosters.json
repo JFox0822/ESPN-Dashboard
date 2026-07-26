@@ -1445,27 +1445,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Gregory Soto",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 42.2,
-            "H": 27,
-            "WHIP": 1.055,
-            "ERA": 3.797,
-            "K": 47,
-            "SVHD": 7,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Henry Bolte",
           "slot": "OF",
           "position": "RF",
@@ -1506,7 +1485,7 @@
         },
         {
           "name": "Shane Drohan",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1685,12 +1664,25 @@
           "keeperEligible": false
         },
         {
-          "name": "Patrick Sandoval",
-          "slot": "BE",
+          "name": "Carson Whisenhunt",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Connor Prielipp",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -6932,7 +6924,7 @@
           "keeperEligible": false
         },
         {
-          "name": "JP Sears",
+          "name": "Erick Fedde",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
@@ -6947,5 +6939,5 @@
       ]
     }
   ],
-  "updated": "2026-07-26T07:35:17Z"
+  "updated": "2026-07-26T10:02:36Z"
 }
