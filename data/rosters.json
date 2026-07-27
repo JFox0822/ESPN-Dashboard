@@ -1154,13 +1154,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.205,
+            "AVG": 0.202,
             "HR": 7,
-            "OPS": 0.637,
+            "OPS": 0.63,
             "R": 22,
             "RBI": 21,
             "SB": 3,
-            "Kbat": 63
+            "Kbat": 64
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -1256,13 +1256,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.272,
+            "AVG": 0.271,
             "HR": 10,
-            "OPS": 0.773,
+            "OPS": 0.771,
             "R": 44,
             "RBI": 39,
             "SB": 4,
-            "Kbat": 91
+            "Kbat": 92
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1794,9 +1794,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.253,
+            "AVG": 0.255,
             "HR": 15,
-            "OPS": 0.729,
+            "OPS": 0.732,
             "R": 49,
             "RBI": 45,
             "SB": 12,
@@ -1983,13 +1983,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.239,
+            "AVG": 0.238,
             "HR": 19,
-            "OPS": 0.732,
+            "OPS": 0.73,
             "R": 45,
             "RBI": 66,
             "SB": 2,
-            "Kbat": 109
+            "Kbat": 110
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2893,9 +2893,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.286,
+            "AVG": 0.284,
             "HR": 12,
-            "OPS": 0.85,
+            "OPS": 0.846,
             "R": 34,
             "RBI": 29,
             "SB": 7,
@@ -2912,7 +2912,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.208,
             "HR": 13,
@@ -3175,7 +3175,7 @@
           "stats": {
             "AVG": 0.256,
             "HR": 13,
-            "OPS": 0.715,
+            "OPS": 0.717,
             "R": 50,
             "RBI": 48,
             "SB": 3,
@@ -3481,7 +3481,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3592,9 +3592,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.285,
+            "AVG": 0.284,
             "HR": 13,
-            "OPS": 0.835,
+            "OPS": 0.833,
             "R": 66,
             "RBI": 47,
             "SB": 19,
@@ -3733,7 +3733,7 @@
         },
         {
           "name": "Jasson Dominguez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -5365,10 +5365,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.256,
+            "AVG": 0.258,
             "HR": 8,
-            "OPS": 0.671,
-            "R": 40,
+            "OPS": 0.677,
+            "R": 41,
             "RBI": 37,
             "SB": 21,
             "Kbat": 53
@@ -6012,7 +6012,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6180,7 +6180,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6214,7 +6214,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6337,7 +6337,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6981,5 +6981,5 @@
       ]
     }
   ],
-  "updated": "2026-07-27T20:23:00Z"
+  "updated": "2026-07-27T22:08:29Z"
 }
