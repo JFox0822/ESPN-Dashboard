@@ -1899,11 +1899,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 48.0,
+            "IP": 49.0,
             "H": 40,
-            "WHIP": 1.062,
-            "ERA": 2.625,
-            "K": 67,
+            "WHIP": 1.061,
+            "ERA": 2.571,
+            "K": 68,
             "SVHD": 0,
             "QS": 0
           },
@@ -2320,7 +2320,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2713,13 +2713,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.249,
+            "AVG": 0.247,
             "HR": 1,
-            "OPS": 0.66,
+            "OPS": 0.656,
             "R": 42,
             "RBI": 18,
             "SB": 8,
-            "Kbat": 39
+            "Kbat": 40
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -2754,7 +2754,7 @@
         },
         {
           "name": "Heriberto Hernandez",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2893,13 +2893,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.282,
+            "AVG": 0.28,
             "HR": 18,
-            "OPS": 0.864,
+            "OPS": 0.859,
             "R": 59,
             "RBI": 47,
             "SB": 18,
-            "Kbat": 103
+            "Kbat": 105
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2977,10 +2977,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.281,
+            "AVG": 0.283,
             "HR": 11,
-            "OPS": 0.794,
-            "R": 36,
+            "OPS": 0.797,
+            "R": 37,
             "RBI": 51,
             "SB": 5,
             "Kbat": 52
@@ -3392,7 +3392,7 @@
         },
         {
           "name": "Hao-Yu Lee",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3405,7 +3405,7 @@
         },
         {
           "name": "Kyle Karros",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5051,12 +5051,12 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 33.2,
-            "H": 33,
-            "WHIP": 1.337,
-            "ERA": 2.941,
-            "K": 32,
-            "SVHD": 20,
+            "IP": 34.2,
+            "H": 35,
+            "WHIP": 1.356,
+            "ERA": 2.856,
+            "K": 33,
+            "SVHD": 21,
             "QS": 0
           },
           "tier": "",
@@ -6384,7 +6384,7 @@
           "stats": {
             "AVG": 0.204,
             "HR": 14,
-            "OPS": 0.675,
+            "OPS": 0.673,
             "R": 27,
             "RBI": 39,
             "SB": 0,
@@ -6459,9 +6459,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.24,
+            "AVG": 0.239,
             "HR": 10,
-            "OPS": 0.746,
+            "OPS": 0.741,
             "R": 45,
             "RBI": 35,
             "SB": 26,
@@ -6848,7 +6848,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.252,
             "HR": 33,
@@ -6979,7 +6979,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -7002,5 +7002,5 @@
       ]
     }
   ],
-  "updated": "2026-07-28T19:24:56Z"
+  "updated": "2026-07-28T21:08:21Z"
 }
