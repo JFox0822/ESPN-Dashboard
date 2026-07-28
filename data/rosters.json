@@ -1093,7 +1093,7 @@
         },
         {
           "name": "Shane Bieber",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1203,7 +1203,7 @@
         },
         {
           "name": "Kohl Drake",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2928,27 +2928,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Kerry Carpenter",
-          "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {
-            "AVG": 0.208,
-            "HR": 13,
-            "OPS": 0.692,
-            "R": 27,
-            "RBI": 36,
-            "SB": 0,
-            "Kbat": 75
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 9,
-          "keeperEligible": false
-        },
-        {
           "name": "Vinnie Pasquantino",
           "slot": "UTIL",
           "position": "1B",
@@ -3412,8 +3391,21 @@
           "keeperEligible": false
         },
         {
-          "name": "Anthony Seigler",
+          "name": "Hao-Yu Lee",
           "slot": "3B",
+          "position": "3B",
+          "eligible": "3B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kyle Karros",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -4812,7 +4804,7 @@
         },
         {
           "name": "Tyler Soderstrom",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -4833,7 +4825,7 @@
         },
         {
           "name": "Teoscar Hernandez",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5040,7 +5032,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "BE",
+          "slot": "OF",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5121,7 +5113,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "BE",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5155,7 +5147,7 @@
         },
         {
           "name": "A.J. Ewing",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5168,7 +5160,7 @@
         },
         {
           "name": "Jacob Gonzalez",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5317,7 +5309,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5380,7 +5372,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5401,7 +5393,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5527,7 +5519,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -7010,5 +7002,5 @@
       ]
     }
   ],
-  "updated": "2026-07-28T12:54:06Z"
+  "updated": "2026-07-28T15:21:33Z"
 }
