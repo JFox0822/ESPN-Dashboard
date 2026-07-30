@@ -2264,19 +2264,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Tyler Stephenson",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Esteury Ruiz",
           "slot": "OF",
           "position": "LF",
@@ -2292,6 +2279,19 @@
             "SB": 25,
             "Kbat": 43
           },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Jonah Heim",
+          "slot": "C",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -3192,19 +3192,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Michael Petersen",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Josue De Paula",
           "slot": "BE",
           "position": "LF",
@@ -3378,6 +3365,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "MacKenzie Gore",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 122.2,
+            "H": 110,
+            "WHIP": 1.255,
+            "ERA": 4.769,
+            "K": 136,
+            "SVHD": 0,
+            "QS": 7
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 15,
+          "keeperEligible": true
         }
       ]
     },
@@ -4704,7 +4712,7 @@
         },
         {
           "name": "Bryan Woo",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5799,7 +5807,7 @@
       "players": [
         {
           "name": "Rafael Devers",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5988,7 +5996,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6292,7 +6300,7 @@
         },
         {
           "name": "Pete Alonso",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6313,7 +6321,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6339,7 +6347,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6870,7 +6878,7 @@
         },
         {
           "name": "Ian Seymour",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6896,7 +6904,7 @@
         },
         {
           "name": "George Springer",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6951,7 +6959,7 @@
         },
         {
           "name": "Brent Headrick",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6978,5 +6986,5 @@
       ]
     }
   ],
-  "updated": "2026-07-30T11:52:06Z"
+  "updated": "2026-07-30T14:03:18Z"
 }
