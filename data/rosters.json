@@ -442,7 +442,7 @@
         },
         {
           "name": "Nick Gonzales",
-          "slot": "UTIL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -455,7 +455,7 @@
         },
         {
           "name": "Sam Antonacci",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -612,7 +612,7 @@
         },
         {
           "name": "Tommy White",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -1256,9 +1256,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.268,
+            "AVG": 0.267,
             "HR": 10,
-            "OPS": 0.764,
+            "OPS": 0.762,
             "R": 44,
             "RBI": 39,
             "SB": 4,
@@ -1292,7 +1292,7 @@
         },
         {
           "name": "Max Clark",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1537,7 +1537,7 @@
         },
         {
           "name": "Joc Pederson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -1636,7 +1636,7 @@
         },
         {
           "name": "Willi Castro",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1662,7 +1662,7 @@
         },
         {
           "name": "Jackson Holliday",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1977,11 +1977,11 @@
           "stats": {
             "AVG": 0.238,
             "HR": 19,
-            "OPS": 0.728,
+            "OPS": 0.727,
             "R": 45,
             "RBI": 66,
             "SB": 2,
-            "Kbat": 111
+            "Kbat": 112
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2484,7 +2484,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 42.2,
             "H": 34,
@@ -2686,7 +2686,7 @@
           "stats": {
             "AVG": 0.284,
             "HR": 14,
-            "OPS": 0.816,
+            "OPS": 0.815,
             "R": 51,
             "RBI": 65,
             "SB": 0,
@@ -2893,9 +2893,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.276,
             "HR": 12,
-            "OPS": 0.826,
+            "OPS": 0.823,
             "R": 34,
             "RBI": 29,
             "SB": 7,
@@ -4676,9 +4676,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.283,
+            "AVG": 0.282,
             "HR": 29,
-            "OPS": 0.916,
+            "OPS": 0.914,
             "R": 65,
             "RBI": 65,
             "SB": 2,
@@ -5370,9 +5370,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.301,
+            "AVG": 0.302,
             "HR": 15,
-            "OPS": 0.841,
+            "OPS": 0.844,
             "R": 59,
             "RBI": 62,
             "SB": 2,
@@ -5553,7 +5553,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5773,7 +5773,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6128,11 +6128,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 96.0,
+            "IP": 97.0,
             "H": 76,
-            "WHIP": 1.135,
-            "ERA": 3.094,
-            "K": 88,
+            "WHIP": 1.134,
+            "ERA": 3.062,
+            "K": 89,
             "SVHD": 0,
             "QS": 4
           },
@@ -6986,5 +6986,5 @@
       ]
     }
   ],
-  "updated": "2026-07-30T14:03:18Z"
+  "updated": "2026-07-30T16:26:37Z"
 }
