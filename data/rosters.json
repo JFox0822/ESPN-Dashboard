@@ -4239,7 +4239,7 @@
         },
         {
           "name": "Chris Sale",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4637,19 +4637,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Luinder Avila",
-          "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Merrill Kelly",
           "slot": "SP",
           "position": "SP",
@@ -4669,6 +4656,19 @@
           "acquisitionType": "ADD",
           "draftRound": 21,
           "keeperEligible": true
+        },
+        {
+          "name": "Colin Rea",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -7007,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-08-02T09:57:22Z"
+  "updated": "2026-08-02T11:20:57Z"
 }
