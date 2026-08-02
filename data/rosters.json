@@ -2800,27 +2800,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Francisco Alvarez",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.254,
-            "HR": 12,
-            "OPS": 0.776,
-            "R": 25,
-            "RBI": 27,
-            "SB": 0,
-            "Kbat": 72
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 13,
-          "keeperEligible": true
-        },
-        {
           "name": "Ty France",
           "slot": "1B",
           "position": "1B",
@@ -2866,6 +2845,19 @@
           "acquisitionType": "ADD",
           "draftRound": 20,
           "keeperEligible": true
+        },
+        {
+          "name": "Ryan Jeffers",
+          "slot": "C",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -7015,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-08-02T07:31:23Z"
+  "updated": "2026-08-02T09:57:22Z"
 }
