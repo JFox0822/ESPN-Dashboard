@@ -3792,7 +3792,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.28,
             "HR": 10,
@@ -5569,7 +5569,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5729,7 +5729,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6386,6 +6386,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Luis Castillo",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 99.2,
+            "H": 107,
+            "WHIP": 1.395,
+            "ERA": 5.057,
+            "K": 86,
+            "SVHD": 1,
+            "QS": 4
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 13,
+          "keeperEligible": true
         }
       ]
     },
@@ -6403,7 +6424,7 @@
       "players": [
         {
           "name": "Ronald Acuna Jr.",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6592,7 +6613,7 @@
         },
         {
           "name": "Willson Contreras",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6967,7 +6988,7 @@
         },
         {
           "name": "Esmerlyn Valdez",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6992,12 +7013,12 @@
           "keeperEligible": false
         },
         {
-          "name": "Christian Scott",
+          "name": "River Ryan",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -7007,5 +7028,5 @@
       ]
     }
   ],
-  "updated": "2026-08-02T13:22:16Z"
+  "updated": "2026-08-02T15:02:25Z"
 }
