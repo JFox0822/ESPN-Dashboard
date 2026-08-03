@@ -1796,7 +1796,7 @@
         },
         {
           "name": "Julio Rodriguez",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1859,7 +1859,7 @@
         },
         {
           "name": "JJ Wetherholt",
-          "slot": "BE",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2048,7 +2048,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2108,7 +2108,7 @@
         },
         {
           "name": "Gleyber Torres",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2150,7 +2150,7 @@
         },
         {
           "name": "Ian Happ",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2226,7 +2226,7 @@
         },
         {
           "name": "Kyle Stowers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2247,7 +2247,7 @@
         },
         {
           "name": "Dansby Swanson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5056,7 +5056,7 @@
         },
         {
           "name": "Hunter Gaddis",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5175,19 +5175,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Justin Slaten",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Cooper Pratt",
           "slot": "SS",
           "position": "SS",
@@ -5211,6 +5198,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 11,
+          "keeperEligible": false
+        },
+        {
+          "name": "Braxton Garrett",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -7036,5 +7036,5 @@
       ]
     }
   ],
-  "updated": "2026-08-03T19:37:57Z"
+  "updated": "2026-08-03T21:03:24Z"
 }
