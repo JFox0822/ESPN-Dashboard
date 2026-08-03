@@ -1,7 +1,7 @@
 {
   "leagueName": "The League",
   "season": 2026,
-  "currentWeek": 17,
+  "currentWeek": 18,
   "teamCount": 12,
   "teams": [
     {
@@ -15,14 +15,19 @@
       "abbrev": "SPNY"
     },
     {
+      "id": 5,
+      "name": "Cooperstown Udder Tuggers",
+      "abbrev": "AARN"
+    },
+    {
       "id": 12,
       "name": "Brevard County Manatees",
       "abbrev": "TC"
     },
     {
-      "id": 5,
-      "name": "Cooperstown Udder Tuggers",
-      "abbrev": "AARN"
+      "id": 10,
+      "name": "Amsterdam Mohawks",
+      "abbrev": "TIM"
     },
     {
       "id": 8,
@@ -35,16 +40,6 @@
       "abbrev": "LEO"
     },
     {
-      "id": 10,
-      "name": "Amsterdam Mohawks",
-      "abbrev": "TIM"
-    },
-    {
-      "id": 4,
-      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
-      "abbrev": "CHRS"
-    },
-    {
       "id": 9,
       "name": "Las Vegas Degenerate",
       "abbrev": "GREN"
@@ -53,6 +48,11 @@
       "id": 2,
       "name": "Gettysburg Generals",
       "abbrev": "MION"
+    },
+    {
+      "id": 4,
+      "name": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+      "abbrev": "CHRS"
     },
     {
       "id": 6,
@@ -65,5 +65,5 @@
       "abbrev": "BERT"
     }
   ],
-  "updated": "2026-08-03T04:30:36Z"
+  "updated": "2026-08-03T08:29:33Z"
 }
