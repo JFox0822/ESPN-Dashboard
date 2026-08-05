@@ -1376,7 +1376,7 @@
         },
         {
           "name": "Brayan Rocchio",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1553,7 +1553,7 @@
         },
         {
           "name": "Joc Pederson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2133,7 +2133,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 93.2,
             "H": 61,
@@ -2188,7 +2188,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.259,
             "HR": 6,
@@ -2433,7 +2433,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "BE",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2791,7 +2791,7 @@
         },
         {
           "name": "Ty France",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3344,7 +3344,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "PATERNITY",
           "stats": {
             "IP": 128.2,
             "H": 113,
@@ -5197,7 +5197,7 @@
         },
         {
           "name": "Dylan Crews",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5404,7 +5404,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "1B",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5753,11 +5753,11 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "BE",
+          "slot": "1B",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -6527,7 +6527,7 @@
         },
         {
           "name": "Hunter Goodman",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6792,7 +6792,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7007,7 +7007,7 @@
         },
         {
           "name": "Esmerlyn Valdez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7076,5 +7076,5 @@
       ]
     }
   ],
-  "updated": "2026-08-05T15:13:29Z"
+  "updated": "2026-08-05T17:37:57Z"
 }
