@@ -468,7 +468,7 @@
         },
         {
           "name": "Gabriel Moreno",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -593,19 +593,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Tommy White",
-          "slot": "BE",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Ryan Zeferjahn",
           "slot": "RP",
           "position": "RP",
@@ -625,6 +612,19 @@
           "eligible": "CF",
           "isPitcher": false,
           "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Angel Genao",
+          "slot": "UTIL",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "NORMAL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2517,7 +2517,7 @@
         },
         {
           "name": "Justin Wrobleski",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2769,19 +2769,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Christian Encarnacion-Strand",
-          "slot": "UTIL",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jordan Lawlar",
           "slot": "IL",
           "position": "3B",
@@ -2864,7 +2851,7 @@
         },
         {
           "name": "Andrew Painter",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2882,6 +2869,27 @@
           "acquisitionType": "ADD",
           "draftRound": 25,
           "keeperEligible": true
+        },
+        {
+          "name": "Justin Crawford",
+          "slot": "UTIL",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.264,
+            "HR": 2,
+            "OPS": 0.655,
+            "R": 34,
+            "RBI": 27,
+            "SB": 15,
+            "Kbat": 64
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 11,
+          "keeperEligible": false
         }
       ]
     },
@@ -7008,19 +7016,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Brandyn Garcia",
-          "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Jeff Hoffman",
           "slot": "RP",
           "position": "RP",
@@ -7040,9 +7035,30 @@
           "acquisitionType": "ADD",
           "draftRound": 15,
           "keeperEligible": true
+        },
+        {
+          "name": "Grayson Rodriguez",
+          "slot": "BE",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 51.0,
+            "H": 59,
+            "WHIP": 1.588,
+            "ERA": 7.235,
+            "K": 42,
+            "SVHD": 0,
+            "QS": 1
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 26,
+          "keeperEligible": true
         }
       ]
     }
   ],
-  "updated": "2026-08-05T10:35:16Z"
+  "updated": "2026-08-05T12:52:53Z"
 }
