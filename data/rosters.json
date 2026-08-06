@@ -2108,7 +2108,7 @@
         },
         {
           "name": "Trey Yesavage",
-          "slot": "BE",
+          "slot": "IL",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2147,19 +2147,6 @@
           "acquisitionType": "TRADE",
           "draftRound": 12,
           "keeperEligible": false
-        },
-        {
-          "name": "Spencer Steer",
-          "slot": "IL",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 20,
-          "keeperEligible": true
         },
         {
           "name": "Vladimir Guerrero Jr.",
@@ -2304,6 +2291,19 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Leo De Vries",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 27,
+          "keeperEligible": true
         }
       ]
     },
@@ -2952,27 +2952,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Nick Lodolo",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {
-            "IP": 62.2,
-            "H": 65,
-            "WHIP": 1.468,
-            "ERA": 4.596,
-            "K": 50,
-            "SVHD": 0,
-            "QS": 3
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 15,
-          "keeperEligible": true
-        },
-        {
           "name": "Chase DeLauter",
           "slot": "UTIL",
           "position": "RF",
@@ -3345,7 +3324,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3431,6 +3410,19 @@
           "acquisitionType": "ADD",
           "draftRound": 24,
           "keeperEligible": true
+        },
+        {
+          "name": "Martin Perez",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -5346,7 +5338,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5388,7 +5380,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "BE",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5409,7 +5401,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "1B",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5535,7 +5527,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5556,7 +5548,7 @@
         },
         {
           "name": "Brendan Donovan",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5661,7 +5653,7 @@
         },
         {
           "name": "Jordan Walker",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5758,7 +5750,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5784,7 +5776,7 @@
         },
         {
           "name": "Luke Keaschall",
-          "slot": "BE",
+          "slot": "OF",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5818,7 +5810,7 @@
         },
         {
           "name": "Matthew Liberatore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6515,7 +6507,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.233,
             "HR": 10,
@@ -6532,7 +6524,7 @@
         },
         {
           "name": "Hunter Goodman",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6797,7 +6789,7 @@
         },
         {
           "name": "Dillon Dingler",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -7012,7 +7004,7 @@
         },
         {
           "name": "Esmerlyn Valdez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -7089,5 +7081,5 @@
       ]
     }
   ],
-  "updated": "2026-08-06T12:56:54Z"
+  "updated": "2026-08-06T15:18:15Z"
 }
