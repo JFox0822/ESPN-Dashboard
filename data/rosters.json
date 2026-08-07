@@ -730,7 +730,7 @@
         },
         {
           "name": "Jose Altuve",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1143,7 +1143,7 @@
         },
         {
           "name": "Colt Emerson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2320,7 +2320,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2543,7 +2543,7 @@
         },
         {
           "name": "Miguel Vargas",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2564,7 +2564,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2694,7 +2694,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2715,7 +2715,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2783,7 +2783,7 @@
         },
         {
           "name": "Luis Rengifo",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2795,29 +2795,8 @@
           "keeperEligible": true
         },
         {
-          "name": "Luke Weaver",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 44.0,
-            "H": 25,
-            "WHIP": 0.818,
-            "ERA": 1.841,
-            "K": 45,
-            "SVHD": 15,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 20,
-          "keeperEligible": true
-        },
-        {
           "name": "Ryan Jeffers",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2851,7 +2830,7 @@
         },
         {
           "name": "Justin Crawford",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2872,7 +2851,7 @@
         },
         {
           "name": "David Peterson",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2889,6 +2868,19 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Tyler Wells",
+          "slot": "RP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -7068,5 +7060,5 @@
       ]
     }
   ],
-  "updated": "2026-08-07T10:06:48Z"
+  "updated": "2026-08-07T11:45:37Z"
 }
