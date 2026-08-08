@@ -135,7 +135,7 @@
           "stats": {
             "AVG": 0.273,
             "HR": 20,
-            "OPS": 0.821,
+            "OPS": 0.819,
             "R": 62,
             "RBI": 59,
             "SB": 2,
@@ -688,7 +688,7 @@
         },
         {
           "name": "Jarren Duran",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -898,7 +898,7 @@
         },
         {
           "name": "Brandon Lowe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -1936,11 +1936,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 73.2,
-            "H": 64,
-            "WHIP": 1.1,
-            "ERA": 3.421,
-            "K": 78,
+            "IP": 75.2,
+            "H": 65,
+            "WHIP": 1.084,
+            "ERA": 3.33,
+            "K": 81,
             "SVHD": 0,
             "QS": 7
           },
@@ -3529,9 +3529,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.259,
+            "AVG": 0.261,
             "HR": 19,
-            "OPS": 0.744,
+            "OPS": 0.749,
             "R": 71,
             "RBI": 63,
             "SB": 2,
@@ -4169,9 +4169,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.26,
+            "AVG": 0.259,
             "HR": 31,
-            "OPS": 0.9,
+            "OPS": 0.898,
             "R": 71,
             "RBI": 74,
             "SB": 2,
@@ -4253,10 +4253,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 117.0,
-            "H": 93,
+            "IP": 118.0,
+            "H": 94,
             "WHIP": 1.017,
-            "ERA": 2.077,
+            "ERA": 2.059,
             "K": 143,
             "SVHD": 0,
             "QS": 13
@@ -4484,13 +4484,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.267,
+            "AVG": 0.266,
             "HR": 10,
-            "OPS": 0.717,
+            "OPS": 0.715,
             "R": 53,
             "RBI": 58,
             "SB": 6,
-            "Kbat": 59
+            "Kbat": 60
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -5323,9 +5323,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.292,
+            "AVG": 0.291,
             "HR": 20,
-            "OPS": 0.818,
+            "OPS": 0.816,
             "R": 58,
             "RBI": 66,
             "SB": 6,
@@ -6425,9 +6425,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.247,
+            "AVG": 0.246,
             "HR": 11,
-            "OPS": 0.794,
+            "OPS": 0.791,
             "R": 39,
             "RBI": 27,
             "SB": 15,
@@ -6816,13 +6816,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.268,
             "HR": 33,
-            "OPS": 0.9,
+            "OPS": 0.898,
             "R": 82,
             "RBI": 71,
             "SB": 2,
-            "Kbat": 124
+            "Kbat": 125
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -7031,5 +7031,5 @@
       ]
     }
   ],
-  "updated": "2026-08-08T18:37:28Z"
+  "updated": "2026-08-08T19:30:02Z"
 }
