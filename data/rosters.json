@@ -177,7 +177,7 @@
           "stats": {
             "AVG": 0.244,
             "HR": 15,
-            "OPS": 0.715,
+            "OPS": 0.713,
             "R": 60,
             "RBI": 60,
             "SB": 11,
@@ -1514,7 +1514,7 @@
         },
         {
           "name": "Victor Caratini",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -1540,7 +1540,7 @@
         },
         {
           "name": "Joc Pederson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2896,13 +2896,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.274,
+            "AVG": 0.273,
             "HR": 20,
-            "OPS": 0.86,
+            "OPS": 0.858,
             "R": 66,
             "RBI": 54,
             "SB": 21,
-            "Kbat": 116
+            "Kbat": 117
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -2953,7 +2953,7 @@
         },
         {
           "name": "Mickey Moniak",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3162,7 +3162,7 @@
         },
         {
           "name": "Matthew Boyd",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3264,7 +3264,7 @@
         },
         {
           "name": "Luis Lara",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4826,13 +4826,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.255,
+            "AVG": 0.254,
             "HR": 25,
-            "OPS": 0.81,
+            "OPS": 0.808,
             "R": 64,
             "RBI": 86,
             "SB": 12,
-            "Kbat": 110
+            "Kbat": 111
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5130,7 +5130,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -5871,9 +5871,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.288,
+            "AVG": 0.287,
             "HR": 28,
-            "OPS": 0.909,
+            "OPS": 0.907,
             "R": 73,
             "RBI": 89,
             "SB": 21,
@@ -6646,7 +6646,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.27,
             "HR": 13,
@@ -7010,5 +7010,5 @@
       ]
     }
   ],
-  "updated": "2026-08-09T15:31:36Z"
+  "updated": "2026-08-09T16:35:42Z"
 }
