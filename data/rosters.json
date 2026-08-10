@@ -1471,7 +1471,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -3926,7 +3926,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 82.0,
             "H": 72,
@@ -6188,7 +6188,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6344,27 +6344,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Eugenio Suarez",
-          "slot": "BE",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.203,
-            "HR": 16,
-            "OPS": 0.686,
-            "R": 29,
-            "RBI": 43,
-            "SB": 0,
-            "Kbat": 125
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 11,
-          "keeperEligible": false
-        },
-        {
           "name": "Walker Buehler",
           "slot": "SP",
           "position": "SP",
@@ -6397,6 +6376,19 @@
           "acquisitionType": "ADD",
           "draftRound": 13,
           "keeperEligible": true
+        },
+        {
+          "name": "Nathan Lukes",
+          "slot": "OF",
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -7026,5 +7018,5 @@
       ]
     }
   ],
-  "updated": "2026-08-10T20:46:05Z"
+  "updated": "2026-08-10T21:41:22Z"
 }
