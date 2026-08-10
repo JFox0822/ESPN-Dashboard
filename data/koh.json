@@ -161,7 +161,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "history": [
     {
@@ -1270,6 +1271,54 @@
         "Santa Clara Sea-Creatures": false,
         "Brevard County Manatees": true
       }
+    },
+    {
+      "week": 18,
+      "round": 2,
+      "allScores": {
+        "9": 8,
+        "3": 5,
+        "12": 13,
+        "11": 1,
+        "7": 6,
+        "2": 6,
+        "1": 10,
+        "10": 3,
+        "6": 13,
+        "4": 1,
+        "5": 4,
+        "8": 10
+      },
+      "losers": [
+        {
+          "team": "Buffalo Bison",
+          "catWins": 5
+        },
+        {
+          "team": "Santa Clara Sea-Creatures",
+          "catWins": 1
+        },
+        {
+          "team": "Amsterdam Mohawks",
+          "catWins": 3
+        },
+        {
+          "team": "\ud83c\udfc6 Virginia Beach VelociRaptors",
+          "catWins": 1
+        },
+        {
+          "team": "Cooperstown Udder Tuggers",
+          "catWins": 4
+        }
+      ],
+      "eliminated": [],
+      "allActive": {
+        "Gettysburg Generals": true,
+        "San Juan Coquis": true,
+        "Portland Pickles": true,
+        "Las Vegas Degenerate": true,
+        "Brevard County Manatees": true
+      }
     }
   ],
   "teamNames": {
@@ -1286,5 +1335,5 @@
     "11": "Santa Clara Sea-Creatures",
     "12": "Brevard County Manatees"
   },
-  "updated": "2026-08-10T05:35:37Z"
+  "updated": "2026-08-10T07:42:10Z"
 }
