@@ -1532,7 +1532,7 @@
         },
         {
           "name": "Joc Pederson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -1631,7 +1631,7 @@
         },
         {
           "name": "Eduardo Valencia",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -3076,7 +3076,7 @@
         },
         {
           "name": "Dominic Canzone",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3272,7 +3272,7 @@
         },
         {
           "name": "Luis Lara",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3825,7 +3825,7 @@
         },
         {
           "name": "Taj Bradley",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3846,7 +3846,7 @@
         },
         {
           "name": "Bubba Chandler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3922,7 +3922,7 @@
         },
         {
           "name": "Michael Soroka",
-          "slot": "IL",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4036,19 +4036,6 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
-          "name": "Brady Singer",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 21,
           "keeperEligible": true
         }
       ]
@@ -7039,5 +7026,5 @@
       ]
     }
   ],
-  "updated": "2026-08-10T16:04:48Z"
+  "updated": "2026-08-10T17:51:32Z"
 }
