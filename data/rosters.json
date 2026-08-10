@@ -4330,7 +4330,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "FIFTEEN_DAY_DL",
           "stats": {
             "IP": 38.2,
             "H": 43,
@@ -6919,7 +6919,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.234,
             "HR": 12,
@@ -7026,5 +7026,5 @@
       ]
     }
   ],
-  "updated": "2026-08-10T18:57:35Z"
+  "updated": "2026-08-10T19:56:20Z"
 }
