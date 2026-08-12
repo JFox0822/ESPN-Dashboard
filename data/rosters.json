@@ -110,7 +110,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.244,
             "HR": 9,
@@ -701,7 +701,7 @@
         },
         {
           "name": "Christian Walker",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -875,10 +875,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 136.1,
-            "H": 134,
-            "WHIP": 1.32,
-            "ERA": 3.763,
+            "IP": 136.2,
+            "H": 135,
+            "WHIP": 1.324,
+            "ERA": 3.754,
             "K": 120,
             "SVHD": 0,
             "QS": 10
@@ -1135,7 +1135,7 @@
         },
         {
           "name": "Colt Emerson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -1650,11 +1650,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.246,
+            "AVG": 0.245,
             "HR": 6,
-            "OPS": 0.737,
+            "OPS": 0.733,
             "R": 28,
-            "RBI": 21,
+            "RBI": 22,
             "SB": 6,
             "Kbat": 55
           },
@@ -3289,7 +3289,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "SEVEN_DAY_DL",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -3372,9 +3372,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.242,
+            "AVG": 0.241,
             "HR": 13,
-            "OPS": 0.742,
+            "OPS": 0.74,
             "R": 43,
             "RBI": 42,
             "SB": 11,
@@ -4225,7 +4225,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.269,
             "HR": 16,
@@ -4747,8 +4747,8 @@
           "stats": {
             "AVG": 0.216,
             "HR": 19,
-            "OPS": 0.688,
-            "R": 70,
+            "OPS": 0.69,
+            "R": 71,
             "RBI": 49,
             "SB": 9,
             "Kbat": 123
@@ -5501,7 +5501,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5724,7 +5724,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6317,9 +6317,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.256,
+            "AVG": 0.258,
             "HR": 26,
-            "OPS": 0.829,
+            "OPS": 0.831,
             "R": 73,
             "RBI": 77,
             "SB": 5,
@@ -6847,7 +6847,7 @@
         },
         {
           "name": "Framber Valdez",
-          "slot": "SP",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6902,7 +6902,7 @@
         },
         {
           "name": "Sean Burke",
-          "slot": "P",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -7026,5 +7026,5 @@
       ]
     }
   ],
-  "updated": "2026-08-12T16:02:16Z"
+  "updated": "2026-08-12T17:56:43Z"
 }
