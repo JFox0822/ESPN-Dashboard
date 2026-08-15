@@ -154,11 +154,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.285,
+            "AVG": 0.284,
             "HR": 19,
-            "OPS": 0.83,
-            "R": 65,
-            "RBI": 84,
+            "OPS": 0.828,
+            "R": 66,
+            "RBI": 85,
             "SB": 3,
             "Kbat": 84
           },
@@ -461,13 +461,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.278,
             "HR": 8,
-            "OPS": 0.781,
+            "OPS": 0.776,
             "R": 63,
             "RBI": 35,
             "SB": 15,
-            "Kbat": 63
+            "Kbat": 64
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -791,13 +791,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.232,
+            "AVG": 0.231,
             "HR": 20,
-            "OPS": 0.747,
+            "OPS": 0.744,
             "R": 53,
             "RBI": 63,
             "SB": 0,
-            "Kbat": 146
+            "Kbat": 147
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1846,8 +1846,8 @@
           "stats": {
             "AVG": 0.243,
             "HR": 16,
-            "OPS": 0.725,
-            "R": 77,
+            "OPS": 0.726,
+            "R": 78,
             "RBI": 45,
             "SB": 13,
             "Kbat": 83
@@ -2072,9 +2072,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.26,
+            "AVG": 0.262,
             "HR": 8,
-            "OPS": 0.766,
+            "OPS": 0.768,
             "R": 40,
             "RBI": 32,
             "SB": 0,
@@ -2299,7 +2299,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2383,7 +2383,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -2530,7 +2530,7 @@
           "stats": {
             "AVG": 0.238,
             "HR": 27,
-            "OPS": 0.828,
+            "OPS": 0.826,
             "R": 82,
             "RBI": 71,
             "SB": 12,
@@ -3168,10 +3168,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 79.2,
-            "H": 74,
-            "WHIP": 1.218,
-            "ERA": 3.502,
+            "IP": 80.1,
+            "H": 75,
+            "WHIP": 1.232,
+            "ERA": 3.809,
             "K": 66,
             "SVHD": 0,
             "QS": 6
@@ -4387,13 +4387,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.209,
+            "AVG": 0.211,
             "HR": 26,
-            "OPS": 0.719,
+            "OPS": 0.723,
             "R": 56,
-            "RBI": 68,
+            "RBI": 70,
             "SB": 1,
-            "Kbat": 160
+            "Kbat": 161
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5372,7 +5372,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "1B",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5611,7 +5611,7 @@
           "stats": {
             "AVG": 0.282,
             "HR": 23,
-            "OPS": 0.828,
+            "OPS": 0.826,
             "R": 72,
             "RBI": 84,
             "SB": 16,
@@ -5687,7 +5687,7 @@
           "stats": {
             "AVG": 0.249,
             "HR": 13,
-            "OPS": 0.748,
+            "OPS": 0.749,
             "R": 75,
             "RBI": 51,
             "SB": 7,
@@ -5700,7 +5700,7 @@
         },
         {
           "name": "Bryce Eldridge",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5947,9 +5947,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.235,
+            "AVG": 0.237,
             "HR": 27,
-            "OPS": 0.911,
+            "OPS": 0.915,
             "R": 63,
             "RBI": 55,
             "SB": 1,
@@ -6453,7 +6453,7 @@
           "stats": {
             "AVG": 0.285,
             "HR": 12,
-            "OPS": 0.814,
+            "OPS": 0.813,
             "R": 80,
             "RBI": 48,
             "SB": 12,
@@ -6737,13 +6737,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.261,
+            "AVG": 0.26,
             "HR": 26,
-            "OPS": 0.828,
+            "OPS": 0.824,
             "R": 65,
             "RBI": 81,
             "SB": 0,
-            "Kbat": 104
+            "Kbat": 106
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -7007,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-08-15T17:20:22Z"
+  "updated": "2026-08-15T18:29:45Z"
 }
