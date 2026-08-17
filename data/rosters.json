@@ -2291,7 +2291,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2766,27 +2766,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Andrew Painter",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 85.1,
-            "H": 98,
-            "WHIP": 1.547,
-            "ERA": 6.434,
-            "K": 71,
-            "SVHD": 0,
-            "QS": 3
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 25,
-          "keeperEligible": true
-        },
-        {
           "name": "Tyler Wells",
           "slot": "RP",
           "position": "SP",
@@ -2852,6 +2831,19 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Esmerlyn Valdez",
+          "slot": "UTIL",
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -3099,7 +3091,7 @@
         },
         {
           "name": "Andre Pallante",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3266,7 +3258,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6986,5 +6978,5 @@
       ]
     }
   ],
-  "updated": "2026-08-17T11:25:56Z"
+  "updated": "2026-08-17T12:44:03Z"
 }
