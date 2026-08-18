@@ -1250,7 +1250,7 @@
         },
         {
           "name": "Brandon Nimmo",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -1493,7 +1493,7 @@
         },
         {
           "name": "Joc Pederson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -1652,7 +1652,7 @@
         },
         {
           "name": "Kody Clemens",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1665,7 +1665,7 @@
         },
         {
           "name": "Victor Caratini",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -2813,19 +2813,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Esmerlyn Valdez",
-          "slot": "BE",
-          "position": "RF",
-          "eligible": "RF",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Kodai Senga",
           "slot": "RP",
           "position": "SP",
@@ -2845,6 +2832,27 @@
           "acquisitionType": "ADD",
           "draftRound": 21,
           "keeperEligible": true
+        },
+        {
+          "name": "Trevor Story",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "SIXTY_DAY_DL",
+          "stats": {
+            "AVG": 0.206,
+            "HR": 3,
+            "OPS": 0.547,
+            "R": 16,
+            "RBI": 19,
+            "SB": 4,
+            "Kbat": 57
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 11,
+          "keeperEligible": false
         }
       ]
     },
@@ -7002,5 +7010,5 @@
       ]
     }
   ],
-  "updated": "2026-08-18T17:27:02Z"
+  "updated": "2026-08-18T18:38:39Z"
 }
