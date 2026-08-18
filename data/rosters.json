@@ -2396,7 +2396,7 @@
         },
         {
           "name": "Michael Busch",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2472,7 +2472,7 @@
         },
         {
           "name": "Travis Bazzana",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2733,7 +2733,7 @@
         },
         {
           "name": "Luis Rengifo",
-          "slot": "BE",
+          "slot": "2B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2840,7 +2840,7 @@
         },
         {
           "name": "Esmerlyn Valdez",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6359,16 +6359,24 @@
           "keeperEligible": false
         },
         {
-          "name": "Rafael Flores Jr.",
+          "name": "Cal Raleigh",
           "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
+          "position": "C",
+          "eligible": "C",
           "isPitcher": false,
           "injStatus": "ACTIVE",
-          "stats": {},
+          "stats": {
+            "AVG": 0.158,
+            "HR": 13,
+            "OPS": 0.568,
+            "R": 27,
+            "RBI": 44,
+            "SB": 2,
+            "Kbat": 123
+          },
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
+          "draftRound": 5,
           "keeperEligible": false
         }
       ]
@@ -6978,5 +6986,5 @@
       ]
     }
   ],
-  "updated": "2026-08-18T10:28:03Z"
+  "updated": "2026-08-18T11:25:23Z"
 }
