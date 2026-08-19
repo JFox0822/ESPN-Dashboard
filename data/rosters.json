@@ -536,7 +536,7 @@
         },
         {
           "name": "Jacob Young",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -562,7 +562,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -4596,7 +4596,7 @@
         },
         {
           "name": "Jeff Hoffman",
-          "slot": "BE",
+          "slot": "RP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -4616,25 +4616,17 @@
           "keeperEligible": true
         },
         {
-          "name": "Brayan Bello",
-          "slot": "RP",
-          "position": "SP",
-          "eligible": "SP",
+          "name": "Aaron Ashby",
+          "slot": "BE",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 88.1,
-            "H": 96,
-            "WHIP": 1.404,
-            "ERA": 4.687,
-            "K": 67,
-            "SVHD": 0,
-            "QS": 1
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 22,
-          "keeperEligible": true
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -7015,5 +7007,5 @@
       ]
     }
   ],
-  "updated": "2026-08-19T12:47:44Z"
+  "updated": "2026-08-19T13:44:09Z"
 }
