@@ -5490,7 +5490,7 @@
         },
         {
           "name": "Jacob Wilson",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5532,7 +5532,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5773,7 +5773,7 @@
         },
         {
           "name": "Eugenio Suarez",
-          "slot": "3B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6416,7 +6416,7 @@
         },
         {
           "name": "Kevin McGonigle",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6500,7 +6500,7 @@
         },
         {
           "name": "Oneil Cruz",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6720,27 +6720,6 @@
           "acquisitionType": "TRADE",
           "draftRound": 0,
           "keeperEligible": false
-        },
-        {
-          "name": "Tanner Scott",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 51.1,
-            "H": 36,
-            "WHIP": 0.916,
-            "ERA": 2.279,
-            "K": 63,
-            "SVHD": 12,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 16,
-          "keeperEligible": true
         },
         {
           "name": "Parker Messick",
@@ -6974,9 +6953,35 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "David Hamilton",
+          "slot": "SS",
+          "position": "2B",
+          "eligible": "2B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Tyler Tolbert",
+          "slot": "UTIL",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-08-20T15:34:13Z"
+  "updated": "2026-08-20T16:34:59Z"
 }
