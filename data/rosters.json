@@ -1284,7 +1284,7 @@
         },
         {
           "name": "Max Clark",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -1446,7 +1446,7 @@
         },
         {
           "name": "Brandon Young",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1498,7 +1498,7 @@
         },
         {
           "name": "Joshua Baez",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -1545,7 +1545,7 @@
         },
         {
           "name": "Robert Gasser",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6680,27 +6680,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Kevin Gausman",
-          "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
-          "stats": {
-            "IP": 143.1,
-            "H": 147,
-            "WHIP": 1.305,
-            "ERA": 4.647,
-            "K": 143,
-            "SVHD": 0,
-            "QS": 12
-          },
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 15,
-          "keeperEligible": true
-        },
-        {
           "name": "Dillon Dingler",
           "slot": "BE",
           "position": "C",
@@ -6999,5 +6978,5 @@
       ]
     }
   ],
-  "updated": "2026-08-20T12:50:23Z"
+  "updated": "2026-08-20T13:46:37Z"
 }
