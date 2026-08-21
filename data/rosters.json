@@ -106,7 +106,7 @@
         },
         {
           "name": "Geraldo Perdomo",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -488,19 +488,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Nasim Nunez",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Manny Machado",
           "slot": "3B",
           "position": "3B",
@@ -614,6 +601,19 @@
           "acquisitionType": "ADD",
           "draftRound": 24,
           "keeperEligible": true
+        },
+        {
+          "name": "Joey Ortiz",
+          "slot": "SS",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -5516,7 +5516,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5778,7 +5778,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -6988,5 +6988,5 @@
       ]
     }
   ],
-  "updated": "2026-08-21T15:33:23Z"
+  "updated": "2026-08-21T16:34:30Z"
 }
