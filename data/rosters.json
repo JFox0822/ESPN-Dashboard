@@ -133,13 +133,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.272,
+            "AVG": 0.271,
             "HR": 21,
-            "OPS": 0.803,
+            "OPS": 0.801,
             "R": 68,
             "RBI": 63,
             "SB": 3,
-            "Kbat": 95
+            "Kbat": 96
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -636,9 +636,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.279,
             "HR": 17,
-            "OPS": 0.811,
+            "OPS": 0.809,
             "R": 63,
             "RBI": 50,
             "SB": 13,
@@ -2954,7 +2954,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.269,
             "HR": 3,
@@ -2971,7 +2971,7 @@
         },
         {
           "name": "Braden Montgomery",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3185,7 +3185,7 @@
         },
         {
           "name": "Luis Lara",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3202,7 +3202,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "SEVEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -4174,9 +4174,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.264,
+            "AVG": 0.263,
             "HR": 16,
-            "OPS": 0.8,
+            "OPS": 0.798,
             "R": 77,
             "RBI": 76,
             "SB": 18,
@@ -4195,10 +4195,10 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 129.0,
-            "H": 103,
-            "WHIP": 1.016,
-            "ERA": 2.163,
+            "IP": 129.2,
+            "H": 104,
+            "WHIP": 1.018,
+            "ERA": 2.152,
             "K": 160,
             "SVHD": 0,
             "QS": 15
@@ -4258,11 +4258,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 139.0,
+            "IP": 140.0,
             "H": 73,
-            "WHIP": 0.748,
-            "ERA": 1.748,
-            "K": 210,
+            "WHIP": 0.75,
+            "ERA": 1.736,
+            "K": 212,
             "SVHD": 0,
             "QS": 15
           },
@@ -4731,9 +4731,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.255,
+            "AVG": 0.257,
             "HR": 12,
-            "OPS": 0.707,
+            "OPS": 0.71,
             "R": 62,
             "RBI": 63,
             "SB": 1,
@@ -4767,7 +4767,7 @@
         },
         {
           "name": "Teoscar Hernandez",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5026,7 +5026,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5133,7 +5133,7 @@
         },
         {
           "name": "Kaelen Culpepper",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5867,7 +5867,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5888,7 +5888,7 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6310,7 +6310,7 @@
         },
         {
           "name": "George Lombard Jr.",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6400,7 +6400,7 @@
           "stats": {
             "AVG": 0.237,
             "HR": 13,
-            "OPS": 0.76,
+            "OPS": 0.762,
             "R": 43,
             "RBI": 35,
             "SB": 16,
@@ -6747,13 +6747,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.261,
+            "AVG": 0.26,
             "HR": 36,
-            "OPS": 0.879,
+            "OPS": 0.877,
             "R": 89,
             "RBI": 77,
             "SB": 4,
-            "Kbat": 141
+            "Kbat": 142
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -6980,5 +6980,5 @@
       ]
     }
   ],
-  "updated": "2026-08-21T19:25:48Z"
+  "updated": "2026-08-21T20:25:58Z"
 }
