@@ -4900,27 +4900,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Samuel Basallo",
-          "slot": "BE",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.239,
-            "HR": 16,
-            "OPS": 0.747,
-            "R": 34,
-            "RBI": 46,
-            "SB": 0,
-            "Kbat": 85
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 26,
-          "keeperEligible": true
-        },
-        {
           "name": "Louis Varland",
           "slot": "RP",
           "position": "RP",
@@ -5016,7 +4995,7 @@
         },
         {
           "name": "Cole Carrigg",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5101,19 +5080,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Cooper Pratt",
-          "slot": "BE",
-          "position": "SS",
-          "eligible": "SS",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Chase Meidroth",
           "slot": "2B",
           "position": "SS",
@@ -5171,6 +5137,32 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 8,
+          "keeperEligible": false
+        },
+        {
+          "name": "Kaelen Culpepper",
+          "slot": "BE",
+          "position": "SS",
+          "eligible": "SS",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Griffin Conine",
+          "slot": "OF",
+          "position": "LF",
+          "eligible": "LF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -6996,5 +6988,5 @@
       ]
     }
   ],
-  "updated": "2026-08-21T13:44:48Z"
+  "updated": "2026-08-21T14:34:52Z"
 }
