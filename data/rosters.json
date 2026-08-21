@@ -148,7 +148,7 @@
         },
         {
           "name": "Alec Burleson",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -549,7 +549,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "BE",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -983,27 +983,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Bryan King",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 53.0,
-            "H": 57,
-            "WHIP": 1.434,
-            "ERA": 4.755,
-            "K": 44,
-            "SVHD": 12,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Caleb Durbin",
           "slot": "3B",
           "position": "3B",
@@ -1052,19 +1031,6 @@
             "SVHD": 0,
             "QS": 0
           },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Elias Diaz",
-          "slot": "C",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -1198,6 +1164,32 @@
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Rafael Flores Jr.",
+          "slot": "C",
+          "position": "1B",
+          "eligible": "1B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Yoendrys Gomez",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -2283,7 +2275,7 @@
       "players": [
         {
           "name": "Yordan Alvarez",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2367,7 +2359,7 @@
         },
         {
           "name": "Pete Crow-Armstrong",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5205,7 +5197,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "AVG": 0.256,
             "HR": 21,
@@ -5264,7 +5256,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "SS",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5285,7 +5277,7 @@
         },
         {
           "name": "Jeremy Pena",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5478,7 +5470,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.266,
             "HR": 7,
@@ -5613,7 +5605,7 @@
         },
         {
           "name": "Eduardo Rodriguez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6568,7 +6560,7 @@
         },
         {
           "name": "Willson Contreras",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6749,7 +6741,7 @@
         },
         {
           "name": "Matt Olson",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6914,7 +6906,7 @@
         },
         {
           "name": "Abimelec Ortiz",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6988,5 +6980,5 @@
       ]
     }
   ],
-  "updated": "2026-08-21T18:36:40Z"
+  "updated": "2026-08-21T19:25:48Z"
 }
