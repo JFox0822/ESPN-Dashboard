@@ -472,7 +472,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 139.0,
             "H": 116,
@@ -4961,7 +4961,7 @@
         },
         {
           "name": "Brandon Marsh",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -4982,7 +4982,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5055,7 +5055,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5102,7 +5102,7 @@
         },
         {
           "name": "Cooper Pratt",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5971,7 +5971,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.236,
             "HR": 19,
@@ -6996,5 +6996,5 @@
       ]
     }
   ],
-  "updated": "2026-08-21T12:48:04Z"
+  "updated": "2026-08-21T13:44:48Z"
 }
