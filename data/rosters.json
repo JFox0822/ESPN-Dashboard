@@ -2704,7 +2704,7 @@
         },
         {
           "name": "Luis Rengifo",
-          "slot": "2B",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -2738,7 +2738,7 @@
         },
         {
           "name": "Angel Martinez",
-          "slot": "BE",
+          "slot": "2B",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3557,7 +3557,7 @@
         },
         {
           "name": "Zack Wheeler",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3620,7 +3620,7 @@
         },
         {
           "name": "Aroldis Chapman",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3641,7 +3641,7 @@
         },
         {
           "name": "Josh Hader",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -3743,27 +3743,6 @@
           "acquisitionType": "DRAFT",
           "draftRound": 25,
           "keeperEligible": true
-        },
-        {
-          "name": "Spencer Horwitz",
-          "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.252,
-            "HR": 10,
-            "OPS": 0.756,
-            "R": 37,
-            "RBI": 38,
-            "SB": 1,
-            "Kbat": 51
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         },
         {
           "name": "Taj Bradley",
@@ -3960,19 +3939,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Steven Okert",
-          "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Bryce Miller",
           "slot": "SP",
           "position": "SP",
@@ -3992,6 +3958,32 @@
           "acquisitionType": "ADD",
           "draftRound": 27,
           "keeperEligible": true
+        },
+        {
+          "name": "Andrew Sears",
+          "slot": "P",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Erick Fedde",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -5090,7 +5082,7 @@
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.248,
             "HR": 14,
@@ -5930,7 +5922,7 @@
         },
         {
           "name": "Jo Adell",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6153,7 +6145,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6331,7 +6323,7 @@
         },
         {
           "name": "Nathaniel Lowe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6967,5 +6959,5 @@
       ]
     }
   ],
-  "updated": "2026-08-23T16:26:10Z"
+  "updated": "2026-08-23T17:20:27Z"
 }
