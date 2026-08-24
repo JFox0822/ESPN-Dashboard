@@ -3856,7 +3856,7 @@
         },
         {
           "name": "Luis Garcia Jr.",
-          "slot": "1B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -3957,6 +3957,19 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ryan Vilade",
+          "slot": "1B",
+          "position": "RF",
+          "eligible": "RF",
+          "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6914,5 +6927,5 @@
       ]
     }
   ],
-  "updated": "2026-08-24T20:30:17Z"
+  "updated": "2026-08-24T21:29:05Z"
 }
