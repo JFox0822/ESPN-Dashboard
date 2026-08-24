@@ -3253,7 +3253,7 @@
         },
         {
           "name": "Christian Scott",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3284,19 +3284,6 @@
           "acquisitionType": "ADD",
           "draftRound": 24,
           "keeperEligible": true
-        },
-        {
-          "name": "Martin Perez",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         },
         {
           "name": "Zac Veen",
@@ -3365,6 +3352,19 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Zebby Matthews",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 27,
+          "keeperEligible": true
         }
       ]
     },
@@ -6922,5 +6922,5 @@
       ]
     }
   ],
-  "updated": "2026-08-24T16:37:42Z"
+  "updated": "2026-08-24T17:31:11Z"
 }
