@@ -3184,19 +3184,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Kyle Karros",
-          "slot": "3B",
-          "position": "3B",
-          "eligible": "3B",
-          "isPitcher": false,
-          "injStatus": "SEVEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Brandon Pfaadt",
           "slot": "SP",
           "position": "SP",
@@ -3365,6 +3352,19 @@
           "acquisitionType": "ADD",
           "draftRound": 27,
           "keeperEligible": true
+        },
+        {
+          "name": "Nick Sogard",
+          "slot": "3B",
+          "position": "1B",
+          "eligible": "1B",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -6922,5 +6922,5 @@
       ]
     }
   ],
-  "updated": "2026-08-24T17:31:11Z"
+  "updated": "2026-08-24T18:40:08Z"
 }
