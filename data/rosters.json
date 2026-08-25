@@ -3111,19 +3111,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Charlie Condon",
-          "slot": "BE",
-          "position": "1B",
-          "eligible": "1B",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Josue De Paula",
           "slot": "BE",
           "position": "LF",
@@ -3365,6 +3352,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Samuel Basallo",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.236,
+            "HR": 17,
+            "OPS": 0.747,
+            "R": 35,
+            "RBI": 48,
+            "SB": 0,
+            "Kbat": 86
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 26,
+          "keeperEligible": true
         }
       ]
     },
@@ -5471,7 +5479,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5678,7 +5686,7 @@
         },
         {
           "name": "Pete Fairbanks",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -5733,10 +5741,23 @@
         },
         {
           "name": "Tristan Peters",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ben Joyce",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -6919,5 +6940,5 @@
       ]
     }
   ],
-  "updated": "2026-08-25T12:47:36Z"
+  "updated": "2026-08-25T13:50:32Z"
 }
