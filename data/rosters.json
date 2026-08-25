@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Jac Caglianone",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3078,7 +3078,7 @@
         },
         {
           "name": "Keibert Ruiz",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -3159,7 +3159,7 @@
         },
         {
           "name": "Luis Lara",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3355,7 +3355,7 @@
         },
         {
           "name": "Samuel Basallo",
-          "slot": "BE",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -5685,19 +5685,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Pete Fairbanks",
-          "slot": "BE",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 18,
-          "keeperEligible": true
-        },
-        {
           "name": "Josh Bell",
           "slot": "BE",
           "position": "DH",
@@ -5885,7 +5872,7 @@
         },
         {
           "name": "Munetaka Murakami",
-          "slot": "1B",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6116,7 +6103,7 @@
         },
         {
           "name": "Trent Grisham",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6150,7 +6137,7 @@
         },
         {
           "name": "Spencer Jones",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6231,7 +6218,7 @@
         },
         {
           "name": "Pete Alonso",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6252,7 +6239,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "3B",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6265,7 +6252,7 @@
         },
         {
           "name": "George Lombard Jr.",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6307,7 +6294,7 @@
         },
         {
           "name": "Nathaniel Lowe",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -6320,7 +6307,7 @@
         },
         {
           "name": "Jeff McNeil",
-          "slot": "OF",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6427,7 +6414,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.251,
             "HR": 34,
@@ -6940,5 +6927,5 @@
       ]
     }
   ],
-  "updated": "2026-08-25T19:31:44Z"
+  "updated": "2026-08-25T20:28:59Z"
 }
