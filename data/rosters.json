@@ -413,7 +413,7 @@
         },
         {
           "name": "Gabriel Moreno",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -523,7 +523,7 @@
         },
         {
           "name": "Lawrence Butler",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -778,13 +778,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.224,
+            "AVG": 0.223,
             "HR": 20,
-            "OPS": 0.727,
+            "OPS": 0.722,
             "R": 54,
             "RBI": 63,
             "SB": 0,
-            "Kbat": 159
+            "Kbat": 162
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1259,7 +1259,7 @@
             "AVG": 0.308,
             "HR": 0,
             "OPS": 0.697,
-            "R": 50,
+            "R": 51,
             "RBI": 29,
             "SB": 35,
             "Kbat": 42
@@ -1277,9 +1277,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.247,
+            "AVG": 0.239,
             "HR": 2,
-            "OPS": 0.704,
+            "OPS": 0.681,
             "R": 11,
             "RBI": 12,
             "SB": 1,
@@ -2051,9 +2051,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.261,
+            "AVG": 0.258,
             "HR": 8,
-            "OPS": 0.749,
+            "OPS": 0.741,
             "R": 45,
             "RBI": 35,
             "SB": 0,
@@ -2592,10 +2592,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.277,
+            "AVG": 0.28,
             "HR": 16,
-            "OPS": 0.777,
-            "R": 61,
+            "OPS": 0.783,
+            "R": 62,
             "RBI": 78,
             "SB": 0,
             "Kbat": 132
@@ -2734,7 +2734,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2874,7 +2874,7 @@
         },
         {
           "name": "Chase DeLauter",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3018,7 +3018,7 @@
         },
         {
           "name": "Dominic Canzone",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3146,7 +3146,7 @@
         },
         {
           "name": "Luis Lara",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3248,7 +3248,7 @@
         },
         {
           "name": "Zac Veen",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -3716,7 +3716,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.289,
             "HR": 9,
@@ -4203,11 +4203,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 135.0,
-            "H": 143,
-            "WHIP": 1.459,
-            "ERA": 5.333,
-            "K": 129,
+            "IP": 141.0,
+            "H": 145,
+            "WHIP": 1.411,
+            "ERA": 5.106,
+            "K": 133,
             "SVHD": 0,
             "QS": 5
           },
@@ -4634,13 +4634,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.278,
+            "AVG": 0.28,
             "HR": 35,
-            "OPS": 0.896,
+            "OPS": 0.897,
             "R": 81,
             "RBI": 84,
             "SB": 3,
-            "Kbat": 105
+            "Kbat": 106
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5235,7 +5235,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5298,7 +5298,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5325,9 +5325,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.303,
+            "AVG": 0.301,
             "HR": 19,
-            "OPS": 0.835,
+            "OPS": 0.829,
             "R": 76,
             "RBI": 72,
             "SB": 3,
@@ -6153,11 +6153,11 @@
           "stats": {
             "AVG": 0.286,
             "HR": 17,
-            "OPS": 0.821,
+            "OPS": 0.819,
             "R": 62,
-            "RBI": 72,
+            "RBI": 73,
             "SB": 3,
-            "Kbat": 44
+            "Kbat": 45
           },
           "tier": "",
           "acquisitionType": "ADD",
@@ -6361,13 +6361,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.279,
             "HR": 14,
-            "OPS": 0.808,
+            "OPS": 0.804,
             "R": 84,
             "RBI": 56,
             "SB": 12,
-            "Kbat": 79
+            "Kbat": 80
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6626,9 +6626,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.253,
+            "AVG": 0.254,
             "HR": 26,
-            "OPS": 0.799,
+            "OPS": 0.798,
             "R": 65,
             "RBI": 82,
             "SB": 0,
@@ -6893,5 +6893,5 @@
       ]
     }
   ],
-  "updated": "2026-08-26T16:17:39Z"
+  "updated": "2026-08-26T19:03:25Z"
 }
