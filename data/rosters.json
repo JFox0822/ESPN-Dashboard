@@ -646,7 +646,7 @@
         },
         {
           "name": "Juan Soto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -751,7 +751,7 @@
         },
         {
           "name": "Spencer Torkelson",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -1696,7 +1696,7 @@
         },
         {
           "name": "Paul Skenes",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1906,7 +1906,7 @@
         },
         {
           "name": "Gerrit Cole",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -1990,7 +1990,7 @@
         },
         {
           "name": "Michael McGreevy",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2037,7 +2037,7 @@
         },
         {
           "name": "Gage Jump",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2275,7 +2275,7 @@
         },
         {
           "name": "Corbin Carroll",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -2461,7 +2461,7 @@
         },
         {
           "name": "Walbert Urena",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2487,7 +2487,7 @@
         },
         {
           "name": "George Kirby",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2508,7 +2508,7 @@
         },
         {
           "name": "Nolan McLean",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2591,7 +2591,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2612,7 +2612,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2667,7 +2667,7 @@
         },
         {
           "name": "Hayden Wesneski",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2790,7 +2790,7 @@
         },
         {
           "name": "George Springer",
-          "slot": "BE",
+          "slot": "OF",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -2807,6 +2807,19 @@
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 8,
+          "keeperEligible": false
+        },
+        {
+          "name": "Ethan Salas",
+          "slot": "BE",
+          "position": "C",
+          "eligible": "C",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
           "keeperEligible": false
         }
       ]
@@ -4906,7 +4919,7 @@
         },
         {
           "name": "Jake Bauers",
-          "slot": "OF",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -4958,7 +4971,7 @@
         },
         {
           "name": "Tommy Edman",
-          "slot": "2B",
+          "slot": "OF",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -4992,7 +5005,7 @@
         },
         {
           "name": "Chase Meidroth",
-          "slot": "BE",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5394,7 +5407,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "FIFTEEN_DAY_DL",
+          "injStatus": "SIXTY_DAY_DL",
           "stats": {
             "IP": 32.0,
             "H": 21,
@@ -6901,5 +6914,5 @@
       ]
     }
   ],
-  "updated": "2026-09-01T13:09:56Z"
+  "updated": "2026-09-01T17:39:02Z"
 }
