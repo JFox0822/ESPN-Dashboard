@@ -61,7 +61,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {
             "AVG": 0.279,
             "HR": 30,
@@ -833,7 +833,7 @@
             "WHIP": 1.181,
             "ERA": 1.867,
             "K": 35,
-            "SVHD": 29,
+            "SVHD": 30,
             "QS": 0
           },
           "tier": "",
@@ -2527,7 +2527,7 @@
         },
         {
           "name": "Nolan McLean",
-          "slot": "P",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -2610,7 +2610,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2652,7 +2652,7 @@
         },
         {
           "name": "Ty France",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2746,7 +2746,7 @@
         },
         {
           "name": "Kevin Gausman",
-          "slot": "BE",
+          "slot": "P",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -4514,7 +4514,7 @@
             "ERA": 3.31,
             "K": 93,
             "SVHD": 0,
-            "QS": 6
+            "QS": 7
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -4891,7 +4891,7 @@
         },
         {
           "name": "Logan Henderson",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5894,11 +5894,11 @@
           "stats": {
             "AVG": 0.241,
             "HR": 20,
-            "OPS": 0.703,
+            "OPS": 0.701,
             "R": 58,
             "RBI": 83,
             "SB": 4,
-            "Kbat": 134
+            "Kbat": 135
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6907,5 +6907,5 @@
       ]
     }
   ],
-  "updated": "2026-09-03T20:36:35Z"
+  "updated": "2026-09-03T23:00:31Z"
 }
