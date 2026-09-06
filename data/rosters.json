@@ -1168,31 +1168,23 @@
           "keeperEligible": false
         },
         {
-          "name": "Max Scherzer",
+          "name": "Tanner Gordon",
           "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 62.2,
-            "H": 58,
-            "WHIP": 1.356,
-            "ERA": 6.032,
-            "K": 48,
-            "SVHD": 0,
-            "QS": 4
-          },
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
         },
         {
-          "name": "Ryan Gusto",
+          "name": "Tyler Phillips",
           "slot": "SP",
-          "position": "SP",
-          "eligible": "SP",
+          "position": "RP",
+          "eligible": "RP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
@@ -3131,7 +3123,7 @@
         },
         {
           "name": "Aaron Nola",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3178,7 +3170,7 @@
         },
         {
           "name": "MacKenzie Gore",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3220,7 +3212,7 @@
         },
         {
           "name": "Christian Scott",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -5661,7 +5653,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5682,7 +5674,7 @@
         },
         {
           "name": "Tristan Peters",
-          "slot": "OF",
+          "slot": "UTIL",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -6889,5 +6881,5 @@
       ]
     }
   ],
-  "updated": "2026-09-06T10:25:11Z"
+  "updated": "2026-09-06T13:58:26Z"
 }
