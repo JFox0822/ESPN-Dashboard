@@ -2568,7 +2568,7 @@
         },
         {
           "name": "Reid Detmers",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2683,7 +2683,7 @@
         },
         {
           "name": "Kevin Gausman",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3403,7 +3403,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3634,7 +3634,7 @@
         },
         {
           "name": "Nolan Arenado",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3676,7 +3676,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "BE",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3718,7 +3718,7 @@
         },
         {
           "name": "Bubba Chandler",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3794,7 +3794,7 @@
         },
         {
           "name": "Michael Soroka",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -3916,29 +3916,8 @@
           "keeperEligible": false
         },
         {
-          "name": "Bailey Ober",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 117.2,
-            "H": 113,
-            "WHIP": 1.249,
-            "ERA": 4.283,
-            "K": 85,
-            "SVHD": 0,
-            "QS": 6
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
           "name": "Blaze Alexander",
-          "slot": "OF",
+          "slot": "BE",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3948,6 +3927,27 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Will Warren",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 136.1,
+            "H": 141,
+            "WHIP": 1.379,
+            "ERA": 4.159,
+            "K": 133,
+            "SVHD": 1,
+            "QS": 7
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 24,
+          "keeperEligible": true
         }
       ]
     },
@@ -6836,5 +6836,5 @@
       ]
     }
   ],
-  "updated": "2026-09-09T08:43:38Z"
+  "updated": "2026-09-09T13:29:15Z"
 }
