@@ -61,7 +61,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "OUT",
           "stats": {
             "AVG": 0.277,
             "HR": 30,
@@ -2712,7 +2712,7 @@
         },
         {
           "name": "Erik Sabrowski",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2753,27 +2753,6 @@
           "keeperEligible": false
         },
         {
-          "name": "George Springer",
-          "slot": "BE",
-          "position": "DH",
-          "eligible": "DH",
-          "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
-          "stats": {
-            "AVG": 0.246,
-            "HR": 14,
-            "OPS": 0.729,
-            "R": 53,
-            "RBI": 48,
-            "SB": 12,
-            "Kbat": 85
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 8,
-          "keeperEligible": false
-        },
-        {
           "name": "Thomas Saggese",
           "slot": "2B",
           "position": "2B",
@@ -2787,25 +2766,46 @@
           "keeperEligible": false
         },
         {
-          "name": "Grayson Rodriguez",
+          "name": "Bryan Abreu",
+          "slot": "RP",
+          "position": "RP",
+          "eligible": "RP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "IP": 57.0,
+            "H": 38,
+            "WHIP": 1.368,
+            "ERA": 3.632,
+            "K": 72,
+            "SVHD": 14,
+            "QS": 0
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 16,
+          "keeperEligible": true
+        },
+        {
+          "name": "Aaron Civale",
           "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 81.2,
-            "H": 91,
-            "WHIP": 1.567,
-            "ERA": 6.282,
-            "K": 75,
+            "IP": 103.0,
+            "H": 117,
+            "WHIP": 1.437,
+            "ERA": 4.282,
+            "K": 87,
             "SVHD": 0,
-            "QS": 2
+            "QS": 1
           },
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 26,
-          "keeperEligible": true
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -3684,7 +3684,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "OF",
+          "slot": "BE",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -3946,7 +3946,7 @@
         },
         {
           "name": "Jake Mangum",
-          "slot": "BE",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -6844,5 +6844,5 @@
       ]
     }
   ],
-  "updated": "2026-09-10T10:48:28Z"
+  "updated": "2026-09-10T14:53:31Z"
 }
