@@ -944,7 +944,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "PATERNITY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -5831,7 +5831,7 @@
         },
         {
           "name": "Munetaka Murakami",
-          "slot": "BE",
+          "slot": "3B",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -6061,27 +6061,6 @@
           "keeperEligible": true
         },
         {
-          "name": "Trent Grisham",
-          "slot": "BE",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {
-            "AVG": 0.211,
-            "HR": 18,
-            "OPS": 0.703,
-            "R": 67,
-            "RBI": 59,
-            "SB": 9,
-            "Kbat": 89
-          },
-          "tier": "",
-          "acquisitionType": "DRAFT",
-          "draftRound": 24,
-          "keeperEligible": true
-        },
-        {
           "name": "Carlos Lagrange",
           "slot": "BE",
           "position": "SP",
@@ -6117,7 +6096,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "UTIL",
+          "slot": "C",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6138,7 +6117,7 @@
         },
         {
           "name": "Nick Martinez",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6198,7 +6177,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "3B",
+          "slot": "2B",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6231,29 +6210,8 @@
           "keeperEligible": true
         },
         {
-          "name": "Luis Castillo",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 126.0,
-            "H": 144,
-            "WHIP": 1.46,
-            "ERA": 5.571,
-            "K": 109,
-            "SVHD": 1,
-            "QS": 5
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 13,
-          "keeperEligible": true
-        },
-        {
           "name": "Jeff McNeil",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6300,7 +6258,7 @@
         },
         {
           "name": "Ryan Jeffers",
-          "slot": "C",
+          "slot": "BE",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6314,6 +6272,32 @@
             "SB": 1,
             "Kbat": 54
           },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "A.J. Ewing",
+          "slot": "UTIL",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
+        },
+        {
+          "name": "Cesar Perdomo",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
+          "isPitcher": true,
+          "injStatus": "ACTIVE",
+          "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
           "draftRound": 0,
@@ -6850,27 +6834,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Luis Robert Jr.",
-          "slot": "BE",
-          "position": "CF",
-          "eligible": "CF",
-          "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
-          "stats": {
-            "AVG": 0.221,
-            "HR": 11,
-            "OPS": 0.707,
-            "R": 26,
-            "RBI": 26,
-            "SB": 2,
-            "Kbat": 55
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 22,
-          "keeperEligible": true
-        },
-        {
           "name": "Lazaro Montes",
           "slot": "UTIL",
           "position": "RF",
@@ -6882,9 +6845,22 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
+        },
+        {
+          "name": "Emmanuel Rodriguez",
+          "slot": "BE",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {},
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     }
   ],
-  "updated": "2026-09-12T12:40:05Z"
+  "updated": "2026-09-12T16:01:56Z"
 }
