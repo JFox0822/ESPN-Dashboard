@@ -944,7 +944,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -2610,7 +2610,7 @@
         },
         {
           "name": "Jonathan Aranda",
-          "slot": "1B",
+          "slot": "BE",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -2652,23 +2652,10 @@
         },
         {
           "name": "Ty France",
-          "slot": "IL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {},
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
-        },
-        {
-          "name": "Hayden Wesneski",
-          "slot": "BE",
-          "position": "SP",
-          "eligible": "SP",
-          "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
@@ -5713,7 +5700,7 @@
       "players": [
         {
           "name": "Rafael Devers",
-          "slot": "BE",
+          "slot": "IL",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5776,7 +5763,7 @@
         },
         {
           "name": "CJ Abrams",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -5797,7 +5784,7 @@
         },
         {
           "name": "Xavier Edwards",
-          "slot": "IL",
+          "slot": "2B",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5881,7 +5868,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5923,7 +5910,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6117,7 +6104,7 @@
         },
         {
           "name": "Peter Lambert",
-          "slot": "SP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6164,7 +6151,7 @@
         },
         {
           "name": "Brooks Lee",
-          "slot": "2B",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6177,7 +6164,7 @@
         },
         {
           "name": "George Lombard Jr.",
-          "slot": "BE",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6198,7 +6185,7 @@
         },
         {
           "name": "Jeff McNeil",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -6224,7 +6211,7 @@
         },
         {
           "name": "Xander Bogaerts",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -6828,5 +6815,5 @@
       ]
     }
   ],
-  "updated": "2026-09-14T18:22:22Z"
+  "updated": "2026-09-14T22:18:04Z"
 }
