@@ -2656,7 +2656,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "PATERNITY",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -3369,7 +3369,7 @@
       "players": [
         {
           "name": "Francisco Lindor",
-          "slot": "UTIL",
+          "slot": "SS",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3453,7 +3453,7 @@
         },
         {
           "name": "Bobby Witt Jr.",
-          "slot": "SS",
+          "slot": "BE",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -3964,6 +3964,27 @@
           "acquisitionType": "ADD",
           "draftRound": 20,
           "keeperEligible": true
+        },
+        {
+          "name": "Angel Martinez",
+          "slot": "UTIL",
+          "position": "CF",
+          "eligible": "CF",
+          "isPitcher": false,
+          "injStatus": "ACTIVE",
+          "stats": {
+            "AVG": 0.25,
+            "HR": 15,
+            "OPS": 0.734,
+            "R": 44,
+            "RBI": 53,
+            "SB": 11,
+            "Kbat": 85
+          },
+          "tier": "",
+          "acquisitionType": "ADD",
+          "draftRound": 0,
+          "keeperEligible": false
         }
       ]
     },
@@ -4938,7 +4959,7 @@
         },
         {
           "name": "Troy Melton",
-          "slot": "BE",
+          "slot": "SP",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -6562,27 +6583,6 @@
           "keeperEligible": false
         },
         {
-          "name": "Dillon Dingler",
-          "slot": "BE",
-          "position": "C",
-          "eligible": "C",
-          "isPitcher": false,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "AVG": 0.244,
-            "HR": 27,
-            "OPS": 0.761,
-            "R": 67,
-            "RBI": 87,
-            "SB": 0,
-            "Kbat": 131
-          },
-          "tier": "",
-          "acquisitionType": "TRADE",
-          "draftRound": 6,
-          "keeperEligible": false
-        },
-        {
           "name": "Parker Messick",
           "slot": "BE",
           "position": "SP",
@@ -6828,5 +6828,5 @@
       ]
     }
   ],
-  "updated": "2026-09-14T12:01:42Z"
+  "updated": "2026-09-14T18:22:22Z"
 }
