@@ -89,7 +89,7 @@
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
-          "injStatus": "OUT",
+          "injStatus": "TEN_DAY_DL",
           "stats": {
             "AVG": 0.241,
             "HR": 18,
@@ -377,9 +377,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.269,
+            "AVG": 0.268,
             "HR": 8,
-            "OPS": 0.756,
+            "OPS": 0.753,
             "R": 75,
             "RBI": 45,
             "SB": 18,
@@ -1277,9 +1277,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.277,
+            "AVG": 0.276,
             "HR": 3,
-            "OPS": 0.795,
+            "OPS": 0.79,
             "R": 26,
             "RBI": 22,
             "SB": 5,
@@ -4041,7 +4041,7 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.283,
+            "AVG": 0.284,
             "HR": 21,
             "OPS": 0.853,
             "R": 76,
@@ -4335,13 +4335,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.206,
+            "AVG": 0.205,
             "HR": 31,
-            "OPS": 0.713,
+            "OPS": 0.711,
             "R": 69,
             "RBI": 87,
             "SB": 1,
-            "Kbat": 213
+            "Kbat": 215
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5168,7 +5168,7 @@
         },
         {
           "name": "Nico Hoerner",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -5231,7 +5231,7 @@
         },
         {
           "name": "Josh Naylor",
-          "slot": "UTIL",
+          "slot": "1B",
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
@@ -5252,7 +5252,7 @@
         },
         {
           "name": "Yandy Diaz",
-          "slot": "1B",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -5378,7 +5378,7 @@
         },
         {
           "name": "Kazuma Okamoto",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -5593,7 +5593,7 @@
         },
         {
           "name": "Daylen Lile",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -5798,13 +5798,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.203,
+            "AVG": 0.204,
             "HR": 32,
-            "OPS": 0.811,
+            "OPS": 0.812,
             "R": 77,
-            "RBI": 68,
+            "RBI": 69,
             "SB": 1,
-            "Kbat": 185
+            "Kbat": 186
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5855,7 +5855,7 @@
         },
         {
           "name": "Christian Yelich",
-          "slot": "UTIL",
+          "slot": "BE",
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
@@ -6057,7 +6057,7 @@
         },
         {
           "name": "Liam Hicks",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
@@ -6307,9 +6307,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.277,
+            "AVG": 0.276,
             "HR": 17,
-            "OPS": 0.806,
+            "OPS": 0.804,
             "R": 95,
             "RBI": 69,
             "SB": 12,
@@ -6831,5 +6831,5 @@
       ]
     }
   ],
-  "updated": "2026-09-19T16:17:27Z"
+  "updated": "2026-09-19T19:12:04Z"
 }
