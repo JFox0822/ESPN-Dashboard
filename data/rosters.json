@@ -2454,7 +2454,7 @@
         },
         {
           "name": "Travis Bazzana",
-          "slot": "2B",
+          "slot": "BE",
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
@@ -2555,7 +2555,7 @@
         },
         {
           "name": "Bo Bichette",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
@@ -2631,7 +2631,7 @@
         },
         {
           "name": "Steven Kwan",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2720,7 +2720,7 @@
         },
         {
           "name": "Erik Sabrowski",
-          "slot": "RP",
+          "slot": "BE",
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
@@ -2783,7 +2783,7 @@
         },
         {
           "name": "Victor Mesa Jr.",
-          "slot": "OF",
+          "slot": "BE",
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
@@ -2795,17 +2795,17 @@
           "keeperEligible": false
         },
         {
-          "name": "Ryan Watson",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
+          "name": "Seth Hernandez",
+          "slot": "SP",
+          "position": "SP",
+          "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
+          "draftRound": 27,
+          "keeperEligible": true
         }
       ]
     },
@@ -3411,7 +3411,7 @@
         },
         {
           "name": "Kyle Tucker",
-          "slot": "OF",
+          "slot": "BE",
           "position": "RF",
           "eligible": "RF",
           "isPitcher": false,
@@ -3474,7 +3474,7 @@
         },
         {
           "name": "Isaac Paredes",
-          "slot": "BE",
+          "slot": "UTIL",
           "position": "3B",
           "eligible": "3B",
           "isPitcher": false,
@@ -3663,7 +3663,7 @@
         },
         {
           "name": "Jung Hoo Lee",
-          "slot": "UTIL",
+          "slot": "OF",
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
@@ -5047,27 +5047,6 @@
           "acquisitionType": "ADD",
           "draftRound": 0,
           "keeperEligible": false
-        },
-        {
-          "name": "Juan Morillo",
-          "slot": "RP",
-          "position": "RP",
-          "eligible": "RP",
-          "isPitcher": true,
-          "injStatus": "ACTIVE",
-          "stats": {
-            "IP": 61.2,
-            "H": 41,
-            "WHIP": 1.038,
-            "ERA": 2.189,
-            "K": 71,
-            "SVHD": 18,
-            "QS": 0
-          },
-          "tier": "",
-          "acquisitionType": "ADD",
-          "draftRound": 0,
-          "keeperEligible": false
         }
       ]
     },
@@ -5897,7 +5876,7 @@
         },
         {
           "name": "Sandy Alcantara",
-          "slot": "BE",
+          "slot": "SP",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6253,7 +6232,7 @@
         },
         {
           "name": "Cesar Perdomo",
-          "slot": "SP",
+          "slot": "BE",
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
@@ -6831,5 +6810,5 @@
       ]
     }
   ],
-  "updated": "2026-09-20T10:47:28Z"
+  "updated": "2026-09-20T14:33:07Z"
 }
