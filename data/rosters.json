@@ -584,11 +584,11 @@
           "isPitcher": true,
           "injStatus": "ACTIVE",
           "stats": {
-            "IP": 72.2,
-            "H": 68,
-            "WHIP": 1.362,
-            "ERA": 6.069,
-            "K": 54,
+            "IP": 77.2,
+            "H": 72,
+            "WHIP": 1.365,
+            "ERA": 6.142,
+            "K": 61,
             "SVHD": 0,
             "QS": 4
           },
@@ -765,13 +765,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.23,
+            "AVG": 0.228,
             "HR": 25,
-            "OPS": 0.758,
+            "OPS": 0.754,
             "R": 64,
             "RBI": 74,
             "SB": 1,
-            "Kbat": 186
+            "Kbat": 189
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -1277,9 +1277,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.28,
+            "AVG": 0.283,
             "HR": 3,
-            "OPS": 0.793,
+            "OPS": 0.801,
             "R": 26,
             "RBI": 23,
             "SB": 5,
@@ -1850,7 +1850,7 @@
           "position": "CF",
           "eligible": "CF",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.282,
             "HR": 16,
@@ -2141,11 +2141,11 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.263,
             "HR": 9,
-            "OPS": 0.695,
+            "OPS": 0.696,
             "R": 71,
             "RBI": 56,
             "SB": 7,
@@ -3258,7 +3258,7 @@
           "position": "C",
           "eligible": "C",
           "isPitcher": false,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "SEVEN_DAY_DL",
           "stats": {
             "AVG": 0.222,
             "HR": 18,
@@ -4041,9 +4041,9 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.284,
+            "AVG": 0.283,
             "HR": 21,
-            "OPS": 0.852,
+            "OPS": 0.851,
             "R": 78,
             "RBI": 75,
             "SB": 3,
@@ -4648,13 +4648,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.227,
+            "AVG": 0.226,
             "HR": 24,
-            "OPS": 0.718,
+            "OPS": 0.717,
             "R": 88,
             "RBI": 59,
             "SB": 10,
-            "Kbat": 151
+            "Kbat": 152
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -5319,7 +5319,7 @@
           "position": "RP",
           "eligible": "RP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 32.0,
             "H": 21,
@@ -5363,10 +5363,10 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.235,
+            "AVG": 0.234,
             "HR": 33,
-            "OPS": 0.767,
-            "R": 79,
+            "OPS": 0.766,
+            "R": 80,
             "RBI": 89,
             "SB": 1,
             "Kbat": 178
@@ -5735,11 +5735,11 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.261,
+            "AVG": 0.262,
             "HR": 33,
-            "OPS": 0.835,
+            "OPS": 0.838,
             "R": 92,
-            "RBI": 102,
+            "RBI": 103,
             "SB": 33,
             "Kbat": 155
           },
@@ -6102,13 +6102,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.265,
-            "HR": 40,
-            "OPS": 0.869,
-            "R": 94,
-            "RBI": 108,
+            "AVG": 0.266,
+            "HR": 41,
+            "OPS": 0.874,
+            "R": 95,
+            "RBI": 110,
             "SB": 5,
-            "Kbat": 164
+            "Kbat": 166
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -6286,13 +6286,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.276,
+            "AVG": 0.277,
             "HR": 17,
-            "OPS": 0.801,
+            "OPS": 0.804,
             "R": 95,
             "RBI": 70,
             "SB": 12,
-            "Kbat": 95
+            "Kbat": 96
           },
           "tier": "",
           "acquisitionType": "DRAFT",
@@ -6522,13 +6522,13 @@
           "isPitcher": false,
           "injStatus": "ACTIVE",
           "stats": {
-            "AVG": 0.265,
+            "AVG": 0.262,
             "HR": 30,
-            "OPS": 0.897,
+            "OPS": 0.89,
             "R": 104,
-            "RBI": 76,
+            "RBI": 77,
             "SB": 21,
-            "Kbat": 174
+            "Kbat": 176
           },
           "tier": "",
           "acquisitionType": "TRADE",
@@ -6810,5 +6810,5 @@
       ]
     }
   ],
-  "updated": "2026-09-23T15:21:01Z"
+  "updated": "2026-09-23T19:29:53Z"
 }
