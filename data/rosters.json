@@ -1450,7 +1450,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "TEN_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -4947,7 +4947,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "ACTIVE",
+          "injStatus": "DAY_TO_DAY",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -6810,5 +6810,5 @@
       ]
     }
   ],
-  "updated": "2026-09-30T21:14:56Z"
+  "updated": "2026-10-01T01:06:24Z"
 }
