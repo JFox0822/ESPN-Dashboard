@@ -1398,7 +1398,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "OUT",
+          "injStatus": "ACTIVE",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -1690,7 +1690,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "IP": 35.1,
             "H": 27,
@@ -4228,7 +4228,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "DAY_TO_DAY",
+          "injStatus": "ACTIVE",
           "stats": {
             "IP": 174.2,
             "H": 96,
@@ -5088,7 +5088,7 @@
           "position": "1B",
           "eligible": "1B",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "ACTIVE",
           "stats": {
             "AVG": 0.256,
             "HR": 21,
@@ -6810,5 +6810,5 @@
       ]
     }
   ],
-  "updated": "2026-11-03T07:38:35Z"
+  "updated": "2026-11-03T15:53:32Z"
 }
