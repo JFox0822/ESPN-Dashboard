@@ -742,7 +742,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "AVG": 0.2,
             "HR": 10,
@@ -1045,7 +1045,7 @@
           "position": "SS",
           "eligible": "SS",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "AVG": 0.19,
             "HR": 8,
@@ -1398,7 +1398,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -3950,7 +3950,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {},
           "tier": "",
           "acquisitionType": "ADD",
@@ -4688,7 +4688,7 @@
           "position": "LF",
           "eligible": "LF",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "AVG": 0.245,
             "HR": 19,
@@ -5670,7 +5670,7 @@
           "position": "DH",
           "eligible": "DH",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "AVG": 0.258,
             "HR": 37,
@@ -6087,7 +6087,7 @@
           "position": "2B",
           "eligible": "2B",
           "isPitcher": false,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {},
           "tier": "",
           "acquisitionType": "TRADE",
@@ -6604,7 +6604,7 @@
           "position": "SP",
           "eligible": "SP",
           "isPitcher": true,
-          "injStatus": "SIXTY_DAY_DL",
+          "injStatus": "OUT",
           "stats": {
             "IP": 155.0,
             "H": 156,
@@ -6810,5 +6810,5 @@
       ]
     }
   ],
-  "updated": "2026-11-03T00:38:05Z"
+  "updated": "2026-11-03T07:38:35Z"
 }
